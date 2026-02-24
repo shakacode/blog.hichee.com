@@ -7,6 +7,13 @@
 - Staging custom domain: `newblog.hichee.com`.
 - Production custom domain: `blog.hichee.com`.
 
+## Current Status (2026-02-24)
+
+- Pages project created: `blog-hichee-com`.
+- Initial deployment completed: `https://3d57ea96.blog-hichee-com.pages.dev`.
+- Staging custom domain `newblog.hichee.com` added to project but still pending verification.
+- Pending DNS step: create CNAME record `newblog -> blog-hichee-com.pages.dev` in `hichee.com` zone.
+
 ## Recommended Sequence
 
 1. Create Pages project from GitHub repo.
@@ -20,6 +27,11 @@
 6. Run final migration/export pass.
 7. Promote by attaching/switching `blog.hichee.com` to this Pages project.
 8. Verify and monitor.
+
+## Notes
+
+- If DNS is managed in the same Cloudflare account, CNAME creation can be automatic. If token/account permissions are limited, create the CNAME manually in dashboard DNS.
+- GitHub Actions workflow `.github/workflows/deploy-pages.yml` handles push/PR deploys once `CLOUDFLARE_API_TOKEN` and `CLOUDFLARE_ACCOUNT_ID` secrets are set.
 
 ## Rollback
 

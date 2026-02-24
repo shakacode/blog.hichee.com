@@ -16,6 +16,25 @@ yarn install
 yarn dev
 ```
 
+## Deployment Setup (Cloudflare Pages)
+
+Project: `blog-hichee-com`  
+Primary Pages URL: `https://blog-hichee-com.pages.dev`
+
+This repo includes a GitHub Actions workflow that deploys to Cloudflare Pages on:
+- `push` to `main` (production branch deploy)
+- every `pull_request` (preview branch deploy)
+
+One-time GitHub repo secrets required:
+- `CLOUDFLARE_ACCOUNT_ID` = `fed541b7e7055a428a1b045aa3cd2c89`
+- `CLOUDFLARE_API_TOKEN` = Cloudflare API token with at least:
+  - `Account: Cloudflare Pages:Edit`
+  - `Account: Account Settings:Read`
+
+Recommended token scope additions for smoother domain/DNS ops:
+- `Zone: DNS:Edit`
+- `Zone: Zone:Read`
+
 ## Migration Workflow
 
 1. Extract WordPress content through authenticated REST API (requires WP login):

@@ -1,5 +1,8 @@
 # Staging Test Plan (newblog.hichee.com)
 
+Current preview deployment: `https://3d57ea96.blog-hichee-com.pages.dev`  
+Custom domain status: `newblog.hichee.com` pending DNS CNAME verification.
+
 ## 1) Content Parity
 
 - Verify counts: published posts/pages match migration report.
@@ -37,3 +40,12 @@
 - No critical image failures.
 - No major SEO regressions.
 - Cutover and rollback commands prepared and rehearsed.
+
+## Current Execution Status (2026-02-24)
+
+- [x] Astro build succeeds locally (`yarn build`).
+- [x] Pages deployment succeeds (`blog-hichee-com`).
+- [x] Root path returns `200` on preview.
+- [x] Sample migrated article paths return `200` on preview.
+- [ ] `newblog.hichee.com` returns `200` (waiting for CNAME DNS record).
+- [ ] Full SEO/asset QA sweep completed.
