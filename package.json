@@ -1,0 +1,24 @@
+{
+  "name": "blog-hichee-com",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "migrate:download:wxr": "node scripts/download-wp-export.mjs",
+    "migrate:convert:wxr": "node scripts/convert-wxr-to-content.mjs",
+    "migrate:media:manifest": "node scripts/build-media-manifest.mjs",
+    "migrate:drafts:issues": "node scripts/create-draft-issues.mjs"
+  },
+  "dependencies": {
+    "@astrojs/sitemap": "^3.6.0",
+    "astro": "^5.14.3",
+    "fast-xml-parser": "^5.3.1",
+    "gray-matter": "^4.0.3"
+  },
+  "devDependencies": {
+    "playwright": "^1.58.2"
+  }
+}

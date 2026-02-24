@@ -1,0 +1,18 @@
+node_modules
+.yarn
+dist
+.astro
+.DS_Store
+
+# Migration raw/source artifacts
+/data/raw
+/data/media-cache
+/data/downloads
+/data/wp-storage-state.json
+
+# Keep generated reports/manifests in git if useful; uncomment if preferred
+# /data/*.json
+
+# Playwright artifacts
+/playwright-report
+/test-results

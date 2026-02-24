@@ -1,0 +1,52 @@
+---
+import '../styles/global.css';
+
+interface Props {
+  title: string;
+  description?: string;
+  canonical?: string;
+}
+
+const {
+  title,
+  description = 'The HiChee Blog and Travel Guide',
+  canonical
+} = Astro.props;
+
+const site = Astro.site?.toString() ?? 'https://newblog.hichee.com';
+const canonicalUrl = canonical ? new URL(canonical, site).toString() : undefined;
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="description" content={description} />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content={canonicalUrl ?? Astro.url.toString()} />
+    <meta name="twitter:card" content="summary_large_image" />
+    {canonicalUrl && <link rel="canonical" href={canonicalUrl} />}
+    <title>{title}</title>
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav-wrap">
+        <a href="/" class="logo">The HiChee Blog</a>
+        <nav>
+          <a href="/">Home</a>
+        </nav>
+      </div>
+    </header>
+    <main class="container">
+      <slot />
+    </main>
+    <footer class="site-footer">
+      <div class="container">
+        <small>© {new Date().getFullYear()} HiChee</small>
+      </div>
+    </footer>
+  </body>
+</html>

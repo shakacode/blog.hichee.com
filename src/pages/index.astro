@@ -1,0 +1,27 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../layouts/BaseLayout.astro';
+
+const posts = (await getCollection('posts'))
+  .filter((entry) => !entry.data.draft && entry.data.status === 'publish')
+  .sort((a, b) => b.data.date.getTime() - a.data.date.getTime());
+---
+
+<BaseLayout title="The HiChee Blog" description="Travel tips and destination guides from HiChee.">
+  <h1>The HiChee Blog</h1>
+  <p class="meta">Migration in progress from WordPress. Content below is generated from WordPress export data.</p>
+
+  <section class="post-list">
+    {
+      posts.map((post) => (
+        <article class="post-card">
+          <h2>
+            <a href={`/${post.data.path.replace(/^\/|\/$/g, '')}/`}>{post.data.title}</a>
+          </h2>
+          <p class="meta">{post.data.date.toISOString().slice(0, 10)}</p>
+          {post.data.description && <p>{post.data.description}</p>}
+        </article>
+      ))
+    }
+  </section>
+</BaseLayout>
