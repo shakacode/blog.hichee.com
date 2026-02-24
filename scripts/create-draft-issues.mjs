@@ -25,19 +25,8 @@ if (limit > 0) {
 
 await ensureLabel('draft-review', 'E99695', 'WordPress draft requiring editorial decision');
 
-const existing = await ghJson([
-  'issue',
-  'list',
-  '--state',
-  'all',
-  '--label',
-  'draft-review',
-  '--limit',
-  '1000',
-  '--json',
-  'number,title,body'
-]);
-
+const { owner, name } = await repoOwnerAndName();
+const existing = await fetchAllDraftReviewIssues(owner, name);
 const existingIds = new Set();
 for (const issue of existing) {
   const match = String(issue.body || '').match(/WP Draft ID:\s*(\d+)/i);
@@ -141,11 +130,11 @@ async function ensureLabel(name, color, description) {
 }
 
 async function gh(args) {
-  await execFileAsync('gh', args, { cwd: process.cwd(), timeout: 30000 });
+  await execFileAsync('gh', args, { cwd: process.cwd(), timeout: 30000, maxBuffer: 50 * 1024 * 1024 });
 }
 
 async function ghJson(args) {
-  const { stdout } = await execFileAsync('gh', args, { cwd: process.cwd(), timeout: 30000 });
+  const { stdout } = await execFileAsync('gh', args, { cwd: process.cwd(), timeout: 30000, maxBuffer: 50 * 1024 * 1024 });
   return JSON.parse(stdout || '[]');
 }
 
@@ -173,4 +162,68 @@ function normalizeTitle(title) {
 
 function sleep(ms) {
   return new Promise((resolve) => setTimeout(resolve, ms));
+}
+
+async function repoOwnerAndName() {
+  const { stdout } = await execFileAsync(
+    'gh',
+    ['repo', 'view', '--json', 'nameWithOwner', '--jq', '.nameWithOwner'],
+    { cwd: process.cwd(), timeout: 30000 }
+  );
+  const [owner, name] = String(stdout || '').trim().split('/');
+  if (!owner || !name) {
+    throw new Error(`Unable to resolve repository owner/name from output: ${stdout}`);
+  }
+  return { owner, name };
+}
+
+async function fetchAllDraftReviewIssues(owner, name) {
+  const issues = [];
+  let cursor = null;
+
+  while (true) {
+    const query = `
+      query($owner: String!, $name: String!, $after: String) {
+        repository(owner: $owner, name: $name) {
+          issues(
+            first: 100,
+            after: $after,
+            labels: ["draft-review"],
+            orderBy: { field: CREATED_AT, direction: ASC }
+          ) {
+            nodes {
+              number
+              title
+              body
+            }
+            pageInfo {
+              hasNextPage
+              endCursor
+            }
+          }
+        }
+      }
+    `;
+
+    const args = ['api', 'graphql', '-f', `query=${query}`, '-f', `owner=${owner}`, '-f', `name=${name}`];
+    if (cursor) {
+      args.push('-f', `after=${cursor}`);
+    }
+
+    const { stdout } = await execFileAsync('gh', args, {
+      cwd: process.cwd(),
+      timeout: 30000,
+      maxBuffer: 50 * 1024 * 1024
+    });
+
+    const payload = JSON.parse(stdout || '{}');
+    const conn = payload?.data?.repository?.issues;
+    if (!conn) break;
+    issues.push(...(conn.nodes || []));
+
+    if (!conn.pageInfo?.hasNextPage) break;
+    cursor = conn.pageInfo.endCursor;
+  }
+
+  return issues;
 }
