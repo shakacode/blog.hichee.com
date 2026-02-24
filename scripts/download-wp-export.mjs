@@ -38,21 +38,77 @@ if (await allContent.count()) {
   await allContent.check();
 }
 
-const downloadButton = page.locator('#download');
-if (!(await downloadButton.count())) {
+const downloadButton = await locateExportButton(page);
+if (!downloadButton) {
+  const debugPath = path.join(rawDir, 'export-page-debug.html');
+  await fs.writeFile(debugPath, await page.content(), 'utf8');
+  const buttonTexts = await page
+    .locator('button, input[type="submit"], input[type="button"], a.button')
+    .allTextContents();
   console.error('Could not locate "Download Export File" button.');
+  console.error(`Current URL: ${page.url()}`);
+  console.error(`Buttons seen: ${JSON.stringify(buttonTexts.map((t) => t.trim()).filter(Boolean))}`);
+  console.error(`Saved debug HTML: ${debugPath}`);
   await browser.close();
   process.exit(1);
 }
 
-const [download] = await Promise.all([
-  page.waitForEvent('download', { timeout: 120_000 }),
-  downloadButton.click()
-]);
-
 const timestamp = new Date().toISOString().replace(/[:.]/g, '-');
 const target = path.join(rawDir, `wordpress-export-${timestamp}.xml`);
-await download.saveAs(target);
+const waitDownload = page.waitForEvent('download', { timeout: 20_000 }).catch(() => null);
+const waitXmlResponse = page.waitForResponse(
+  (response) => {
+    if (response.status() !== 200) return false;
+    const url = response.url();
+    const contentType = response.headers()['content-type'] || '';
+    return (
+      url.includes('download=true') ||
+      contentType.includes('text/xml') ||
+      contentType.includes('application/xml')
+    );
+  },
+  { timeout: 20_000 }
+).catch(() => null);
+
+await downloadButton.click();
+
+const [download, xmlResponse] = await Promise.all([waitDownload, waitXmlResponse]);
+
+if (download) {
+  await download.saveAs(target);
+} else if (xmlResponse) {
+  const xmlText = await xmlResponse.text();
+  await fs.writeFile(target, xmlText, 'utf8');
+} else {
+  const xmlText = await page.evaluate(async () => {
+    const form = document.querySelector('form');
+    if (!form) return null;
+
+    const formData = new FormData(form);
+    if (!formData.has('download')) {
+      formData.set('download', 'Download Export File');
+    }
+
+    const action = form.getAttribute('action') || window.location.href;
+    const response = await fetch(action, {
+      method: 'POST',
+      body: formData,
+      credentials: 'include'
+    });
+    const text = await response.text();
+    return text;
+  });
+
+  if (xmlText && (xmlText.startsWith('<?xml') || xmlText.includes('<rss') || xmlText.includes('<wxr_version'))) {
+    await fs.writeFile(target, xmlText, 'utf8');
+  } else {
+    const debugPath = path.join(rawDir, `export-failure-${timestamp}.html`);
+    await fs.writeFile(debugPath, await page.content(), 'utf8');
+    throw new Error(
+      `Export click completed but no XML was detected. URL=${page.url()} debug=${debugPath}`
+    );
+  }
+}
 
 await context.storageState({ path: storageStatePath });
 await browser.close();
@@ -76,4 +132,24 @@ async function waitForEnter(prompt) {
   } finally {
     rl.close();
   }
+}
+
+async function locateExportButton(page) {
+  const candidates = [
+    '#download',
+    'input#download',
+    'input[name="export"]',
+    'button:has-text("Download Export File")',
+    'input[value="Download Export File"]',
+    'button:has-text("Download")'
+  ];
+
+  for (const selector of candidates) {
+    const locator = page.locator(selector).first();
+    if (await locator.count()) {
+      return locator;
+    }
+  }
+
+  return null;
 }

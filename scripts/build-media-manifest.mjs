@@ -8,6 +8,8 @@ const outPath = path.resolve(args.out ?? 'data/media-manifest.json');
 const withHead = Boolean(args['with-head']);
 const limit = args.limit ? Number.parseInt(args.limit, 10) : 0;
 const concurrency = args.concurrency ? Number.parseInt(args.concurrency, 10) : 12;
+const timeoutMs = args.timeout ? Number.parseInt(args.timeout, 10) : 10_000;
+const attachmentsOnly = Boolean(args['attachments-only']);
 
 const report = JSON.parse(await fs.readFile(reportPath, 'utf8'));
 
@@ -16,14 +18,16 @@ for (const attachment of report.attachments ?? []) {
   if (attachment.url) urlSet.add(attachment.url);
 }
 
-const contentDirs = ['src/content/posts', 'src/content/pages', 'src/content/drafts'];
-for (const dir of contentDirs) {
-  const files = await listMarkdownFiles(path.resolve(dir));
-  for (const file of files) {
-    const text = await fs.readFile(file, 'utf8');
-    const matches = text.match(/https?:\/\/blog\.hichee\.com\/wp-content\/uploads\/[^\s)"']+/g) ?? [];
-    for (const match of matches) {
-      urlSet.add(match);
+if (!attachmentsOnly) {
+  const contentDirs = ['src/content/posts', 'src/content/pages', 'src/content/drafts'];
+  for (const dir of contentDirs) {
+    const files = await listMarkdownFiles(path.resolve(dir));
+    for (const file of files) {
+      const text = await fs.readFile(file, 'utf8');
+      const matches = text.match(/https?:\/\/blog\.hichee\.com\/wp-content\/uploads\/[^\s)"']+/g) ?? [];
+      for (const match of matches) {
+        urlSet.add(match);
+      }
     }
   }
 }
@@ -36,15 +40,22 @@ if (limit > 0) {
 const media = urls.map((url) => ({ url }));
 
 if (withHead) {
+  let completed = 0;
   await mapWithConcurrency(media, concurrency, async (entry) => {
     try {
-      const response = await fetch(entry.url, { method: 'HEAD' });
+      const response = await fetchWithTimeout(entry.url, {
+        method: 'HEAD'
+      }, timeoutMs);
       entry.status = response.status;
       entry.contentType = response.headers.get('content-type') ?? undefined;
       const len = response.headers.get('content-length');
       entry.contentLength = len ? Number.parseInt(len, 10) : undefined;
     } catch (error) {
       entry.error = String(error);
+    }
+    completed += 1;
+    if (completed % 100 === 0 || completed === media.length) {
+      console.log(`HEAD progress: ${completed}/${media.length}`);
     }
     return entry;
   });
@@ -55,6 +66,7 @@ const totalBytes = media.reduce((sum, item) => sum + (item.contentLength || 0), 
 const output = {
   generatedAt: new Date().toISOString(),
   sourceReport: reportPath,
+  attachmentsOnly,
   totalUrls: media.length,
   totalBytes,
   totalGigabytes: Number((totalBytes / (1024 ** 3)).toFixed(3)),
@@ -120,4 +132,17 @@ async function mapWithConcurrency(list, workerCount, worker) {
     }
   });
   await Promise.all(workers);
+}
+
+async function fetchWithTimeout(url, options, timeout) {
+  const controller = new AbortController();
+  const timer = setTimeout(() => controller.abort(), timeout);
+  try {
+    return await fetch(url, {
+      ...options,
+      signal: controller.signal
+    });
+  } finally {
+    clearTimeout(timer);
+  }
 }

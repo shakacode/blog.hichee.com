@@ -18,16 +18,16 @@ yarn dev
 
 ## Migration Workflow
 
-1. Download WordPress WXR export (requires WP login):
+1. Extract WordPress content through authenticated REST API (requires WP login):
 
 ```bash
-yarn migrate:download:wxr
+yarn migrate:download:rest
 ```
 
-2. Convert WXR to Astro content collections:
+2. Convert REST export to Astro content collections:
 
 ```bash
-node scripts/convert-wxr-to-content.mjs --input data/raw/wordpress-export-YYYY-MM-DDTHH-mm-ss-sssZ.xml
+node scripts/convert-rest-to-content.mjs --input data/raw/wp-rest-export-YYYY-MM-DDTHH-mm-ss-sssZ.json
 ```
 
 3. Build media manifest + size estimate:

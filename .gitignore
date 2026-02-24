@@ -9,6 +9,7 @@ dist
 /data/media-cache
 /data/downloads
 /data/wp-storage-state.json
+/data/wp-browser-profile
 
 # Keep generated reports/manifests in git if useful; uncomment if preferred
 # /data/*.json

@@ -46,14 +46,20 @@ for (const issue of existing) {
 
 let created = 0;
 let skipped = 0;
+let failed = 0;
+let processed = 0;
 
 for (const draft of drafts) {
   if (existingIds.has(draft.id)) {
     skipped += 1;
+    processed += 1;
+    if (processed % 50 === 0 || processed === drafts.length) {
+      console.log(`Progress: ${processed}/${drafts.length} (created=${created}, skipped=${skipped}, failed=${failed})`);
+    }
     continue;
   }
 
-  const title = `[Draft] ${draft.title} (WP #${draft.id})`;
+  const title = normalizeTitle(`[Draft] ${draft.title} (WP #${draft.id})`);
   const body = [
     `WP Draft ID: ${draft.id}`,
     `Type: ${draft.type}`,
@@ -70,10 +76,11 @@ for (const draft of drafts) {
 
   if (!apply) {
     console.log(`DRY RUN: would create issue: ${title}`);
+    processed += 1;
     continue;
   }
 
-  await gh([
+  const ok = await ghWithRetry([
     'issue',
     'create',
     '--title',
@@ -82,14 +89,27 @@ for (const draft of drafts) {
     body,
     '--label',
     'draft-review'
-  ]);
+  ], 3);
 
-  created += 1;
+  if (ok) {
+    created += 1;
+  } else {
+    failed += 1;
+    console.error(`FAILED issue create for WP Draft ID ${draft.id}: ${title}`);
+  }
+
+  processed += 1;
+  if (processed % 50 === 0 || processed === drafts.length) {
+    console.log(`Progress: ${processed}/${drafts.length} (created=${created}, skipped=${skipped}, failed=${failed})`);
+  }
 }
 
 console.log(`Drafts evaluated: ${drafts.length}`);
 console.log(`Existing skipped: ${skipped}`);
 console.log(apply ? `Issues created: ${created}` : 'Dry run only. Use --apply to create issues.');
+if (apply) {
+  console.log(`Issue create failures: ${failed}`);
+}
 
 function parseArgs(argv) {
   const out = {};
@@ -121,10 +141,36 @@ async function ensureLabel(name, color, description) {
 }
 
 async function gh(args) {
-  await execFileAsync('gh', args, { cwd: process.cwd() });
+  await execFileAsync('gh', args, { cwd: process.cwd(), timeout: 30000 });
 }
 
 async function ghJson(args) {
-  const { stdout } = await execFileAsync('gh', args, { cwd: process.cwd() });
+  const { stdout } = await execFileAsync('gh', args, { cwd: process.cwd(), timeout: 30000 });
   return JSON.parse(stdout || '[]');
+}
+
+async function ghWithRetry(args, attempts) {
+  for (let i = 1; i <= attempts; i += 1) {
+    try {
+      await gh(args);
+      return true;
+    } catch (error) {
+      const message = String(error?.stderr || error?.message || error);
+      if (i >= attempts) {
+        console.error(`gh command failed after ${attempts} attempts: ${message.slice(0, 300)}`);
+        return false;
+      }
+      await sleep(1500 * i);
+    }
+  }
+  return false;
+}
+
+function normalizeTitle(title) {
+  const clean = String(title || '').replace(/\s+/g, ' ').trim();
+  return clean.length <= 240 ? clean : `${clean.slice(0, 236)}...`;
+}
+
+function sleep(ms) {
+  return new Promise((resolve) => setTimeout(resolve, ms));
 }

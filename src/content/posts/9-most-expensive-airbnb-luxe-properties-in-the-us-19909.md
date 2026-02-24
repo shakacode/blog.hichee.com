@@ -1,0 +1,858 @@
+---
+title: 9 Most Expensive Airbnb Luxe Properties in The US
+path: /9-most-expensive-airbnb-luxe-properties-in-the-us/
+date: '2023-05-04T19:14:58.000Z'
+updatedDate: '2024-06-11T04:57:42.000Z'
+description: >-
+  Do you have a passion for luxury and deep pockets to go with it? Or maybe
+  you’re just into the finer things in life? Hold on to your Gucci’s because we
+  will explore the 9 most jaw-droppingly expensive rentals that will b
+legacyUrl: 'https://blog.hichee.com/9-most-expensive-airbnb-luxe-properties-in-the-us/'
+wordpressId: 19909
+status: publish
+categories:
+  - best-vacation-rentals
+tags: []
+featuredImage: 'https://blog.hichee.com/wp-content/uploads/2023/04/2-1.webp'
+featuredImageAlt: 9 Most Expensive Airbnb Luxe Properties in The World
+draft: false
+contentType: post
+---
+<div class="wp-block-buttons is-content-justification-center is-layout-flex wp-container-core-buttons-is-layout-22 wp-block-buttons-is-layout-flex">
+<div class="wp-block-button"><a class="wp-block-button__link has-luminous-vivid-orange-to-vivid-red-gradient-background has-background wp-element-button" href="https://hichee.com/collections/most-expensive-airbnb-luxe-properties-in-the-us">Click Here To See Our Trip List!</a></div>
+</div>
+
+
+
+<div class="wp-block-cover is-light"><span aria-hidden="true" class="wp-block-cover__background has-background-dim-20 has-background-dim"></span><img decoding="async" width="1200" height="900" class="wp-block-cover__image-background wp-image-19988" alt="9 Most Expensive Airbnb Luxe Properties in The US" src="https://blog.hichee.com/wp-content/uploads/2023/04/2-1.webp" data-object-fit="cover" srcset="https://blog.hichee.com/wp-content/uploads/2023/04/2-1.webp 1200w, https://blog.hichee.com/wp-content/uploads/2023/04/2-1-300x225.webp 300w, https://blog.hichee.com/wp-content/uploads/2023/04/2-1-1024x768.webp 1024w, https://blog.hichee.com/wp-content/uploads/2023/04/2-1-768x576.webp 768w" sizes="(max-width: 1200px) 100vw, 1200px" /><div class="wp-block-cover__inner-container is-layout-flow wp-block-cover-is-layout-flow">
+<p class="has-text-align-center has-theme-palette-9-color has-text-color has-large-font-size">9 Most Expensive Airbnb Luxe Properties in The World</p>
+</div></div>
+
+
+
+<p>Do you have a passion for luxury and deep pockets to go with it? Or maybe you’re just into the finer things in life? Hold on to your Gucci’s because we will explore the 9 most jaw-droppingly expensive rentals that will blow your mind! </p>
+
+
+
+<p>We&#8217;re not discussing your typical run-of-the-mill beach house or cozy mountain cabin. Heck no, we&#8217;re setting the bar higher – much higher! These ritzy retreats are reserved for those with money to burn and a taste for the luxuries of life. These vacation rentals give new meaning to &#8220;living the high life.&#8221;</p>
+
+
+
+<p>Click on any of the images below to view that property directly.</p>
+
+
+
+<figure class="wp-block-gallery has-nested-images columns-default is-cropped wp-block-gallery-3 is-layout-flex wp-block-gallery-is-layout-flex">
+<figure class="wp-block-image size-large"><a href="#Shenandoah-Yurt"><img decoding="async" width="1024" height="768" data-id="19990" src="https://blog.hichee.com/wp-content/uploads/2023/04/1-1-1024x768.webp" alt="" class="wp-image-19990" srcset="https://blog.hichee.com/wp-content/uploads/2023/04/1-1-1024x768.webp 1024w, https://blog.hichee.com/wp-content/uploads/2023/04/1-1-300x225.webp 300w, https://blog.hichee.com/wp-content/uploads/2023/04/1-1-768x576.webp 768w, https://blog.hichee.com/wp-content/uploads/2023/04/1-1.webp 1200w" sizes="(max-width: 1024px) 100vw, 1024px" /></a><figcaption class="wp-element-caption">Stanley, Virginia</figcaption></figure>
+
+
+
+<figure class="wp-block-image size-large"><a href="#Bella-Mare"><img decoding="async" width="1024" height="768" data-id="19988" src="https://blog.hichee.com/wp-content/uploads/2023/04/2-1-1024x768.webp" alt="" class="wp-image-19988" srcset="https://blog.hichee.com/wp-content/uploads/2023/04/2-1-1024x768.webp 1024w, https://blog.hichee.com/wp-content/uploads/2023/04/2-1-300x225.webp 300w, https://blog.hichee.com/wp-content/uploads/2023/04/2-1-768x576.webp 768w, https://blog.hichee.com/wp-content/uploads/2023/04/2-1.webp 1200w" sizes="(max-width: 1024px) 100vw, 1024px" /></a><figcaption class="wp-element-caption">Oceanside, California</figcaption></figure>
+
+
+
+<figure class="wp-block-image size-large"><a href="#Malibu-House"><img decoding="async" width="1024" height="768" data-id="19991" src="https://blog.hichee.com/wp-content/uploads/2023/04/3-2-1024x768.webp" alt="" class="wp-image-19991" srcset="https://blog.hichee.com/wp-content/uploads/2023/04/3-2-1024x768.webp 1024w, https://blog.hichee.com/wp-content/uploads/2023/04/3-2-300x225.webp 300w, https://blog.hichee.com/wp-content/uploads/2023/04/3-2-768x576.webp 768w, https://blog.hichee.com/wp-content/uploads/2023/04/3-2.webp 1440w" sizes="(max-width: 1024px) 100vw, 1024px" /></a><figcaption class="wp-element-caption">Cleveland, Wisconsin</figcaption></figure>
+
+
+
+<figure class="wp-block-image size-large"><a href="#Beverly-Hills-Maison"><img decoding="async" width="1024" height="682" data-id="19992" src="https://blog.hichee.com/wp-content/uploads/2023/04/4-2-1024x682.png" alt="" class="wp-image-19992" srcset="https://blog.hichee.com/wp-content/uploads/2023/04/4-2-1024x682.png 1024w, https://blog.hichee.com/wp-content/uploads/2023/04/4-2-300x200.png 300w, https://blog.hichee.com/wp-content/uploads/2023/04/4-2-768x512.png 768w, https://blog.hichee.com/wp-content/uploads/2023/04/4-2-1200x800.png 1200w, https://blog.hichee.com/wp-content/uploads/2023/04/4-2.png 1232w" sizes="(max-width: 1024px) 100vw, 1024px" /></a><figcaption class="wp-element-caption">Beverly Hills, California</figcaption></figure>
+
+
+
+<figure class="wp-block-image size-large"><a href="#Quiet-Pines-Retreat"><img decoding="async" width="1024" height="897" data-id="21473" src="https://blog.hichee.com/wp-content/uploads/2023/05/5-1024x897.webp" alt="" class="wp-image-21473" srcset="https://blog.hichee.com/wp-content/uploads/2023/05/5-1024x897.webp 1024w, https://blog.hichee.com/wp-content/uploads/2023/05/5-300x263.webp 300w, https://blog.hichee.com/wp-content/uploads/2023/05/5-768x673.webp 768w, https://blog.hichee.com/wp-content/uploads/2023/05/5.webp 1200w" sizes="(max-width: 1024px) 100vw, 1024px" /></a><figcaption class="wp-element-caption">Prescott, Arizona</figcaption></figure>
+
+
+
+<figure class="wp-block-image size-large"><a href="#Del-Mar-Villa"><img decoding="async" width="1024" height="606" data-id="20005" src="https://blog.hichee.com/wp-content/uploads/2023/04/6-2.webp" alt="" class="wp-image-20005" srcset="https://blog.hichee.com/wp-content/uploads/2023/04/6-2.webp 1024w, https://blog.hichee.com/wp-content/uploads/2023/04/6-2-300x178.webp 300w, https://blog.hichee.com/wp-content/uploads/2023/04/6-2-768x455.webp 768w, https://blog.hichee.com/wp-content/uploads/2023/04/6-2-540x320.webp 540w" sizes="(max-width: 1024px) 100vw, 1024px" /></a><figcaption class="wp-element-caption">Dundee, Oregon</figcaption></figure>
+
+
+
+<figure class="wp-block-image size-large"><a href="#The-Colorado-River---Spectacular-Riverfront"><img decoding="async" width="1024" height="815" data-id="20206" src="https://blog.hichee.com/wp-content/uploads/2023/04/7-1-1024x815.webp" alt="" class="wp-image-20206" srcset="https://blog.hichee.com/wp-content/uploads/2023/04/7-1-1024x815.webp 1024w, https://blog.hichee.com/wp-content/uploads/2023/04/7-1-300x239.webp 300w, https://blog.hichee.com/wp-content/uploads/2023/04/7-1-768x611.webp 768w, https://blog.hichee.com/wp-content/uploads/2023/04/7-1.webp 1200w" sizes="(max-width: 1024px) 100vw, 1024px" /></a><figcaption class="wp-element-caption">Bullhead City, Arizona</figcaption></figure>
+
+
+
+<figure class="wp-block-image size-large"><a href="#Luxury-8-BR-Estate-with-Pool-and-Tennis-court"><img decoding="async" width="1024" height="768" data-id="20207" src="https://blog.hichee.com/wp-content/uploads/2023/04/8-2-1024x768.webp" alt="" class="wp-image-20207" srcset="https://blog.hichee.com/wp-content/uploads/2023/04/8-2-1024x768.webp 1024w, https://blog.hichee.com/wp-content/uploads/2023/04/8-2-300x225.webp 300w, https://blog.hichee.com/wp-content/uploads/2023/04/8-2-768x576.webp 768w, https://blog.hichee.com/wp-content/uploads/2023/04/8-2.webp 1440w" sizes="(max-width: 1024px) 100vw, 1024px" /></a><figcaption class="wp-element-caption">Mount Kisco, New York</figcaption></figure>
+
+
+
+<figure class="wp-block-image size-large"><a href="#Battenkill-Valley-Mansion"><img decoding="async" width="1024" height="768" data-id="20208" src="https://blog.hichee.com/wp-content/uploads/2023/04/9-1-1024x768.webp" alt="" class="wp-image-20208" srcset="https://blog.hichee.com/wp-content/uploads/2023/04/9-1-1024x768.webp 1024w, https://blog.hichee.com/wp-content/uploads/2023/04/9-1-300x225.webp 300w, https://blog.hichee.com/wp-content/uploads/2023/04/9-1-768x576.webp 768w, https://blog.hichee.com/wp-content/uploads/2023/04/9-1.webp 1200w" sizes="(max-width: 1024px) 100vw, 1024px" /></a><figcaption class="wp-element-caption">Manchester, Vermont</figcaption></figure>
+</figure>
+
+
+
+<h2 class="wp-block-heading has-text-align-center" id="Shenandoah-Yurt">Most Expensive Airbnbs</h2>
+
+
+
+<h2 class="wp-block-heading has-text-align-center" id="Shenandoah-Yurt">1. Shenandoah Yurt</h2>
+
+
+
+<p class="has-text-align-center">Location: Stanley, Virginia</p>
+
+
+
+<figure class="wp-block-image size-large"><img decoding="async" width="1024" height="768" src="https://blog.hichee.com/wp-content/uploads/2023/04/1-1024x768.webp" alt="9 Most Expensive Airbnb Luxe Properties in The US" class="wp-image-19923" srcset="https://blog.hichee.com/wp-content/uploads/2023/04/1-1024x768.webp 1024w, https://blog.hichee.com/wp-content/uploads/2023/04/1-300x225.webp 300w, https://blog.hichee.com/wp-content/uploads/2023/04/1-768x576.webp 768w, https://blog.hichee.com/wp-content/uploads/2023/04/1.webp 1200w" sizes="(max-width: 1024px) 100vw, 1024px" /><figcaption class="wp-element-caption">Photo Credit: Airbnb</figcaption></figure>
+
+
+
+<div class="wp-block-getwid-images-slider has-arrows-inside has-dots-inside is-carousel has-slides-gap-normal has-images-center has-cropped-images"><div class="wp-block-getwid-images-slider__wrapper" data-effect="slide" data-slides-show="3" data-slides-show-laptop="3" data-slides-show-tablet="1" data-slides-show-mobile="1" data-slides-scroll="1" data-autoplay="true" data-autoplay-speed="6000" data-infinite="true" data-animation-speed="800" data-center-mode="false" data-variable-width="false" data-arrows="inside" data-dots="inside" data-spacing="normal"><div class="wp-block-getwid-images-slider__item"><a href="https://blog.hichee.com/wp-content/uploads/2023/04/1.1-1.webp"><figure><img decoding="async" width="1440" height="960" src="https://blog.hichee.com/wp-content/uploads/2023/04/1.1-1.webp" alt="75&quot; TV with Play Station 5, four controllers, and seating for eight people." data-id="19924" data-link="https://blog.hichee.com/?attachment_id=19924" data-original-link="https://blog.hichee.com/wp-content/uploads/2023/04/1.1-1.webp" class="wp-block-getwid-images-slider__image wp-image-19924" srcset="https://blog.hichee.com/wp-content/uploads/2023/04/1.1-1.webp 1440w, https://blog.hichee.com/wp-content/uploads/2023/04/1.1-1-300x200.webp 300w, https://blog.hichee.com/wp-content/uploads/2023/04/1.1-1-1024x683.webp 1024w, https://blog.hichee.com/wp-content/uploads/2023/04/1.1-1-768x512.webp 768w, https://blog.hichee.com/wp-content/uploads/2023/04/1.1-1-1200x800.webp 1200w" sizes="(max-width: 1440px) 100vw, 1440px" /></figure></a></div><div class="wp-block-getwid-images-slider__item"><a href="https://blog.hichee.com/wp-content/uploads/2023/04/1.2.webp"><figure><img decoding="async" width="1440" height="960" src="https://blog.hichee.com/wp-content/uploads/2023/04/1.2.webp" alt="There are two rocking rockers and a wood stove." data-id="19925" data-link="https://blog.hichee.com/?attachment_id=19925" data-original-link="https://blog.hichee.com/wp-content/uploads/2023/04/1.2.webp" class="wp-block-getwid-images-slider__image wp-image-19925" srcset="https://blog.hichee.com/wp-content/uploads/2023/04/1.2.webp 1440w, https://blog.hichee.com/wp-content/uploads/2023/04/1.2-300x200.webp 300w, https://blog.hichee.com/wp-content/uploads/2023/04/1.2-1024x683.webp 1024w, https://blog.hichee.com/wp-content/uploads/2023/04/1.2-768x512.webp 768w, https://blog.hichee.com/wp-content/uploads/2023/04/1.2-1200x800.webp 1200w" sizes="(max-width: 1440px) 100vw, 1440px" /></figure></a></div><div class="wp-block-getwid-images-slider__item"><a href="https://blog.hichee.com/wp-content/uploads/2023/04/1.3-1.webp"><figure><img decoding="async" width="1440" height="960" src="https://blog.hichee.com/wp-content/uploads/2023/04/1.3-1.webp" alt="A wood-burning heater, an extensible dining table, a pin map, and rocking chairs." data-id="19926" data-link="https://blog.hichee.com/?attachment_id=19926" data-original-link="https://blog.hichee.com/wp-content/uploads/2023/04/1.3-1.webp" class="wp-block-getwid-images-slider__image wp-image-19926" srcset="https://blog.hichee.com/wp-content/uploads/2023/04/1.3-1.webp 1440w, https://blog.hichee.com/wp-content/uploads/2023/04/1.3-1-300x200.webp 300w, https://blog.hichee.com/wp-content/uploads/2023/04/1.3-1-1024x683.webp 1024w, https://blog.hichee.com/wp-content/uploads/2023/04/1.3-1-768x512.webp 768w, https://blog.hichee.com/wp-content/uploads/2023/04/1.3-1-1200x800.webp 1200w" sizes="(max-width: 1440px) 100vw, 1440px" /></figure></a></div><div class="wp-block-getwid-images-slider__item"><a href="https://blog.hichee.com/wp-content/uploads/2023/04/1.4.webp"><figure><img decoding="async" width="1440" height="960" src="https://blog.hichee.com/wp-content/uploads/2023/04/1.4.webp" alt="View from the top of the steps." data-id="19927" data-link="https://blog.hichee.com/?attachment_id=19927" data-original-link="https://blog.hichee.com/wp-content/uploads/2023/04/1.4.webp" class="wp-block-getwid-images-slider__image wp-image-19927" srcset="https://blog.hichee.com/wp-content/uploads/2023/04/1.4.webp 1440w, https://blog.hichee.com/wp-content/uploads/2023/04/1.4-300x200.webp 300w, https://blog.hichee.com/wp-content/uploads/2023/04/1.4-1024x683.webp 1024w, https://blog.hichee.com/wp-content/uploads/2023/04/1.4-768x512.webp 768w, https://blog.hichee.com/wp-content/uploads/2023/04/1.4-1200x800.webp 1200w" sizes="(max-width: 1440px) 100vw, 1440px" /></figure></a></div><div class="wp-block-getwid-images-slider__item"><a href="https://blog.hichee.com/wp-content/uploads/2023/04/1.5.webp"><figure><img decoding="async" width="1440" height="961" src="https://blog.hichee.com/wp-content/uploads/2023/04/1.5.webp" alt="The loft has a king-size floor sofa." data-id="19928" data-link="https://blog.hichee.com/?attachment_id=19928" data-original-link="https://blog.hichee.com/wp-content/uploads/2023/04/1.5.webp" class="wp-block-getwid-images-slider__image wp-image-19928" srcset="https://blog.hichee.com/wp-content/uploads/2023/04/1.5.webp 1440w, https://blog.hichee.com/wp-content/uploads/2023/04/1.5-300x200.webp 300w, https://blog.hichee.com/wp-content/uploads/2023/04/1.5-1024x683.webp 1024w, https://blog.hichee.com/wp-content/uploads/2023/04/1.5-768x513.webp 768w, https://blog.hichee.com/wp-content/uploads/2023/04/1.5-1200x800.webp 1200w" sizes="(max-width: 1440px) 100vw, 1440px" /></figure></a></div><div class="wp-block-getwid-images-slider__item"><a href="https://blog.hichee.com/wp-content/uploads/2023/04/1.6.webp"><figure><img decoding="async" width="1440" height="1080" src="https://blog.hichee.com/wp-content/uploads/2023/04/1.6.webp" alt="The sofa in the living room converts into two half-separate beds." data-id="19929" data-link="https://blog.hichee.com/?attachment_id=19929" data-original-link="https://blog.hichee.com/wp-content/uploads/2023/04/1.6.webp" class="wp-block-getwid-images-slider__image wp-image-19929" srcset="https://blog.hichee.com/wp-content/uploads/2023/04/1.6.webp 1440w, https://blog.hichee.com/wp-content/uploads/2023/04/1.6-300x225.webp 300w, https://blog.hichee.com/wp-content/uploads/2023/04/1.6-1024x768.webp 1024w, https://blog.hichee.com/wp-content/uploads/2023/04/1.6-768x576.webp 768w" sizes="(max-width: 1440px) 100vw, 1440px" /></figure></a></div><div class="wp-block-getwid-images-slider__item"><a href="https://blog.hichee.com/wp-content/uploads/2023/04/1.7.webp"><figure><img decoding="async" width="1440" height="960" src="https://blog.hichee.com/wp-content/uploads/2023/04/1.7.webp" alt="A Nespresso machine, a spacious sink, a dishwasher, and a commanding outlook are all included." data-id="19930" data-link="https://blog.hichee.com/?attachment_id=19930" data-original-link="https://blog.hichee.com/wp-content/uploads/2023/04/1.7.webp" class="wp-block-getwid-images-slider__image wp-image-19930" srcset="https://blog.hichee.com/wp-content/uploads/2023/04/1.7.webp 1440w, https://blog.hichee.com/wp-content/uploads/2023/04/1.7-300x200.webp 300w, https://blog.hichee.com/wp-content/uploads/2023/04/1.7-1024x683.webp 1024w, https://blog.hichee.com/wp-content/uploads/2023/04/1.7-768x512.webp 768w, https://blog.hichee.com/wp-content/uploads/2023/04/1.7-1200x800.webp 1200w" sizes="(max-width: 1440px) 100vw, 1440px" /></figure></a></div></div></div>
+
+
+
+<div style="height:20px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<h3 class="wp-block-heading">Taking glamping to a whole new level</h3>
+
+
+
+<p>With superior construction, world-class and modern amenities, and post furnishings, this luxurious retreat home nestled at the heart of the mountains takes glamping to a new level! Just a couple of hours away from Washington, DC, the one-of-a-kind Shenandoah Yurt is surrounded by the vibrant beauty of Shenandoah National Park and perched at over 2,500 feet. </p>
+
+
+
+<p>But if the spectacular views don’t sweep you off your feet, the fantastic modern amenities will! This property boasts a climate control system, a hot tub, a fully-equipped kitchen, Playstation 5, and access to e-bikes for your enjoyment!</p>
+
+
+
+<p>From the owner:<br>Shenandoah Yurt is a unique luxury retreat perched in the serene seclusion of the mountains. You’ll find no compromises concerning premier cabin-like construction, modern amenities, a hot tub, a wood-burning stove, archery, an EV charger, a sizable elevated deck, a pool table, board games, and so much more! This extraordinary stay is surrounded by the colorful environs of Shenandoah National Park at an elevation of over 2,500 ft! Experience #YurtLife—just 2 hours away from Washington, DC!</p>
+
+
+
+<p>Shenandoah Yurt is a custom wooden yurt nestled 1 mile away (as the crow flies) from Shenandoah National Park. Constructed using the finest materials and significant attention to detail, this space invites you and your family and friends to immediately make yourselves home. Furnished with plenty of modern conveniences, the yurt sets out to provide a unique experience offering comforts akin to those of a chic boutique hotel. Whip up an omelet with the dozen fresh organic local eggs awaiting you, embrace your inner yogi with a morning routine on the large deck, or soak in the outdoor hot tub under a starry night sky—the choice is yours! As our property was designed with nature in mind, we also provide an EV charging station for those in need.</p>
+
+
+
+<p class="has-medium-font-size"><strong>Getting The Best Deal</strong></p>
+
+
+
+<p>Get the most out of your vacation rental with these huge savings. Using <a href="https://hichee.com/" target="_blank" rel="noreferrer noopener">HiChee</a>, you&#8217;ll see where you can get savings through its feature comparing prices from different booking websites. Just input your desired dates and number of guests, and you&#8217;ll be able to see the difference in their prices. </p>
+
+
+
+<p>In this first property, I can book it through <a href="https://www.airbnb.com/rooms/53849285?check_in=2023-08-08&amp;check_out=2023-08-13&amp;adults=4&amp;display_currency=USD¤cy=USD&amp;children=4&amp;infants=0&amp;source_impression_id=p3_1682510911_wkh5Okg4Pu7Onirt" target="_blank" rel="noreferrer noopener">Airbnb</a>, <a href="https://www.booking.com/hotel/us/shenandoah-yurt-hot-tub-wood-stove-wifi-evcharger.en-gb.html?label=gen173nr-1FCAso7AFCMXNoZW5hbmRvYWgteXVydC1ob3QtdHViLXdvb2Qtc3RvdmUtd2lmaS1ldmNoYXJnZXJIM1gEaLQBiAEBmAEJuAEXyAEM2AEB6AEB-AEDiAIBqAIDuALBqKSiBsACAdICJGU3NjU4MzJhLTg1YjMtNDA3NC05N2MwLWNhYTdhZTViMTBiMdgCBeACAQ&amp;sid=5a15a6862ab5f484a88bb1c736854930&amp;age=10&amp;age=10&amp;age=10&amp;age=10&amp;checkin=2023-08-08&amp;checkout=2023-08-13&amp;dist=0&amp;group_adults=4&amp;group_children=3&amp;keep_landing=1&amp;no_rooms=1&amp;sb_price_type=total&amp;type=total&amp;#room_806200701" target="_blank" rel="noreferrer noopener">Booking(.com)</a>, and <a href="https://www.vrbo.com/2591964?adultsCount=4&amp;arrival=2023-08-08&amp;childrenCount=4&amp;cur=USD&amp;departure=2023-08-13&amp;infantsCount=0" target="_blank" rel="noreferrer noopener">VRBO</a>. I can save up to 3,748 by booking through VRBO.</p>
+
+
+
+<figure class="wp-block-image size-full"><img decoding="async" width="1440" height="1230" src="https://blog.hichee.com/wp-content/uploads/2023/04/Copy-of-Beach-house-price-savings-28.gif" alt="Shenandoah Yurt" class="wp-image-19911"/></figure>
+
+
+
+<p>However, I would also like to know if I can get more savings. I used another HiChee feature called <strong>Magic Search</strong> Direct Booking Options. You can see it in the lower right part of the image above. </p>
+
+
+
+<p>Using this feature, I&#8217;ll be able to see other booking options other than the three listed on HiChee. I tried booking the property on this <a href="https://yurtofun.com/booking-page/?listingMapId=96308&amp;arrivalDate=2023-08-08&amp;departureDate=2023-08-13&amp;pricebreakdownTrigger=&amp;datetimes=2023-08-08+to+2023-08-13&amp;numberOfGuests=1&amp;couponName=&amp;reservationCouponId=" target="_blank" rel="noreferrer noopener">alternate booking site</a> and saved another $231!</p>
+
+
+
+<figure class="wp-block-image size-full"><img decoding="async" width="1440" height="1230" src="https://blog.hichee.com/wp-content/uploads/2023/04/Copy-of-Beach-house-price-savings-29.gif" alt="Shenandoah Yurt" class="wp-image-19922"/></figure>
+
+
+
+<div class="wp-block-group alignwide"><div class="wp-block-group__inner-container is-layout-constrained wp-block-group-is-layout-constrained">
+<div class="wp-block-buttons alignwide is-content-justification-center is-layout-flex wp-container-core-buttons-is-layout-23 wp-block-buttons-is-layout-flex">
+<div class="wp-block-button"><a class="wp-block-button__link has-theme-palette-3-color has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background has-text-color has-background wp-element-button" href="https://hichee.com/listings/10116753?check_in=2023-08-08&amp;check_out=2023-08-13&amp;adults=4&amp;children=4" target="_blank" rel="noreferrer noopener">Check Out This Property On Hichee</a></div>
+</div>
+
+
+
+<h2 class="wp-block-heading alignwide has-text-align-center">Share This Post With Friends</h2>
+
+
+<p><center><div class="addtoany_shortcode"><div class="a2a_kit a2a_kit_size_32 addtoany_list" data-a2a-url="https://blog.hichee.com/9-most-expensive-airbnb-luxe-properties-in-the-us/" data-a2a-title="9 Most Expensive Airbnb Luxe Properties in The US"><a class="a2a_button_facebook" href="https://www.addtoany.com/add_to/facebook?linkurl=https%3A%2F%2Fblog.hichee.com%2F9-most-expensive-airbnb-luxe-properties-in-the-us%2F&amp;linkname=9%20Most%20Expensive%20Airbnb%20Luxe%20Properties%20in%20The%20US" title="Facebook" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_twitter" href="https://www.addtoany.com/add_to/twitter?linkurl=https%3A%2F%2Fblog.hichee.com%2F9-most-expensive-airbnb-luxe-properties-in-the-us%2F&amp;linkname=9%20Most%20Expensive%20Airbnb%20Luxe%20Properties%20in%20The%20US" title="Twitter" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_pinterest" href="https://www.addtoany.com/add_to/pinterest?linkurl=https%3A%2F%2Fblog.hichee.com%2F9-most-expensive-airbnb-luxe-properties-in-the-us%2F&amp;linkname=9%20Most%20Expensive%20Airbnb%20Luxe%20Properties%20in%20The%20US" title="Pinterest" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_whatsapp" href="https://www.addtoany.com/add_to/whatsapp?linkurl=https%3A%2F%2Fblog.hichee.com%2F9-most-expensive-airbnb-luxe-properties-in-the-us%2F&amp;linkname=9%20Most%20Expensive%20Airbnb%20Luxe%20Properties%20in%20The%20US" title="WhatsApp" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_email" href="https://www.addtoany.com/add_to/email?linkurl=https%3A%2F%2Fblog.hichee.com%2F9-most-expensive-airbnb-luxe-properties-in-the-us%2F&amp;linkname=9%20Most%20Expensive%20Airbnb%20Luxe%20Properties%20in%20The%20US" title="Email" rel="nofollow noopener" target="_blank"></a><a class="a2a_dd addtoany_share_save addtoany_share" href="https://www.addtoany.com/share"></a></div></div></center></p>
+</div></div>
+
+
+
+<h2 class="wp-block-heading has-text-align-center" id="Bella-Mare">Most Expensive Airbnb Luxe Properties in California</h2>
+
+
+
+<h2 class="wp-block-heading has-text-align-center" id="Bella-Mare">2. Bella Mare</h2>
+
+
+
+<p class="has-text-align-center">Location: Oceanside, California</p>
+
+
+
+<figure class="wp-block-image size-large"><img decoding="async" width="1024" height="768" src="https://blog.hichee.com/wp-content/uploads/2023/04/2-1024x768.webp" alt="9 Most Expensive Airbnb Luxe Properties in The US" class="wp-image-19931" srcset="https://blog.hichee.com/wp-content/uploads/2023/04/2-1024x768.webp 1024w, https://blog.hichee.com/wp-content/uploads/2023/04/2-300x225.webp 300w, https://blog.hichee.com/wp-content/uploads/2023/04/2-768x576.webp 768w, https://blog.hichee.com/wp-content/uploads/2023/04/2.webp 1200w" sizes="(max-width: 1024px) 100vw, 1024px" /><figcaption class="wp-element-caption">Photo Credit: Airbnb</figcaption></figure>
+
+
+
+<div class="wp-block-getwid-images-slider has-arrows-inside has-dots-inside is-carousel has-slides-gap-normal has-images-center has-cropped-images"><div class="wp-block-getwid-images-slider__wrapper" data-effect="slide" data-slides-show="3" data-slides-show-laptop="3" data-slides-show-tablet="2" data-slides-show-mobile="1" data-slides-scroll="1" data-autoplay="true" data-autoplay-speed="6000" data-infinite="true" data-animation-speed="800" data-center-mode="false" data-variable-width="false" data-arrows="inside" data-dots="inside" data-spacing="normal"><div class="wp-block-getwid-images-slider__item"><a href="https://blog.hichee.com/wp-content/uploads/2023/04/2.1-1.webp"><figure><img decoding="async" width="1440" height="1079" src="https://blog.hichee.com/wp-content/uploads/2023/04/2.1-1.webp" alt="Private beach access is available directly from the property." data-id="19934" data-link="https://blog.hichee.com/?attachment_id=19934" data-original-link="https://blog.hichee.com/wp-content/uploads/2023/04/2.1-1.webp" class="wp-block-getwid-images-slider__image wp-image-19934" srcset="https://blog.hichee.com/wp-content/uploads/2023/04/2.1-1.webp 1440w, https://blog.hichee.com/wp-content/uploads/2023/04/2.1-1-300x225.webp 300w, https://blog.hichee.com/wp-content/uploads/2023/04/2.1-1-1024x767.webp 1024w, https://blog.hichee.com/wp-content/uploads/2023/04/2.1-1-768x575.webp 768w" sizes="(max-width: 1440px) 100vw, 1440px" /></figure></a></div><div class="wp-block-getwid-images-slider__item"><a href="https://blog.hichee.com/wp-content/uploads/2023/04/2.2.webp"><figure><img decoding="async" width="1440" height="1064" src="https://blog.hichee.com/wp-content/uploads/2023/04/2.2.webp" alt="Consider yourself watching the sunset over a firepit with family and friends." data-id="19935" data-link="https://blog.hichee.com/?attachment_id=19935" data-original-link="https://blog.hichee.com/wp-content/uploads/2023/04/2.2.webp" class="wp-block-getwid-images-slider__image wp-image-19935" srcset="https://blog.hichee.com/wp-content/uploads/2023/04/2.2.webp 1440w, https://blog.hichee.com/wp-content/uploads/2023/04/2.2-300x222.webp 300w, https://blog.hichee.com/wp-content/uploads/2023/04/2.2-1024x757.webp 1024w, https://blog.hichee.com/wp-content/uploads/2023/04/2.2-768x567.webp 768w" sizes="(max-width: 1440px) 100vw, 1440px" /></figure></a></div><div class="wp-block-getwid-images-slider__item"><a href="https://blog.hichee.com/wp-content/uploads/2023/04/2.3.webp"><figure><img decoding="async" width="1440" height="959" src="https://blog.hichee.com/wp-content/uploads/2023/04/2.3.webp" alt="Dining al fresco with a view." data-id="19936" data-link="https://blog.hichee.com/?attachment_id=19936" data-original-link="https://blog.hichee.com/wp-content/uploads/2023/04/2.3.webp" class="wp-block-getwid-images-slider__image wp-image-19936" srcset="https://blog.hichee.com/wp-content/uploads/2023/04/2.3.webp 1440w, https://blog.hichee.com/wp-content/uploads/2023/04/2.3-300x200.webp 300w, https://blog.hichee.com/wp-content/uploads/2023/04/2.3-1024x682.webp 1024w, https://blog.hichee.com/wp-content/uploads/2023/04/2.3-768x511.webp 768w, https://blog.hichee.com/wp-content/uploads/2023/04/2.3-1200x800.webp 1200w" sizes="(max-width: 1440px) 100vw, 1440px" /></figure></a></div><div class="wp-block-getwid-images-slider__item"><a href="https://blog.hichee.com/wp-content/uploads/2023/04/2.4.webp"><figure><img decoding="async" width="1440" height="1049" src="https://blog.hichee.com/wp-content/uploads/2023/04/2.4.webp" alt="The view is very breathtaking!" data-id="19937" data-link="https://blog.hichee.com/?attachment_id=19937" data-original-link="https://blog.hichee.com/wp-content/uploads/2023/04/2.4.webp" class="wp-block-getwid-images-slider__image wp-image-19937" srcset="https://blog.hichee.com/wp-content/uploads/2023/04/2.4.webp 1440w, https://blog.hichee.com/wp-content/uploads/2023/04/2.4-300x219.webp 300w, https://blog.hichee.com/wp-content/uploads/2023/04/2.4-1024x746.webp 1024w, https://blog.hichee.com/wp-content/uploads/2023/04/2.4-768x559.webp 768w" sizes="(max-width: 1440px) 100vw, 1440px" /></figure></a></div><div class="wp-block-getwid-images-slider__item"><a href="https://blog.hichee.com/wp-content/uploads/2023/04/2.5.webp"><figure><img decoding="async" width="1440" height="966" src="https://blog.hichee.com/wp-content/uploads/2023/04/2.5.webp" alt="It's fantastic to fall asleep and wake up to that view." data-id="19938" data-link="https://blog.hichee.com/?attachment_id=19938" data-original-link="https://blog.hichee.com/wp-content/uploads/2023/04/2.5.webp" class="wp-block-getwid-images-slider__image wp-image-19938" srcset="https://blog.hichee.com/wp-content/uploads/2023/04/2.5.webp 1440w, https://blog.hichee.com/wp-content/uploads/2023/04/2.5-300x201.webp 300w, https://blog.hichee.com/wp-content/uploads/2023/04/2.5-1024x687.webp 1024w, https://blog.hichee.com/wp-content/uploads/2023/04/2.5-768x515.webp 768w" sizes="(max-width: 1440px) 100vw, 1440px" /></figure></a></div><div class="wp-block-getwid-images-slider__item"><a href="https://blog.hichee.com/wp-content/uploads/2023/04/2.6-1.webp"><figure><img decoding="async" width="1440" height="1081" src="https://blog.hichee.com/wp-content/uploads/2023/04/2.6-1.webp" alt="There is a king canopy bed, a sofa bed, and an ensuite bathroom." data-id="19939" data-link="https://blog.hichee.com/?attachment_id=19939" data-original-link="https://blog.hichee.com/wp-content/uploads/2023/04/2.6-1.webp" class="wp-block-getwid-images-slider__image wp-image-19939" srcset="https://blog.hichee.com/wp-content/uploads/2023/04/2.6-1.webp 1440w, https://blog.hichee.com/wp-content/uploads/2023/04/2.6-1-300x225.webp 300w, https://blog.hichee.com/wp-content/uploads/2023/04/2.6-1-1024x769.webp 1024w, https://blog.hichee.com/wp-content/uploads/2023/04/2.6-1-768x577.webp 768w" sizes="(max-width: 1440px) 100vw, 1440px" /></figure></a></div><div class="wp-block-getwid-images-slider__item"><a href="https://blog.hichee.com/wp-content/uploads/2023/04/2.7-1.webp"><figure><img decoding="async" width="1440" height="960" src="https://blog.hichee.com/wp-content/uploads/2023/04/2.7-1.webp" alt="The waves may be heard in every room and seen from practically every room." data-id="19940" data-link="https://blog.hichee.com/?attachment_id=19940" data-original-link="https://blog.hichee.com/wp-content/uploads/2023/04/2.7-1.webp" class="wp-block-getwid-images-slider__image wp-image-19940" srcset="https://blog.hichee.com/wp-content/uploads/2023/04/2.7-1.webp 1440w, https://blog.hichee.com/wp-content/uploads/2023/04/2.7-1-300x200.webp 300w, https://blog.hichee.com/wp-content/uploads/2023/04/2.7-1-1024x683.webp 1024w, https://blog.hichee.com/wp-content/uploads/2023/04/2.7-1-768x512.webp 768w, https://blog.hichee.com/wp-content/uploads/2023/04/2.7-1-1200x800.webp 1200w" sizes="(max-width: 1440px) 100vw, 1440px" /></figure></a></div></div></div>
+
+
+
+<div style="height:20px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<h3 class="wp-block-heading">What’s screams luxury louder than a deluxe covered deck that leads down to a private beach yard? </h3>
+
+
+
+<p>And there’s even more where that came from! Bella Mare, a posh waterfront home features sweeping ocean views, a stocked kitchen for your convenience and enjoyment, spacious rooms, plush down comforters, and hypoallergenic pillows, as well as a high-speed Wi-fi connection, so you are still connected while having some fun under the sun and enjoying the amenities that this lavish home has to offer.</p>
+
+
+
+<p>From the owner:<br>Bella Luxury Rentals is delighted to offer this stunning waterfront home to our sun-loving guests. The main floor consists of two bedrooms and attached bathrooms/baths, and beautiful ocean views from the kitchen, family room, and dining room &#8211; which opens to a sunny outdoor living deck.</p>
+
+
+
+<p>The downstairs floor consists of a large master suite with a private bath. It has a king canopy bed pullout sofa and sweeping ocean views. The master opens into a deluxe-covered outdoor deck leading to the private beach yard.</p>
+
+
+
+<p>The first upstairs bedroom has a queen bed, and the second has a bunk bed with a Full-over-Full configuration. The bunk bed also has a pull-out trundle. These two bedrooms are compact but have plenty of space for your belongings, hanging space for your clothes, and private bathrooms.</p>
+
+
+
+<p>The kitchen is well stocked and has everything you may require during your stay. Spices, coffee, tea, sugar, honey, non-dairy creamer, cooking oil, and vinegar are all available. And a charcoal grill, a large cooler, and ice packs are ready for your beach BBQ plans.</p>
+
+
+
+<p>The house has a high-speed WIFI modem and Eero boosters to ensure you can work, play, stream, and connect efficiently while enjoying your time at our beachside oasis.</p>
+
+
+
+<p class="has-medium-font-size"><strong>Getting The Best Deal</strong></p>
+
+
+
+<p>I first saw this property on <a href="https://www.airbnb.com/rooms/52356860?check_in=2023-08-22&amp;check_out=2023-08-30&amp;adults=4&amp;display_currency=USD¤cy=USD&amp;children=4&amp;infants=0&amp;source_impression_id=p3_1682512148_kgk5ZITabwzGmozr" target="_blank" rel="noreferrer noopener">Airbnb</a>, then checked it on HiChee to see if I could save more. This oceanfront rental can also be booked on <a href="https://www.vrbo.com/2789647?adultsCount=4&amp;arrival=2023-08-22&amp;childrenCount=4&amp;cur=USD&amp;departure=2023-08-30&amp;infantsCount=0" target="_blank" rel="noreferrer noopener">VRBO</a>, wherein I can save $3,197! </p>
+
+
+
+<figure class="wp-block-image size-full"><img decoding="async" width="1440" height="1230" src="https://blog.hichee.com/wp-content/uploads/2023/04/Copy-of-Beach-house-price-savings-1-2.gif" alt="Bella Mare" class="wp-image-19933"/></figure>
+
+
+
+<div class="wp-block-group alignwide"><div class="wp-block-group__inner-container is-layout-constrained wp-block-group-is-layout-constrained">
+<div class="wp-block-buttons alignwide is-content-justification-center is-layout-flex wp-container-core-buttons-is-layout-24 wp-block-buttons-is-layout-flex">
+<div class="wp-block-button"><a class="wp-block-button__link has-theme-palette-3-color has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background has-text-color has-background wp-element-button" href="https://hichee.com/listings/23641399?check_in=2023-08-22&amp;check_out=2023-08-30&amp;adults=4&amp;children=4" target="_blank" rel="noreferrer noopener">Check Out This Property On Hichee</a></div>
+</div>
+
+
+
+<h2 class="wp-block-heading alignwide has-text-align-center">Share This Post With Friends</h2>
+
+
+<p><center><div class="addtoany_shortcode"><div class="a2a_kit a2a_kit_size_32 addtoany_list" data-a2a-url="https://blog.hichee.com/9-most-expensive-airbnb-luxe-properties-in-the-us/" data-a2a-title="9 Most Expensive Airbnb Luxe Properties in The US"><a class="a2a_button_facebook" href="https://www.addtoany.com/add_to/facebook?linkurl=https%3A%2F%2Fblog.hichee.com%2F9-most-expensive-airbnb-luxe-properties-in-the-us%2F&amp;linkname=9%20Most%20Expensive%20Airbnb%20Luxe%20Properties%20in%20The%20US" title="Facebook" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_twitter" href="https://www.addtoany.com/add_to/twitter?linkurl=https%3A%2F%2Fblog.hichee.com%2F9-most-expensive-airbnb-luxe-properties-in-the-us%2F&amp;linkname=9%20Most%20Expensive%20Airbnb%20Luxe%20Properties%20in%20The%20US" title="Twitter" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_pinterest" href="https://www.addtoany.com/add_to/pinterest?linkurl=https%3A%2F%2Fblog.hichee.com%2F9-most-expensive-airbnb-luxe-properties-in-the-us%2F&amp;linkname=9%20Most%20Expensive%20Airbnb%20Luxe%20Properties%20in%20The%20US" title="Pinterest" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_whatsapp" href="https://www.addtoany.com/add_to/whatsapp?linkurl=https%3A%2F%2Fblog.hichee.com%2F9-most-expensive-airbnb-luxe-properties-in-the-us%2F&amp;linkname=9%20Most%20Expensive%20Airbnb%20Luxe%20Properties%20in%20The%20US" title="WhatsApp" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_email" href="https://www.addtoany.com/add_to/email?linkurl=https%3A%2F%2Fblog.hichee.com%2F9-most-expensive-airbnb-luxe-properties-in-the-us%2F&amp;linkname=9%20Most%20Expensive%20Airbnb%20Luxe%20Properties%20in%20The%20US" title="Email" rel="nofollow noopener" target="_blank"></a><a class="a2a_dd addtoany_share_save addtoany_share" href="https://www.addtoany.com/share"></a></div></div></center></p>
+</div></div>
+
+
+
+<h2 class="wp-block-heading has-text-align-center" id="Malibu-House">9 Most Expensive Airbnb Luxe Properties in The US</h2>
+
+
+
+<h2 class="wp-block-heading has-text-align-center" id="Malibu-House">3. Malibu House</h2>
+
+
+
+<p class="has-text-align-center">Location: Cleveland, Wisconsin</p>
+
+
+
+<figure class="wp-block-image size-large"><img decoding="async" width="1024" height="768" src="https://blog.hichee.com/wp-content/uploads/2023/04/3-1-1024x768.webp" alt="9 Most Expensive Airbnb Luxe Properties in The US" class="wp-image-19941" srcset="https://blog.hichee.com/wp-content/uploads/2023/04/3-1-1024x768.webp 1024w, https://blog.hichee.com/wp-content/uploads/2023/04/3-1-300x225.webp 300w, https://blog.hichee.com/wp-content/uploads/2023/04/3-1-768x576.webp 768w, https://blog.hichee.com/wp-content/uploads/2023/04/3-1.webp 1440w" sizes="(max-width: 1024px) 100vw, 1024px" /><figcaption class="wp-element-caption">Photo Credit: Airbnb</figcaption></figure>
+
+
+
+<div class="wp-block-getwid-images-slider has-arrows-inside has-dots-inside is-carousel has-slides-gap-normal has-images-center has-cropped-images"><div class="wp-block-getwid-images-slider__wrapper" data-effect="slide" data-slides-show="3" data-slides-show-laptop="3" data-slides-show-tablet="1" data-slides-show-mobile="1" data-slides-scroll="1" data-autoplay="true" data-autoplay-speed="6000" data-infinite="true" data-animation-speed="800" data-center-mode="false" data-variable-width="false" data-arrows="inside" data-dots="inside" data-spacing="normal"><div class="wp-block-getwid-images-slider__item"><a href="https://blog.hichee.com/wp-content/uploads/2023/04/3.1-1.webp"><figure><img decoding="async" width="1200" height="800" src="https://blog.hichee.com/wp-content/uploads/2023/04/3.1-1.webp" alt="Dip in the private swimming pool during hot summers" data-id="19942" data-link="https://blog.hichee.com/?attachment_id=19942" data-original-link="https://blog.hichee.com/wp-content/uploads/2023/04/3.1-1.webp" class="wp-block-getwid-images-slider__image wp-image-19942" srcset="https://blog.hichee.com/wp-content/uploads/2023/04/3.1-1.webp 1200w, https://blog.hichee.com/wp-content/uploads/2023/04/3.1-1-300x200.webp 300w, https://blog.hichee.com/wp-content/uploads/2023/04/3.1-1-1024x683.webp 1024w, https://blog.hichee.com/wp-content/uploads/2023/04/3.1-1-768x512.webp 768w" sizes="(max-width: 1200px) 100vw, 1200px" /></figure></a></div><div class="wp-block-getwid-images-slider__item"><a href="https://blog.hichee.com/wp-content/uploads/2023/04/3.2-1.webp"><figure><img decoding="async" width="1440" height="960" src="https://blog.hichee.com/wp-content/uploads/2023/04/3.2-1.webp" alt="A whole multi-tiered theater room for movie night" data-id="19943" data-link="https://blog.hichee.com/?attachment_id=19943" data-original-link="https://blog.hichee.com/wp-content/uploads/2023/04/3.2-1.webp" class="wp-block-getwid-images-slider__image wp-image-19943" srcset="https://blog.hichee.com/wp-content/uploads/2023/04/3.2-1.webp 1440w, https://blog.hichee.com/wp-content/uploads/2023/04/3.2-1-300x200.webp 300w, https://blog.hichee.com/wp-content/uploads/2023/04/3.2-1-1024x683.webp 1024w, https://blog.hichee.com/wp-content/uploads/2023/04/3.2-1-768x512.webp 768w, https://blog.hichee.com/wp-content/uploads/2023/04/3.2-1-1200x800.webp 1200w" sizes="(max-width: 1440px) 100vw, 1440px" /></figure></a></div><div class="wp-block-getwid-images-slider__item"><a href="https://blog.hichee.com/wp-content/uploads/2023/04/3.3-1.webp"><figure><img decoding="async" width="1440" height="960" src="https://blog.hichee.com/wp-content/uploads/2023/04/3.3-1.webp" alt="Top notch gaming room for fun" data-id="19944" data-link="https://blog.hichee.com/?attachment_id=19944" data-original-link="https://blog.hichee.com/wp-content/uploads/2023/04/3.3-1.webp" class="wp-block-getwid-images-slider__image wp-image-19944" srcset="https://blog.hichee.com/wp-content/uploads/2023/04/3.3-1.webp 1440w, https://blog.hichee.com/wp-content/uploads/2023/04/3.3-1-300x200.webp 300w, https://blog.hichee.com/wp-content/uploads/2023/04/3.3-1-1024x683.webp 1024w, https://blog.hichee.com/wp-content/uploads/2023/04/3.3-1-768x512.webp 768w, https://blog.hichee.com/wp-content/uploads/2023/04/3.3-1-1200x800.webp 1200w" sizes="(max-width: 1440px) 100vw, 1440px" /></figure></a></div><div class="wp-block-getwid-images-slider__item"><a href="https://blog.hichee.com/wp-content/uploads/2023/04/3.4-1.webp"><figure><img decoding="async" width="1440" height="960" src="https://blog.hichee.com/wp-content/uploads/2023/04/3.4-1.webp" alt="Spacious living space with the fireplace to relax" data-id="19945" data-link="https://blog.hichee.com/?attachment_id=19945" data-original-link="https://blog.hichee.com/wp-content/uploads/2023/04/3.4-1.webp" class="wp-block-getwid-images-slider__image wp-image-19945" srcset="https://blog.hichee.com/wp-content/uploads/2023/04/3.4-1.webp 1440w, https://blog.hichee.com/wp-content/uploads/2023/04/3.4-1-300x200.webp 300w, https://blog.hichee.com/wp-content/uploads/2023/04/3.4-1-1024x683.webp 1024w, https://blog.hichee.com/wp-content/uploads/2023/04/3.4-1-768x512.webp 768w, https://blog.hichee.com/wp-content/uploads/2023/04/3.4-1-1200x800.webp 1200w" sizes="(max-width: 1440px) 100vw, 1440px" /></figure></a></div><div class="wp-block-getwid-images-slider__item"><a href="https://blog.hichee.com/wp-content/uploads/2023/04/3.5.webp"><figure><img decoding="async" width="1440" height="960" src="https://blog.hichee.com/wp-content/uploads/2023/04/3.5.webp" alt="Gather round and have games or talks best at night." data-id="19946" data-link="https://blog.hichee.com/?attachment_id=19946" data-original-link="https://blog.hichee.com/wp-content/uploads/2023/04/3.5.webp" class="wp-block-getwid-images-slider__image wp-image-19946" srcset="https://blog.hichee.com/wp-content/uploads/2023/04/3.5.webp 1440w, https://blog.hichee.com/wp-content/uploads/2023/04/3.5-300x200.webp 300w, https://blog.hichee.com/wp-content/uploads/2023/04/3.5-1024x683.webp 1024w, https://blog.hichee.com/wp-content/uploads/2023/04/3.5-768x512.webp 768w, https://blog.hichee.com/wp-content/uploads/2023/04/3.5-1200x800.webp 1200w" sizes="(max-width: 1440px) 100vw, 1440px" /></figure></a></div><div class="wp-block-getwid-images-slider__item"><a href="https://blog.hichee.com/wp-content/uploads/2023/04/3.6.webp"><figure><img decoding="async" width="1440" height="1080" src="https://blog.hichee.com/wp-content/uploads/2023/04/3.6.webp" alt="Aside from clear water best for surfing, this place prides itself on its views." data-id="19947" data-link="https://blog.hichee.com/?attachment_id=19947" data-original-link="https://blog.hichee.com/wp-content/uploads/2023/04/3.6.webp" class="wp-block-getwid-images-slider__image wp-image-19947" srcset="https://blog.hichee.com/wp-content/uploads/2023/04/3.6.webp 1440w, https://blog.hichee.com/wp-content/uploads/2023/04/3.6-300x225.webp 300w, https://blog.hichee.com/wp-content/uploads/2023/04/3.6-1024x768.webp 1024w, https://blog.hichee.com/wp-content/uploads/2023/04/3.6-768x576.webp 768w" sizes="(max-width: 1440px) 100vw, 1440px" /></figure></a></div></div></div>
+
+
+
+<div style="height:20px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<h3 class="wp-block-heading">Feel and live like an A-list celebrity </h3>
+
+
+
+<p>with this private luxury beach home in Wisconsin! Sprawling across 7000 square feet of property, this vacation home has an indoor pool, a private movie theater, an expansive game room, and—yes, this property is a gift that keeps giving—the best access to Lake Michigan! </p>
+
+
+
+<p>This rental property also features bedroom suites with jetted soaker tubs, access to a private chef, and even a Fast and the Furious driving simulation! Staying in this vacation home is truly a one-of-a-kind experience!</p>
+
+
+
+<p>From the owner:<br>This beachfront property is just minutes from Sheboygan and Manitowoc, which offer boating, surfing, water sports, bars/restaurants, summer music, sandy beaches, and more. Just 6 minutes to Whistling Straits, a World-Renowned Golf Course. Also close to Kohler Village Resort, Elkhart Lake/Road America, and a beautiful ride just north, you will find Door County. So much to do!</p>
+
+
+
+<p>The House:</p>
+
+
+
+<p>Main floor &#8211;</p>
+
+
+
+<p>Enjoy the sunrise over the lake from your main floor master suite or unobstructed views on your wraparound deck. You&#8217;ll love cooking in your chef’s kitchen or relaxing in front of your 20ft custom fireplace. Looking for a second bedroom on the main floor? We’ve got you covered!</p>
+
+
+
+<p>Lower level –</p>
+
+
+
+<p>The lower level is where the action is at! Are you ready to laugh, play, and create lifelong memories? Walking down the steps, you are immediately surprised by an impressive game room featuring a PlayStation 5 setup, Fast and the Furious driving simulation, foosball, card table, and pinball!</p>
+
+
+
+<p>What’s next? Fire up the popcorn maker, grab your favorite movie, and relax in the top-notch private movie theater. The movie theater features 9 new chairs, a projector featuring the latest technologies, and an impressive surround sound system. Think Marcus Theater, only way better!</p>
+
+
+
+<p>Finally, we leave the BEST for last! Grab your beach towels and inflatables, then head to the massive 45-foot indoor pool (yes, you read that correctly!). Make a splash, shoot some hoops, or relax poolside while watching the big sports game on the 85” TV!</p>
+
+
+
+<p>Upper level – The second floor has yet another 3 private bedroom suites, each with jetted soaker tubs, walk-in closets, and a huge children’s room. The children’s room was designed to be a children’s paradise featuring two fort-style trundle beds, play sets, slides, books, and even a “surf shack.” Time for a sleepover!</p>
+
+
+
+<p class="has-medium-font-size"><strong>Getting The Best Deal</strong></p>
+
+
+
+<p>I can rent this property already on <a href="https://www.airbnb.com/rooms/763562772615392653?check_in=2023-08-06&amp;check_out=2023-08-13&amp;adults=6&amp;display_currency=USD¤cy=USD&amp;children=6&amp;infants=0&amp;source_impression_id=p3_1682513291_FbvZDhEHt0ipqNRq" target="_blank" rel="noreferrer noopener">Airbnb</a>. However, HiChee said it&#8217;s $797 cheaper if I book it on <a href="https://www.vrbo.com/3169176?adultsCount=6&amp;arrival=2023-08-06&amp;childrenCount=6&amp;cur=USD&amp;departure=2023-08-13&amp;infantsCount=0" target="_blank" rel="noreferrer noopener">VRBO</a>.</p>
+
+
+
+<figure class="wp-block-image size-full"><img decoding="async" width="1440" height="1230" src="https://blog.hichee.com/wp-content/uploads/2023/04/Copy-of-Beach-house-price-savings-2-1.gif" alt="Malibu House" class="wp-image-19948"/></figure>
+
+
+
+<div class="wp-block-group alignwide"><div class="wp-block-group__inner-container is-layout-constrained wp-block-group-is-layout-constrained">
+<div class="wp-block-buttons alignwide is-content-justification-center is-layout-flex wp-container-core-buttons-is-layout-25 wp-block-buttons-is-layout-flex">
+<div class="wp-block-button"><a class="wp-block-button__link has-theme-palette-3-color has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background has-text-color has-background wp-element-button" href="https://hichee.com/listings/24932532?check_in=2023-08-06&amp;check_out=2023-08-13&amp;adults=6&amp;children=6" target="_blank" rel="noreferrer noopener">Check Out This Property On Hichee</a></div>
+</div>
+
+
+
+<h2 class="wp-block-heading alignwide has-text-align-center">Share This Post With Friends</h2>
+
+
+<p><center><div class="addtoany_shortcode"><div class="a2a_kit a2a_kit_size_32 addtoany_list" data-a2a-url="https://blog.hichee.com/9-most-expensive-airbnb-luxe-properties-in-the-us/" data-a2a-title="9 Most Expensive Airbnb Luxe Properties in The US"><a class="a2a_button_facebook" href="https://www.addtoany.com/add_to/facebook?linkurl=https%3A%2F%2Fblog.hichee.com%2F9-most-expensive-airbnb-luxe-properties-in-the-us%2F&amp;linkname=9%20Most%20Expensive%20Airbnb%20Luxe%20Properties%20in%20The%20US" title="Facebook" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_twitter" href="https://www.addtoany.com/add_to/twitter?linkurl=https%3A%2F%2Fblog.hichee.com%2F9-most-expensive-airbnb-luxe-properties-in-the-us%2F&amp;linkname=9%20Most%20Expensive%20Airbnb%20Luxe%20Properties%20in%20The%20US" title="Twitter" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_pinterest" href="https://www.addtoany.com/add_to/pinterest?linkurl=https%3A%2F%2Fblog.hichee.com%2F9-most-expensive-airbnb-luxe-properties-in-the-us%2F&amp;linkname=9%20Most%20Expensive%20Airbnb%20Luxe%20Properties%20in%20The%20US" title="Pinterest" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_whatsapp" href="https://www.addtoany.com/add_to/whatsapp?linkurl=https%3A%2F%2Fblog.hichee.com%2F9-most-expensive-airbnb-luxe-properties-in-the-us%2F&amp;linkname=9%20Most%20Expensive%20Airbnb%20Luxe%20Properties%20in%20The%20US" title="WhatsApp" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_email" href="https://www.addtoany.com/add_to/email?linkurl=https%3A%2F%2Fblog.hichee.com%2F9-most-expensive-airbnb-luxe-properties-in-the-us%2F&amp;linkname=9%20Most%20Expensive%20Airbnb%20Luxe%20Properties%20in%20The%20US" title="Email" rel="nofollow noopener" target="_blank"></a><a class="a2a_dd addtoany_share_save addtoany_share" href="https://www.addtoany.com/share"></a></div></div></center></p>
+</div></div>
+
+
+
+<h2 class="wp-block-heading has-text-align-center" id="Beverly-Hills-Maison">Most Expensive Airbnb Luxe Properties in California</h2>
+
+
+
+<h2 class="wp-block-heading has-text-align-center" id="Beverly-Hills-Maison">4. Beverly Hills Maison</h2>
+
+
+
+<p class="has-text-align-center">Location: Beverly Hills, California</p>
+
+
+
+<figure class="wp-block-image size-large"><img decoding="async" width="1024" height="682" src="https://blog.hichee.com/wp-content/uploads/2023/04/4-1024x682.png" alt="9 Most Expensive Airbnb Luxe Properties in The US" class="wp-image-19960" srcset="https://blog.hichee.com/wp-content/uploads/2023/04/4-1024x682.png 1024w, https://blog.hichee.com/wp-content/uploads/2023/04/4-300x200.png 300w, https://blog.hichee.com/wp-content/uploads/2023/04/4-768x512.png 768w, https://blog.hichee.com/wp-content/uploads/2023/04/4-1200x800.png 1200w, https://blog.hichee.com/wp-content/uploads/2023/04/4.png 1232w" sizes="(max-width: 1024px) 100vw, 1024px" /><figcaption class="wp-element-caption">Photo Credit: VRBO</figcaption></figure>
+
+
+
+<div class="wp-block-getwid-images-slider has-arrows-inside has-dots-inside is-carousel has-slides-gap-normal has-images-center has-cropped-images"><div class="wp-block-getwid-images-slider__wrapper" data-effect="slide" data-slides-show="3" data-slides-show-laptop="3" data-slides-show-tablet="2" data-slides-show-mobile="1" data-slides-scroll="1" data-autoplay="true" data-autoplay-speed="6000" data-infinite="true" data-animation-speed="800" data-center-mode="false" data-variable-width="false" data-arrows="inside" data-dots="inside" data-spacing="normal"><div class="wp-block-getwid-images-slider__item"><a href="https://blog.hichee.com/wp-content/uploads/2023/04/4.1.webp"><figure><img decoding="async" width="1024" height="683" src="https://blog.hichee.com/wp-content/uploads/2023/04/4.1.webp" alt="This picturesque French-style Chateau in Beverly Hills, California, has an expansive road leading up to it." data-id="19961" data-link="https://blog.hichee.com/?attachment_id=19961" data-original-link="https://blog.hichee.com/wp-content/uploads/2023/04/4.1.webp" class="wp-block-getwid-images-slider__image wp-image-19961" srcset="https://blog.hichee.com/wp-content/uploads/2023/04/4.1.webp 1024w, https://blog.hichee.com/wp-content/uploads/2023/04/4.1-300x200.webp 300w, https://blog.hichee.com/wp-content/uploads/2023/04/4.1-768x512.webp 768w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure></a></div><div class="wp-block-getwid-images-slider__item"><a href="https://blog.hichee.com/wp-content/uploads/2023/04/4.2.png"><figure><img decoding="async" width="1227" height="818" src="https://blog.hichee.com/wp-content/uploads/2023/04/4.2.png" alt="This stunning Chateau's backyard features lush California foliage, a zero-edge pool, and a patio area." data-id="19962" data-link="https://blog.hichee.com/?attachment_id=19962" data-original-link="https://blog.hichee.com/wp-content/uploads/2023/04/4.2.png" class="wp-block-getwid-images-slider__image wp-image-19962" srcset="https://blog.hichee.com/wp-content/uploads/2023/04/4.2.png 1227w, https://blog.hichee.com/wp-content/uploads/2023/04/4.2-300x200.png 300w, https://blog.hichee.com/wp-content/uploads/2023/04/4.2-1024x683.png 1024w, https://blog.hichee.com/wp-content/uploads/2023/04/4.2-768x512.png 768w, https://blog.hichee.com/wp-content/uploads/2023/04/4.2-1200x800.png 1200w" sizes="(max-width: 1227px) 100vw, 1227px" /></figure></a></div><div class="wp-block-getwid-images-slider__item"><a href="https://blog.hichee.com/wp-content/uploads/2023/04/4.3.webp"><figure><img decoding="async" width="1024" height="767" src="https://blog.hichee.com/wp-content/uploads/2023/04/4.3.webp" alt="Pool with zero edge, sun deck, and jacuzzi, as well as a sunbathing lounge overlooking Beverly Hills." data-id="19963" data-link="https://blog.hichee.com/?attachment_id=19963" data-original-link="https://blog.hichee.com/wp-content/uploads/2023/04/4.3.webp" class="wp-block-getwid-images-slider__image wp-image-19963" srcset="https://blog.hichee.com/wp-content/uploads/2023/04/4.3.webp 1024w, https://blog.hichee.com/wp-content/uploads/2023/04/4.3-300x225.webp 300w, https://blog.hichee.com/wp-content/uploads/2023/04/4.3-768x575.webp 768w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure></a></div><div class="wp-block-getwid-images-slider__item"><a href="https://blog.hichee.com/wp-content/uploads/2023/04/4.4.webp"><figure><img decoding="async" width="1024" height="683" src="https://blog.hichee.com/wp-content/uploads/2023/04/4.4.webp" alt="Modern, state-of-the-art kitchen with Wolf appliances." data-id="19964" data-link="https://blog.hichee.com/?attachment_id=19964" data-original-link="https://blog.hichee.com/wp-content/uploads/2023/04/4.4.webp" class="wp-block-getwid-images-slider__image wp-image-19964" srcset="https://blog.hichee.com/wp-content/uploads/2023/04/4.4.webp 1024w, https://blog.hichee.com/wp-content/uploads/2023/04/4.4-300x200.webp 300w, https://blog.hichee.com/wp-content/uploads/2023/04/4.4-768x512.webp 768w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure></a></div><div class="wp-block-getwid-images-slider__item"><a href="https://blog.hichee.com/wp-content/uploads/2023/04/4.5.png"><figure><img decoding="async" width="1227" height="816" src="https://blog.hichee.com/wp-content/uploads/2023/04/4.5.png" alt="This Beverly Hills dinette is ideal for a nice dinner or a view discussion!" data-id="19965" data-link="https://blog.hichee.com/?attachment_id=19965" data-original-link="https://blog.hichee.com/wp-content/uploads/2023/04/4.5.png" class="wp-block-getwid-images-slider__image wp-image-19965" srcset="https://blog.hichee.com/wp-content/uploads/2023/04/4.5.png 1227w, https://blog.hichee.com/wp-content/uploads/2023/04/4.5-300x200.png 300w, https://blog.hichee.com/wp-content/uploads/2023/04/4.5-1024x681.png 1024w, https://blog.hichee.com/wp-content/uploads/2023/04/4.5-768x511.png 768w" sizes="(max-width: 1227px) 100vw, 1227px" /></figure></a></div><div class="wp-block-getwid-images-slider__item"><a href="https://blog.hichee.com/wp-content/uploads/2023/04/4.6.png"><figure><img decoding="async" width="1227" height="818" src="https://blog.hichee.com/wp-content/uploads/2023/04/4.6.png" alt="Beautiful hardwood flooring and artwork combine to create an imaginative retreat." data-id="19966" data-link="https://blog.hichee.com/?attachment_id=19966" data-original-link="https://blog.hichee.com/wp-content/uploads/2023/04/4.6.png" class="wp-block-getwid-images-slider__image wp-image-19966" srcset="https://blog.hichee.com/wp-content/uploads/2023/04/4.6.png 1227w, https://blog.hichee.com/wp-content/uploads/2023/04/4.6-300x200.png 300w, https://blog.hichee.com/wp-content/uploads/2023/04/4.6-1024x683.png 1024w, https://blog.hichee.com/wp-content/uploads/2023/04/4.6-768x512.png 768w, https://blog.hichee.com/wp-content/uploads/2023/04/4.6-1200x800.png 1200w" sizes="(max-width: 1227px) 100vw, 1227px" /></figure></a></div></div></div>
+
+
+
+<div style="height:20px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<h3 class="wp-block-heading">“Luxury” just reached a new level </h3>
+
+
+
+<p>with this stunning, gated French country chateau-inspired home that sits on nearly 2 acres of land, boasts breathtaking canyon views, and offers convenient access to Beverly Hills and the Valley. </p>
+
+
+
+<p>The lavish 5-bedroom estate features a master ensuite with a smart TV, fireplace, lounge area, king-size bed, walk-in closet, bathtub, and his and her sinks. The property likewise features a fully-equipped theater, a large indoor gym for those #gains, a spectacular dining room, and a luxurious pool to complete the boujee experience.</p>
+
+
+
+<p>From the owner:<br>A private, gated French country chateau-inspired home sits at the end of a cul de sac on nearly 2 acres of land surrounded by stately trees, mature landscaping, and verdant canyon views. Beautifully living room with fireplace, formal dining room, large kitchen, and light-filled breakfast area. There are spectacular canyon views from every room and nearby access to Beverly Hills and the valley. It has an expansive backyard and pool area.</p>
+
+
+
+<p class="has-medium-font-size"><strong>Getting The Best Deal</strong></p>
+
+
+
+<p>This luxury rental is available on both <a href="https://www.airbnb.com/rooms/47354666?check_in=2023-06-22&amp;check_out=2023-06-29&amp;adults=6&amp;display_currency=USD¤cy=USD&amp;children=6&amp;infants=0&amp;source_impression_id=p3_1682514936_1S90Pd8sPA6f8wGM" target="_blank" rel="noreferrer noopener">Airbnb</a> and <a href="https://www.vrbo.com/9569066ha?adultsCount=6&amp;arrival=2023-06-22&amp;childrenCount=6&amp;cur=USD&amp;departure=2023-06-29&amp;infantsCount=0" target="_blank" rel="noreferrer noopener">VRBO</a>. But thanks to HiChee, I can already see that I can save $1,833 through <a href="https://www.vrbo.com/9569066ha?adultsCount=6&amp;arrival=2023-06-22&amp;childrenCount=6&amp;cur=USD&amp;departure=2023-06-29&amp;infantsCount=0" target="_blank" rel="noreferrer noopener">VRBO</a>.</p>
+
+
+
+<figure class="wp-block-image size-full"><img decoding="async" width="1440" height="1230" src="https://blog.hichee.com/wp-content/uploads/2023/04/Copy-of-Beach-house-price-savings-3-1.gif" alt="Beverly Hills Maison" class="wp-image-19959"/></figure>
+
+
+
+<div class="wp-block-group alignwide"><div class="wp-block-group__inner-container is-layout-constrained wp-block-group-is-layout-constrained">
+<div class="wp-block-buttons alignwide is-content-justification-center is-layout-flex wp-container-core-buttons-is-layout-26 wp-block-buttons-is-layout-flex">
+<div class="wp-block-button"><a class="wp-block-button__link has-theme-palette-3-color has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background has-text-color has-background wp-element-button" href="https://hichee.com/listings/2810393?check_in=2023-06-22&amp;check_out=2023-06-29&amp;adults=6&amp;children=6" target="_blank" rel="noreferrer noopener">Check Out This Property On Hichee</a></div>
+</div>
+
+
+
+<h2 class="wp-block-heading alignwide has-text-align-center">Share This Post With Friends</h2>
+
+
+<p><center><div class="addtoany_shortcode"><div class="a2a_kit a2a_kit_size_32 addtoany_list" data-a2a-url="https://blog.hichee.com/9-most-expensive-airbnb-luxe-properties-in-the-us/" data-a2a-title="9 Most Expensive Airbnb Luxe Properties in The US"><a class="a2a_button_facebook" href="https://www.addtoany.com/add_to/facebook?linkurl=https%3A%2F%2Fblog.hichee.com%2F9-most-expensive-airbnb-luxe-properties-in-the-us%2F&amp;linkname=9%20Most%20Expensive%20Airbnb%20Luxe%20Properties%20in%20The%20US" title="Facebook" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_twitter" href="https://www.addtoany.com/add_to/twitter?linkurl=https%3A%2F%2Fblog.hichee.com%2F9-most-expensive-airbnb-luxe-properties-in-the-us%2F&amp;linkname=9%20Most%20Expensive%20Airbnb%20Luxe%20Properties%20in%20The%20US" title="Twitter" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_pinterest" href="https://www.addtoany.com/add_to/pinterest?linkurl=https%3A%2F%2Fblog.hichee.com%2F9-most-expensive-airbnb-luxe-properties-in-the-us%2F&amp;linkname=9%20Most%20Expensive%20Airbnb%20Luxe%20Properties%20in%20The%20US" title="Pinterest" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_whatsapp" href="https://www.addtoany.com/add_to/whatsapp?linkurl=https%3A%2F%2Fblog.hichee.com%2F9-most-expensive-airbnb-luxe-properties-in-the-us%2F&amp;linkname=9%20Most%20Expensive%20Airbnb%20Luxe%20Properties%20in%20The%20US" title="WhatsApp" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_email" href="https://www.addtoany.com/add_to/email?linkurl=https%3A%2F%2Fblog.hichee.com%2F9-most-expensive-airbnb-luxe-properties-in-the-us%2F&amp;linkname=9%20Most%20Expensive%20Airbnb%20Luxe%20Properties%20in%20The%20US" title="Email" rel="nofollow noopener" target="_blank"></a><a class="a2a_dd addtoany_share_save addtoany_share" href="https://www.addtoany.com/share"></a></div></div></center></p>
+</div></div>
+
+
+
+<h2 class="wp-block-heading has-text-align-center" id="Alta-Lake-Chalet">Most Expensive Airbnb Luxe Properties in Arizona</h2>
+
+
+
+<h2 class="wp-block-heading has-text-align-center" id="Quiet-Pines-Retreat">5. Quiet Pines Retreat</h2>
+
+
+
+<p class="has-text-align-center">Location: Prescott, Arizona</p>
+
+
+
+<figure class="wp-block-image size-large"><img decoding="async" width="1024" height="897" src="https://blog.hichee.com/wp-content/uploads/2023/05/5-1024x897.webp" alt="Welcome to Quiet Pines Retreat" class="wp-image-21473" srcset="https://blog.hichee.com/wp-content/uploads/2023/05/5-1024x897.webp 1024w, https://blog.hichee.com/wp-content/uploads/2023/05/5-300x263.webp 300w, https://blog.hichee.com/wp-content/uploads/2023/05/5-768x673.webp 768w, https://blog.hichee.com/wp-content/uploads/2023/05/5.webp 1200w" sizes="(max-width: 1024px) 100vw, 1024px" /><figcaption class="wp-element-caption">Photo Credit: Airbnb</figcaption></figure>
+
+
+
+<div class="wp-block-getwid-images-slider has-arrows-inside has-dots-inside is-carousel has-slides-gap-normal has-images-center has-cropped-images"><div class="wp-block-getwid-images-slider__wrapper" data-effect="slide" data-slides-show="3" data-slides-show-laptop="3" data-slides-show-tablet="2" data-slides-show-mobile="1" data-slides-scroll="1" data-autoplay="true" data-autoplay-speed="6000" data-infinite="true" data-animation-speed="800" data-center-mode="false" data-variable-width="false" data-arrows="inside" data-dots="inside" data-spacing="normal"><div class="wp-block-getwid-images-slider__item"><a href="https://blog.hichee.com/wp-content/uploads/2023/05/5.1.webp"><figure><img decoding="async" width="1440" height="1080" src="https://blog.hichee.com/wp-content/uploads/2023/05/5.1.webp" data-id="21475" data-link="https://blog.hichee.com/?attachment_id=21475" data-original-link="https://blog.hichee.com/wp-content/uploads/2023/05/5.1.webp" class="wp-block-getwid-images-slider__image wp-image-21475" srcset="https://blog.hichee.com/wp-content/uploads/2023/05/5.1.webp 1440w, https://blog.hichee.com/wp-content/uploads/2023/05/5.1-300x225.webp 300w, https://blog.hichee.com/wp-content/uploads/2023/05/5.1-1024x768.webp 1024w, https://blog.hichee.com/wp-content/uploads/2023/05/5.1-768x576.webp 768w" sizes="(max-width: 1440px) 100vw, 1440px" /></figure></a></div><div class="wp-block-getwid-images-slider__item"><a href="https://blog.hichee.com/wp-content/uploads/2023/05/5.2.webp"><figure><img decoding="async" width="1440" height="960" src="https://blog.hichee.com/wp-content/uploads/2023/05/5.2.webp" data-id="21476" data-link="https://blog.hichee.com/?attachment_id=21476" data-original-link="https://blog.hichee.com/wp-content/uploads/2023/05/5.2.webp" class="wp-block-getwid-images-slider__image wp-image-21476" srcset="https://blog.hichee.com/wp-content/uploads/2023/05/5.2.webp 1440w, https://blog.hichee.com/wp-content/uploads/2023/05/5.2-300x200.webp 300w, https://blog.hichee.com/wp-content/uploads/2023/05/5.2-1024x683.webp 1024w, https://blog.hichee.com/wp-content/uploads/2023/05/5.2-768x512.webp 768w, https://blog.hichee.com/wp-content/uploads/2023/05/5.2-1200x800.webp 1200w" sizes="(max-width: 1440px) 100vw, 1440px" /></figure></a></div><div class="wp-block-getwid-images-slider__item"><a href="https://blog.hichee.com/wp-content/uploads/2023/05/5.3.webp"><figure><img decoding="async" width="1440" height="960" src="https://blog.hichee.com/wp-content/uploads/2023/05/5.3.webp" data-id="21477" data-link="https://blog.hichee.com/?attachment_id=21477" data-original-link="https://blog.hichee.com/wp-content/uploads/2023/05/5.3.webp" class="wp-block-getwid-images-slider__image wp-image-21477" srcset="https://blog.hichee.com/wp-content/uploads/2023/05/5.3.webp 1440w, https://blog.hichee.com/wp-content/uploads/2023/05/5.3-300x200.webp 300w, https://blog.hichee.com/wp-content/uploads/2023/05/5.3-1024x683.webp 1024w, https://blog.hichee.com/wp-content/uploads/2023/05/5.3-768x512.webp 768w, https://blog.hichee.com/wp-content/uploads/2023/05/5.3-1200x800.webp 1200w" sizes="(max-width: 1440px) 100vw, 1440px" /></figure></a></div><div class="wp-block-getwid-images-slider__item"><a href="https://blog.hichee.com/wp-content/uploads/2023/05/5.4.webp"><figure><img decoding="async" width="1440" height="960" src="https://blog.hichee.com/wp-content/uploads/2023/05/5.4.webp" data-id="21478" data-link="https://blog.hichee.com/?attachment_id=21478" data-original-link="https://blog.hichee.com/wp-content/uploads/2023/05/5.4.webp" class="wp-block-getwid-images-slider__image wp-image-21478" srcset="https://blog.hichee.com/wp-content/uploads/2023/05/5.4.webp 1440w, https://blog.hichee.com/wp-content/uploads/2023/05/5.4-300x200.webp 300w, https://blog.hichee.com/wp-content/uploads/2023/05/5.4-1024x683.webp 1024w, https://blog.hichee.com/wp-content/uploads/2023/05/5.4-768x512.webp 768w, https://blog.hichee.com/wp-content/uploads/2023/05/5.4-1200x800.webp 1200w" sizes="(max-width: 1440px) 100vw, 1440px" /></figure></a></div><div class="wp-block-getwid-images-slider__item"><a href="https://blog.hichee.com/wp-content/uploads/2023/05/5.5.webp"><figure><img decoding="async" width="1440" height="960" src="https://blog.hichee.com/wp-content/uploads/2023/05/5.5.webp" data-id="21479" data-link="https://blog.hichee.com/?attachment_id=21479" data-original-link="https://blog.hichee.com/wp-content/uploads/2023/05/5.5.webp" class="wp-block-getwid-images-slider__image wp-image-21479" srcset="https://blog.hichee.com/wp-content/uploads/2023/05/5.5.webp 1440w, https://blog.hichee.com/wp-content/uploads/2023/05/5.5-300x200.webp 300w, https://blog.hichee.com/wp-content/uploads/2023/05/5.5-1024x683.webp 1024w, https://blog.hichee.com/wp-content/uploads/2023/05/5.5-768x512.webp 768w, https://blog.hichee.com/wp-content/uploads/2023/05/5.5-1200x800.webp 1200w" sizes="(max-width: 1440px) 100vw, 1440px" /></figure></a></div></div></div>
+
+
+
+<div style="height:20px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<p>Nestled in the heart of the mountains, this chic cabin redefines traditional charm with a twist of minimalist contemporary vibes. With the private spa oasis featuring a sauna and hot tub – the perfect spot to unwind and recharge, it’s a challenge not to be blown away by this property’s luxurious amenities. The majestic vaulted ceilings create an airy ambiance, while the fully-equipped kitchen has everything you need to create a culinary masterpiece. It also features Smart TVs in every room, a movie theater, and a backyard for gatherings and BBQs.</p>
+
+
+
+<p>From the owner:<br>As soon as you enter the stunning three-floor getaway, you&#8217;re welcomed by a stylish yet highly comfortable open-concept living area. It is designed and furnished with numerous contemporary amenities that span throughout the entire interior of this magical cabin in the beautiful city of Prescott, AZ.</p>
+
+
+
+<p>The fully equipped kitchen and inviting dining area open onto the relaxing living room with the intimate fireplace, setting the stage for many memorable evenings. Sun shines through large windows throughout the day, making the entire space bright and warm, enhancing the soothing ambiance under the majestic cathedral ceilings.</p>
+
+
+
+<p>Once you are ready to rest and relax, retreat to five cozy bedrooms to recharge after an exciting day of outdoor adventures and sightseeing.</p>
+
+
+
+<p>But wait! The best is yet to come – step out onto the outdoor deck to catch a breath of fresh mountain air and marvel at the breathtaking views from the luxurious hot tub. The covered back patio opens to the fully fenced backyard with a dreamy fire pit, offering a fantastic setting for outdoor relaxation and activities.</p>
+
+
+
+<p>When you’ve had enough of the great outdoors, come to the game loft and have hours of fun playing foosball, board games, roulette, and poker.</p>
+
+
+
+<p>The spectacular cabin also features a theatre room and the designated office space.</p>
+
+
+
+<p>There are numerous options, and we can’t wait for you to experience them all!</p>
+
+
+
+<p class="has-medium-font-size"><strong>Getting The Best Deal</strong></p>
+
+
+
+<p>I can save $1,676 through <a href="https://www.vrbo.com/3051644?adultsCount=8&amp;arrival=2023-09-13&amp;childrenCount=8&amp;cur=USD&amp;departure=2023-09-22&amp;infantsCount=0" target="_blank" rel="noreferrer noopener">VRBO</a> than by booking it on <a href="https://www.airbnb.com/rooms/734136588867847427?adults=1&amp;category_tag=Tag%3A5348&amp;children=0&amp;enable_m3_private_room=false&amp;infants=0&amp;pets=0&amp;search_mode=flex_destinations_search&amp;check_in=2023-06-11&amp;check_out=2023-06-16&amp;federated_search_id=fb218d0e-33e6-4455-a8dc-2f609f2bc6d0&amp;source_impression_id=p3_1682998441_LVyvhvCzn6hTiTRN" target="_blank" rel="noreferrer noopener">Airbnb</a>. What a deal!</p>
+
+
+
+<figure class="wp-block-image size-full"><img decoding="async" width="1440" height="1230" src="https://blog.hichee.com/wp-content/uploads/2023/05/Copy-of-Beach-house-price-savings-32.gif" alt="Quiet Pines Retreat" class="wp-image-21474"/></figure>
+
+
+
+<div class="wp-block-group alignwide"><div class="wp-block-group__inner-container is-layout-constrained wp-block-group-is-layout-constrained">
+<div class="wp-block-buttons alignwide is-content-justification-center is-layout-flex wp-container-core-buttons-is-layout-27 wp-block-buttons-is-layout-flex">
+<div class="wp-block-button"><a class="wp-block-button__link has-theme-palette-3-color has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background has-text-color has-background wp-element-button" href="https://hichee.com/listings/24953341?check_in=2023-09-13&amp;check_out=2023-09-22&amp;adults=8&amp;children=8" target="_blank" rel="noreferrer noopener">Check Out This Property On Hichee</a></div>
+</div>
+
+
+
+<h2 class="wp-block-heading alignwide has-text-align-center">Share This Post With Friends</h2>
+
+
+<p><center><div class="addtoany_shortcode"><div class="a2a_kit a2a_kit_size_32 addtoany_list" data-a2a-url="https://blog.hichee.com/9-most-expensive-airbnb-luxe-properties-in-the-us/" data-a2a-title="9 Most Expensive Airbnb Luxe Properties in The US"><a class="a2a_button_facebook" href="https://www.addtoany.com/add_to/facebook?linkurl=https%3A%2F%2Fblog.hichee.com%2F9-most-expensive-airbnb-luxe-properties-in-the-us%2F&amp;linkname=9%20Most%20Expensive%20Airbnb%20Luxe%20Properties%20in%20The%20US" title="Facebook" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_twitter" href="https://www.addtoany.com/add_to/twitter?linkurl=https%3A%2F%2Fblog.hichee.com%2F9-most-expensive-airbnb-luxe-properties-in-the-us%2F&amp;linkname=9%20Most%20Expensive%20Airbnb%20Luxe%20Properties%20in%20The%20US" title="Twitter" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_pinterest" href="https://www.addtoany.com/add_to/pinterest?linkurl=https%3A%2F%2Fblog.hichee.com%2F9-most-expensive-airbnb-luxe-properties-in-the-us%2F&amp;linkname=9%20Most%20Expensive%20Airbnb%20Luxe%20Properties%20in%20The%20US" title="Pinterest" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_whatsapp" href="https://www.addtoany.com/add_to/whatsapp?linkurl=https%3A%2F%2Fblog.hichee.com%2F9-most-expensive-airbnb-luxe-properties-in-the-us%2F&amp;linkname=9%20Most%20Expensive%20Airbnb%20Luxe%20Properties%20in%20The%20US" title="WhatsApp" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_email" href="https://www.addtoany.com/add_to/email?linkurl=https%3A%2F%2Fblog.hichee.com%2F9-most-expensive-airbnb-luxe-properties-in-the-us%2F&amp;linkname=9%20Most%20Expensive%20Airbnb%20Luxe%20Properties%20in%20The%20US" title="Email" rel="nofollow noopener" target="_blank"></a><a class="a2a_dd addtoany_share_save addtoany_share" href="https://www.addtoany.com/share"></a></div></div></center></p>
+</div></div>
+
+
+
+<h2 class="wp-block-heading has-text-align-center" id="Del-Mar-Villa">9 Most Expensive Airbnb Luxe Properties in The US</h2>
+
+
+
+<h2 class="wp-block-heading has-text-align-center" id="Del-Mar-Villa">6. Del Mar Villa</h2>
+
+
+
+<p class="has-text-align-center">Location: Dundee, Oregon</p>
+
+
+
+<figure class="wp-block-image size-full"><img decoding="async" width="1024" height="606" src="https://blog.hichee.com/wp-content/uploads/2023/04/6.1.webp" alt="9 Most Expensive Airbnb Luxe Properties in The US" class="wp-image-20301" srcset="https://blog.hichee.com/wp-content/uploads/2023/04/6.1.webp 1024w, https://blog.hichee.com/wp-content/uploads/2023/04/6.1-300x178.webp 300w, https://blog.hichee.com/wp-content/uploads/2023/04/6.1-768x455.webp 768w, https://blog.hichee.com/wp-content/uploads/2023/04/6.1-540x320.webp 540w" sizes="(max-width: 1024px) 100vw, 1024px" /><figcaption class="wp-element-caption">Photo Credit: VRBO</figcaption></figure>
+
+
+
+<div class="wp-block-getwid-images-slider has-arrows-inside has-dots-inside is-carousel has-slides-gap-normal has-images-center has-cropped-images"><div class="wp-block-getwid-images-slider__wrapper" data-effect="slide" data-slides-show="3" data-slides-show-laptop="3" data-slides-show-tablet="2" data-slides-show-mobile="1" data-slides-scroll="1" data-autoplay="true" data-autoplay-speed="6000" data-infinite="true" data-animation-speed="800" data-center-mode="false" data-variable-width="false" data-arrows="inside" data-dots="inside" data-spacing="normal"><div class="wp-block-getwid-images-slider__item"><a href="https://blog.hichee.com/wp-content/uploads/2023/04/6.2.webp"><figure><img decoding="async" width="1024" height="606" src="https://blog.hichee.com/wp-content/uploads/2023/04/6.2.webp" alt="A 26,000+ square foot luxury 'Italian Chateau inspired' Villa on 46 acres in Oregon Wine Country" data-id="20302" data-link="https://blog.hichee.com/?attachment_id=20302" data-original-link="https://blog.hichee.com/wp-content/uploads/2023/04/6.2.webp" class="wp-block-getwid-images-slider__image wp-image-20302" srcset="https://blog.hichee.com/wp-content/uploads/2023/04/6.2.webp 1024w, https://blog.hichee.com/wp-content/uploads/2023/04/6.2-300x178.webp 300w, https://blog.hichee.com/wp-content/uploads/2023/04/6.2-768x455.webp 768w, https://blog.hichee.com/wp-content/uploads/2023/04/6.2-540x320.webp 540w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure></a></div><div class="wp-block-getwid-images-slider__item"><a href="https://blog.hichee.com/wp-content/uploads/2023/04/6.1.webp"><figure><img decoding="async" width="1024" height="606" src="https://blog.hichee.com/wp-content/uploads/2023/04/6.1.webp" alt="Del Mar Villa has acres of well-kept lawn, patio areas, sports fields, walking trails, an arbor, and much more." data-id="20301" data-link="https://blog.hichee.com/?attachment_id=20301" data-original-link="https://blog.hichee.com/wp-content/uploads/2023/04/6.1.webp" class="wp-block-getwid-images-slider__image wp-image-20301" srcset="https://blog.hichee.com/wp-content/uploads/2023/04/6.1.webp 1024w, https://blog.hichee.com/wp-content/uploads/2023/04/6.1-300x178.webp 300w, https://blog.hichee.com/wp-content/uploads/2023/04/6.1-768x455.webp 768w, https://blog.hichee.com/wp-content/uploads/2023/04/6.1-540x320.webp 540w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure></a></div><div class="wp-block-getwid-images-slider__item"><a href="https://blog.hichee.com/wp-content/uploads/2023/04/6.3.webp"><figure><img decoding="async" width="1024" height="680" src="https://blog.hichee.com/wp-content/uploads/2023/04/6.3.webp" alt="Perfectly mowed lawn" data-id="20006" data-link="https://blog.hichee.com/?attachment_id=20006" data-original-link="https://blog.hichee.com/wp-content/uploads/2023/04/6.3.webp" class="wp-block-getwid-images-slider__image wp-image-20006" srcset="https://blog.hichee.com/wp-content/uploads/2023/04/6.3.webp 1024w, https://blog.hichee.com/wp-content/uploads/2023/04/6.3-300x199.webp 300w, https://blog.hichee.com/wp-content/uploads/2023/04/6.3-768x510.webp 768w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure></a></div><div class="wp-block-getwid-images-slider__item"><a href="https://blog.hichee.com/wp-content/uploads/2023/04/6.4-1.webp"><figure><img decoding="async" width="1024" height="682" src="https://blog.hichee.com/wp-content/uploads/2023/04/6.4-1.webp" alt="Our Villa provides the ideal combination of meeting areas and quiet spaces for groups!" data-id="20007" data-link="https://blog.hichee.com/?attachment_id=20007" data-original-link="https://blog.hichee.com/wp-content/uploads/2023/04/6.4-1.webp" class="wp-block-getwid-images-slider__image wp-image-20007" srcset="https://blog.hichee.com/wp-content/uploads/2023/04/6.4-1.webp 1024w, https://blog.hichee.com/wp-content/uploads/2023/04/6.4-1-300x200.webp 300w, https://blog.hichee.com/wp-content/uploads/2023/04/6.4-1-768x512.webp 768w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure></a></div><div class="wp-block-getwid-images-slider__item"><a href="https://blog.hichee.com/wp-content/uploads/2023/04/6.5.webp"><figure><img decoding="async" width="1024" height="682" src="https://blog.hichee.com/wp-content/uploads/2023/04/6.5.webp" alt="One large formal indoor/outdoor living room with comfortable couches and a fireplace." data-id="20008" data-link="https://blog.hichee.com/?attachment_id=20008" data-original-link="https://blog.hichee.com/wp-content/uploads/2023/04/6.5.webp" class="wp-block-getwid-images-slider__image wp-image-20008" srcset="https://blog.hichee.com/wp-content/uploads/2023/04/6.5.webp 1024w, https://blog.hichee.com/wp-content/uploads/2023/04/6.5-300x200.webp 300w, https://blog.hichee.com/wp-content/uploads/2023/04/6.5-768x512.webp 768w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure></a></div><div class="wp-block-getwid-images-slider__item"><a href="https://blog.hichee.com/wp-content/uploads/2023/04/6.6.webp"><figure><img decoding="async" width="1024" height="674" src="https://blog.hichee.com/wp-content/uploads/2023/04/6.6.webp" alt="Our formal dining area accommodates 24 people across two large formal tables." data-id="20009" data-link="https://blog.hichee.com/?attachment_id=20009" data-original-link="https://blog.hichee.com/wp-content/uploads/2023/04/6.6.webp" class="wp-block-getwid-images-slider__image wp-image-20009" srcset="https://blog.hichee.com/wp-content/uploads/2023/04/6.6.webp 1024w, https://blog.hichee.com/wp-content/uploads/2023/04/6.6-300x197.webp 300w, https://blog.hichee.com/wp-content/uploads/2023/04/6.6-768x506.webp 768w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure></a></div><div class="wp-block-getwid-images-slider__item"><a href="https://blog.hichee.com/wp-content/uploads/2023/04/6.7.webp"><figure><img decoding="async" width="1024" height="682" src="https://blog.hichee.com/wp-content/uploads/2023/04/6.7.webp" alt="The kitchen is fully equipped with cookware, plates, and serving goods to accommodate 30+ guests." data-id="20010" data-link="https://blog.hichee.com/?attachment_id=20010" data-original-link="https://blog.hichee.com/wp-content/uploads/2023/04/6.7.webp" class="wp-block-getwid-images-slider__image wp-image-20010" srcset="https://blog.hichee.com/wp-content/uploads/2023/04/6.7.webp 1024w, https://blog.hichee.com/wp-content/uploads/2023/04/6.7-300x200.webp 300w, https://blog.hichee.com/wp-content/uploads/2023/04/6.7-768x512.webp 768w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure></a></div></div></div>
+
+
+
+<div style="height:20px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<h3 class="wp-block-heading">Sitting at the heart of Oregon’s Wine Country, </h3>
+
+
+
+<p>the breathtaking Del Mar Villa is a ritzy Italian Chateau-inspired retreat that&#8217;ll sweep you off your feet. Sprawled across 46 acres of land, this 26,000 sq ft villa is a stone&#8217;s throw away from Portland and surrounded by charming hazelnut and blueberry groves. </p>
+
+
+
+<p>This Go Big or Go Home property boasts 11 luxurious bedrooms with swanky bathrooms. Its kitchen has top-of-the-line appliances for feasts fit for a king (or queen). It also features classy, manicured lawns and access to more than 200 tasting rooms and wineries. Whether you’re a wine aficionado or just a fan of the finer things in life, this property will make you feel like a home away from home.</p>
+
+
+
+<p>From the owner:<br>Welcome to Del Mar Villa, a 26,000+ sq ft luxury ‘Italian Chateau-inspired Villa on 46 acres in the heart of Oregon Wine County (less than 1 hour southwest of Portland, Oregon). Sprawling out behind hundreds of acres of hazelnut and blueberry groves, Del Mar Villa has an impeccably maintained lawn, patio areas, sports courts, walking paths, an arbor, and much more. Perched above the Willamette River, the Villa features 11 bedrooms (8 luxury suites and a 3-bedroom family suite), 10+ bathrooms, private and gathering spaces, a ballroom, a chefs’ kitchen, 3 kitchenettes, a pool table with entertainment area, 3+ dining spaces, and endless outdoor spaces!</p>
+
+
+
+<p class="has-medium-font-size"><strong>Getting The Best Deal</strong></p>
+
+
+
+<p>This property is listed on <a href="https://www.airbnb.com/rooms/51850601?check_in=2023-06-23&amp;check_out=2023-06-30&amp;adults=8&amp;display_currency=USD¤cy=USD&amp;children=8&amp;infants=0&amp;source_impression_id=p3_1682522089_FvnbxSAKJHvMryAf" target="_blank" rel="noreferrer noopener">Airbnb</a> and <a href="https://www.vrbo.com/2219047?adultsCount=8&amp;arrival=2023-06-23&amp;childrenCount=8&amp;cur=USD&amp;departure=2023-06-30&amp;infantsCount=0" target="_blank" rel="noreferrer noopener">VRBO</a>, as seen on HiChee. Through booking on VRBO, I can save as much as $5,618.</p>
+
+
+
+<figure class="wp-block-image size-full"><img decoding="async" width="1440" height="1230" src="https://blog.hichee.com/wp-content/uploads/2023/04/Copy-of-Beach-house-price-savings-7-1.gif" alt="Del Mar Villa" class="wp-image-20004"/></figure>
+
+
+
+<div class="wp-block-group alignwide"><div class="wp-block-group__inner-container is-layout-constrained wp-block-group-is-layout-constrained">
+<div class="wp-block-buttons alignwide is-content-justification-center is-layout-flex wp-container-core-buttons-is-layout-28 wp-block-buttons-is-layout-flex">
+<div class="wp-block-button"><a class="wp-block-button__link has-theme-palette-3-color has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background has-text-color has-background wp-element-button" href="https://hichee.com/listings/9359000?check_in=2023-06-23&amp;check_out=2023-06-30&amp;adults=8&amp;children=8" target="_blank" rel="noreferrer noopener">Check Out This Property On Hichee</a></div>
+</div>
+
+
+
+<h2 class="wp-block-heading alignwide has-text-align-center">Share This Post With Friends</h2>
+
+
+<p><center><div class="addtoany_shortcode"><div class="a2a_kit a2a_kit_size_32 addtoany_list" data-a2a-url="https://blog.hichee.com/9-most-expensive-airbnb-luxe-properties-in-the-us/" data-a2a-title="9 Most Expensive Airbnb Luxe Properties in The US"><a class="a2a_button_facebook" href="https://www.addtoany.com/add_to/facebook?linkurl=https%3A%2F%2Fblog.hichee.com%2F9-most-expensive-airbnb-luxe-properties-in-the-us%2F&amp;linkname=9%20Most%20Expensive%20Airbnb%20Luxe%20Properties%20in%20The%20US" title="Facebook" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_twitter" href="https://www.addtoany.com/add_to/twitter?linkurl=https%3A%2F%2Fblog.hichee.com%2F9-most-expensive-airbnb-luxe-properties-in-the-us%2F&amp;linkname=9%20Most%20Expensive%20Airbnb%20Luxe%20Properties%20in%20The%20US" title="Twitter" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_pinterest" href="https://www.addtoany.com/add_to/pinterest?linkurl=https%3A%2F%2Fblog.hichee.com%2F9-most-expensive-airbnb-luxe-properties-in-the-us%2F&amp;linkname=9%20Most%20Expensive%20Airbnb%20Luxe%20Properties%20in%20The%20US" title="Pinterest" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_whatsapp" href="https://www.addtoany.com/add_to/whatsapp?linkurl=https%3A%2F%2Fblog.hichee.com%2F9-most-expensive-airbnb-luxe-properties-in-the-us%2F&amp;linkname=9%20Most%20Expensive%20Airbnb%20Luxe%20Properties%20in%20The%20US" title="WhatsApp" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_email" href="https://www.addtoany.com/add_to/email?linkurl=https%3A%2F%2Fblog.hichee.com%2F9-most-expensive-airbnb-luxe-properties-in-the-us%2F&amp;linkname=9%20Most%20Expensive%20Airbnb%20Luxe%20Properties%20in%20The%20US" title="Email" rel="nofollow noopener" target="_blank"></a><a class="a2a_dd addtoany_share_save addtoany_share" href="https://www.addtoany.com/share"></a></div></div></center></p>
+</div></div>
+
+
+
+<h2 class="wp-block-heading has-text-align-center" id="The-Colorado-River---Spectacular-Riverfront">Most Expensive Airbnb Luxe Properties in The US</h2>
+
+
+
+<h2 class="wp-block-heading has-text-align-center" id="The-Colorado-River---Spectacular-Riverfront">7. The Colorado River &#8211; Spectacular Riverfront</h2>
+
+
+
+<p class="has-text-align-center">Location: Bullhead City, Arizona</p>
+
+
+
+<figure class="wp-block-image size-large"><img decoding="async" width="1024" height="682" src="https://blog.hichee.com/wp-content/uploads/2023/04/7.1-1-1024x682.webp" alt="9 Most Expensive Airbnb Luxe Properties in The US" class="wp-image-20136" srcset="https://blog.hichee.com/wp-content/uploads/2023/04/7.1-1-1024x682.webp 1024w, https://blog.hichee.com/wp-content/uploads/2023/04/7.1-1-300x200.webp 300w, https://blog.hichee.com/wp-content/uploads/2023/04/7.1-1-768x511.webp 768w, https://blog.hichee.com/wp-content/uploads/2023/04/7.1-1-1200x800.webp 1200w, https://blog.hichee.com/wp-content/uploads/2023/04/7.1-1.webp 1440w" sizes="(max-width: 1024px) 100vw, 1024px" /><figcaption class="wp-element-caption">Photo Credit: Airbnb</figcaption></figure>
+
+
+
+<div class="wp-block-getwid-images-slider has-arrows-inside has-dots-inside is-carousel has-slides-gap-normal has-images-center has-cropped-images"><div class="wp-block-getwid-images-slider__wrapper" data-effect="slide" data-slides-show="3" data-slides-show-laptop="3" data-slides-show-tablet="2" data-slides-show-mobile="1" data-slides-scroll="1" data-autoplay="true" data-autoplay-speed="6000" data-infinite="true" data-animation-speed="800" data-center-mode="false" data-variable-width="false" data-arrows="inside" data-dots="inside" data-spacing="normal"><div class="wp-block-getwid-images-slider__item"><a href="https://blog.hichee.com/wp-content/uploads/2023/04/7.1-1.webp"><figure><img decoding="async" width="1440" height="959" src="https://blog.hichee.com/wp-content/uploads/2023/04/7.1-1.webp" alt="Get this private pool all to yourselves" data-id="20136" data-link="https://blog.hichee.com/?attachment_id=20136" data-original-link="https://blog.hichee.com/wp-content/uploads/2023/04/7.1-1.webp" class="wp-block-getwid-images-slider__image wp-image-20136" srcset="https://blog.hichee.com/wp-content/uploads/2023/04/7.1-1.webp 1440w, https://blog.hichee.com/wp-content/uploads/2023/04/7.1-1-300x200.webp 300w, https://blog.hichee.com/wp-content/uploads/2023/04/7.1-1-1024x682.webp 1024w, https://blog.hichee.com/wp-content/uploads/2023/04/7.1-1-768x511.webp 768w, https://blog.hichee.com/wp-content/uploads/2023/04/7.1-1-1200x800.webp 1200w" sizes="(max-width: 1440px) 100vw, 1440px" /></figure></a></div><div class="wp-block-getwid-images-slider__item"><a href="https://blog.hichee.com/wp-content/uploads/2023/04/7.2-1.webp"><figure><img decoding="async" width="1440" height="1079" src="https://blog.hichee.com/wp-content/uploads/2023/04/7.2-1.webp" alt="The view in this luxury riverfront is amazing." data-id="20137" data-link="https://blog.hichee.com/?attachment_id=20137" data-original-link="https://blog.hichee.com/wp-content/uploads/2023/04/7.2-1.webp" class="wp-block-getwid-images-slider__image wp-image-20137" srcset="https://blog.hichee.com/wp-content/uploads/2023/04/7.2-1.webp 1440w, https://blog.hichee.com/wp-content/uploads/2023/04/7.2-1-300x225.webp 300w, https://blog.hichee.com/wp-content/uploads/2023/04/7.2-1-1024x767.webp 1024w, https://blog.hichee.com/wp-content/uploads/2023/04/7.2-1-768x575.webp 768w" sizes="(max-width: 1440px) 100vw, 1440px" /></figure></a></div><div class="wp-block-getwid-images-slider__item"><a href="https://blog.hichee.com/wp-content/uploads/2023/04/7.3-1.webp"><figure><img decoding="async" width="1440" height="958" src="https://blog.hichee.com/wp-content/uploads/2023/04/7.3-1.webp" alt="The entrance is very majestic" data-id="20138" data-link="https://blog.hichee.com/?attachment_id=20138" data-original-link="https://blog.hichee.com/wp-content/uploads/2023/04/7.3-1.webp" class="wp-block-getwid-images-slider__image wp-image-20138" srcset="https://blog.hichee.com/wp-content/uploads/2023/04/7.3-1.webp 1440w, https://blog.hichee.com/wp-content/uploads/2023/04/7.3-1-300x200.webp 300w, https://blog.hichee.com/wp-content/uploads/2023/04/7.3-1-1024x681.webp 1024w, https://blog.hichee.com/wp-content/uploads/2023/04/7.3-1-768x511.webp 768w" sizes="(max-width: 1440px) 100vw, 1440px" /></figure></a></div><div class="wp-block-getwid-images-slider__item"><a href="https://blog.hichee.com/wp-content/uploads/2023/04/7.4-1.webp"><figure><img decoding="async" width="1440" height="943" src="https://blog.hichee.com/wp-content/uploads/2023/04/7.4-1.webp" alt="Your stay here will be very relaxing" data-id="20139" data-link="https://blog.hichee.com/?attachment_id=20139" data-original-link="https://blog.hichee.com/wp-content/uploads/2023/04/7.4-1.webp" class="wp-block-getwid-images-slider__image wp-image-20139" srcset="https://blog.hichee.com/wp-content/uploads/2023/04/7.4-1.webp 1440w, https://blog.hichee.com/wp-content/uploads/2023/04/7.4-1-300x196.webp 300w, https://blog.hichee.com/wp-content/uploads/2023/04/7.4-1-1024x671.webp 1024w, https://blog.hichee.com/wp-content/uploads/2023/04/7.4-1-768x503.webp 768w, https://blog.hichee.com/wp-content/uploads/2023/04/7.4-1-870x570.webp 870w" sizes="(max-width: 1440px) 100vw, 1440px" /></figure></a></div><div class="wp-block-getwid-images-slider__item"><a href="https://blog.hichee.com/wp-content/uploads/2023/04/7.5-1.webp"><figure><img decoding="async" width="1440" height="960" src="https://blog.hichee.com/wp-content/uploads/2023/04/7.5-1.webp" alt="Open living space" data-id="20140" data-link="https://blog.hichee.com/?attachment_id=20140" data-original-link="https://blog.hichee.com/wp-content/uploads/2023/04/7.5-1.webp" class="wp-block-getwid-images-slider__image wp-image-20140" srcset="https://blog.hichee.com/wp-content/uploads/2023/04/7.5-1.webp 1440w, https://blog.hichee.com/wp-content/uploads/2023/04/7.5-1-300x200.webp 300w, https://blog.hichee.com/wp-content/uploads/2023/04/7.5-1-1024x683.webp 1024w, https://blog.hichee.com/wp-content/uploads/2023/04/7.5-1-768x512.webp 768w, https://blog.hichee.com/wp-content/uploads/2023/04/7.5-1-1200x800.webp 1200w" sizes="(max-width: 1440px) 100vw, 1440px" /></figure></a></div><div class="wp-block-getwid-images-slider__item"><a href="https://blog.hichee.com/wp-content/uploads/2023/04/7.6-1.webp"><figure><img decoding="async" width="1440" height="960" src="https://blog.hichee.com/wp-content/uploads/2023/04/7.6-1.webp" alt="A nice area for a relaxing talk or games with your loved ones" data-id="20141" data-link="https://blog.hichee.com/?attachment_id=20141" data-original-link="https://blog.hichee.com/wp-content/uploads/2023/04/7.6-1.webp" class="wp-block-getwid-images-slider__image wp-image-20141" srcset="https://blog.hichee.com/wp-content/uploads/2023/04/7.6-1.webp 1440w, https://blog.hichee.com/wp-content/uploads/2023/04/7.6-1-300x200.webp 300w, https://blog.hichee.com/wp-content/uploads/2023/04/7.6-1-1024x683.webp 1024w, https://blog.hichee.com/wp-content/uploads/2023/04/7.6-1-768x512.webp 768w, https://blog.hichee.com/wp-content/uploads/2023/04/7.6-1-1200x800.webp 1200w" sizes="(max-width: 1440px) 100vw, 1440px" /></figure></a></div><div class="wp-block-getwid-images-slider__item"><a href="https://blog.hichee.com/wp-content/uploads/2023/04/7.7.webp"><figure><img decoding="async" width="1440" height="960" src="https://blog.hichee.com/wp-content/uploads/2023/04/7.7.webp" alt="Open dining area fully equipped with culinary needs." data-id="20142" data-link="https://blog.hichee.com/?attachment_id=20142" data-original-link="https://blog.hichee.com/wp-content/uploads/2023/04/7.7.webp" class="wp-block-getwid-images-slider__image wp-image-20142" srcset="https://blog.hichee.com/wp-content/uploads/2023/04/7.7.webp 1440w, https://blog.hichee.com/wp-content/uploads/2023/04/7.7-300x200.webp 300w, https://blog.hichee.com/wp-content/uploads/2023/04/7.7-1024x683.webp 1024w, https://blog.hichee.com/wp-content/uploads/2023/04/7.7-768x512.webp 768w, https://blog.hichee.com/wp-content/uploads/2023/04/7.7-1200x800.webp 1200w" sizes="(max-width: 1440px) 100vw, 1440px" /></figure></a></div></div></div>
+
+
+
+<div style="height:20px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<h3 class="wp-block-heading">This next property on our list will give you The Great Gatsby vibes </h3>
+
+
+
+<p>with its spacious great room, dining area, and well-equipped kitchen. It features your sauna room and two opulent master suites, each with a unique touch and spectacular river views. It also boasts a spacious great room, dining area, and a well-equipped kitchen to whip up your favorite fancy dishes. </p>
+
+
+
+<p>With a personal pool and private dock to enjoy and lounge in, this vacation home is a perfect blend of elegance and comfort that will give you unforgettable experiences.</p>
+
+
+
+<p>From the owner:<br>Where you want to be a fantastic home on The Colorado River! Grand foyer and open living space, gas fireplace. The ground level has a great dining room, kitchen, guest bedroom, and Sauna room. The second level consists of 2 Master suites and 4 guest bedrooms. One master bathroom overlooks the river, and the other with a personal fireplace. Outback becomes part of your oasis with a private pool, spa, built-in barbecue, gazebo, and private dock.</p>
+
+
+
+<p class="has-medium-font-size"><strong>Getting The Best Deal</strong></p>
+
+
+
+<p>HiChee shows that I can rent it on either <a href="https://www.airbnb.com/rooms/49194945?check_in=2023-08-07&amp;check_out=2023-08-12&amp;adults=8&amp;display_currency=USD¤cy=USD&amp;children=8&amp;infants=0&amp;source_impression_id=p3_1682560973_QQDKXkwSqNcG9AtN" target="_blank" rel="noreferrer noopener">Airbnb</a> or <a href="https://www.vrbo.com/9560425ha?adultsCount=8&amp;arrival=2023-08-07&amp;childrenCount=8&amp;cur=USD&amp;departure=2023-08-12&amp;infantsCount=0" target="_blank" rel="noreferrer noopener">VRBO</a>. But the cheaper option is <a href="https://www.vrbo.com/9560425ha?adultsCount=8&amp;arrival=2023-08-07&amp;childrenCount=8&amp;cur=USD&amp;departure=2023-08-12&amp;infantsCount=0" target="_blank" rel="noreferrer noopener">VRBO</a>, as I can save $2,463!</p>
+
+
+
+<figure class="wp-block-image size-full"><img decoding="async" width="1440" height="1230" src="https://blog.hichee.com/wp-content/uploads/2023/04/Copy-of-Beach-house-price-savings-30.gif" alt="The Colorado River - Spectacular Riverfront" class="wp-image-20135"/></figure>
+
+
+
+<div class="wp-block-group alignwide"><div class="wp-block-group__inner-container is-layout-constrained wp-block-group-is-layout-constrained">
+<div class="wp-block-buttons alignwide is-content-justification-center is-layout-flex wp-container-core-buttons-is-layout-29 wp-block-buttons-is-layout-flex">
+<div class="wp-block-button"><a class="wp-block-button__link has-theme-palette-3-color has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background has-text-color has-background wp-element-button" href="https://hichee.com/listings/6286928?check_in=2023-09-10&amp;check_out=2023-09-17&amp;adults=8&amp;children=8" target="_blank" rel="noreferrer noopener">Check Out This Property On Hichee</a></div>
+</div>
+
+
+
+<h2 class="wp-block-heading alignwide has-text-align-center">Share This Post With Friends</h2>
+
+
+<p><center><div class="addtoany_shortcode"><div class="a2a_kit a2a_kit_size_32 addtoany_list" data-a2a-url="https://blog.hichee.com/9-most-expensive-airbnb-luxe-properties-in-the-us/" data-a2a-title="9 Most Expensive Airbnb Luxe Properties in The US"><a class="a2a_button_facebook" href="https://www.addtoany.com/add_to/facebook?linkurl=https%3A%2F%2Fblog.hichee.com%2F9-most-expensive-airbnb-luxe-properties-in-the-us%2F&amp;linkname=9%20Most%20Expensive%20Airbnb%20Luxe%20Properties%20in%20The%20US" title="Facebook" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_twitter" href="https://www.addtoany.com/add_to/twitter?linkurl=https%3A%2F%2Fblog.hichee.com%2F9-most-expensive-airbnb-luxe-properties-in-the-us%2F&amp;linkname=9%20Most%20Expensive%20Airbnb%20Luxe%20Properties%20in%20The%20US" title="Twitter" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_pinterest" href="https://www.addtoany.com/add_to/pinterest?linkurl=https%3A%2F%2Fblog.hichee.com%2F9-most-expensive-airbnb-luxe-properties-in-the-us%2F&amp;linkname=9%20Most%20Expensive%20Airbnb%20Luxe%20Properties%20in%20The%20US" title="Pinterest" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_whatsapp" href="https://www.addtoany.com/add_to/whatsapp?linkurl=https%3A%2F%2Fblog.hichee.com%2F9-most-expensive-airbnb-luxe-properties-in-the-us%2F&amp;linkname=9%20Most%20Expensive%20Airbnb%20Luxe%20Properties%20in%20The%20US" title="WhatsApp" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_email" href="https://www.addtoany.com/add_to/email?linkurl=https%3A%2F%2Fblog.hichee.com%2F9-most-expensive-airbnb-luxe-properties-in-the-us%2F&amp;linkname=9%20Most%20Expensive%20Airbnb%20Luxe%20Properties%20in%20The%20US" title="Email" rel="nofollow noopener" target="_blank"></a><a class="a2a_dd addtoany_share_save addtoany_share" href="https://www.addtoany.com/share"></a></div></div></center></p>
+</div></div>
+
+
+
+<h2 class="wp-block-heading has-text-align-center" id="Luxury-8-BR-Estate-with-Pool-and-Tennis-court">Most Expensive Airbnb Luxe Properties in New York</h2>
+
+
+
+<h2 class="wp-block-heading has-text-align-center" id="Luxury-8-BR-Estate-with-Pool-and-Tennis-court">8. Luxury 8 BR Estate with Pool and Tennis court</h2>
+
+
+
+<p class="has-text-align-center">Location: Mount Kisco, New York</p>
+
+
+
+<figure class="wp-block-image size-large"><img decoding="async" width="1024" height="768" src="https://blog.hichee.com/wp-content/uploads/2023/04/8-1-1024x768.webp" alt="9 Most Expensive Airbnb Luxe Properties in The US" class="wp-image-20144" srcset="https://blog.hichee.com/wp-content/uploads/2023/04/8-1-1024x768.webp 1024w, https://blog.hichee.com/wp-content/uploads/2023/04/8-1-300x225.webp 300w, https://blog.hichee.com/wp-content/uploads/2023/04/8-1-768x576.webp 768w, https://blog.hichee.com/wp-content/uploads/2023/04/8-1.webp 1440w" sizes="(max-width: 1024px) 100vw, 1024px" /><figcaption class="wp-element-caption">Photo Credit: Airbnb</figcaption></figure>
+
+
+
+<div class="wp-block-getwid-images-slider has-arrows-inside has-dots-inside is-carousel has-slides-gap-normal has-images-center has-cropped-images"><div class="wp-block-getwid-images-slider__wrapper" data-effect="slide" data-slides-show="3" data-slides-show-laptop="3" data-slides-show-tablet="2" data-slides-show-mobile="1" data-slides-scroll="1" data-autoplay="true" data-autoplay-speed="6000" data-infinite="true" data-animation-speed="800" data-center-mode="false" data-variable-width="false" data-arrows="inside" data-dots="inside" data-spacing="normal"><div class="wp-block-getwid-images-slider__item"><a href="https://blog.hichee.com/wp-content/uploads/2023/04/8.1-1.webp"><figure><img decoding="async" width="1440" height="960" src="https://blog.hichee.com/wp-content/uploads/2023/04/8.1-1.webp" alt="On hot summer days, unwind in our pool or on our lounge chairs." data-id="20155" data-link="https://blog.hichee.com/?attachment_id=20155" data-original-link="https://blog.hichee.com/wp-content/uploads/2023/04/8.1-1.webp" class="wp-block-getwid-images-slider__image wp-image-20155" srcset="https://blog.hichee.com/wp-content/uploads/2023/04/8.1-1.webp 1440w, https://blog.hichee.com/wp-content/uploads/2023/04/8.1-1-300x200.webp 300w, https://blog.hichee.com/wp-content/uploads/2023/04/8.1-1-1024x683.webp 1024w, https://blog.hichee.com/wp-content/uploads/2023/04/8.1-1-768x512.webp 768w, https://blog.hichee.com/wp-content/uploads/2023/04/8.1-1-1200x800.webp 1200w" sizes="(max-width: 1440px) 100vw, 1440px" /></figure></a></div><div class="wp-block-getwid-images-slider__item"><a href="https://blog.hichee.com/wp-content/uploads/2023/04/8.2-1.webp"><figure><img decoding="async" width="1200" height="800" src="https://blog.hichee.com/wp-content/uploads/2023/04/8.2-1.webp" alt="On-demand pool heating is available!" data-id="20156" data-link="https://blog.hichee.com/?attachment_id=20156" data-original-link="https://blog.hichee.com/wp-content/uploads/2023/04/8.2-1.webp" class="wp-block-getwid-images-slider__image wp-image-20156" srcset="https://blog.hichee.com/wp-content/uploads/2023/04/8.2-1.webp 1200w, https://blog.hichee.com/wp-content/uploads/2023/04/8.2-1-300x200.webp 300w, https://blog.hichee.com/wp-content/uploads/2023/04/8.2-1-1024x683.webp 1024w, https://blog.hichee.com/wp-content/uploads/2023/04/8.2-1-768x512.webp 768w" sizes="(max-width: 1200px) 100vw, 1200px" /></figure></a></div><div class="wp-block-getwid-images-slider__item"><a href="https://blog.hichee.com/wp-content/uploads/2023/04/8.3-1.webp"><figure><img decoding="async" width="1200" height="795" src="https://blog.hichee.com/wp-content/uploads/2023/04/8.3-1.webp" alt="Relax on our front porch and take in the beauty of nature." data-id="20157" data-link="https://blog.hichee.com/?attachment_id=20157" data-original-link="https://blog.hichee.com/wp-content/uploads/2023/04/8.3-1.webp" class="wp-block-getwid-images-slider__image wp-image-20157" srcset="https://blog.hichee.com/wp-content/uploads/2023/04/8.3-1.webp 1200w, https://blog.hichee.com/wp-content/uploads/2023/04/8.3-1-300x199.webp 300w, https://blog.hichee.com/wp-content/uploads/2023/04/8.3-1-1024x678.webp 1024w, https://blog.hichee.com/wp-content/uploads/2023/04/8.3-1-768x509.webp 768w" sizes="(max-width: 1200px) 100vw, 1200px" /></figure></a></div><div class="wp-block-getwid-images-slider__item"><a href="https://blog.hichee.com/wp-content/uploads/2023/04/8.4-1.webp"><figure><img decoding="async" width="1200" height="900" src="https://blog.hichee.com/wp-content/uploads/2023/04/8.4-1.webp" alt="Play a game of tennis with your friends and family! Tennis rackets and balls are supplied." data-id="20158" data-link="https://blog.hichee.com/?attachment_id=20158" data-original-link="https://blog.hichee.com/wp-content/uploads/2023/04/8.4-1.webp" class="wp-block-getwid-images-slider__image wp-image-20158" srcset="https://blog.hichee.com/wp-content/uploads/2023/04/8.4-1.webp 1200w, https://blog.hichee.com/wp-content/uploads/2023/04/8.4-1-300x225.webp 300w, https://blog.hichee.com/wp-content/uploads/2023/04/8.4-1-1024x768.webp 1024w, https://blog.hichee.com/wp-content/uploads/2023/04/8.4-1-768x576.webp 768w" sizes="(max-width: 1200px) 100vw, 1200px" /></figure></a></div><div class="wp-block-getwid-images-slider__item"><a href="https://blog.hichee.com/wp-content/uploads/2023/04/8.5-1.webp"><figure><img decoding="async" width="1200" height="800" src="https://blog.hichee.com/wp-content/uploads/2023/04/8.5-1.webp" alt="The estate's front door!" data-id="20159" data-link="https://blog.hichee.com/?attachment_id=20159" data-original-link="https://blog.hichee.com/wp-content/uploads/2023/04/8.5-1.webp" class="wp-block-getwid-images-slider__image wp-image-20159" srcset="https://blog.hichee.com/wp-content/uploads/2023/04/8.5-1.webp 1200w, https://blog.hichee.com/wp-content/uploads/2023/04/8.5-1-300x200.webp 300w, https://blog.hichee.com/wp-content/uploads/2023/04/8.5-1-1024x683.webp 1024w, https://blog.hichee.com/wp-content/uploads/2023/04/8.5-1-768x512.webp 768w" sizes="(max-width: 1200px) 100vw, 1200px" /></figure></a></div><div class="wp-block-getwid-images-slider__item"><a href="https://blog.hichee.com/wp-content/uploads/2023/04/8.6-1.webp"><figure><img decoding="async" width="1200" height="800" src="https://blog.hichee.com/wp-content/uploads/2023/04/8.6-1.webp" alt="We have a plethora of top-of-the-line equipment!" data-id="20160" data-link="https://blog.hichee.com/?attachment_id=20160" data-original-link="https://blog.hichee.com/wp-content/uploads/2023/04/8.6-1.webp" class="wp-block-getwid-images-slider__image wp-image-20160" srcset="https://blog.hichee.com/wp-content/uploads/2023/04/8.6-1.webp 1200w, https://blog.hichee.com/wp-content/uploads/2023/04/8.6-1-300x200.webp 300w, https://blog.hichee.com/wp-content/uploads/2023/04/8.6-1-1024x683.webp 1024w, https://blog.hichee.com/wp-content/uploads/2023/04/8.6-1-768x512.webp 768w" sizes="(max-width: 1200px) 100vw, 1200px" /></figure></a></div><div class="wp-block-getwid-images-slider__item"><a href="https://blog.hichee.com/wp-content/uploads/2023/04/8.7-1.webp"><figure><img decoding="async" width="1200" height="800" src="https://blog.hichee.com/wp-content/uploads/2023/04/8.7-1.webp" alt="Our stunning dining table, which seats up to 16 people!" data-id="20161" data-link="https://blog.hichee.com/?attachment_id=20161" data-original-link="https://blog.hichee.com/wp-content/uploads/2023/04/8.7-1.webp" class="wp-block-getwid-images-slider__image wp-image-20161" srcset="https://blog.hichee.com/wp-content/uploads/2023/04/8.7-1.webp 1200w, https://blog.hichee.com/wp-content/uploads/2023/04/8.7-1-300x200.webp 300w, https://blog.hichee.com/wp-content/uploads/2023/04/8.7-1-1024x683.webp 1024w, https://blog.hichee.com/wp-content/uploads/2023/04/8.7-1-768x512.webp 768w" sizes="(max-width: 1200px) 100vw, 1200px" /></figure></a></div></div></div>
+
+
+
+<div style="height:20px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<h3 class="wp-block-heading">Escape the hustle and bustle of city life and embrace the serenity and luxury </h3>
+
+
+
+<p>this 10-acre vacation home offers. It is a swanky and secluded retreat property with a private tennis court to live your Wimbledon dreams in, a pool to help you cool during hot days, and a lovely porch to admire the entirety of the property. The house boasts spacious rooms, luxurious bedding, and posh furnishings that seamlessly blend leisure and relaxation to make you feel like you’re living the dream!</p>
+
+
+
+<p>From the owner:<br>Beautiful 8BR estate perfect for your needs! The house is a beautiful 10-acre home in Bedford Corners with 8 Bedrooms. It is perfect for family gatherings or groups of friends. Located minutes from downtown Mount Kisco. Pick up any of our provided rackets and play a set of tennis. Take a jump into our pool and cool off on a hot summer day. Enjoy our Eero mesh integrated WiFi system throughout the house with speeds up to 300 Mbps. You have found your place if you are looking for a quiet, secluded place north of New York.</p>
+
+
+
+<p class="has-medium-font-size"><strong>Getting The Best Deal</strong></p>
+
+
+
+<p>I saw this property first on <a href="https://www.airbnb.com/rooms/50939368?check_in=2023-10-01&amp;check_out=2023-10-09&amp;adults=8&amp;display_currency=USD¤cy=USD&amp;children=8&amp;infants=0&amp;source_impression_id=p3_1682566532_P3ca4uDSXQ%2FjmcIC" target="_blank" rel="noreferrer noopener">Airbnb</a>. I tried checking if I can book it on other booking sites, and HiChee showed that it is also available on <a href="https://www.vrbo.com/2385255?adultsCount=8&amp;arrival=2023-10-01&amp;childrenCount=8&amp;cur=USD&amp;departure=2023-10-09&amp;infantsCount=0" target="_blank" rel="noreferrer noopener">VRBO</a>. This way, I can save $3,343!</p>
+
+
+
+<figure class="wp-block-image size-full"><img decoding="async" width="1440" height="1230" src="https://blog.hichee.com/wp-content/uploads/2023/04/Copy-of-Beach-house-price-savings-31.gif" alt="Luxury 8 BR Estate with Pool and Tennis court" class="wp-image-20162"/></figure>
+
+
+
+<div class="wp-block-group alignwide"><div class="wp-block-group__inner-container is-layout-constrained wp-block-group-is-layout-constrained">
+<div class="wp-block-buttons alignwide is-content-justification-center is-layout-flex wp-container-core-buttons-is-layout-30 wp-block-buttons-is-layout-flex">
+<div class="wp-block-button"><a class="wp-block-button__link has-theme-palette-3-color has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background has-text-color has-background wp-element-button" href="https://hichee.com/listings/11481028?check_in=2023-10-01&amp;check_out=2023-10-09&amp;adults=8&amp;children=8" target="_blank" rel="noreferrer noopener">Check Out This Property On Hichee</a></div>
+</div>
+
+
+
+<h2 class="wp-block-heading alignwide has-text-align-center">Share This Post With Friends</h2>
+
+
+<p><center><div class="addtoany_shortcode"><div class="a2a_kit a2a_kit_size_32 addtoany_list" data-a2a-url="https://blog.hichee.com/9-most-expensive-airbnb-luxe-properties-in-the-us/" data-a2a-title="9 Most Expensive Airbnb Luxe Properties in The US"><a class="a2a_button_facebook" href="https://www.addtoany.com/add_to/facebook?linkurl=https%3A%2F%2Fblog.hichee.com%2F9-most-expensive-airbnb-luxe-properties-in-the-us%2F&amp;linkname=9%20Most%20Expensive%20Airbnb%20Luxe%20Properties%20in%20The%20US" title="Facebook" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_twitter" href="https://www.addtoany.com/add_to/twitter?linkurl=https%3A%2F%2Fblog.hichee.com%2F9-most-expensive-airbnb-luxe-properties-in-the-us%2F&amp;linkname=9%20Most%20Expensive%20Airbnb%20Luxe%20Properties%20in%20The%20US" title="Twitter" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_pinterest" href="https://www.addtoany.com/add_to/pinterest?linkurl=https%3A%2F%2Fblog.hichee.com%2F9-most-expensive-airbnb-luxe-properties-in-the-us%2F&amp;linkname=9%20Most%20Expensive%20Airbnb%20Luxe%20Properties%20in%20The%20US" title="Pinterest" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_whatsapp" href="https://www.addtoany.com/add_to/whatsapp?linkurl=https%3A%2F%2Fblog.hichee.com%2F9-most-expensive-airbnb-luxe-properties-in-the-us%2F&amp;linkname=9%20Most%20Expensive%20Airbnb%20Luxe%20Properties%20in%20The%20US" title="WhatsApp" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_email" href="https://www.addtoany.com/add_to/email?linkurl=https%3A%2F%2Fblog.hichee.com%2F9-most-expensive-airbnb-luxe-properties-in-the-us%2F&amp;linkname=9%20Most%20Expensive%20Airbnb%20Luxe%20Properties%20in%20The%20US" title="Email" rel="nofollow noopener" target="_blank"></a><a class="a2a_dd addtoany_share_save addtoany_share" href="https://www.addtoany.com/share"></a></div></div></center></p>
+</div></div>
+
+
+
+<h2 class="wp-block-heading has-text-align-center" id="Battenkill-Valley-Mansion">Most Expensive Airbnb Luxe Properties in Vermont</h2>
+
+
+
+<h2 class="wp-block-heading has-text-align-center" id="Battenkill-Valley-Mansion">9. Battenkill Valley Mansion</h2>
+
+
+
+<p class="has-text-align-center">Location: Manchester, Vermont</p>
+
+
+
+<figure class="wp-block-image size-large"><img decoding="async" width="1024" height="768" src="https://blog.hichee.com/wp-content/uploads/2023/04/9-1024x768.webp" alt="9 Most Expensive Airbnb Luxe Properties in The US" class="wp-image-20197" srcset="https://blog.hichee.com/wp-content/uploads/2023/04/9-1024x768.webp 1024w, https://blog.hichee.com/wp-content/uploads/2023/04/9-300x225.webp 300w, https://blog.hichee.com/wp-content/uploads/2023/04/9-768x576.webp 768w, https://blog.hichee.com/wp-content/uploads/2023/04/9.webp 1200w" sizes="(max-width: 1024px) 100vw, 1024px" /><figcaption class="wp-element-caption">Photo Credit: Airbnb</figcaption></figure>
+
+
+
+<div class="wp-block-getwid-images-slider has-arrows-inside has-dots-inside is-carousel has-slides-gap-normal has-images-center has-cropped-images"><div class="wp-block-getwid-images-slider__wrapper" data-effect="slide" data-slides-show="3" data-slides-show-laptop="3" data-slides-show-tablet="2" data-slides-show-mobile="1" data-slides-scroll="1" data-autoplay="true" data-autoplay-speed="6000" data-infinite="true" data-animation-speed="800" data-center-mode="false" data-variable-width="false" data-arrows="inside" data-dots="inside" data-spacing="normal"><div class="wp-block-getwid-images-slider__item"><a href="https://blog.hichee.com/wp-content/uploads/2023/04/9.1.webp"><figure><img decoding="async" width="1440" height="1080" src="https://blog.hichee.com/wp-content/uploads/2023/04/9.1.webp" alt="Winter Wonderland at the Battenkill Valley Mansion" data-id="20198" data-link="https://blog.hichee.com/?attachment_id=20198" data-original-link="https://blog.hichee.com/wp-content/uploads/2023/04/9.1.webp" class="wp-block-getwid-images-slider__image wp-image-20198" srcset="https://blog.hichee.com/wp-content/uploads/2023/04/9.1.webp 1440w, https://blog.hichee.com/wp-content/uploads/2023/04/9.1-300x225.webp 300w, https://blog.hichee.com/wp-content/uploads/2023/04/9.1-1024x768.webp 1024w, https://blog.hichee.com/wp-content/uploads/2023/04/9.1-768x576.webp 768w" sizes="(max-width: 1440px) 100vw, 1440px" /></figure></a></div><div class="wp-block-getwid-images-slider__item"><a href="https://blog.hichee.com/wp-content/uploads/2023/04/9.2.webp"><figure><img decoding="async" width="1440" height="960" src="https://blog.hichee.com/wp-content/uploads/2023/04/9.2.webp" alt="The Wilburton has an outdoor pool nearby." data-id="20199" data-link="https://blog.hichee.com/?attachment_id=20199" data-original-link="https://blog.hichee.com/wp-content/uploads/2023/04/9.2.webp" class="wp-block-getwid-images-slider__image wp-image-20199" srcset="https://blog.hichee.com/wp-content/uploads/2023/04/9.2.webp 1440w, https://blog.hichee.com/wp-content/uploads/2023/04/9.2-300x200.webp 300w, https://blog.hichee.com/wp-content/uploads/2023/04/9.2-1024x683.webp 1024w, https://blog.hichee.com/wp-content/uploads/2023/04/9.2-768x512.webp 768w, https://blog.hichee.com/wp-content/uploads/2023/04/9.2-1200x800.webp 1200w" sizes="(max-width: 1440px) 100vw, 1440px" /></figure></a></div><div class="wp-block-getwid-images-slider__item"><a href="https://blog.hichee.com/wp-content/uploads/2023/04/9.3.webp"><figure><img decoding="async" width="1440" height="960" src="https://blog.hichee.com/wp-content/uploads/2023/04/9.3.webp" alt="Battenkill Valley Mansion's living room" data-id="20200" data-link="https://blog.hichee.com/?attachment_id=20200" data-original-link="https://blog.hichee.com/wp-content/uploads/2023/04/9.3.webp" class="wp-block-getwid-images-slider__image wp-image-20200" srcset="https://blog.hichee.com/wp-content/uploads/2023/04/9.3.webp 1440w, https://blog.hichee.com/wp-content/uploads/2023/04/9.3-300x200.webp 300w, https://blog.hichee.com/wp-content/uploads/2023/04/9.3-1024x683.webp 1024w, https://blog.hichee.com/wp-content/uploads/2023/04/9.3-768x512.webp 768w, https://blog.hichee.com/wp-content/uploads/2023/04/9.3-1200x800.webp 1200w" sizes="(max-width: 1440px) 100vw, 1440px" /></figure></a></div><div class="wp-block-getwid-images-slider__item"><a href="https://blog.hichee.com/wp-content/uploads/2023/04/9.4.webp"><figure><img decoding="async" width="1440" height="960" src="https://blog.hichee.com/wp-content/uploads/2023/04/9.4.webp" alt="Oven fridge in the kitchen Mansion in Battenkill Valley" data-id="20201" data-link="https://blog.hichee.com/?attachment_id=20201" data-original-link="https://blog.hichee.com/wp-content/uploads/2023/04/9.4.webp" class="wp-block-getwid-images-slider__image wp-image-20201" srcset="https://blog.hichee.com/wp-content/uploads/2023/04/9.4.webp 1440w, https://blog.hichee.com/wp-content/uploads/2023/04/9.4-300x200.webp 300w, https://blog.hichee.com/wp-content/uploads/2023/04/9.4-1024x683.webp 1024w, https://blog.hichee.com/wp-content/uploads/2023/04/9.4-768x512.webp 768w, https://blog.hichee.com/wp-content/uploads/2023/04/9.4-1200x800.webp 1200w" sizes="(max-width: 1440px) 100vw, 1440px" /></figure></a></div><div class="wp-block-getwid-images-slider__item"><a href="https://blog.hichee.com/wp-content/uploads/2023/04/9.5.webp"><figure><img decoding="async" width="1440" height="960" src="https://blog.hichee.com/wp-content/uploads/2023/04/9.5.webp" alt="Battenkill Valley Mansion kitchen dishwashers" data-id="20202" data-link="https://blog.hichee.com/?attachment_id=20202" data-original-link="https://blog.hichee.com/wp-content/uploads/2023/04/9.5.webp" class="wp-block-getwid-images-slider__image wp-image-20202" srcset="https://blog.hichee.com/wp-content/uploads/2023/04/9.5.webp 1440w, https://blog.hichee.com/wp-content/uploads/2023/04/9.5-300x200.webp 300w, https://blog.hichee.com/wp-content/uploads/2023/04/9.5-1024x683.webp 1024w, https://blog.hichee.com/wp-content/uploads/2023/04/9.5-768x512.webp 768w, https://blog.hichee.com/wp-content/uploads/2023/04/9.5-1200x800.webp 1200w" sizes="(max-width: 1440px) 100vw, 1440px" /></figure></a></div><div class="wp-block-getwid-images-slider__item"><a href="https://blog.hichee.com/wp-content/uploads/2023/04/9.6.webp"><figure><img decoding="async" width="1440" height="960" src="https://blog.hichee.com/wp-content/uploads/2023/04/9.6.webp" alt="Battenkill Valley Mansion's ballroom with a fireplace" data-id="20203" data-link="https://blog.hichee.com/?attachment_id=20203" data-original-link="https://blog.hichee.com/wp-content/uploads/2023/04/9.6.webp" class="wp-block-getwid-images-slider__image wp-image-20203" srcset="https://blog.hichee.com/wp-content/uploads/2023/04/9.6.webp 1440w, https://blog.hichee.com/wp-content/uploads/2023/04/9.6-300x200.webp 300w, https://blog.hichee.com/wp-content/uploads/2023/04/9.6-1024x683.webp 1024w, https://blog.hichee.com/wp-content/uploads/2023/04/9.6-768x512.webp 768w, https://blog.hichee.com/wp-content/uploads/2023/04/9.6-1200x800.webp 1200w" sizes="(max-width: 1440px) 100vw, 1440px" /></figure></a></div><div class="wp-block-getwid-images-slider__item"><a href="https://blog.hichee.com/wp-content/uploads/2023/04/9.7.webp"><figure><img decoding="async" width="1440" height="960" src="https://blog.hichee.com/wp-content/uploads/2023/04/9.7.webp" alt="Jetson Foyer welcomes Battenkill Valley Mansion" data-id="20204" data-link="https://blog.hichee.com/?attachment_id=20204" data-original-link="https://blog.hichee.com/wp-content/uploads/2023/04/9.7.webp" class="wp-block-getwid-images-slider__image wp-image-20204" srcset="https://blog.hichee.com/wp-content/uploads/2023/04/9.7.webp 1440w, https://blog.hichee.com/wp-content/uploads/2023/04/9.7-300x200.webp 300w, https://blog.hichee.com/wp-content/uploads/2023/04/9.7-1024x683.webp 1024w, https://blog.hichee.com/wp-content/uploads/2023/04/9.7-768x512.webp 768w, https://blog.hichee.com/wp-content/uploads/2023/04/9.7-1200x800.webp 1200w" sizes="(max-width: 1440px) 100vw, 1440px" /></figure></a></div></div></div>
+
+
+
+<div style="height:20px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<h3 class="wp-block-heading">Nothing screams “luxury” quite like a private mansion, right? </h3>
+
+
+
+<p>If you’re throwing an intimate party for a small group and want the best property that money can rent, the Battenkill Valley Mansion is for you. This ritzy estate is nestled on a whopping 5-acre land, and the mansion can accommodate up to 34 guests! It features a commercial kitchen, spacious rooms including a bridal suite, an electric fireplace, world-class amenities, and close proximity to many fun activities and facilities!</p>
+
+
+
+<p>From the owner:<br>The Battenkill Valley Mansion was built in 1904 as a wedding present for the daughter of the man who built our sister property, the majestic Wilburton mansion.</p>
+
+
+
+<p>The Wilburton Destination Resort, less than half a mile away, accommodates up to 100 guests in 7 buildings of different sizes and styles. It is an ideal private getaway for destination weddings, corporate retreats, family reunions, and private celebrations.</p>
+
+
+
+<p class="has-medium-font-size"><strong>Getting The Best Deal</strong></p>
+
+
+
+<p>I can rent this already on <a href="https://www.airbnb.com/rooms/870161?check_in=2023-10-09&amp;check_out=2023-10-16&amp;adults=8&amp;display_currency=USD¤cy=USD&amp;children=8&amp;infants=0&amp;source_impression_id=p3_1682572682_PRyB%2BYiWvctoOXM6" target="_blank" rel="noreferrer noopener">Airbnb</a>, but it&#8217;s $1,376 less on <a href="https://www.vrbo.com/9728974ha?adultsCount=8&amp;arrival=2023-10-09&amp;childrenCount=8&amp;cur=USD&amp;departure=2023-10-16&amp;infantsCount=0" target="_blank" rel="noreferrer noopener">VRBO</a>.</p>
+
+
+
+<figure class="wp-block-image size-full"><img decoding="async" width="1440" height="1230" src="https://blog.hichee.com/wp-content/uploads/2023/04/Copy-of-Beach-house-price-savings-9.gif" alt="Battenkill Valley Mansion" class="wp-image-20173"/></figure>
+
+
+
+<div class="wp-block-group alignwide"><div class="wp-block-group__inner-container is-layout-constrained wp-block-group-is-layout-constrained">
+<div class="wp-block-buttons alignwide is-content-justification-center is-layout-flex wp-container-core-buttons-is-layout-31 wp-block-buttons-is-layout-flex">
+<div class="wp-block-button"><a class="wp-block-button__link has-theme-palette-3-color has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background has-text-color has-background wp-element-button" href="https://hichee.com/listings/24955550?check_in=2023-10-09&amp;check_out=2023-10-16&amp;adults=8&amp;children=8" target="_blank" rel="noreferrer noopener">Check Out This Property On Hichee</a></div>
+</div>
+
+
+
+<h2 class="wp-block-heading alignwide has-text-align-center">Share This Post With Friends</h2>
+
+
+<p><center><div class="addtoany_shortcode"><div class="a2a_kit a2a_kit_size_32 addtoany_list" data-a2a-url="https://blog.hichee.com/9-most-expensive-airbnb-luxe-properties-in-the-us/" data-a2a-title="9 Most Expensive Airbnb Luxe Properties in The US"><a class="a2a_button_facebook" href="https://www.addtoany.com/add_to/facebook?linkurl=https%3A%2F%2Fblog.hichee.com%2F9-most-expensive-airbnb-luxe-properties-in-the-us%2F&amp;linkname=9%20Most%20Expensive%20Airbnb%20Luxe%20Properties%20in%20The%20US" title="Facebook" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_twitter" href="https://www.addtoany.com/add_to/twitter?linkurl=https%3A%2F%2Fblog.hichee.com%2F9-most-expensive-airbnb-luxe-properties-in-the-us%2F&amp;linkname=9%20Most%20Expensive%20Airbnb%20Luxe%20Properties%20in%20The%20US" title="Twitter" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_pinterest" href="https://www.addtoany.com/add_to/pinterest?linkurl=https%3A%2F%2Fblog.hichee.com%2F9-most-expensive-airbnb-luxe-properties-in-the-us%2F&amp;linkname=9%20Most%20Expensive%20Airbnb%20Luxe%20Properties%20in%20The%20US" title="Pinterest" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_whatsapp" href="https://www.addtoany.com/add_to/whatsapp?linkurl=https%3A%2F%2Fblog.hichee.com%2F9-most-expensive-airbnb-luxe-properties-in-the-us%2F&amp;linkname=9%20Most%20Expensive%20Airbnb%20Luxe%20Properties%20in%20The%20US" title="WhatsApp" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_email" href="https://www.addtoany.com/add_to/email?linkurl=https%3A%2F%2Fblog.hichee.com%2F9-most-expensive-airbnb-luxe-properties-in-the-us%2F&amp;linkname=9%20Most%20Expensive%20Airbnb%20Luxe%20Properties%20in%20The%20US" title="Email" rel="nofollow noopener" target="_blank"></a><a class="a2a_dd addtoany_share_save addtoany_share" href="https://www.addtoany.com/share"></a></div></div></center></p>
+</div></div>
+
+
+
+<h2 class="wp-block-heading has-text-align-center">BONUS PROPERTY</h2>
+
+
+
+<h2 class="wp-block-heading has-text-align-center">Central Scottsdale</h2>
+
+
+
+<p class="has-text-align-center">Location: Paradise Valley, Arizona</p>
+
+
+
+<figure class="wp-block-image size-large"><img decoding="async" width="1024" height="576" src="https://blog.hichee.com/wp-content/uploads/2023/04/10-1024x576.webp" alt="9 Most Expensive Airbnb Luxe Properties in The US" class="wp-image-20176" srcset="https://blog.hichee.com/wp-content/uploads/2023/04/10-1024x576.webp 1024w, https://blog.hichee.com/wp-content/uploads/2023/04/10-300x169.webp 300w, https://blog.hichee.com/wp-content/uploads/2023/04/10-768x432.webp 768w, https://blog.hichee.com/wp-content/uploads/2023/04/10.webp 1200w" sizes="(max-width: 1024px) 100vw, 1024px" /><figcaption class="wp-element-caption">Photo Credit: Airbnb</figcaption></figure>
+
+
+
+<div class="wp-block-getwid-images-slider has-arrows-inside has-dots-inside is-carousel has-slides-gap-normal has-images-center has-cropped-images"><div class="wp-block-getwid-images-slider__wrapper" data-effect="slide" data-slides-show="3" data-slides-show-laptop="3" data-slides-show-tablet="2" data-slides-show-mobile="1" data-slides-scroll="1" data-autoplay="true" data-autoplay-speed="6000" data-infinite="true" data-animation-speed="800" data-center-mode="false" data-variable-width="false" data-arrows="inside" data-dots="inside" data-spacing="normal"><div class="wp-block-getwid-images-slider__item"><a href="https://blog.hichee.com/wp-content/uploads/2023/04/10.1.webp"><figure><img decoding="async" width="1440" height="810" src="https://blog.hichee.com/wp-content/uploads/2023/04/10.1.webp" alt="Outdoor seats and a fire pit" data-id="20177" data-link="https://blog.hichee.com/?attachment_id=20177" data-original-link="https://blog.hichee.com/wp-content/uploads/2023/04/10.1.webp" class="wp-block-getwid-images-slider__image wp-image-20177" srcset="https://blog.hichee.com/wp-content/uploads/2023/04/10.1.webp 1440w, https://blog.hichee.com/wp-content/uploads/2023/04/10.1-300x169.webp 300w, https://blog.hichee.com/wp-content/uploads/2023/04/10.1-1024x576.webp 1024w, https://blog.hichee.com/wp-content/uploads/2023/04/10.1-768x432.webp 768w" sizes="(max-width: 1440px) 100vw, 1440px" /></figure></a></div><div class="wp-block-getwid-images-slider__item"><a href="https://blog.hichee.com/wp-content/uploads/2023/04/10.2.webp"><figure><img decoding="async" width="1440" height="810" src="https://blog.hichee.com/wp-content/uploads/2023/04/10.2.webp" alt="Patio furniture and loungers" data-id="20178" data-link="https://blog.hichee.com/?attachment_id=20178" data-original-link="https://blog.hichee.com/wp-content/uploads/2023/04/10.2.webp" class="wp-block-getwid-images-slider__image wp-image-20178" srcset="https://blog.hichee.com/wp-content/uploads/2023/04/10.2.webp 1440w, https://blog.hichee.com/wp-content/uploads/2023/04/10.2-300x169.webp 300w, https://blog.hichee.com/wp-content/uploads/2023/04/10.2-1024x576.webp 1024w, https://blog.hichee.com/wp-content/uploads/2023/04/10.2-768x432.webp 768w" sizes="(max-width: 1440px) 100vw, 1440px" /></figure></a></div><div class="wp-block-getwid-images-slider__item"><a href="https://blog.hichee.com/wp-content/uploads/2023/04/10.3.webp"><figure><img decoding="async" width="1440" height="810" src="https://blog.hichee.com/wp-content/uploads/2023/04/10.3.webp" alt="Outdoor seats and a fire pit" data-id="20181" data-link="https://blog.hichee.com/?attachment_id=20181" data-original-link="https://blog.hichee.com/wp-content/uploads/2023/04/10.3.webp" class="wp-block-getwid-images-slider__image wp-image-20181" srcset="https://blog.hichee.com/wp-content/uploads/2023/04/10.3.webp 1440w, https://blog.hichee.com/wp-content/uploads/2023/04/10.3-300x169.webp 300w, https://blog.hichee.com/wp-content/uploads/2023/04/10.3-1024x576.webp 1024w, https://blog.hichee.com/wp-content/uploads/2023/04/10.3-768x432.webp 768w" sizes="(max-width: 1440px) 100vw, 1440px" /></figure></a></div><div class="wp-block-getwid-images-slider__item"><a href="https://blog.hichee.com/wp-content/uploads/2023/04/10.4.webp"><figure><img decoding="async" width="1440" height="810" src="https://blog.hichee.com/wp-content/uploads/2023/04/10.4.webp" alt="Outside dining" data-id="20186" data-link="https://blog.hichee.com/?attachment_id=20186" data-original-link="https://blog.hichee.com/wp-content/uploads/2023/04/10.4.webp" class="wp-block-getwid-images-slider__image wp-image-20186" srcset="https://blog.hichee.com/wp-content/uploads/2023/04/10.4.webp 1440w, https://blog.hichee.com/wp-content/uploads/2023/04/10.4-300x169.webp 300w, https://blog.hichee.com/wp-content/uploads/2023/04/10.4-1024x576.webp 1024w, https://blog.hichee.com/wp-content/uploads/2023/04/10.4-768x432.webp 768w" sizes="(max-width: 1440px) 100vw, 1440px" /></figure></a></div><div class="wp-block-getwid-images-slider__item"><a href="https://blog.hichee.com/wp-content/uploads/2023/04/10.5.webp"><figure><img decoding="async" width="1440" height="810" src="https://blog.hichee.com/wp-content/uploads/2023/04/10.5.webp" alt="Pickleball, tennis, and basketball courts" data-id="20187" data-link="https://blog.hichee.com/?attachment_id=20187" data-original-link="https://blog.hichee.com/wp-content/uploads/2023/04/10.5.webp" class="wp-block-getwid-images-slider__image wp-image-20187" srcset="https://blog.hichee.com/wp-content/uploads/2023/04/10.5.webp 1440w, https://blog.hichee.com/wp-content/uploads/2023/04/10.5-300x169.webp 300w, https://blog.hichee.com/wp-content/uploads/2023/04/10.5-1024x576.webp 1024w, https://blog.hichee.com/wp-content/uploads/2023/04/10.5-768x432.webp 768w" sizes="(max-width: 1440px) 100vw, 1440px" /></figure></a></div><div class="wp-block-getwid-images-slider__item"><a href="https://blog.hichee.com/wp-content/uploads/2023/04/10.6.webp"><figure><img decoding="async" width="1440" height="810" src="https://blog.hichee.com/wp-content/uploads/2023/04/10.6.webp" alt="The living room is open to the kitchen." data-id="20188" data-link="https://blog.hichee.com/?attachment_id=20188" data-original-link="https://blog.hichee.com/wp-content/uploads/2023/04/10.6.webp" class="wp-block-getwid-images-slider__image wp-image-20188" srcset="https://blog.hichee.com/wp-content/uploads/2023/04/10.6.webp 1440w, https://blog.hichee.com/wp-content/uploads/2023/04/10.6-300x169.webp 300w, https://blog.hichee.com/wp-content/uploads/2023/04/10.6-1024x576.webp 1024w, https://blog.hichee.com/wp-content/uploads/2023/04/10.6-768x432.webp 768w" sizes="(max-width: 1440px) 100vw, 1440px" /></figure></a></div></div></div>
+
+
+
+<div style="height:20px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<p>When we hear “mansion,” you may tend to picture a rustic estate with character and some old-world charm. However, this vacation home in Central Scottsdale is about to give you a different view. Boasting a private soccer field, a chic pool, and an elevated spa, this swanky modern mansion is truly a jaw-dropping property about luxury, comfort, and style. Aside from the posh amenities, it also features a sunken fire pit, plush furnishings, and stunning interior décor.</p>
+
+
+
+<p>From the owner:<br>We believe that you deserve an extraordinary vacation experience. When you book this home, you’ll enjoy unrivaled features, amenities, and services. We provide a five-star check-in and tour of the home, elevated concierge services, excellent cleanliness standards, deluxe resort-style towels and linens, and access to the best massage therapists, personal chefs, tour guides, and childcare in the Scottsdale area.</p>
+
+
+
+<p class="has-medium-font-size"><strong>Getting The Best Deal</strong></p>
+
+
+
+<p>This property is listed on <a href="https://www.airbnb.com/rooms/25074830?check_in=2023-08-01&amp;check_out=2023-08-09&amp;adults=9&amp;display_currency=USD¤cy=USD&amp;children=7&amp;infants=0&amp;source_impression_id=p3_1682575369_ncTpTRE5vam11Il6" target="_blank" rel="noreferrer noopener">Airbnb</a> and <a href="https://www.vrbo.com/1362215?adultsCount=9&amp;arrival=2023-08-01&amp;childrenCount=7&amp;cur=USD&amp;departure=2023-08-09&amp;infantsCount=0" target="_blank" rel="noreferrer noopener">VRBO</a>. I can save up to $5,683 already.</p>
+
+
+
+<figure class="wp-block-image size-full"><img decoding="async" width="1440" height="1230" src="https://blog.hichee.com/wp-content/uploads/2023/04/Copy-of-Beach-house-price-savings-8-1.gif" alt="" class="wp-image-20174"/></figure>
+
+
+
+<p>However, upon using the Magic Search Direct Booking Options feature, I saw that it&#8217;s also listed on <a href="https://www.holidayrental.com/vacation-rental/arizona/paradise-valley/ritz-scottsdale" target="_blank" rel="noreferrer noopener">another booking site</a> wherein I can save $2,064 more!</p>
+
+
+
+<figure class="wp-block-image size-full"><img decoding="async" width="1440" height="1230" src="https://blog.hichee.com/wp-content/uploads/2023/04/Copy-of-Beach-house-price-savings-10.gif" alt="" class="wp-image-20175"/></figure>
+
+
+
+<div class="wp-block-group alignwide"><div class="wp-block-group__inner-container is-layout-constrained wp-block-group-is-layout-constrained">
+<div class="wp-block-buttons alignwide is-content-justification-center is-layout-flex wp-container-core-buttons-is-layout-32 wp-block-buttons-is-layout-flex">
+<div class="wp-block-button"><a class="wp-block-button__link has-theme-palette-3-color has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background has-text-color has-background wp-element-button" href="https://hichee.com/listings/11408450?check_in=2023-08-01&amp;check_out=2023-08-09&amp;adults=9&amp;children=7" target="_blank" rel="noreferrer noopener">Check Out This Property On Hichee</a></div>
+</div>
+
+
+
+<div class="wp-block-buttons is-content-justification-center is-layout-flex wp-container-core-buttons-is-layout-33 wp-block-buttons-is-layout-flex">
+<div class="wp-block-button"><a class="wp-block-button__link has-luminous-vivid-orange-to-vivid-red-gradient-background has-background wp-element-button" href="https://hichee.com/collections/most-expensive-airbnb-luxe-properties-in-the-us">Click Here To See Our Trip List!</a></div>
+</div>
+
+
+
+<h2 class="wp-block-heading alignwide has-text-align-center">Share This Post With Friends</h2>
+
+
+<p><center><div class="addtoany_shortcode"><div class="a2a_kit a2a_kit_size_32 addtoany_list" data-a2a-url="https://blog.hichee.com/9-most-expensive-airbnb-luxe-properties-in-the-us/" data-a2a-title="9 Most Expensive Airbnb Luxe Properties in The US"><a class="a2a_button_facebook" href="https://www.addtoany.com/add_to/facebook?linkurl=https%3A%2F%2Fblog.hichee.com%2F9-most-expensive-airbnb-luxe-properties-in-the-us%2F&amp;linkname=9%20Most%20Expensive%20Airbnb%20Luxe%20Properties%20in%20The%20US" title="Facebook" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_twitter" href="https://www.addtoany.com/add_to/twitter?linkurl=https%3A%2F%2Fblog.hichee.com%2F9-most-expensive-airbnb-luxe-properties-in-the-us%2F&amp;linkname=9%20Most%20Expensive%20Airbnb%20Luxe%20Properties%20in%20The%20US" title="Twitter" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_pinterest" href="https://www.addtoany.com/add_to/pinterest?linkurl=https%3A%2F%2Fblog.hichee.com%2F9-most-expensive-airbnb-luxe-properties-in-the-us%2F&amp;linkname=9%20Most%20Expensive%20Airbnb%20Luxe%20Properties%20in%20The%20US" title="Pinterest" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_whatsapp" href="https://www.addtoany.com/add_to/whatsapp?linkurl=https%3A%2F%2Fblog.hichee.com%2F9-most-expensive-airbnb-luxe-properties-in-the-us%2F&amp;linkname=9%20Most%20Expensive%20Airbnb%20Luxe%20Properties%20in%20The%20US" title="WhatsApp" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_email" href="https://www.addtoany.com/add_to/email?linkurl=https%3A%2F%2Fblog.hichee.com%2F9-most-expensive-airbnb-luxe-properties-in-the-us%2F&amp;linkname=9%20Most%20Expensive%20Airbnb%20Luxe%20Properties%20in%20The%20US" title="Email" rel="nofollow noopener" target="_blank"></a><a class="a2a_dd addtoany_share_save addtoany_share" href="https://www.addtoany.com/share"></a></div></div></center></p>
+</div></div>
+
+
+
+<h2 class="wp-block-heading has-text-align-center" id="h-are-you-interested-in-booking-one-of-these-properties">Are You Interested In Booking One Of These Properties?</h2>
+
+
+
+<p class="has-text-align-center">We&#8217;ve created an easy-to-use collection (a HiChee trip list) that you can use to check availability and compare prices for all of the above properties.</p>
+
+
+
+<p class="has-text-align-center">Just click on the image below, select your dates and the number of guests, and HiChee will instantly show you which properties are available and how much each one costs for those dates.<br><br>You can even choose to receive price and availability alerts straight to your inbox.<br>By clicking on the three dots icon, you can share your trip list with friends or family</p>
+
+
+
+<figure class="wp-block-image size-large"><a href="https://hichee.com/collections/most-expensive-airbnbs-in-us" target="_blank" rel="noreferrer noopener"><img decoding="async" width="1024" height="568" src="https://blog.hichee.com/wp-content/uploads/2024/04/Screenshot-2024-04-11-at-10.37.57-1024x568.png" alt="HiChee trip list for these properties" class="wp-image-96834" srcset="https://blog.hichee.com/wp-content/uploads/2024/04/Screenshot-2024-04-11-at-10.37.57-1024x568.png 1024w, https://blog.hichee.com/wp-content/uploads/2024/04/Screenshot-2024-04-11-at-10.37.57-300x167.png 300w, https://blog.hichee.com/wp-content/uploads/2024/04/Screenshot-2024-04-11-at-10.37.57-768x426.png 768w, https://blog.hichee.com/wp-content/uploads/2024/04/Screenshot-2024-04-11-at-10.37.57-1536x853.png 1536w, https://blog.hichee.com/wp-content/uploads/2024/04/Screenshot-2024-04-11-at-10.37.57-2048x1137.png 2048w" sizes="(max-width: 1024px) 100vw, 1024px" /></a></figure>
+
+
+
+<h2 class="wp-block-heading">Similar Articles</h2>
+
+
+
+<p>If you liked this article, you may like these articles too.</p>
+
+
+<div  class="ultp-post-grid-block wp-block-ultimate-post-post-grid-1 ultp-block-f694bb"><div class="ultp-block-wrapper"><div class="ultp-loading"><div class="ultp-loading-blocks" style="width:100%;height:100%;"><div style="left: 0;top: 0;animation-delay:0s;"></div><div style="left: 21px;top: 0;animation-delay:0.125s;"></div><div style="left: 42px;top: 0;animation-delay:0.25s;"></div><div style="left: 0;top: 21px;animation-delay:0.875s;"></div><div style="left: 42px;top: 21px;animation-delay:0.375s;"></div><div style="left: 0;top: 42px;animation-delay:0.75s;"></div><div style="left: 42px;top: 42px;animation-delay:0.625s;"></div><div style="left: 21px;top: 42px;animation-delay:0.5s;"></div></div></div><div class="ultp-heading-filter"><div class="ultp-heading-filter-in"><div class="ultp-filter-navigation"></div></div></div><div class="ultp-block-items-wrap ultp-block-row ultp-pg1a-style1 ultp-block-column-3 ultp-layout1"><div class="ultp-block-item post-id-2183"><div class="ultp-block-content-wrap"><div class="ultp-block-image ultp-block-image-opacity"><a href="https://blog.hichee.com/9-best-farmhouse-airbnbs-to-rent-in-the-us-for-less/" ><img decoding="async"  alt="9 Best Farmhouse Airbnbs To Rent In The US (For LESS)"  src="https://blog.hichee.com/wp-content/uploads/2022/08/9.0-1-870x570.webp" /></a></div><div class="ultp-block-content"><h3 class="ultp-block-title "><a href="https://blog.hichee.com/9-best-farmhouse-airbnbs-to-rent-in-the-us-for-less/" >9 Best Farmhouse Airbnbs To Rent In The US (For LESS)</a></h3></div></div></div><div class="ultp-block-item post-id-98525"><div class="ultp-block-content-wrap"><div class="ultp-block-image ultp-block-image-opacity"><a href="https://blog.hichee.com/best-airbnbs-destin/" ><img decoding="async"  alt="The best Airbnbs in Destin"  src="https://blog.hichee.com/wp-content/uploads/2024/07/Best-Airbnbs-Destin-870x570.jpg" /></a></div><div class="ultp-block-content"><h3 class="ultp-block-title "><a href="https://blog.hichee.com/best-airbnbs-destin/" >Best Airbnbs Destin &#8211; How To Book Them For Less</a></h3></div></div></div><div class="ultp-block-item post-id-72602"><div class="ultp-block-content-wrap"><div class="ultp-block-image ultp-block-image-opacity"><a href="https://blog.hichee.com/unique-airbnb-stays/" ><img decoding="async"  alt="Unique Airbnbs"  src="https://blog.hichee.com/wp-content/uploads/2024/02/HiChee-featured-images-39-870x570.jpg" /></a></div><div class="ultp-block-content"><h3 class="ultp-block-title "><a href="https://blog.hichee.com/unique-airbnb-stays/" >Unique Airbnb Stays Around the Globe &#8211; Escape the Ordinary</a></h3></div></div></div><div class="ultp-block-item post-id-190"><div class="ultp-block-content-wrap"><div class="ultp-block-image ultp-block-image-opacity"><a href="https://blog.hichee.com/looking-for-an-airbnb-beach-house-these-are-jaw-dropping/" ><img decoding="async"  alt="Looking for An Airbnb Beach house? These Are Jaw-Dropping"  src="https://blog.hichee.com/wp-content/uploads/2024/03/Looking-for-An-Airbnb-Beach-house-These-Are-Jaw-Dropping-870x570.jpg" /></a></div><div class="ultp-block-content"><h3 class="ultp-block-title "><a href="https://blog.hichee.com/looking-for-an-airbnb-beach-house-these-are-jaw-dropping/" >Looking for An Airbnb Beach house? These Are Jaw-Dropping</a></h3></div></div></div><div class="ultp-block-item post-id-93697"><div class="ultp-block-content-wrap"><div class="ultp-block-image ultp-block-image-opacity"><a href="https://blog.hichee.com/airbnb-orlando/" ><img decoding="async"  alt="Airbnb Orlando: Top 10 Dream Stays Near Disney World"  src="https://blog.hichee.com/wp-content/uploads/2024/02/HiChee-featured-images-37-870x570.jpg" /></a></div><div class="ultp-block-content"><h3 class="ultp-block-title "><a href="https://blog.hichee.com/airbnb-orlando/" >Airbnb Orlando: Top 10 Dream Stays Near Disney World</a></h3></div></div></div><div class="ultp-block-item post-id-18446"><div class="ultp-block-content-wrap"><div class="ultp-block-image ultp-block-image-opacity"><a href="https://blog.hichee.com/harry-potter-themed-airbnbs/" ><img decoding="async"  alt="Harry Potter Airbnb"  src="https://blog.hichee.com/wp-content/uploads/2023/04/Harry-Potter-Airbnbs-870x570.jpg" /></a></div><div class="ultp-block-content"><h3 class="ultp-block-title "><a href="https://blog.hichee.com/harry-potter-themed-airbnbs/" >Harry Potter-Themed Airbnbs &#8211; Magic Stays For Muggles</a></h3></div></div></div></div><div class="ultp-pagination-wrap ultp-pagination-ajax-action" data-paged="1" data-expost=""  data-blockid="f694bb" data-postid="23627" data-pages="6" data-blockname="ultimate-post_post-grid-1" data-selfpostid="yes"><ul class="ultp-pagination"><li class="ultp-prev-page-numbers" style="display:none"><a href="https://blog.hichee.com/wp-json/wp/v2/posts/?context=edit&#038;status=publish%2Cdraft%2Cpending%2Cfuture%2Cprivate&#038;_fields=id%2Cdate%2Cdate_gmt%2Cmodified%2Cmodified_gmt%2Cslug%2Cstatus%2Ctype%2Clink%2Ctitle%2Cexcerpt%2Ccontent%2Ccategories%2Ctags%2Cfeatured_media%2Cparent&#038;per_page=100&#038;page=6"><svg enable-background="new 0 0 477.175 477.175" version="1.1" viewBox="0 0 477.18 477.18"><path d="m145.19 238.58 215.5-215.5c5.3-5.3 5.3-13.8 0-19.1s-13.8-5.3-19.1 0l-225.1 225.1c-5.3 5.3-5.3 13.8 0 19.1l225.1 225c2.6 2.6 6.1 4 9.5 4s6.9-1.3 9.5-4c5.3-5.3 5.3-13.8 0-19.1l-215.4-215.5z"></path></svg> Previous</a></li><li class="ultp-first-pages" style="display:none" data-current="1"><a href="https://blog.hichee.com/wp-json/wp/v2/posts/?context=edit&#038;status=publish%2Cdraft%2Cpending%2Cfuture%2Cprivate&#038;_fields=id%2Cdate%2Cdate_gmt%2Cmodified%2Cmodified_gmt%2Cslug%2Cstatus%2Ctype%2Clink%2Ctitle%2Cexcerpt%2Ccontent%2Ccategories%2Ctags%2Cfeatured_media%2Cparent&#038;per_page=100&#038;page=6">1</a></li><li class="ultp-first-dot"style="display:none"><a href="#">&#8230;</a></li><li class="ultp-center-item pagination-active" data-current="1"><a href="https://blog.hichee.com/wp-json/wp/v2/posts/?context=edit&#038;status=publish%2Cdraft%2Cpending%2Cfuture%2Cprivate&#038;_fields=id%2Cdate%2Cdate_gmt%2Cmodified%2Cmodified_gmt%2Cslug%2Cstatus%2Ctype%2Clink%2Ctitle%2Cexcerpt%2Ccontent%2Ccategories%2Ctags%2Cfeatured_media%2Cparent&#038;per_page=100&#038;page=6">1</a></li><li class="ultp-center-item" data-current="2" ><a href="https://blog.hichee.com/wp-json/wp/v2/posts/page/2/?context=edit&#038;status=publish%2Cdraft%2Cpending%2Cfuture%2Cprivate&#038;_fields=id%2Cdate%2Cdate_gmt%2Cmodified%2Cmodified_gmt%2Cslug%2Cstatus%2Ctype%2Clink%2Ctitle%2Cexcerpt%2Ccontent%2Ccategories%2Ctags%2Cfeatured_media%2Cparent&#038;per_page=100&#038;page=6">2</a></li><li class="ultp-center-item" data-current="3" ><a href="https://blog.hichee.com/wp-json/wp/v2/posts/page/3/?context=edit&#038;status=publish%2Cdraft%2Cpending%2Cfuture%2Cprivate&#038;_fields=id%2Cdate%2Cdate_gmt%2Cmodified%2Cmodified_gmt%2Cslug%2Cstatus%2Ctype%2Clink%2Ctitle%2Cexcerpt%2Ccontent%2Ccategories%2Ctags%2Cfeatured_media%2Cparent&#038;per_page=100&#038;page=6">3</a></li><li class="ultp-last-dot" ><a href="#">&#8230;</a></li><li class="ultp-last-pages" data-current="6"><a href="https://blog.hichee.com/wp-json/wp/v2/posts/page/6/?context=edit&#038;status=publish%2Cdraft%2Cpending%2Cfuture%2Cprivate&#038;_fields=id%2Cdate%2Cdate_gmt%2Cmodified%2Cmodified_gmt%2Cslug%2Cstatus%2Ctype%2Clink%2Ctitle%2Cexcerpt%2Ccontent%2Ccategories%2Ctags%2Cfeatured_media%2Cparent&#038;per_page=100&#038;page=6">6</a></li><li class="ultp-next-page-numbers"><a href="https://blog.hichee.com/wp-json/wp/v2/posts/page/2/?context=edit&#038;status=publish%2Cdraft%2Cpending%2Cfuture%2Cprivate&#038;_fields=id%2Cdate%2Cdate_gmt%2Cmodified%2Cmodified_gmt%2Cslug%2Cstatus%2Ctype%2Clink%2Ctitle%2Cexcerpt%2Ccontent%2Ccategories%2Ctags%2Cfeatured_media%2Cparent&#038;per_page=100&#038;page=6">Next<svg enable-background="new 0 0 477.175 477.175" version="1.1" viewBox="0 0 477.18 477.18"><path d="m360.73 229.08-225.1-225.1c-5.3-5.3-13.8-5.3-19.1 0s-5.3 13.8 0 19.1l215.5 215.5-215.5 215.5c-5.3 5.3-5.3 13.8 0 19.1 2.6 2.6 6.1 4 9.5 4s6.9-1.3 9.5-4l225.1-225.1c5.3-5.2 5.3-13.8 0.1-19z"></path></svg></a></li></ul></div></div><div class="pagination-block-html" aria-hidden="true" style="display: none;"></div></div>
