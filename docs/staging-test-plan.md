@@ -1,6 +1,6 @@
 # Staging Test Plan (newblog.hichee.com)
 
-Current preview deployment: `https://3d57ea96.blog-hichee-com.pages.dev`  
+Current preview deployment: `https://0c10c0d4.blog-hichee-com-git.pages.dev`  
 Custom domain status: `newblog.hichee.com` pending DNS CNAME verification.
 
 ## 1) Content Parity

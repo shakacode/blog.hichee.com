@@ -10,9 +10,10 @@
 ## Current Status (2026-02-24)
 
 - Pages project created: `blog-hichee-com`.
-- Initial deployment completed: `https://3d57ea96.blog-hichee-com.pages.dev`.
+- Project is Git-connected to `shakacode/blog.hichee.com` (Cloudflare Git Provider: Yes).
+- Successful Git-connected deployment completed: `https://0c10c0d4.blog-hichee-com-git.pages.dev`.
 - Staging custom domain `newblog.hichee.com` added to project but still pending verification.
-- Pending DNS step: create CNAME record `newblog -> blog-hichee-com.pages.dev` in `hichee.com` zone.
+- Pending DNS step: create CNAME record `newblog -> blog-hichee-com-git.pages.dev` in `hichee.com` zone.
 
 ## Recommended Sequence
 
@@ -31,7 +32,7 @@
 ## Notes
 
 - If DNS is managed in the same Cloudflare account, CNAME creation can be automatic. If token/account permissions are limited, create the CNAME manually in dashboard DNS.
-- GitHub Actions workflow `.github/workflows/deploy-pages.yml` handles push/PR deploys once `CLOUDFLARE_API_TOKEN` and `CLOUDFLARE_ACCOUNT_ID` secrets are set.
+- For this project, deploys are now handled by Cloudflare Pages Git integration (not a custom GitHub Action deploy workflow).
 
 ## Rollback
 

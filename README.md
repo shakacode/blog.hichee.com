@@ -19,21 +19,14 @@ yarn dev
 ## Deployment Setup (Cloudflare Pages)
 
 Project: `blog-hichee-com`  
-Primary Pages URL: `https://blog-hichee-com.pages.dev`
+Current Pages URL: `https://blog-hichee-com-git.pages.dev`
 
-This repo includes a GitHub Actions workflow that deploys to Cloudflare Pages on:
-- `push` to `main` (production branch deploy)
-- every `pull_request` (preview branch deploy)
+This project is connected to GitHub (`shakacode/blog.hichee.com`) in Cloudflare Pages.
 
-One-time GitHub repo secrets required:
-- `CLOUDFLARE_ACCOUNT_ID` = `fed541b7e7055a428a1b045aa3cd2c89`
-- `CLOUDFLARE_API_TOKEN` = Cloudflare API token with at least:
-  - `Account: Cloudflare Pages:Edit`
-  - `Account: Account Settings:Read`
+- Pushes to `main` trigger production deployments in Cloudflare.
+- Pull requests trigger preview deployments in Cloudflare.
 
-Recommended token scope additions for smoother domain/DNS ops:
-- `Zone: DNS:Edit`
-- `Zone: Zone:Read`
+No custom GitHub deploy workflow is required for Pages deploys.
 
 ## Migration Workflow
 
