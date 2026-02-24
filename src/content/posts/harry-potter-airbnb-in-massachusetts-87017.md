@@ -4,9 +4,9 @@ path: /harry-potter-airbnb-in-massachusetts/
 date: '2024-01-01T23:49:14.000Z'
 updatedDate: '2024-01-01T23:49:19.000Z'
 description: >-
-  Witches Dorm &#8211; Salem School of Witchcraft Location: Salem, Massachusetts
-  Harry Potter Airbnb In Massachusetts &#8211; Tired of the Muggle world?
-  Rejuvenate the Potterhead here at the Witches Dorm, an enchanting ret
+  Witches Dorm – Salem School of Witchcraft Location: Salem, Massachusetts Harry
+  Potter Airbnb In Massachusetts – Tired of the Muggle world? Rejuvenate the
+  Potterhead here at the Witches Dorm, an enchanting retreat just a 
 legacyUrl: 'https://blog.hichee.com/harry-potter-airbnb-in-massachusetts/'
 wordpressId: 87017
 status: publish
@@ -99,6 +99,6 @@ contentType: post
 <h2 class="wp-block-heading alignwide has-text-align-center">Share This Post With Friends</h2>
 <p></p>
 <p><p>
-<center><div class="addtoany_shortcode"><div class="a2a_kit a2a_kit_size_32 addtoany_list" data-a2a-url="https://blog.hichee.com/harry-potter-airbnb-in-massachusetts/" data-a2a-title="Harry Potter Airbnb In Massachusetts"><a class="a2a_button_facebook" href="https://www.addtoany.com/add_to/facebook?linkurl=https%3A%2F%2Fblog.hichee.com%2Fharry-potter-airbnb-in-massachusetts%2F&amp;linkname=Harry%20Potter%20Airbnb%20In%20Massachusetts" title="Facebook" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_twitter" href="https://www.addtoany.com/add_to/twitter?linkurl=https%3A%2F%2Fblog.hichee.com%2Fharry-potter-airbnb-in-massachusetts%2F&amp;linkname=Harry%20Potter%20Airbnb%20In%20Massachusetts" title="Twitter" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_pinterest" href="https://www.addtoany.com/add_to/pinterest?linkurl=https%3A%2F%2Fblog.hichee.com%2Fharry-potter-airbnb-in-massachusetts%2F&amp;linkname=Harry%20Potter%20Airbnb%20In%20Massachusetts" title="Pinterest" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_whatsapp" href="https://www.addtoany.com/add_to/whatsapp?linkurl=https%3A%2F%2Fblog.hichee.com%2Fharry-potter-airbnb-in-massachusetts%2F&amp;linkname=Harry%20Potter%20Airbnb%20In%20Massachusetts" title="WhatsApp" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_email" href="https://www.addtoany.com/add_to/email?linkurl=https%3A%2F%2Fblog.hichee.com%2Fharry-potter-airbnb-in-massachusetts%2F&amp;linkname=Harry%20Potter%20Airbnb%20In%20Massachusetts" title="Email" rel="nofollow noopener" target="_blank"></a><a class="a2a_dd addtoany_share_save addtoany_share" href="https://www.addtoany.com/share"></a></div></div></center></p>
+
 </div></div>
 <p></p>

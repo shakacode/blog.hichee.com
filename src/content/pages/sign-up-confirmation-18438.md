@@ -6,7 +6,7 @@ updatedDate: '2023-04-14T23:47:39.000Z'
 description: >-
   Please check your inbox… We just sent you an email. Please click the orange
   button in the email that we just sent you. You may need to check your spam
-  folder. If it&#8217;s in your spam folder, please mark it as not spam
+  folder. If it’s in your spam folder, please mark it as not spam for b
 legacyUrl: 'https://blog.hichee.com/sign-up-confirmation/'
 wordpressId: 18438
 status: publish

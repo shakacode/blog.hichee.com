@@ -1,5 +1,5 @@
 ---
-title: 'Sedona, Arizona &#8211; 11 Nights &#8211; SAVE $102'
+title: 'Sedona, Arizona – 11 Nights – SAVE $102'
 path: /sedona-arizona-11-nights-save-102/
 date: '2023-01-05T06:00:00.000Z'
 updatedDate: '2022-12-26T19:28:33.000Z'

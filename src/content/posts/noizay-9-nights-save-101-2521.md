@@ -1,5 +1,5 @@
 ---
-title: 'Centre-Val De Loire, France &#8211; 9 Nights &#8211; SAVE $101'
+title: 'Centre-Val De Loire, France – 9 Nights – SAVE $101'
 path: /noizay-9-nights-save-101/
 date: '2022-09-24T02:13:38.000Z'
 updatedDate: '2022-10-04T04:00:14.000Z'

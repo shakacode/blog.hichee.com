@@ -5,8 +5,8 @@ date: '2022-10-15T06:00:00.000Z'
 updatedDate: '2022-08-18T18:30:44.000Z'
 description: >-
   A rare hidden gem is located in Tuscany just outside the town of Saturnia.
-  This place is known for its spa and thermal waters. It&#8217;s got sulphuric
-  waters rising from the ground at 37.5°C creating warm thermal pools 
+  This place is known for its spa and thermal waters. It’s got sulphuric waters
+  rising from the ground at 37.5°C creating warm thermal pools for ba
 legacyUrl: 'https://blog.hichee.com/where-am-i-12/'
 wordpressId: 1513
 status: publish

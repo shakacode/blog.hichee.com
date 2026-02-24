@@ -1,7 +1,7 @@
 ---
 title: >-
-  Vacation Rental Damage Deposits &#8211; All You Need To Know, Including Tips
-  From Hosts
+  Vacation Rental Damage Deposits – All You Need To Know, Including Tips From
+  Hosts
 path: >-
   /vacation-rental-damage-deposits-all-you-need-to-know-including-tips-from-hosts/
 date: '2023-02-23T23:22:08.000Z'

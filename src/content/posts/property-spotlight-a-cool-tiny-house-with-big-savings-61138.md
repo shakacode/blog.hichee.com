@@ -1,5 +1,5 @@
 ---
-title: Property Spotlight &#8211; A Cool Tiny House With Big Savings
+title: Property Spotlight – A Cool Tiny House With Big Savings
 path: /property-spotlight-a-cool-tiny-house-with-big-savings/
 date: '2023-11-14T21:50:58.000Z'
 updatedDate: '2023-11-14T21:51:02.000Z'
@@ -92,4 +92,4 @@ contentType: post
 <h2 class="wp-block-heading alignwide has-text-align-center">Share This Post With Friends</h2>
 
 
-<p><center><div class="addtoany_shortcode"><div class="a2a_kit a2a_kit_size_32 addtoany_list" data-a2a-url="https://blog.hichee.com/property-spotlight-a-cool-tiny-house-with-big-savings/" data-a2a-title="Property Spotlight – A Cool Tiny House With Big Savings"><a class="a2a_button_facebook" href="https://www.addtoany.com/add_to/facebook?linkurl=https%3A%2F%2Fblog.hichee.com%2Fproperty-spotlight-a-cool-tiny-house-with-big-savings%2F&amp;linkname=Property%20Spotlight%20%E2%80%93%20A%20Cool%20Tiny%20House%20With%20Big%20Savings" title="Facebook" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_twitter" href="https://www.addtoany.com/add_to/twitter?linkurl=https%3A%2F%2Fblog.hichee.com%2Fproperty-spotlight-a-cool-tiny-house-with-big-savings%2F&amp;linkname=Property%20Spotlight%20%E2%80%93%20A%20Cool%20Tiny%20House%20With%20Big%20Savings" title="Twitter" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_pinterest" href="https://www.addtoany.com/add_to/pinterest?linkurl=https%3A%2F%2Fblog.hichee.com%2Fproperty-spotlight-a-cool-tiny-house-with-big-savings%2F&amp;linkname=Property%20Spotlight%20%E2%80%93%20A%20Cool%20Tiny%20House%20With%20Big%20Savings" title="Pinterest" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_whatsapp" href="https://www.addtoany.com/add_to/whatsapp?linkurl=https%3A%2F%2Fblog.hichee.com%2Fproperty-spotlight-a-cool-tiny-house-with-big-savings%2F&amp;linkname=Property%20Spotlight%20%E2%80%93%20A%20Cool%20Tiny%20House%20With%20Big%20Savings" title="WhatsApp" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_email" href="https://www.addtoany.com/add_to/email?linkurl=https%3A%2F%2Fblog.hichee.com%2Fproperty-spotlight-a-cool-tiny-house-with-big-savings%2F&amp;linkname=Property%20Spotlight%20%E2%80%93%20A%20Cool%20Tiny%20House%20With%20Big%20Savings" title="Email" rel="nofollow noopener" target="_blank"></a><a class="a2a_dd addtoany_share_save addtoany_share" href="https://www.addtoany.com/share"></a></div></div></center></p>
+<p>

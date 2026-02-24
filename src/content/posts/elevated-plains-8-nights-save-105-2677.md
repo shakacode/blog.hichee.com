@@ -1,5 +1,5 @@
 ---
-title: 'Victoria, Australia &#8211; 8 Nights &#8211; SAVE $105'
+title: 'Victoria, Australia – 8 Nights – SAVE $105'
 path: /elevated-plains-8-nights-save-105/
 date: '2022-09-24T01:58:19.000Z'
 updatedDate: '2022-10-04T04:02:22.000Z'

@@ -1,5 +1,5 @@
 ---
-title: 'Gregory Town, The Bahamas &#8211; 4 Nights &#8211; SAVE $87'
+title: 'Gregory Town, The Bahamas – 4 Nights – SAVE $87'
 path: /gregory-town-the-bahamas-4-nights-save-87/
 date: '2023-02-23T06:00:00.000Z'
 updatedDate: '2023-02-17T01:42:12.000Z'

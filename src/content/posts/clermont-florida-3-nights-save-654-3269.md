@@ -1,5 +1,5 @@
 ---
-title: 'Clermont, Florida &#8211; 3 Nights &#8211; SAVE $654'
+title: 'Clermont, Florida – 3 Nights – SAVE $654'
 path: /clermont-florida-3-nights-save-654/
 date: '2022-10-12T06:00:00.000Z'
 updatedDate: '2022-10-11T00:32:09.000Z'

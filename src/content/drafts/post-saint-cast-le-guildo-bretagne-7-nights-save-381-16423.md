@@ -1,5 +1,5 @@
 ---
-title: 'Saint-Cast-le-Guildo, Bretagne &#8211; 7 Nights &#8211; SAVE $381'
+title: 'Saint-Cast-le-Guildo, Bretagne – 7 Nights – SAVE $381'
 path: /saint-cast-le-guildo-bretagne-7-nights-save-381/
 date: '2023-06-08T06:00:00.000Z'
 updatedDate: '2023-05-04T22:04:48.000Z'

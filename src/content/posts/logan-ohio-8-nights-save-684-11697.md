@@ -1,5 +1,5 @@
 ---
-title: 'Logan, Ohio &#8211; 8 Nights &#8211; SAVE $684'
+title: 'Logan, Ohio – 8 Nights – SAVE $684'
 path: /logan-ohio-8-nights-save-684/
 date: '2023-01-27T06:00:00.000Z'
 updatedDate: '2023-01-20T01:38:05.000Z'

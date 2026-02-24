@@ -1,5 +1,5 @@
 ---
-title: 'Centre-Val de Loire, France &#8211; 6 Nights &#8211; SAVE $132'
+title: 'Centre-Val de Loire, France – 6 Nights – SAVE $132'
 path: /noyers-sur-cher-6-nights-save-132/
 date: '2022-10-07T06:00:00.000Z'
 updatedDate: '2022-10-07T01:12:07.000Z'

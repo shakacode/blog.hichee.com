@@ -1,5 +1,5 @@
 ---
-title: 'Occitanie, France &#8211; 7 Nights &#8211; SAVE $218'
+title: 'Occitanie, France – 7 Nights – SAVE $218'
 path: /occitanie-france-7-nights-save-218/
 date: '2022-10-31T06:00:00.000Z'
 updatedDate: '2022-10-25T00:56:22.000Z'

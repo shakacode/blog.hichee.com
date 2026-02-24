@@ -1,5 +1,5 @@
 ---
-title: 'Tenerife, Spain &#8211; 7 Nights &#8211; SAVE $675'
+title: 'Tenerife, Spain – 7 Nights – SAVE $675'
 path: /tenerife-spain-7-nights-save-675/
 date: '2023-06-18T06:00:00.000Z'
 updatedDate: '2023-05-04T22:06:51.000Z'

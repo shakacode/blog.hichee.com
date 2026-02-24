@@ -1,5 +1,5 @@
 ---
-title: 'Mountain Village, Colorado &#8211; 7 Nights &#8211; SAVE $998'
+title: 'Mountain Village, Colorado – 7 Nights – SAVE $998'
 path: /mountain-village-colorado-7-nights-save-998/
 date: '2022-11-04T06:00:00.000Z'
 updatedDate: '2022-11-01T00:35:06.000Z'

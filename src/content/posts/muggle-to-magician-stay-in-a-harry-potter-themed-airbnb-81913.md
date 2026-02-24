@@ -4,9 +4,9 @@ path: /muggle-to-magician-stay-in-a-harry-potter-themed-airbnb/
 date: '2023-12-19T22:21:11.000Z'
 updatedDate: '2023-12-19T22:21:16.000Z'
 description: >-
-  Just 15 miles from the wizarding world Windsor Hills &#8211; Harry Potter
-  Villa Location: Kissimmee, Florida Nestled just a few miles from Disney Parks,
-  this beautiful property will excite the Potterhead in you with its 
+  Just 15 miles from the wizarding world Windsor Hills – Harry Potter Villa
+  Location: Kissimmee, Florida Nestled just a few miles from Disney Parks, this
+  beautiful property will excite the Potterhead in you with its Harry 
 legacyUrl: >-
   https://blog.hichee.com/muggle-to-magician-stay-in-a-harry-potter-themed-airbnb/
 wordpressId: 81913
@@ -124,6 +124,6 @@ contentType: post
 <h2 class="wp-block-heading alignwide has-text-align-center">Share This Post With Friends</h2>
 <p></p>
 <p><p>
-<center><div class="addtoany_shortcode"><div class="a2a_kit a2a_kit_size_32 addtoany_list" data-a2a-url="https://blog.hichee.com/muggle-to-magician-stay-in-a-harry-potter-themed-airbnb/" data-a2a-title="Muggle to Magician: Stay in a Harry Potter-Themed Airbnb"><a class="a2a_button_facebook" href="https://www.addtoany.com/add_to/facebook?linkurl=https%3A%2F%2Fblog.hichee.com%2Fmuggle-to-magician-stay-in-a-harry-potter-themed-airbnb%2F&amp;linkname=Muggle%20to%20Magician%3A%20Stay%20in%20a%20Harry%20Potter-Themed%20Airbnb" title="Facebook" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_twitter" href="https://www.addtoany.com/add_to/twitter?linkurl=https%3A%2F%2Fblog.hichee.com%2Fmuggle-to-magician-stay-in-a-harry-potter-themed-airbnb%2F&amp;linkname=Muggle%20to%20Magician%3A%20Stay%20in%20a%20Harry%20Potter-Themed%20Airbnb" title="Twitter" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_pinterest" href="https://www.addtoany.com/add_to/pinterest?linkurl=https%3A%2F%2Fblog.hichee.com%2Fmuggle-to-magician-stay-in-a-harry-potter-themed-airbnb%2F&amp;linkname=Muggle%20to%20Magician%3A%20Stay%20in%20a%20Harry%20Potter-Themed%20Airbnb" title="Pinterest" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_whatsapp" href="https://www.addtoany.com/add_to/whatsapp?linkurl=https%3A%2F%2Fblog.hichee.com%2Fmuggle-to-magician-stay-in-a-harry-potter-themed-airbnb%2F&amp;linkname=Muggle%20to%20Magician%3A%20Stay%20in%20a%20Harry%20Potter-Themed%20Airbnb" title="WhatsApp" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_email" href="https://www.addtoany.com/add_to/email?linkurl=https%3A%2F%2Fblog.hichee.com%2Fmuggle-to-magician-stay-in-a-harry-potter-themed-airbnb%2F&amp;linkname=Muggle%20to%20Magician%3A%20Stay%20in%20a%20Harry%20Potter-Themed%20Airbnb" title="Email" rel="nofollow noopener" target="_blank"></a><a class="a2a_dd addtoany_share_save addtoany_share" href="https://www.addtoany.com/share"></a></div></div></center></p>
+
 </div></div>
 <p></p>

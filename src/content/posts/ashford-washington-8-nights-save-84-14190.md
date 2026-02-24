@@ -1,5 +1,5 @@
 ---
-title: 'Ashford, Washington &#8211; 8 Nights &#8211; SAVE $84'
+title: 'Ashford, Washington – 8 Nights – SAVE $84'
 path: /ashford-washington-8-nights-save-84/
 date: '2023-03-16T06:00:00.000Z'
 updatedDate: '2023-03-07T04:22:58.000Z'

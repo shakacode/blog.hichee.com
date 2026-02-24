@@ -1,5 +1,5 @@
 ---
-title: 'Poggibonsi, Toscana &#8211; 7 Nights &#8211; SAVE $239'
+title: 'Poggibonsi, Toscana – 7 Nights – SAVE $239'
 path: /poggibonsi-toscana-7-nights-save-239/
 date: '2023-05-19T06:00:00.000Z'
 updatedDate: '2023-05-04T22:00:15.000Z'

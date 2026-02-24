@@ -3,7 +3,7 @@ title: How to furnish your airbnb like a pro and a few shopping secrets
 path: /how-to-furnish-your-airbnb-like-a-pro-and-a-few-shopping-secrets/
 date: '2022-11-18T00:39:14.000Z'
 updatedDate: '2022-11-18T00:39:17.000Z'
-description: "127,587 views Nov 8, 2021Join the 12-month Host Camp Mentorship Program \U0001F447\U0001F3FD\U0001F447\U0001F3FD https://tinyurl.com/hostcampmentorship Download my Airbnb shopping list \U0001F447\U0001F3FD\U0001F447\U0001F3FD https://www.robuiltchannel.com/host-c&#8230; So many of yo"
+description: "127,587 views Nov 8, 2021Join the 12-month Host Camp Mentorship Program \U0001F447\U0001F3FD\U0001F447\U0001F3FD https://tinyurl.com/hostcampmentorship Download my Airbnb shopping list \U0001F447\U0001F3FD\U0001F447\U0001F3FD https://www.robuiltchannel.com/host-c… So many of you have"
 legacyUrl: >-
   https://blog.hichee.com/how-to-furnish-your-airbnb-like-a-pro-and-a-few-shopping-secrets/
 wordpressId: 7081

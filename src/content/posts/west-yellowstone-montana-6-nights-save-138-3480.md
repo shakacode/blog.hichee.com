@@ -1,5 +1,5 @@
 ---
-title: 'West Yellowstone, Montana &#8211; 6 Nights &#8211; SAVE $138'
+title: 'West Yellowstone, Montana – 6 Nights – SAVE $138'
 path: /west-yellowstone-montana-6-nights-save-138/
 date: '2022-11-05T06:00:00.000Z'
 updatedDate: '2022-11-01T00:35:40.000Z'

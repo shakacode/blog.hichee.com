@@ -1,5 +1,5 @@
 ---
-title: 'Truckee, California &#8211; 10 Nights &#8211; SAVE $7,117'
+title: 'Truckee, California – 10 Nights – SAVE $7,117'
 path: /truckee-california-10-nights-save-7117/
 date: '2023-06-27T06:00:00.000Z'
 updatedDate: '2023-05-04T22:09:13.000Z'

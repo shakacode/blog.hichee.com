@@ -1,5 +1,5 @@
 ---
-title: 'Port Douglas, Australia &#8211; 9 Nights &#8211; SAVE $1,287'
+title: 'Port Douglas, Australia – 9 Nights – SAVE $1,287'
 path: /port-douglas-australia-9-nights-save-1287/
 date: '2023-05-08T06:00:00.000Z'
 updatedDate: '2023-04-21T12:45:50.000Z'

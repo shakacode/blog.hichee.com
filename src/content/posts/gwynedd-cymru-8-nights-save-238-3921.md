@@ -1,5 +1,5 @@
 ---
-title: 'Gwynedd, Cymru &#8211; 8 Nights &#8211; SAVE $238'
+title: 'Gwynedd, Cymru – 8 Nights – SAVE $238'
 path: /gwynedd-cymru-8-nights-save-238/
 date: '2022-11-12T06:00:00.000Z'
 updatedDate: '2022-11-09T00:49:07.000Z'

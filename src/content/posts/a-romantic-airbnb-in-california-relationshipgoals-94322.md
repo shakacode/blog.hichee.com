@@ -6,7 +6,7 @@ updatedDate: '2024-02-27T22:58:12.000Z'
 description: >-
   A Romantic Airbnb In California, With Hot Tub Seamist Beach Cottage Location:
   Bodega Bay, California A Romantic Airbnb In California , Seamist Beach
-  Cottage, nestled beside Bodega Bay, offers the ideal Valentine&#8217;s 
+  Cottage, nestled beside Bodega Bay, offers the ideal Valentine’s Day re
 legacyUrl: 'https://blog.hichee.com/a-romantic-airbnb-in-california-relationshipgoals/'
 wordpressId: 94322
 status: publish
@@ -172,6 +172,6 @@ contentType: post
 <h2 class="wp-block-heading alignwide has-text-align-center" id="h-share-this-post-with-friends">Share This Post With Friends</h2>
 <p></p>
 <p><p>
-<center><div class="addtoany_shortcode"><div class="a2a_kit a2a_kit_size_32 addtoany_list" data-a2a-url="https://blog.hichee.com/a-romantic-airbnb-in-california-relationshipgoals/" data-a2a-title="A Romantic Airbnb In California #RelationshipGoals"><a class="a2a_button_facebook" href="https://www.addtoany.com/add_to/facebook?linkurl=https%3A%2F%2Fblog.hichee.com%2Fa-romantic-airbnb-in-california-relationshipgoals%2F&amp;linkname=A%20Romantic%20Airbnb%20In%20California%20%23RelationshipGoals" title="Facebook" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_twitter" href="https://www.addtoany.com/add_to/twitter?linkurl=https%3A%2F%2Fblog.hichee.com%2Fa-romantic-airbnb-in-california-relationshipgoals%2F&amp;linkname=A%20Romantic%20Airbnb%20In%20California%20%23RelationshipGoals" title="Twitter" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_pinterest" href="https://www.addtoany.com/add_to/pinterest?linkurl=https%3A%2F%2Fblog.hichee.com%2Fa-romantic-airbnb-in-california-relationshipgoals%2F&amp;linkname=A%20Romantic%20Airbnb%20In%20California%20%23RelationshipGoals" title="Pinterest" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_whatsapp" href="https://www.addtoany.com/add_to/whatsapp?linkurl=https%3A%2F%2Fblog.hichee.com%2Fa-romantic-airbnb-in-california-relationshipgoals%2F&amp;linkname=A%20Romantic%20Airbnb%20In%20California%20%23RelationshipGoals" title="WhatsApp" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_email" href="https://www.addtoany.com/add_to/email?linkurl=https%3A%2F%2Fblog.hichee.com%2Fa-romantic-airbnb-in-california-relationshipgoals%2F&amp;linkname=A%20Romantic%20Airbnb%20In%20California%20%23RelationshipGoals" title="Email" rel="nofollow noopener" target="_blank"></a><a class="a2a_dd addtoany_share_save addtoany_share" href="https://www.addtoany.com/share"></a></div></div></center></p>
+
 </div></div>
 <p></p>

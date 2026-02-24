@@ -1,5 +1,5 @@
 ---
-title: 'Monterotondo Marittimo, Toscana &#8211; 10 Nights &#8211; SAVE $78'
+title: 'Monterotondo Marittimo, Toscana – 10 Nights – SAVE $78'
 path: /monterotondo-marittimo-toscana-10-nights-save-78/
 date: '2023-04-07T06:00:00.000Z'
 updatedDate: '2023-03-28T00:09:16.000Z'

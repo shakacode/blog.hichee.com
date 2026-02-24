@@ -1,5 +1,5 @@
 ---
-title: 'Dauphin Island, Alabama &#8211; 9 Nights &#8211; SAVE $88'
+title: 'Dauphin Island, Alabama – 9 Nights – SAVE $88'
 path: /dauphin-island-9-nights-save-88/
 date: '2022-09-24T01:35:05.000Z'
 updatedDate: '2022-10-04T04:05:28.000Z'

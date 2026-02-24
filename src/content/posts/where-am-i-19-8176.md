@@ -4,9 +4,9 @@ path: /where-am-i-19/
 date: '2022-12-02T18:00:00.000Z'
 updatedDate: '2022-12-01T19:19:18.000Z'
 description: >-
-  It&#8217;s a city at the famous waterfalls of the same name, linked with the
-  U.S. by the Rainbow Bridge. Its site on the Niagara River&#8217;s western
-  shore overlooks the Horseshoe Falls, the cascades&#8217; most expansi
+  It’s a city at the famous waterfalls of the same name, linked with the U.S. by
+  the Rainbow Bridge. Its site on the Niagara River’s western shore overlooks
+  the Horseshoe Falls, the cascades’ most expansive section. Elevat
 legacyUrl: 'https://blog.hichee.com/where-am-i-19/'
 wordpressId: 8176
 status: publish

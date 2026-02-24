@@ -1,5 +1,5 @@
 ---
-title: 'Fort Walton Beach, Florida &#8211; 7 Nights &#8211; SAVE $352'
+title: 'Fort Walton Beach, Florida – 7 Nights – SAVE $352'
 path: /fort-walton-beach-florida-7-nights-save-352/
 date: '2022-12-16T06:00:00.000Z'
 updatedDate: '2022-12-12T18:25:16.000Z'

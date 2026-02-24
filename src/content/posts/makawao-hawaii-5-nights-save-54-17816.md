@@ -1,5 +1,5 @@
 ---
-title: 'Makawao, Hawaii &#8211; 5 Nights &#8211; SAVE $54'
+title: 'Makawao, Hawaii – 5 Nights – SAVE $54'
 path: /makawao-hawaii-5-nights-save-54/
 date: '2023-04-08T06:00:00.000Z'
 updatedDate: '2023-03-28T00:09:26.000Z'

@@ -1,5 +1,5 @@
 ---
-title: 'Baden-Württemberg, Germany &#8211; 10 Nights &#8211; SAVE $180'
+title: 'Baden-Württemberg, Germany – 10 Nights – SAVE $180'
 path: /baden-wurttemberg-10-nights-save-180/
 date: '2022-09-24T02:31:40.000Z'
 updatedDate: '2022-10-04T03:56:01.000Z'

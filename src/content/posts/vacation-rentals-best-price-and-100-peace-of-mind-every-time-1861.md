@@ -1,12 +1,12 @@
 ---
-title: Vacation Rentals &#8211; Best Price And 100% Peace Of Mind &#8211; Every Time!
+title: Vacation Rentals – Best Price And 100% Peace Of Mind – Every Time!
 path: /vacation-rentals-best-price-and-100-peace-of-mind-every-time/
 date: '2022-08-23T18:33:00.000Z'
 updatedDate: '2022-08-31T18:06:03.000Z'
 description: >-
   In this short video I use Hichee.com to carry out a quick price comparison on
-  a vacation rental that I am about to book. I don&#8217;t find a better deal
-  but I can rest assured that I have found the lowest price so I can
+  a vacation rental that I am about to book. I don’t find a better deal but I
+  can rest assured that I have found the lowest price so I can go ah
 legacyUrl: >-
   https://blog.hichee.com/vacation-rentals-best-price-and-100-peace-of-mind-every-time/
 wordpressId: 1861
@@ -20,7 +20,6 @@ featuredImageAlt: Vacation Rentals - Best Price And 100% Peace Of Mind Every Tim
 draft: false
 contentType: post
 ---
-</p>
 <figure class="wp-block-image alignwide size-large"><img decoding="async" width="1024" height="576" src="https://blog.hichee.com/wp-content/uploads/2022/08/Hichee-Youtube-Thumbnail-3-1024x576.png" alt="Vacation Rentals - Best Price And 100% Peace Of Mind - Every Time!" class="wp-image-1863" srcset="https://blog.hichee.com/wp-content/uploads/2022/08/Hichee-Youtube-Thumbnail-3-1024x576.png 1024w, https://blog.hichee.com/wp-content/uploads/2022/08/Hichee-Youtube-Thumbnail-3-300x169.png 300w, https://blog.hichee.com/wp-content/uploads/2022/08/Hichee-Youtube-Thumbnail-3-768x432.png 768w, https://blog.hichee.com/wp-content/uploads/2022/08/Hichee-Youtube-Thumbnail-3.png 1280w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
 </p>
 <div class="wp-block-qubely-divider qubely-block-a2196f">
@@ -30,11 +29,8 @@ contentType: post
 <figure class="wp-block-image aligncenter size-full"><img decoding="async" width="350" height="132" src="https://blog.hichee.com/wp-content/uploads/2022/08/Screenshot-2022-08-23-at-09.16.39.png" alt="Vacation Rentals - Best Price And 100% Peace Of Mind - Every Time!" class="wp-image-1862" srcset="https://blog.hichee.com/wp-content/uploads/2022/08/Screenshot-2022-08-23-at-09.16.39.png 350w, https://blog.hichee.com/wp-content/uploads/2022/08/Screenshot-2022-08-23-at-09.16.39-300x113.png 300w" sizes="(max-width: 350px) 100vw, 350px" /></figure>
 </p>
 <p>In this short video I use Hichee.com to carry out a quick price comparison on a vacation rental that I am about to book. </p>
-</p>
 <p>I don&#8217;t find a better deal but I can rest assured that I have found the lowest price so I can go ahead an book, knowing that I haven&#8217;t overpaid on my accommodation. </p>
-</p>
 <p>Before you book, give Hichee a look</p>
-</p>
 <div class="wp-block-getwid-video-popup has-image has-foreground-0 alignwide"><a class="wp-block-getwid-video-popup__link" href="https://youtu.be/90Oj-4-OrQ4"></p>
 <div class="wp-block-getwid-video-popup__wrapper"><img decoding="async" width="1280" height="720" src="https://blog.hichee.com/wp-content/uploads/2022/08/Hichee-Youtube-Thumbnail-3.png" alt="" class="wp-block-getwid-video-popup__image wp-block-getwid-video-popup__source wp-image-1863" srcset="https://blog.hichee.com/wp-content/uploads/2022/08/Hichee-Youtube-Thumbnail-3.png 1280w, https://blog.hichee.com/wp-content/uploads/2022/08/Hichee-Youtube-Thumbnail-3-300x169.png 300w, https://blog.hichee.com/wp-content/uploads/2022/08/Hichee-Youtube-Thumbnail-3-1024x576.png 1024w, https://blog.hichee.com/wp-content/uploads/2022/08/Hichee-Youtube-Thumbnail-3-768x432.png 768w" sizes="(max-width: 1280px) 100vw, 1280px" /></p>
 <div class="wp-block-getwid-video-popup__button is-style-default has-animation-pulse">

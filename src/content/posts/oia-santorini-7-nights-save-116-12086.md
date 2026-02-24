@@ -1,5 +1,5 @@
 ---
-title: 'Oia, Santorini &#8211; 7 Nights &#8211; SAVE $116'
+title: 'Oia, Santorini – 7 Nights – SAVE $116'
 path: /oia-santorini-7-nights-save-116/
 date: '2023-02-06T06:00:00.000Z'
 updatedDate: '2023-01-23T20:48:52.000Z'

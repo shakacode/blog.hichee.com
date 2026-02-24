@@ -1,5 +1,5 @@
 ---
-title: 'Reggello, Toscana &#8211; 12 Nights &#8211; SAVE $178'
+title: 'Reggello, Toscana – 12 Nights – SAVE $178'
 path: /reggello-toscana-12-nights-save-178/
 date: '2023-03-13T06:00:00.000Z'
 updatedDate: '2023-03-01T13:58:09.000Z'

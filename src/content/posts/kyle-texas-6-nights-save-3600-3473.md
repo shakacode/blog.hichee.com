@@ -1,5 +1,5 @@
 ---
-title: 'Kyle, Texas &#8211; 6 Nights &#8211; SAVE $3,600'
+title: 'Kyle, Texas – 6 Nights – SAVE $3,600'
 path: /kyle-texas-6-nights-save-3600/
 date: '2022-10-27T06:30:00.000Z'
 updatedDate: '2022-10-25T00:54:32.000Z'

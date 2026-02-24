@@ -1,5 +1,5 @@
 ---
-title: 'Tambon Kammala, Phuket Province &#8211; 8 Nights &#8211; SAVE $714'
+title: 'Tambon Kammala, Phuket Province – 8 Nights – SAVE $714'
 path: /tambon-kammala-phuket-province-8-nights-save-714/
 date: '2023-06-20T06:00:00.000Z'
 updatedDate: '2023-05-04T22:08:03.000Z'

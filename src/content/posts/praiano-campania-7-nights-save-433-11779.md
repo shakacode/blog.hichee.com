@@ -1,5 +1,5 @@
 ---
-title: 'PRAIANO, Campania &#8211; 7 Nights &#8211; SAVE $433'
+title: 'PRAIANO, Campania – 7 Nights – SAVE $433'
 path: /praiano-campania-7-nights-save-433/
 date: '2023-01-25T06:00:00.000Z'
 updatedDate: '2023-01-20T01:37:44.000Z'

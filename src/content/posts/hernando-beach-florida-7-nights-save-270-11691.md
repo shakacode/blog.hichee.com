@@ -1,5 +1,5 @@
 ---
-title: 'Hernando Beach, Florida &#8211; 7 Nights &#8211; SAVE $270'
+title: 'Hernando Beach, Florida – 7 Nights – SAVE $270'
 path: /hernando-beach-florida-7-nights-save-270/
 date: '2023-02-19T06:00:00.000Z'
 updatedDate: '2023-02-14T13:43:29.000Z'

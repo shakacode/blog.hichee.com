@@ -1,5 +1,5 @@
 ---
-title: 'Galveston, Texas &#8211; 7 Nights &#8211; SAVE $196'
+title: 'Galveston, Texas – 7 Nights – SAVE $196'
 path: /galveston-texas-7-nights-save-196/
 date: '2022-12-20T06:00:00.000Z'
 updatedDate: '2022-12-17T04:45:16.000Z'

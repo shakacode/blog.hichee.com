@@ -1,5 +1,5 @@
 ---
-title: 'Medak, Croatia &#8211; 7 Nights &#8211; SAVE $335'
+title: 'Medak, Croatia – 7 Nights – SAVE $335'
 path: /medak-croatia-7-nights-save-335/
 date: '2023-04-17T06:00:00.000Z'
 updatedDate: '2023-04-04T13:57:54.000Z'

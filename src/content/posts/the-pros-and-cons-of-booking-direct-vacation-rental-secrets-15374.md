@@ -1,12 +1,12 @@
 ---
-title: The Pros and Cons Of Booking Direct &#8211; Vacation Rental Secrets
+title: The Pros and Cons Of Booking Direct – Vacation Rental Secrets
 path: /the-pros-and-cons-of-booking-direct-vacation-rental-secrets/
 date: '2023-03-09T22:06:47.000Z'
 updatedDate: '2024-03-03T19:55:37.000Z'
 description: >-
-  The Pros and Cons Of Booking Direct &#8211; Vacation Rental Secrets When it
-  comes to finding and booking a vacation/holiday rental, the vast majority of
-  guests head over to Airbnb, Booking (.com), or VRBO, they search fo
+  The Pros and Cons Of Booking Direct – Vacation Rental Secrets When it comes to
+  finding and booking a vacation/holiday rental, the vast majority of guests
+  head over to Airbnb, Booking (.com), or VRBO, they search for a pr
 legacyUrl: >-
   https://blog.hichee.com/the-pros-and-cons-of-booking-direct-vacation-rental-secrets/
 wordpressId: 15374

@@ -1,5 +1,5 @@
 ---
-title: Airbnb Alternatives &#8211; Airbnb v Vrbo &#8211; A Guide for Savvy Travelers!
+title: Airbnb Alternatives – Airbnb v Vrbo – A Guide for Savvy Travelers!
 path: /airbnb-alternatives-airbnb-v-vrbo-a-guide-for-savvy-travelers/
 date: '2024-01-19T22:05:58.000Z'
 updatedDate: '2024-01-23T21:02:09.000Z'

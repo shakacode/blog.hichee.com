@@ -1,5 +1,5 @@
 ---
-title: 'Lauterbrunnen, Bern &#8211; 7 Nights &#8211; SAVE $202'
+title: 'Lauterbrunnen, Bern – 7 Nights – SAVE $202'
 path: /lauterbrunnen-bern-7-nights-save-202/
 date: '2022-11-22T06:00:00.000Z'
 updatedDate: '2022-11-15T02:03:22.000Z'

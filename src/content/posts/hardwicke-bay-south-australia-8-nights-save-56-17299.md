@@ -1,5 +1,5 @@
 ---
-title: 'Hardwicke Bay, South Australia &#8211; 8 Nights &#8211; SAVE $56'
+title: 'Hardwicke Bay, South Australia – 8 Nights – SAVE $56'
 path: /hardwicke-bay-south-australia-8-nights-save-56/
 date: '2023-04-04T06:00:00.000Z'
 updatedDate: '2023-03-28T00:07:15.000Z'

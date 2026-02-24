@@ -1,5 +1,5 @@
 ---
-title: 'Barcelona, Catalunya &#8211; 8 Nights &#8211; SAVE $176'
+title: 'Barcelona, Catalunya – 8 Nights – SAVE $176'
 path: /barcelona-catalunya-8-nights-save-176/
 date: '2023-04-23T06:00:00.000Z'
 updatedDate: '2023-04-21T12:32:38.000Z'

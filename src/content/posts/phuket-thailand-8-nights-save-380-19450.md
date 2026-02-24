@@ -1,5 +1,5 @@
 ---
-title: 'Phuket, Thailand &#8211; 8 Nights &#8211; SAVE $380'
+title: 'Phuket, Thailand – 8 Nights – SAVE $380'
 path: /phuket-thailand-8-nights-save-380/
 date: '2023-05-16T06:00:00.000Z'
 updatedDate: '2023-05-04T21:59:46.000Z'

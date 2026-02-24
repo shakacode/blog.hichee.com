@@ -1,5 +1,5 @@
 ---
-title: 'Keystone, Colorado &#8211; 7 Nights &#8211; SAVE $1,670'
+title: 'Keystone, Colorado – 7 Nights – SAVE $1,670'
 path: /keystone-colorado-7-nights-save-1670/
 date: '2022-12-26T06:00:00.000Z'
 updatedDate: '2022-12-17T04:48:42.000Z'

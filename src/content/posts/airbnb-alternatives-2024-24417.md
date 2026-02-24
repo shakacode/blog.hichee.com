@@ -1,5 +1,5 @@
 ---
-title: Airbnb Alternatives &#8211; Your Best Options For The Best Deals 2024
+title: Airbnb Alternatives – Your Best Options For The Best Deals 2024
 path: /airbnb-alternatives-2024/
 date: '2023-07-17T20:11:27.000Z'
 updatedDate: '2024-03-21T03:03:30.000Z'

@@ -1,5 +1,5 @@
 ---
-title: 'Madrid, Community of Madrid &#8211; 8 Nights &#8211; SAVE $358'
+title: 'Madrid, Community of Madrid – 8 Nights – SAVE $358'
 path: /madrid-community-of-madrid-8-nights-save-358/
 date: '2023-04-14T06:00:00.000Z'
 updatedDate: '2023-04-04T13:57:28.000Z'

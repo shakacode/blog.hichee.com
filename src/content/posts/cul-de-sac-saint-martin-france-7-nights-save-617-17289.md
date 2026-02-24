@@ -1,5 +1,5 @@
 ---
-title: 'Cul de Sac, Saint Martin (France) &#8211; 7 Nights &#8211; SAVE $617'
+title: 'Cul de Sac, Saint Martin (France) – 7 Nights – SAVE $617'
 path: /cul-de-sac-saint-martin-france-7-nights-save-617/
 date: '2023-04-01T06:00:00.000Z'
 updatedDate: '2023-03-27T23:47:58.000Z'

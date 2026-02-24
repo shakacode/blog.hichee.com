@@ -1,5 +1,5 @@
 ---
-title: Nashville &#8211; 7 Nights &#8211; SAVE $292
+title: Nashville – 7 Nights – SAVE $292
 path: /nashville-7-nights-save-292/
 date: '2022-10-06T06:00:00.000Z'
 updatedDate: '2022-10-01T22:06:21.000Z'

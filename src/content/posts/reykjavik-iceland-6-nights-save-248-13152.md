@@ -1,5 +1,5 @@
 ---
-title: 'Reykjavík, Iceland &#8211; 6 Nights &#8211; SAVE $248'
+title: 'Reykjavík, Iceland – 6 Nights – SAVE $248'
 path: /reykjavik-iceland-6-nights-save-248/
 date: '2023-07-06T06:00:00.000Z'
 updatedDate: '2023-05-04T23:50:12.000Z'

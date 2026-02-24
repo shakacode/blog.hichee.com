@@ -1,5 +1,5 @@
 ---
-title: 'Florence, Italy &#8211; 5 Nights &#8211; SAVE $301'
+title: 'Florence, Italy – 5 Nights – SAVE $301'
 path: /florence-italy-5-nights-save-301/
 date: '2023-02-17T06:00:00.000Z'
 updatedDate: '2023-02-14T13:42:54.000Z'

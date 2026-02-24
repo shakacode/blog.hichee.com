@@ -1,5 +1,5 @@
 ---
-title: 'Tawonga South, Australia &#8211; 5 Nights &#8211; SAVE $185'
+title: 'Tawonga South, Australia – 5 Nights – SAVE $185'
 path: /tawonga-south-australia-5-nights-save-185/
 date: '2023-06-21T06:00:00.000Z'
 updatedDate: '2023-05-04T22:08:11.000Z'

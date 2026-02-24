@@ -4,9 +4,9 @@ path: /airbnb-ceo-vows-to-tackle-runaway-cleaning-fees/
 date: '2022-10-17T18:41:18.000Z'
 updatedDate: '2022-10-17T18:41:23.000Z'
 description: >-
-  Airbnb CEO Vows to Tackle Runaway Cleaning Fees Kyle Potter&#8211;October 13,
-  2022 We&#8217;ve all been there:&nbsp;Hunting for a great Airbnb, finally
-  finding that five-star rental for a bargain, and heading to check ou
+  Airbnb CEO Vows to Tackle Runaway Cleaning Fees Kyle Potter–October 13, 2022
+  We’ve all been there: Hunting for a great Airbnb, finally finding that
+  five-star rental for a bargain, and heading to check out … only to find 
 legacyUrl: 'https://blog.hichee.com/airbnb-ceo-vows-to-tackle-runaway-cleaning-fees/'
 wordpressId: 3488
 status: publish

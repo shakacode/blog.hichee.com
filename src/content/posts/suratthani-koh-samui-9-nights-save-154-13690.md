@@ -1,5 +1,5 @@
 ---
-title: 'Suratthani, Koh Samui &#8211; 9 Nights &#8211; SAVE $154'
+title: 'Suratthani, Koh Samui – 9 Nights – SAVE $154'
 path: /suratthani-koh-samui-9-nights-save-154/
 date: '2023-04-25T06:00:00.000Z'
 updatedDate: '2023-04-21T12:44:38.000Z'

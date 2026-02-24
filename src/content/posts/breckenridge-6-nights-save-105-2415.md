@@ -1,5 +1,5 @@
 ---
-title: 'Breckenridge, Colorado &#8211; 6 Nights &#8211; SAVE $105'
+title: 'Breckenridge, Colorado – 6 Nights – SAVE $105'
 path: /breckenridge-6-nights-save-105/
 date: '2022-09-24T03:26:13.000Z'
 updatedDate: '2022-10-04T03:54:55.000Z'

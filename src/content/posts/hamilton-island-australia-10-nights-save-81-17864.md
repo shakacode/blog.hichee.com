@@ -1,5 +1,5 @@
 ---
-title: 'Hamilton Island, Australia &#8211; 10 Nights &#8211; SAVE $81'
+title: 'Hamilton Island, Australia – 10 Nights – SAVE $81'
 path: /hamilton-island-australia-10-nights-save-81/
 date: '2023-05-27T06:00:00.000Z'
 updatedDate: '2023-05-04T22:01:41.000Z'

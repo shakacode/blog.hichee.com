@@ -1,5 +1,5 @@
 ---
-title: 'Hanalei, Hawaii &#8211; 7 Nights &#8211; SAVE $500'
+title: 'Hanalei, Hawaii – 7 Nights – SAVE $500'
 path: /hawaii-7-nights-save-500/
 date: '2022-10-02T06:00:00.000Z'
 updatedDate: '2022-10-04T03:47:22.000Z'

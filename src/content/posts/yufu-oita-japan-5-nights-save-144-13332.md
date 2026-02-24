@@ -1,5 +1,5 @@
 ---
-title: 'Yufu, Oita, Japan &#8211; 5 Nights &#8211; SAVE $144'
+title: 'Yufu, Oita, Japan – 5 Nights – SAVE $144'
 path: /yufu-oita-japan-5-nights-save-144/
 date: '2023-03-26T06:00:00.000Z'
 updatedDate: '2023-03-13T03:41:25.000Z'

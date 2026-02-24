@@ -1,5 +1,5 @@
 ---
-title: 'Dublin, Ireland &#8211; 8 Nights &#8211; SAVE $161'
+title: 'Dublin, Ireland – 8 Nights – SAVE $161'
 path: /dublin-ireland-8-nights-save-161/
 date: '2023-04-11T06:00:00.000Z'
 updatedDate: '2023-04-04T13:56:36.000Z'

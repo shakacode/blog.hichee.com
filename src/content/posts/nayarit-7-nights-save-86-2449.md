@@ -1,5 +1,5 @@
 ---
-title: 'Nayarit, Mexico &#8211; 7 Nights &#8211; SAVE $86'
+title: 'Nayarit, Mexico – 7 Nights – SAVE $86'
 path: /nayarit-7-nights-save-86/
 date: '2022-09-24T03:25:34.000Z'
 updatedDate: '2022-10-04T03:54:40.000Z'

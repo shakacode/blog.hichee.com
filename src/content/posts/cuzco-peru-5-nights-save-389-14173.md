@@ -1,5 +1,5 @@
 ---
-title: 'Cuzco, Peru &#8211; 5 Nights &#8211; SAVE $389'
+title: 'Cuzco, Peru – 5 Nights – SAVE $389'
 path: /cuzco-peru-5-nights-save-389/
 date: '2023-03-14T06:00:00.000Z'
 updatedDate: '2023-03-07T04:22:49.000Z'

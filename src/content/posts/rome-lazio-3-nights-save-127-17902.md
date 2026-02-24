@@ -1,5 +1,5 @@
 ---
-title: 'Rome, Lazio &#8211; 3 Nights &#8211; SAVE $127'
+title: 'Rome, Lazio – 3 Nights – SAVE $127'
 path: /rome-lazio-3-nights-save-127/
 date: '2023-06-25T06:00:00.000Z'
 updatedDate: '2023-05-04T22:08:52.000Z'

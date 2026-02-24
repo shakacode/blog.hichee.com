@@ -1,5 +1,5 @@
 ---
-title: 'Koh Samui Tambon Bophut, Surat Thani &#8211; 6 Nights &#8211; SAVE $530'
+title: 'Koh Samui Tambon Bophut, Surat Thani – 6 Nights – SAVE $530'
 path: /koh-samui-tambon-bophut-surat-thani-6-nights-save-530/
 date: '2023-05-10T06:00:00.000Z'
 updatedDate: '2023-05-04T21:58:11.000Z'

@@ -1,5 +1,5 @@
 ---
-title: 'Fredericksburg, Texas &#8211; 7 Nights &#8211; SAVE $73'
+title: 'Fredericksburg, Texas – 7 Nights – SAVE $73'
 path: /fredericksburg-texas-7-nights-save-73/
 date: '2023-02-28T06:00:00.000Z'
 updatedDate: '2023-02-24T11:52:24.000Z'

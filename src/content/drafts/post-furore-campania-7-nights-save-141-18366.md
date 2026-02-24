@@ -1,12 +1,12 @@
 ---
-title: 'Furore, Campania &#8211; 7 Nights &#8211; SAVE $141'
+title: 'Furore, Campania – 7 Nights – SAVE $141'
 path: /furore-campania-7-nights-save-141/
 date: '2023-06-03T06:00:00.000Z'
 updatedDate: '2023-05-04T22:03:03.000Z'
 description: >-
-  Book this elegant &amp; panoramic villa in Furore, Campania, for 5 nights (7
+  Book this elegant & panoramic villa in Furore, Campania, for 5 nights (7
   guests, Jun 10th to 15th) through VRBO and SAVE $141 on the Airbnb price for
-  the same property and dates. This property has a 5.0-star average 
+  the same property and dates. This property has a 5.0-star average rati
 legacyUrl: 'https://blog.hichee.com/?p=18366'
 wordpressId: 18366
 status: future

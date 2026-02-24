@@ -1,5 +1,5 @@
 ---
-title: 'Franklin, Tennessee &#8211; 14 Nights &#8211; SAVE $120'
+title: 'Franklin, Tennessee – 14 Nights – SAVE $120'
 path: /franklin-tennessee-14-nights-save-219/
 date: '2022-12-12T06:00:00.000Z'
 updatedDate: '2022-12-06T22:47:45.000Z'

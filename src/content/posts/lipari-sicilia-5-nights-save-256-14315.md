@@ -1,5 +1,5 @@
 ---
-title: 'lipari, Sicilia &#8211; 5 Nights &#8211; SAVE $256'
+title: 'lipari, Sicilia – 5 Nights – SAVE $256'
 path: /lipari-sicilia-5-nights-save-256/
 date: '2023-03-18T06:00:00.000Z'
 updatedDate: '2023-03-13T03:31:05.000Z'

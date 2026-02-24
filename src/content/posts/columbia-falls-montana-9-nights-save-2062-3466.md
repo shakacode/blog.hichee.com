@@ -1,5 +1,5 @@
 ---
-title: 'Columbia Falls, Montana &#8211; 9 Nights &#8211; SAVE $2,062'
+title: 'Columbia Falls, Montana – 9 Nights – SAVE $2,062'
 path: /columbia-falls-montana-9-nights-save-2062/
 date: '2022-11-01T06:00:00.000Z'
 updatedDate: '2022-11-01T00:34:01.000Z'

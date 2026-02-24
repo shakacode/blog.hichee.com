@@ -1,5 +1,5 @@
 ---
-title: "Kihei,\_Hawaii &#8211; 8 Nights &#8211; SAVE $182"
+title: 'Kihei, Hawaii – 8 Nights – SAVE $182'
 path: /kihei-hawaii-8-nights-save-182/
 date: '2023-05-28T06:00:00.000Z'
 updatedDate: '2023-05-04T22:01:56.000Z'

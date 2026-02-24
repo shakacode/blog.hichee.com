@@ -1,5 +1,5 @@
 ---
-title: 'Queenstown, New Zealand &#8211; 5 Nights &#8211; SAVE $72'
+title: 'Queenstown, New Zealand – 5 Nights – SAVE $72'
 path: /fernhill-5-nights-save-72/
 date: '2022-09-24T03:26:27.000Z'
 updatedDate: '2022-10-04T03:50:49.000Z'

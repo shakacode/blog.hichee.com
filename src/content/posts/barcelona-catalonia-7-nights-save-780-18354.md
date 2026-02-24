@@ -1,5 +1,5 @@
 ---
-title: 'Barcelona, Catalonia &#8211; 7 Nights &#8211; SAVE $780'
+title: 'Barcelona, Catalonia – 7 Nights – SAVE $780'
 path: /barcelona-catalonia-7-nights-save-780/
 date: '2023-04-24T06:00:00.000Z'
 updatedDate: '2023-04-21T12:44:30.000Z'

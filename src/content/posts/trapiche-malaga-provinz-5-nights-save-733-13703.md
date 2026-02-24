@@ -1,5 +1,5 @@
 ---
-title: 'Trapiche, Málaga (Provinz) &#8211; 5 Nights &#8211; SAVE $733'
+title: 'Trapiche, Málaga (Provinz) – 5 Nights – SAVE $733'
 path: /trapiche-malaga-provinz-5-nights-save-733/
 date: '2023-03-07T06:00:00.000Z'
 updatedDate: '2023-03-01T13:54:19.000Z'

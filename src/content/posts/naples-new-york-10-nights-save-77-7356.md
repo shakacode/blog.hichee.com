@@ -1,5 +1,5 @@
 ---
-title: 'Naples, New York &#8211; 10 Nights &#8211; SAVE $77'
+title: 'Naples, New York – 10 Nights – SAVE $77'
 path: /naples-new-york-10-nights-save-77/
 date: '2022-12-30T06:00:00.000Z'
 updatedDate: '2022-12-26T19:26:14.000Z'

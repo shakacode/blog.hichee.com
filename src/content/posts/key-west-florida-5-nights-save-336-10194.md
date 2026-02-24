@@ -1,5 +1,5 @@
 ---
-title: 'Key West, Florida &#8211; 5 Nights &#8211; SAVE $336'
+title: 'Key West, Florida – 5 Nights – SAVE $336'
 path: /key-west-florida-5-nights-save-336/
 date: '2022-12-25T06:00:00.000Z'
 updatedDate: '2022-12-17T04:48:31.000Z'

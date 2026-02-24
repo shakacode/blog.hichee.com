@@ -1,5 +1,5 @@
 ---
-title: 'Großenbrode, Schleswig-Holstein &#8211; 6 Nights &#8211; SAVE $120'
+title: 'Großenbrode, Schleswig-Holstein – 6 Nights – SAVE $120'
 path: /grosenbrode-schleswig-holstein-6-nights-save-120/
 date: '2023-07-08T06:00:00.000Z'
 updatedDate: '2023-05-04T23:50:36.000Z'

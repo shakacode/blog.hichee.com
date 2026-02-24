@@ -1,5 +1,5 @@
 ---
-title: 'Lagos, Portugal &#8211; 6 Nights &#8211; SAVE $2,849'
+title: 'Lagos, Portugal – 6 Nights – SAVE $2,849'
 path: /lagos-portugal-6-nights-save-2849/
 date: '2022-11-21T06:00:00.000Z'
 updatedDate: '2022-11-15T02:03:01.000Z'

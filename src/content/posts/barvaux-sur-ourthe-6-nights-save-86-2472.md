@@ -1,5 +1,5 @@
 ---
-title: Luxembourg &#8211; 6 Nights &#8211; SAVE $86
+title: Luxembourg – 6 Nights – SAVE $86
 path: /barvaux-sur-ourthe-6-nights-save-86/
 date: '2022-09-24T02:54:36.000Z'
 updatedDate: '2022-10-04T03:58:21.000Z'

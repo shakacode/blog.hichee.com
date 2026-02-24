@@ -1,5 +1,5 @@
 ---
-title: Granada &#8211; 10 Nights &#8211; SAVE $115
+title: Granada – 10 Nights – SAVE $115
 path: /granada-10-nights-save-115/
 date: '2022-09-24T02:28:31.000Z'
 updatedDate: '2022-09-24T02:28:35.000Z'

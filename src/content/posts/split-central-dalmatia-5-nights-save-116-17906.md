@@ -1,5 +1,5 @@
 ---
-title: 'Split, Central Dalmatia &#8211; 5 Nights &#8211; SAVE $116'
+title: 'Split, Central Dalmatia – 5 Nights – SAVE $116'
 path: /split-central-dalmatia-5-nights-save-116/
 date: '2023-06-14T06:00:00.000Z'
 updatedDate: '2023-05-04T22:05:54.000Z'

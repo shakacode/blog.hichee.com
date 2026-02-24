@@ -1,5 +1,5 @@
 ---
-title: 'Koloa, Hawaii &#8211; 14 Nights &#8211; SAVE $73'
+title: 'Koloa, Hawaii – 14 Nights – SAVE $73'
 path: /koloa-hawaii-14-nights-save-73/
 date: '2022-11-20T06:00:00.000Z'
 updatedDate: '2022-11-15T02:02:42.000Z'

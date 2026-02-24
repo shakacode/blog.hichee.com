@@ -1,5 +1,5 @@
 ---
-title: 'Sainte-Maxime, Provence-Alpes-Côte-D’Azur &#8211; 6 Nights &#8211; SAVE $450'
+title: 'Sainte-Maxime, Provence-Alpes-Côte-D’Azur – 6 Nights – SAVE $450'
 path: /sainte-maxime-provence-alpes-cote-dazur-6-nights-save-450/
 date: '2023-06-07T06:00:00.000Z'
 updatedDate: '2023-05-04T22:04:32.000Z'

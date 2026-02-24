@@ -1,5 +1,5 @@
 ---
-title: 'Travel Hack &#8211; Watch As I Save $5,836 On This Airbnb In Under 1 Minute'
+title: 'Travel Hack – Watch As I Save $5,836 On This Airbnb In Under 1 Minute'
 path: >-
   /vacation-rental-price-comparison-watch-as-i-save-5836-on-this-airbnb-in-under-1-minute/
 date: '2022-08-06T19:25:32.000Z'
@@ -7,7 +7,7 @@ updatedDate: '2022-08-31T18:14:51.000Z'
 description: >-
   In this one minute video I show you how I save nearly $6,000 just by doing a
   super quick vacation rental price comparison check. I literally book the
-  property for half the price quoted on Airbnb.That&#8217;s a hundred bu
+  property for half the price quoted on Airbnb.That’s a hundred bucks a 
 legacyUrl: >-
   https://blog.hichee.com/vacation-rental-price-comparison-watch-as-i-save-5836-on-this-airbnb-in-under-1-minute/
 wordpressId: 1127

@@ -1,15 +1,15 @@
 ---
 title: >-
-  Why You&#8217;ll Be 750 Times Better Off Running An Airbnb Than A Vacation
-  Rental Or Holiday Let
+  Why You’ll Be 750 Times Better Off Running An Airbnb Than A Vacation Rental Or
+  Holiday Let
 path: >-
   /why-youll-be-750-times-better-off-running-an-airbnb-than-a-vacation-rental-or-holiday-let/
 date: '2023-08-23T01:52:35.000Z'
 updatedDate: '2023-08-23T01:52:37.000Z'
 description: >-
-  WARNING&#8230; Some of you won&#8217;t like what I&#8217;m about to tell you.
-  I was just Hoovering the lounge, my mind was wandering, and the following
-  thoughts dawned on me. Read on&#8230; If you are running one or more
+  WARNING… Some of you won’t like what I’m about to tell you. I was just
+  Hoovering the lounge, my mind was wandering, and the following thoughts dawned
+  on me. Read on… If you are running one or more short-term rentals, the
 legacyUrl: >-
   https://blog.hichee.com/why-youll-be-750-times-better-off-running-an-airbnb-than-a-vacation-rental-or-holiday-let/
 wordpressId: 47042

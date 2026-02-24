@@ -1,5 +1,5 @@
 ---
-title: 'Charlottesville, Virginia &#8211; 5 Nights &#8211; SAVE $281'
+title: 'Charlottesville, Virginia – 5 Nights – SAVE $281'
 path: /charlottesville-virginia-5-nights-save-281/
 date: '2022-12-04T06:00:00.000Z'
 updatedDate: '2022-12-01T19:15:24.000Z'

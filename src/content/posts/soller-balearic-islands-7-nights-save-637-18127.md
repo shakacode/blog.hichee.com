@@ -1,5 +1,5 @@
 ---
-title: 'Sóller, Balearic Islands &#8211; 7 Nights &#8211; SAVE $637'
+title: 'Sóller, Balearic Islands – 7 Nights – SAVE $637'
 path: /soller-balearic-islands-7-nights-save-637/
 date: '2023-06-13T06:00:00.000Z'
 updatedDate: '2023-05-04T22:05:45.000Z'

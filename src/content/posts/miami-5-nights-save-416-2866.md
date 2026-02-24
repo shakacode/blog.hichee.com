@@ -1,5 +1,5 @@
 ---
-title: Miami &#8211; 5 Nights &#8211; SAVE $416
+title: Miami – 5 Nights – SAVE $416
 path: /miami-5-nights-save-416/
 date: '2022-10-14T06:00:00.000Z'
 updatedDate: '2022-10-11T00:36:53.000Z'

@@ -1,5 +1,5 @@
 ---
-title: 'Kissimmee, Florida &#8211; 8 Nights &#8211; SAVE $583'
+title: 'Kissimmee, Florida – 8 Nights – SAVE $583'
 path: /kissimmee-florida-8-nights-save-583/
 date: '2023-05-03T06:00:00.000Z'
 updatedDate: '2023-04-21T12:45:03.000Z'

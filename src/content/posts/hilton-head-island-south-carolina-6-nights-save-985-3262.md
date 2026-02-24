@@ -1,5 +1,5 @@
 ---
-title: 'Hilton Head Island, South Carolina &#8211; 6 Nights &#8211; SAVE $985'
+title: 'Hilton Head Island, South Carolina – 6 Nights – SAVE $985'
 path: /hilton-head-island-south-carolina-6-nights-save-985/
 date: '2022-10-13T06:00:00.000Z'
 updatedDate: '2022-10-11T00:35:54.000Z'

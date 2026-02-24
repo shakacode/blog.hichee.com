@@ -1,5 +1,5 @@
 ---
-title: 'Chicago &#8211; 6 Nights &#8211; SAVE $1,207'
+title: 'Chicago – 6 Nights – SAVE $1,207'
 path: /chicago-6-nights-save-1207/
 date: '2022-09-24T03:25:26.000Z'
 updatedDate: '2022-09-24T03:25:31.000Z'

@@ -1,12 +1,12 @@
 ---
-title: Romantic Airbnb New Mexico &#8211; Glamping at El Mistico Ranch
+title: Romantic Airbnb New Mexico – Glamping at El Mistico Ranch
 path: /romantic-airbnb-new-mexico-glamping-at-el-mistico-ranch/
 date: '2024-02-29T21:00:56.000Z'
 updatedDate: '2024-03-03T04:32:21.000Z'
 description: >-
   Best Stargazing Romantic Airbnb Zia Geo Dome Location: Nogal, New Mexico
-  Romantic Airbnb New Mexico &#8211; Glamping at El Mistico Ranch &#8211; For a
-  Valentine&#8217;s Day that&#8217;s totally sweep-you-off-your-feet an
+  Romantic Airbnb New Mexico – Glamping at El Mistico Ranch – For a Valentine’s
+  Day that’s totally sweep-you-off-your-feet and off the beaten path, t
 legacyUrl: >-
   https://blog.hichee.com/romantic-airbnb-new-mexico-glamping-at-el-mistico-ranch/
 wordpressId: 94328
@@ -126,7 +126,7 @@ contentType: post
 <h2 class="wp-block-heading alignwide has-text-align-center" id="h-share-this-post-with-friends">Share This Post With Friends</h2>
 <p></p>
 <p><p>
-<center><div class="addtoany_shortcode"><div class="a2a_kit a2a_kit_size_32 addtoany_list" data-a2a-url="https://blog.hichee.com/romantic-airbnb-new-mexico-glamping-at-el-mistico-ranch/" data-a2a-title="Romantic Airbnb New Mexico – Glamping at El Mistico Ranch"><a class="a2a_button_facebook" href="https://www.addtoany.com/add_to/facebook?linkurl=https%3A%2F%2Fblog.hichee.com%2Fromantic-airbnb-new-mexico-glamping-at-el-mistico-ranch%2F&amp;linkname=Romantic%20Airbnb%20New%20Mexico%20%E2%80%93%20Glamping%20at%20El%20Mistico%20Ranch" title="Facebook" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_twitter" href="https://www.addtoany.com/add_to/twitter?linkurl=https%3A%2F%2Fblog.hichee.com%2Fromantic-airbnb-new-mexico-glamping-at-el-mistico-ranch%2F&amp;linkname=Romantic%20Airbnb%20New%20Mexico%20%E2%80%93%20Glamping%20at%20El%20Mistico%20Ranch" title="Twitter" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_pinterest" href="https://www.addtoany.com/add_to/pinterest?linkurl=https%3A%2F%2Fblog.hichee.com%2Fromantic-airbnb-new-mexico-glamping-at-el-mistico-ranch%2F&amp;linkname=Romantic%20Airbnb%20New%20Mexico%20%E2%80%93%20Glamping%20at%20El%20Mistico%20Ranch" title="Pinterest" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_whatsapp" href="https://www.addtoany.com/add_to/whatsapp?linkurl=https%3A%2F%2Fblog.hichee.com%2Fromantic-airbnb-new-mexico-glamping-at-el-mistico-ranch%2F&amp;linkname=Romantic%20Airbnb%20New%20Mexico%20%E2%80%93%20Glamping%20at%20El%20Mistico%20Ranch" title="WhatsApp" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_email" href="https://www.addtoany.com/add_to/email?linkurl=https%3A%2F%2Fblog.hichee.com%2Fromantic-airbnb-new-mexico-glamping-at-el-mistico-ranch%2F&amp;linkname=Romantic%20Airbnb%20New%20Mexico%20%E2%80%93%20Glamping%20at%20El%20Mistico%20Ranch" title="Email" rel="nofollow noopener" target="_blank"></a><a class="a2a_dd addtoany_share_save addtoany_share" href="https://www.addtoany.com/share"></a></div></div></center></p>
+
 </div></div>
 <p></p>
 <p>

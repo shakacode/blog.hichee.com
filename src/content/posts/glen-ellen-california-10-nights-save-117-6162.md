@@ -1,5 +1,5 @@
 ---
-title: 'Glen Ellen, California &#8211; 10 Nights &#8211; SAVE $117'
+title: 'Glen Ellen, California – 10 Nights – SAVE $117'
 path: /glen-ellen-california-10-nights-save-117/
 date: '2022-12-21T06:00:00.000Z'
 updatedDate: '2022-12-17T04:45:44.000Z'

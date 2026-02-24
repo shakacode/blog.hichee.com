@@ -1,5 +1,5 @@
 ---
-title: 'Ionian Islands, Greece &#8211; 6 Nights &#8211; SAVE $225'
+title: 'Ionian Islands, Greece – 6 Nights – SAVE $225'
 path: /ionian-islands-6-nights-save-225/
 date: '2022-09-24T02:33:11.000Z'
 updatedDate: '2022-10-04T03:57:42.000Z'

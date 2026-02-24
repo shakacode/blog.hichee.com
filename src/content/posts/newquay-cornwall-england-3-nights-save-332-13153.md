@@ -1,5 +1,5 @@
 ---
-title: 'Newquay, Cornwall, England &#8211; 3 Nights &#8211; SAVE $332'
+title: 'Newquay, Cornwall, England – 3 Nights – SAVE $332'
 path: /newquay-cornwall-england-3-nights-save-332/
 date: '2023-03-01T06:00:00.000Z'
 updatedDate: '2023-02-24T11:52:44.000Z'

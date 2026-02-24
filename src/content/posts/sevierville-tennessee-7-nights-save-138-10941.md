@@ -1,5 +1,5 @@
 ---
-title: 'Sevierville, Tennessee &#8211; 7 Nights &#8211; SAVE $138'
+title: 'Sevierville, Tennessee – 7 Nights – SAVE $138'
 path: /sevierville-tennessee-7-nights-save-138/
 date: '2023-01-17T06:00:00.000Z'
 updatedDate: '2023-01-14T22:30:07.000Z'

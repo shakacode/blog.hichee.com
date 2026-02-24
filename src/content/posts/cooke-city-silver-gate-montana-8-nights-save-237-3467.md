@@ -1,5 +1,5 @@
 ---
-title: 'Cooke City-Silver Gate, Montana &#8211; 8 Nights &#8211; SAVE $237'
+title: 'Cooke City-Silver Gate, Montana – 8 Nights – SAVE $237'
 path: /cooke-city-silver-gate-montana-8-nights-save-237/
 date: '2022-11-02T06:00:00.000Z'
 updatedDate: '2022-11-01T00:34:27.000Z'

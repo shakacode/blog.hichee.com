@@ -1,5 +1,5 @@
 ---
-title: 'Faro, Portugal &#8211; 7 Nights &#8211; SAVE $3,652'
+title: 'Faro, Portugal – 7 Nights – SAVE $3,652'
 path: /faro-7-nights-save-3652/
 date: '2022-09-24T03:26:40.000Z'
 updatedDate: '2022-10-04T03:51:02.000Z'

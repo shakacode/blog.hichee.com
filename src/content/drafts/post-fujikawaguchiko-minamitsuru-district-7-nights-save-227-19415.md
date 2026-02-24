@@ -1,5 +1,5 @@
 ---
-title: 'Fujikawaguchiko, Minamitsuru District &#8211; 7 Nights &#8211; SAVE $227'
+title: 'Fujikawaguchiko, Minamitsuru District – 7 Nights – SAVE $227'
 path: /fujikawaguchiko-minamitsuru-district-7-nights-save-227/
 date: '2023-06-04T06:00:00.000Z'
 updatedDate: '2023-05-04T22:03:15.000Z'

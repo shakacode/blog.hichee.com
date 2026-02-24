@@ -1,5 +1,5 @@
 ---
-title: 'Nordland, Norway &#8211; 7 Nights &#8211; SAVE $329'
+title: 'Nordland, Norway – 7 Nights – SAVE $329'
 path: /nordland-norway-7-nights-save-329/
 date: '2022-10-25T06:00:00.000Z'
 updatedDate: '2022-10-25T00:56:55.000Z'

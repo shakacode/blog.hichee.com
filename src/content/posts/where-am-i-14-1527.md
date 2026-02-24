@@ -4,9 +4,9 @@ path: /where-am-i-14/
 date: '2022-10-29T06:00:00.000Z'
 updatedDate: '2022-08-18T18:38:14.000Z'
 description: >-
-  One of the world&#8217;s oldest themed parks, this park is located on Tibidabo
-  in Barcelona. This place has been in existence for over a century. Its unique
-  location offers sweeping eastward views of the Mediterranean se
+  One of the world’s oldest themed parks, this park is located on Tibidabo in
+  Barcelona. This place has been in existence for over a century. Its unique
+  location offers sweeping eastward views of the Mediterranean sea and 
 legacyUrl: 'https://blog.hichee.com/where-am-i-14/'
 wordpressId: 1527
 status: publish

@@ -1,5 +1,5 @@
 ---
-title: 'Sea Ranch, California &#8211; 6 Nights &#8211; SAVE $112'
+title: 'Sea Ranch, California – 6 Nights – SAVE $112'
 path: /sea-ranch-california-6-nights-save-112/
 date: '2023-01-19T06:00:00.000Z'
 updatedDate: '2023-01-14T22:32:57.000Z'

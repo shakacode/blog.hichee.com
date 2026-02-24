@@ -1,12 +1,12 @@
 ---
-title: "Aberfoyle,\_Scotland &#8211; 5 Nights &#8211; SAVE $445"
+title: 'Aberfoyle, Scotland – 5 Nights – SAVE $445'
 path: /aberfoyle-scotland-5-nights-save-445/
 date: '2022-11-09T06:00:00.000Z'
 updatedDate: '2022-11-09T00:47:37.000Z'
 description: >-
-  Book this self-catering holiday cottage in Aberfoyle,&nbsp;Scotland for 5
-  nights (8 guests, Jan 30th to Feb 4th) through VRBO and SAVE $445 on the
-  Airbnb price for the same property and the same dates. This property has 
+  Book this self-catering holiday cottage in Aberfoyle, Scotland for 5 nights (8
+  guests, Jan 30th to Feb 4th) through VRBO and SAVE $445 on the Airbnb price
+  for the same property and the same dates. This property has a 4.9
 legacyUrl: 'https://blog.hichee.com/aberfoyle-scotland-5-nights-save-445/'
 wordpressId: 3902
 status: publish

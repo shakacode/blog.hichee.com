@@ -1,5 +1,5 @@
 ---
-title: 'Perledo, Lecco &#8211; 5 Nights &#8211; SAVE $96'
+title: 'Perledo, Lecco – 5 Nights – SAVE $96'
 path: /perledo-lecco-5-nights-save-96/
 date: '2023-05-06T06:00:00.000Z'
 updatedDate: '2023-04-21T12:45:32.000Z'

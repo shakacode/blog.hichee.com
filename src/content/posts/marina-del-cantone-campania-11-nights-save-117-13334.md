@@ -1,12 +1,12 @@
 ---
-title: 'Marina del Cantone, Campania &#8211; 11 Nights &#8211; SAVE $117'
+title: 'Marina del Cantone, Campania – 11 Nights – SAVE $117'
 path: /marina-del-cantone-campania-11-nights-save-117/
 date: '2023-03-11T06:00:00.000Z'
 updatedDate: '2023-03-01T13:57:46.000Z'
 description: >-
-  Book this fabulous villa with an amazing &amp; spacious rooftop terrace in
-  Marina del Cantone, Campania, for 11 nights (6 guests, Jul 24th to Aug 4th)
-  through VRBO and SAVE $117 on the Airbnb price for the same property 
+  Book this fabulous villa with an amazing & spacious rooftop terrace in Marina
+  del Cantone, Campania, for 11 nights (6 guests, Jul 24th to Aug 4th) through
+  VRBO and SAVE $117 on the Airbnb price for the same property and 
 legacyUrl: 'https://blog.hichee.com/marina-del-cantone-campania-11-nights-save-117/'
 wordpressId: 13334
 status: publish

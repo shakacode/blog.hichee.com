@@ -1,5 +1,5 @@
 ---
-title: 'Marina, Croatia &#8211; 6 Nights &#8211; SAVE $3,138'
+title: 'Marina, Croatia – 6 Nights – SAVE $3,138'
 path: /marina-6-nights-save-3138/
 date: '2022-09-24T02:07:05.000Z'
 updatedDate: '2022-10-04T04:03:38.000Z'

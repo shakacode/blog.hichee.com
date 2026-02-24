@@ -1,5 +1,5 @@
 ---
-title: 'Zarbo di Mare, Sicilia &#8211; 7 Nights &#8211; SAVE $259'
+title: 'Zarbo di Mare, Sicilia – 7 Nights – SAVE $259'
 path: /zarbo-di-mare-sicilia-7-nights-save-259/
 date: '2023-07-05T06:00:00.000Z'
 updatedDate: '2023-05-04T23:50:05.000Z'

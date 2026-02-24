@@ -1,5 +1,5 @@
 ---
-title: Miami &#8211; 10 Nights &#8211; SAVE $801
+title: Miami – 10 Nights – SAVE $801
 path: /miami-10-nights-save-801/
 date: '2022-09-30T06:00:00.000Z'
 updatedDate: '2022-08-29T21:48:59.000Z'

@@ -1,5 +1,5 @@
 ---
-title: 'Albion, California &#8211; 5 Nights &#8211; SAVE $257'
+title: 'Albion, California – 5 Nights – SAVE $257'
 path: /albion-5-nights-save-257/
 date: '2022-09-24T03:26:05.000Z'
 updatedDate: '2022-10-04T03:54:50.000Z'

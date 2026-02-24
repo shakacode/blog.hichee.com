@@ -1,5 +1,5 @@
 ---
-title: 'Glenbrook, Nevada &#8211; 6 Nights &#8211; SAVE $105'
+title: 'Glenbrook, Nevada – 6 Nights – SAVE $105'
 path: /glenbrook-nevada-6-nights-save-105/
 date: '2023-03-27T06:00:00.000Z'
 updatedDate: '2023-03-13T04:18:31.000Z'

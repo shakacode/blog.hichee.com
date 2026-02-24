@@ -1,5 +1,5 @@
 ---
-title: 'Selat, Bali &#8211; 7 Nights &#8211; SAVE $236'
+title: 'Selat, Bali – 7 Nights – SAVE $236'
 path: /selat-bali-7-nights-save-236/
 date: '2022-10-28T06:00:00.000Z'
 updatedDate: '2022-10-25T00:54:57.000Z'

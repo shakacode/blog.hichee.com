@@ -1,5 +1,5 @@
 ---
-title: 'Otago, New Zealand &#8211; 6 Nights &#8211; SAVE $189'
+title: 'Otago, New Zealand – 6 Nights – SAVE $189'
 path: /new-zealand-6-nights-save-189/
 date: '2022-09-23T06:00:00.000Z'
 updatedDate: '2022-10-04T04:05:03.000Z'

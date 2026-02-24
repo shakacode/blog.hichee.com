@@ -1,5 +1,5 @@
 ---
-title: 'McKinleyville, California &#8211; 6 Nights &#8211; SAVE $259'
+title: 'McKinleyville, California – 6 Nights – SAVE $259'
 path: /mckinleyville-california-6-nights-save-259/
 date: '2022-11-23T06:00:00.000Z'
 updatedDate: '2022-11-15T02:03:41.000Z'

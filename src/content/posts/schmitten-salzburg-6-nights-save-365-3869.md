@@ -1,5 +1,5 @@
 ---
-title: 'Schmitten, Salzburg &#8211; 6 Nights &#8211; SAVE $365'
+title: 'Schmitten, Salzburg – 6 Nights – SAVE $365'
 path: /schmitten-salzburg-6-nights-save-365/
 date: '2022-11-27T06:00:00.000Z'
 updatedDate: '2022-11-15T02:04:42.000Z'

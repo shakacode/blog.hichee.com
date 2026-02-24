@@ -1,5 +1,5 @@
 ---
-title: 'Asturias, Spain &#8211; 9 Nights &#8211; SAVE $111'
+title: 'Asturias, Spain – 9 Nights – SAVE $111'
 path: /asturias-9-nights-save-111/
 date: '2022-09-24T03:27:04.000Z'
 updatedDate: '2022-10-04T03:51:27.000Z'

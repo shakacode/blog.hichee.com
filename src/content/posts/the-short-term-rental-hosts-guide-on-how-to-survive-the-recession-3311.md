@@ -5,8 +5,8 @@ date: '2022-10-24T23:05:51.000Z'
 updatedDate: '2022-10-27T20:01:09.000Z'
 description: >-
   Recession, recession, recession. This impending recession is making
-  wall-to-wall coverage in the press, on the radio, and on TV news. Let&#8217;s
-  face it, it&#8217;s praying on our minds. It&#8217;s already being reporte
+  wall-to-wall coverage in the press, on the radio, and on TV news. Let’s face
+  it, it’s praying on our minds. It’s already being reported that Americans a
 legacyUrl: >-
   https://blog.hichee.com/the-short-term-rental-hosts-guide-on-how-to-survive-the-recession/
 wordpressId: 3311

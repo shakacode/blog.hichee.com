@@ -1,5 +1,5 @@
 ---
-title: 'Edinburgh, Scotland &#8211; 2 Nights &#8211; SAVE $140'
+title: 'Edinburgh, Scotland – 2 Nights – SAVE $140'
 path: /edinburgh-scotland-2-nights-save-140/
 date: '2023-02-16T06:00:00.000Z'
 updatedDate: '2023-02-14T13:42:38.000Z'

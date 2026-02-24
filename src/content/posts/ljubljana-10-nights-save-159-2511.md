@@ -1,5 +1,5 @@
 ---
-title: 'Ljubljana, Slovenia &#8211; 10 Nights &#8211; SAVE $159'
+title: 'Ljubljana, Slovenia – 10 Nights – SAVE $159'
 path: /ljubljana-10-nights-save-159/
 date: '2022-09-24T02:49:13.000Z'
 updatedDate: '2022-10-04T03:57:37.000Z'

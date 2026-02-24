@@ -1,5 +1,5 @@
 ---
-title: 'Can Bessó, Jesús, Balearic Islands &#8211; 7 Nights &#8211; SAVE $1,630'
+title: 'Can Bessó, Jesús, Balearic Islands – 7 Nights – SAVE $1,630'
 path: /can-besso-jesus-balearic-islands-7-nights-save-1630/
 date: '2023-02-10T06:00:00.000Z'
 updatedDate: '2023-01-30T21:27:45.000Z'

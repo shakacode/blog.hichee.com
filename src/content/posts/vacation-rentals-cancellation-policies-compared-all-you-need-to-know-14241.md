@@ -1,14 +1,12 @@
 ---
-title: >-
-  Vacation Rentals &#8211; Cancellation Policies Compared &#8211; All You Need
-  To Know
+title: Vacation Rentals – Cancellation Policies Compared – All You Need To Know
 path: /vacation-rentals-cancellation-policies-compared-all-you-need-to-know/
 date: '2023-03-01T01:19:15.000Z'
 updatedDate: '2023-03-01T01:19:20.000Z'
 description: >-
   So, you booked a vacation rental, but for whatever reason, you need to cancel.
-  What’s going to happen? Where do you stand? In this Vacation Rentals &#8211;
-  Cancellation Policies Compared article, we look at all of the va
+  What’s going to happen? Where do you stand? In this Vacation Rentals –
+  Cancellation Policies Compared article, we look at all of the various 
 legacyUrl: >-
   https://blog.hichee.com/vacation-rentals-cancellation-policies-compared-all-you-need-to-know/
 wordpressId: 14241

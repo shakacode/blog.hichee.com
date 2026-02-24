@@ -1,5 +1,5 @@
 ---
-title: 'Dillon, Colorado &#8211; 4 Nights &#8211; SAVE $372'
+title: 'Dillon, Colorado – 4 Nights – SAVE $372'
 path: /dillon-colorado-4-nights-save-372/
 date: '2022-12-14T06:00:00.000Z'
 updatedDate: '2022-12-15T00:36:43.000Z'

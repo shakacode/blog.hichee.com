@@ -1,5 +1,5 @@
 ---
-title: 'Choeng Mon/ Plai Laem, Koh Samui &#8211; 9 Nights &#8211; SAVE $55'
+title: 'Choeng Mon/ Plai Laem, Koh Samui – 9 Nights – SAVE $55'
 path: /choeng-mon-plai-laem-koh-samui-9-nights-save-55/
 date: '2023-03-03T06:00:00.000Z'
 updatedDate: '2023-02-24T11:52:55.000Z'

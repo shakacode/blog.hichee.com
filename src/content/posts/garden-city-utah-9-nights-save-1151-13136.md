@@ -1,12 +1,12 @@
 ---
-title: "Garden City,\_Utah &#8211; 9 Nights &#8211; SAVE $1,151"
+title: 'Garden City, Utah – 9 Nights – SAVE $1,151'
 path: /garden-city-utah-9-nights-save-1151/
 date: '2023-02-18T06:00:00.000Z'
 updatedDate: '2023-02-14T13:43:23.000Z'
 description: >-
-  Book this well-designed lodge in Garden City,&nbsp;Utah, for 9 nights (16
-  guests, May 8th to 17th) through VRBO and SAVE $1,151 on the Airbnb price for
-  the same property and dates. This property has a 5.0-star average ra
+  Book this well-designed lodge in Garden City, Utah, for 9 nights (16 guests,
+  May 8th to 17th) through VRBO and SAVE $1,151 on the Airbnb price for the same
+  property and dates. This property has a 5.0-star average rating 
 legacyUrl: 'https://blog.hichee.com/garden-city-utah-9-nights-save-1151/'
 wordpressId: 13136
 status: publish

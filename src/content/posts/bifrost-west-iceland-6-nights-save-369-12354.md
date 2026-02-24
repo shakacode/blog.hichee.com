@@ -1,5 +1,5 @@
 ---
-title: 'Bifröst, West Iceland &#8211; 6 Nights &#8211; SAVE $369'
+title: 'Bifröst, West Iceland – 6 Nights – SAVE $369'
 path: /bifrost-west-iceland-6-nights-save-369/
 date: '2023-02-09T06:00:00.000Z'
 updatedDate: '2023-01-30T21:27:28.000Z'

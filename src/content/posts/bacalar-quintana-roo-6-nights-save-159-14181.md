@@ -1,5 +1,5 @@
 ---
-title: 'Bacalar, Quintana Roo &#8211; 6 Nights &#8211; SAVE $159'
+title: 'Bacalar, Quintana Roo – 6 Nights – SAVE $159'
 path: /bacalar-quintana-roo-6-nights-save-159/
 date: '2023-03-14T18:43:00.000Z'
 updatedDate: '2023-03-13T04:17:56.000Z'

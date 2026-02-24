@@ -1,5 +1,5 @@
 ---
-title: 'Catalunya, Spain &#8211; 8 Nights &#8211; SAVE $412'
+title: 'Catalunya, Spain – 8 Nights – SAVE $412'
 path: /catalunya-spain-8-nights-save-412/
 date: '2023-04-02T06:00:00.000Z'
 updatedDate: '2023-03-27T23:48:07.000Z'

@@ -1,12 +1,12 @@
 ---
-title: Creating Airbnb Floor Plans &#8211; The Best Apps For The Job
+title: Creating Airbnb Floor Plans – The Best Apps For The Job
 path: /creating-airbnb-floor-plans-the-best-apps-for-the-job/
 date: '2023-10-05T22:43:51.000Z'
 updatedDate: '2023-10-05T22:51:41.000Z'
 description: >-
-  Creating Airbnb Floor Plans In today&#8217;s digital age, giving potential
-  guests a sneak peek into your property layout can make or break a booking. For
-  Airbnb owners and property managers, a house floor plan isn&#8217;
+  Creating Airbnb Floor Plans In today’s digital age, giving potential guests a
+  sneak peek into your property layout can make or break a booking. For Airbnb
+  owners and property managers, a house floor plan isn’t just a blu
 legacyUrl: 'https://blog.hichee.com/creating-airbnb-floor-plans-the-best-apps-for-the-job/'
 wordpressId: 43386
 status: publish

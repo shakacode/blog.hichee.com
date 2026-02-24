@@ -1,5 +1,5 @@
 ---
-title: 'Separation Creek, Victoria &#8211; 8 Nights &#8211; SAVE $449'
+title: 'Separation Creek, Victoria – 8 Nights – SAVE $449'
 path: /separation-creek-victoria-8-nights-save-449/
 date: '2023-06-09T06:00:00.000Z'
 updatedDate: '2023-05-04T22:05:01.000Z'

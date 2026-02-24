@@ -1,12 +1,12 @@
 ---
-title: 'Sussex Inlet, Australia &#8211; 5 Nights &#8211; SAVE $169'
+title: 'Sussex Inlet, Australia – 5 Nights – SAVE $169'
 path: /sussex-inlet-australia-5-nights-save-169/
 date: '2023-06-24T06:00:00.000Z'
 updatedDate: '2023-05-04T22:08:42.000Z'
 description: >-
-  Book this modern &amp; comfortable home in Sussex Inlet, Australia, for 5
-  nights (16 guests, Aug 7th to 12th) through Airbnb and SAVE $169 on the VRBO
-  price for the same property and dates. This property has a 4.9-star a
+  Book this modern & comfortable home in Sussex Inlet, Australia, for 5 nights
+  (16 guests, Aug 7th to 12th) through Airbnb and SAVE $169 on the VRBO price
+  for the same property and dates. This property has a 4.9-star avera
 legacyUrl: 'https://blog.hichee.com/sussex-inlet-australia-5-nights-save-169/'
 wordpressId: 17917
 status: publish

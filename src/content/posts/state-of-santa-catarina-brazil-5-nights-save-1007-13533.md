@@ -1,5 +1,5 @@
 ---
-title: 'State of Santa Catarina, Brazil &#8211; 5 Nights &#8211; SAVE $1,007'
+title: 'State of Santa Catarina, Brazil – 5 Nights – SAVE $1,007'
 path: /state-of-santa-catarina-brazil-5-nights-save-1007/
 date: '2023-03-10T06:00:00.000Z'
 updatedDate: '2023-03-01T13:56:46.000Z'

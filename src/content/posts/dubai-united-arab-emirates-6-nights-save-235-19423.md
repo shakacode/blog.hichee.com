@@ -1,5 +1,5 @@
 ---
-title: 'Dubai, United Arab Emirates &#8211; 6 Nights &#8211; SAVE $235'
+title: 'Dubai, United Arab Emirates – 6 Nights – SAVE $235'
 path: /dubai-united-arab-emirates-6-nights-save-235/
 date: '2023-05-30T06:00:00.000Z'
 updatedDate: '2023-05-04T22:02:16.000Z'

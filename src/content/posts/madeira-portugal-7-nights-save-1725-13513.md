@@ -1,5 +1,5 @@
 ---
-title: 'Madeira, Portugal &#8211; 7 Nights &#8211; SAVE $1,725'
+title: 'Madeira, Portugal – 7 Nights – SAVE $1,725'
 path: /madeira-portugal-7-nights-save-1725/
 date: '2023-02-24T06:00:00.000Z'
 updatedDate: '2023-02-17T02:00:39.000Z'

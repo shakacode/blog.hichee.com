@@ -1,5 +1,5 @@
 ---
-title: 'Sausalito, California &#8211; 7 Nights &#8211; SAVE $2,087'
+title: 'Sausalito, California – 7 Nights – SAVE $2,087'
 path: /sausalito-california-7-nights-save-2087/
 date: '2022-10-18T06:00:00.000Z'
 updatedDate: '2022-10-11T00:48:20.000Z'

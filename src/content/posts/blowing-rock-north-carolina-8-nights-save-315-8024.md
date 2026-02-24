@@ -1,5 +1,5 @@
 ---
-title: 'Blowing Rock, North Carolina &#8211; 8 Nights &#8211; SAVE $315'
+title: 'Blowing Rock, North Carolina – 8 Nights – SAVE $315'
 path: /blowing-rock-north-carolina-8-nights-save-315/
 date: '2022-12-11T06:00:00.000Z'
 updatedDate: '2022-12-01T19:17:01.000Z'

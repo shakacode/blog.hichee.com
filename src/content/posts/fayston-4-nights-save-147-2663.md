@@ -1,5 +1,5 @@
 ---
-title: 'Fayston, Vermont &#8211; 4 Nights &#8211; SAVE $147'
+title: 'Fayston, Vermont – 4 Nights – SAVE $147'
 path: /fayston-4-nights-save-147/
 date: '2022-09-24T02:07:21.000Z'
 updatedDate: '2022-10-04T04:03:47.000Z'

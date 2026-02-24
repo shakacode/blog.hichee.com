@@ -4,9 +4,9 @@ path: /top-9-website-builders-property-managers-use-for-their-vacation-rental/
 date: '2022-11-11T19:37:50.000Z'
 updatedDate: '2022-11-17T22:03:48.000Z'
 description: >-
-  By David Nge •&nbsp;Last Updated:&nbsp;September 08, 2022 If you&#8217;re
-  trying to evaluate which website builder and property management system (PMS)
-  to use for your vacation rental business, read on. There&#8217;s no 
+  By David Nge • Last Updated: September 08, 2022 If you’re trying to evaluate
+  which website builder and property management system (PMS) to use for your
+  vacation rental business, read on. There’s no shortage of PMS in the
 legacyUrl: >-
   https://blog.hichee.com/top-9-website-builders-property-managers-use-for-their-vacation-rental/
 wordpressId: 4795

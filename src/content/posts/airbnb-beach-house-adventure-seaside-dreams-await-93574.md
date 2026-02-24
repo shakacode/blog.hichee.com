@@ -5,8 +5,8 @@ date: '2023-01-28T21:56:00.000Z'
 updatedDate: '2024-01-31T01:04:22.000Z'
 description: >-
   Waterfront Scotland Beach Retreat with Private Beach Location: Ridge, Maryland
-  Airbnb Beach House Adventure &#8211; Escape to a delightfully whimsical beach
-  house, your perfect antidote to city life&#8217;s hustle and bu
+  Airbnb Beach House Adventure – Escape to a delightfully whimsical beach house,
+  your perfect antidote to city life’s hustle and bustle, infuse
 legacyUrl: 'https://blog.hichee.com/airbnb-beach-house-adventure-seaside-dreams-await/'
 wordpressId: 93574
 status: publish
@@ -101,6 +101,3 @@ contentType: post
 
 
 <h2 class="wp-block-heading alignwide has-text-align-center" id="Share_This_Post_With_Friends">Share This Post With Friends</h2>
-
-
-<div class="addtoany_shortcode"><div class="a2a_kit a2a_kit_size_32 addtoany_list" data-a2a-url="https://blog.hichee.com/airbnb-beach-house-adventure-seaside-dreams-await/" data-a2a-title="Airbnb Beach House Adventure: Seaside Dreams Await"><a class="a2a_button_facebook" href="https://www.addtoany.com/add_to/facebook?linkurl=https%3A%2F%2Fblog.hichee.com%2Fairbnb-beach-house-adventure-seaside-dreams-await%2F&amp;linkname=Airbnb%20Beach%20House%20Adventure%3A%20Seaside%20Dreams%20Await" title="Facebook" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_twitter" href="https://www.addtoany.com/add_to/twitter?linkurl=https%3A%2F%2Fblog.hichee.com%2Fairbnb-beach-house-adventure-seaside-dreams-await%2F&amp;linkname=Airbnb%20Beach%20House%20Adventure%3A%20Seaside%20Dreams%20Await" title="Twitter" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_pinterest" href="https://www.addtoany.com/add_to/pinterest?linkurl=https%3A%2F%2Fblog.hichee.com%2Fairbnb-beach-house-adventure-seaside-dreams-await%2F&amp;linkname=Airbnb%20Beach%20House%20Adventure%3A%20Seaside%20Dreams%20Await" title="Pinterest" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_whatsapp" href="https://www.addtoany.com/add_to/whatsapp?linkurl=https%3A%2F%2Fblog.hichee.com%2Fairbnb-beach-house-adventure-seaside-dreams-await%2F&amp;linkname=Airbnb%20Beach%20House%20Adventure%3A%20Seaside%20Dreams%20Await" title="WhatsApp" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_email" href="https://www.addtoany.com/add_to/email?linkurl=https%3A%2F%2Fblog.hichee.com%2Fairbnb-beach-house-adventure-seaside-dreams-await%2F&amp;linkname=Airbnb%20Beach%20House%20Adventure%3A%20Seaside%20Dreams%20Await" title="Email" rel="nofollow noopener" target="_blank"></a><a class="a2a_dd addtoany_share_save addtoany_share" href="https://www.addtoany.com/share"></a></div></div>

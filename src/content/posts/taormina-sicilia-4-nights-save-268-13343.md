@@ -1,5 +1,5 @@
 ---
-title: 'Taormina, Sicilia &#8211; 4 Nights &#8211; SAVE $268'
+title: 'Taormina, Sicilia – 4 Nights – SAVE $268'
 path: /taormina-sicilia-4-nights-save-268/
 date: '2023-06-19T06:00:00.000Z'
 updatedDate: '2023-05-04T22:07:00.000Z'

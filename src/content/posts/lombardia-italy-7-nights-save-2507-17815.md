@@ -1,5 +1,5 @@
 ---
-title: 'Lombardia, Italy &#8211; 7 Nights &#8211; SAVE $2,507'
+title: 'Lombardia, Italy – 7 Nights – SAVE $2,507'
 path: /lombardia-italy-7-nights-save-2507/
 date: '2023-04-30T06:00:00.000Z'
 updatedDate: '2023-04-21T12:41:48.000Z'

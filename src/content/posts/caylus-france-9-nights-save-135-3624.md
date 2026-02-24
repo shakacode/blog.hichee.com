@@ -1,5 +1,5 @@
 ---
-title: 'Caylus, France &#8211; 9 Nights &#8211; SAVE $135'
+title: 'Caylus, France – 9 Nights – SAVE $135'
 path: /caylus-france-9-nights-save-135/
 date: '2022-10-26T06:00:00.000Z'
 updatedDate: '2022-10-25T00:53:49.000Z'

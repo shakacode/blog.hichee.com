@@ -1,5 +1,5 @@
 ---
-title: 'Dollar, Clackmannanshire &#8211; 7 Nights &#8211; SAVE $135'
+title: 'Dollar, Clackmannanshire – 7 Nights – SAVE $135'
 path: /dollar-clackmannanshire-7-nights-save-135/
 date: '2022-11-11T06:00:00.000Z'
 updatedDate: '2022-11-09T00:48:27.000Z'

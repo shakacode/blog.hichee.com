@@ -1,5 +1,5 @@
 ---
-title: 'Bellemare Plage, Flacq &#8211; 6 Nights &#8211; SAVE $65'
+title: 'Bellemare Plage, Flacq – 6 Nights – SAVE $65'
 path: /bellemare-plage-flacq-6-nights-save-65/
 date: '2023-02-20T06:00:00.000Z'
 updatedDate: '2023-02-17T01:30:11.000Z'

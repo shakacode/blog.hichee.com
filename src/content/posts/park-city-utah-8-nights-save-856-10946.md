@@ -1,5 +1,5 @@
 ---
-title: 'Park City, Utah &#8211; 8 Nights &#8211; SAVE $856'
+title: 'Park City, Utah – 8 Nights – SAVE $856'
 path: /park-city-utah-8-nights-save-856/
 date: '2023-01-21T06:00:00.000Z'
 updatedDate: '2023-01-14T22:36:03.000Z'

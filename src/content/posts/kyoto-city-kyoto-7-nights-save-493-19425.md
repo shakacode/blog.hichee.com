@@ -1,5 +1,5 @@
 ---
-title: 'Kyoto City, Kyoto &#8211; 7 Nights &#8211; SAVE $493'
+title: 'Kyoto City, Kyoto – 7 Nights – SAVE $493'
 path: /kyoto-city-kyoto-7-nights-save-493/
 date: '2023-05-12T06:00:00.000Z'
 updatedDate: '2023-05-04T21:58:30.000Z'

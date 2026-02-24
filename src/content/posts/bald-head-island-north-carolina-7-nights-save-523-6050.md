@@ -1,5 +1,5 @@
 ---
-title: 'Bald Head Island, North Carolina &#8211; 7 Nights &#8211; SAVE $523'
+title: 'Bald Head Island, North Carolina – 7 Nights – SAVE $523'
 path: /bald-head-island-north-carolina-7-nights-save-523/
 date: '2022-11-29T06:00:00.000Z'
 updatedDate: '2022-11-16T23:12:17.000Z'

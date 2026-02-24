@@ -1,5 +1,5 @@
 ---
-title: 'Gatlinburg, Tennessee &#8211; 5 Nights &#8211; SAVE $194'
+title: 'Gatlinburg, Tennessee – 5 Nights – SAVE $194'
 path: /gatlinburg-tennessee-5-nights-save-194/
 date: '2022-12-19T06:00:00.000Z'
 updatedDate: '2022-12-12T18:25:51.000Z'

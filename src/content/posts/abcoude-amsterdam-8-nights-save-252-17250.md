@@ -1,5 +1,5 @@
 ---
-title: 'abcoude, Amsterdam &#8211; 8 Nights &#8211; SAVE $252'
+title: 'abcoude, Amsterdam – 8 Nights – SAVE $252'
 path: /abcoude-amsterdam-8-nights-save-252/
 date: '2023-03-28T06:00:00.000Z'
 updatedDate: '2023-03-27T23:47:02.000Z'

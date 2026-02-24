@@ -1,5 +1,5 @@
 ---
-title: 'Pomeranian Voivodeship, Poland &#8211; 6 Nights &#8211; SAVE $113'
+title: 'Pomeranian Voivodeship, Poland – 6 Nights – SAVE $113'
 path: /darzkowo-6-nights-save-113/
 date: '2022-09-24T02:08:53.000Z'
 updatedDate: '2022-10-04T04:04:34.000Z'

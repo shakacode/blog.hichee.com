@@ -6,7 +6,7 @@ updatedDate: '2022-07-12T17:50:55.000Z'
 description: >-
   Who we are Suggested text: Our website address is: https://blog.hichee.com.
   Comments Suggested text: When visitors leave comments on the site we collect
-  the data shown in the comments form, and also the visitor&#8217;s I
+  the data shown in the comments form, and also the visitor’s IP addr
 legacyUrl: 'https://blog.hichee.com/?page_id=3'
 wordpressId: 3
 status: draft

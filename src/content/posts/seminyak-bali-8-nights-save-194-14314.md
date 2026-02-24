@@ -1,5 +1,5 @@
 ---
-title: 'Seminyak, Bali &#8211; 8 Nights &#8211; SAVE $194'
+title: 'Seminyak, Bali – 8 Nights – SAVE $194'
 path: /seminyak-bali-8-nights-save-194/
 date: '2023-03-23T06:00:00.000Z'
 updatedDate: '2023-03-13T03:39:37.000Z'

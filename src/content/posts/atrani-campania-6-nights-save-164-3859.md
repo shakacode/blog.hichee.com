@@ -1,5 +1,5 @@
 ---
-title: 'Atrani, Campania &#8211; 6 Nights &#8211; SAVE $164'
+title: 'Atrani, Campania – 6 Nights – SAVE $164'
 path: /atrani-campania-6-nights-save-164/
 date: '2022-11-10T06:00:00.000Z'
 updatedDate: '2022-11-09T00:47:55.000Z'

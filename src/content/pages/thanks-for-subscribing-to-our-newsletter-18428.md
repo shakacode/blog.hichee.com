@@ -5,8 +5,8 @@ date: '2023-04-14T17:48:32.000Z'
 updatedDate: '2023-04-14T17:50:19.000Z'
 description: >-
   Thanks For Subscribing To Our Newsletter via GIPHY That all worked perfectly
-  We&#8217;ll be in touch shortly. In the meantime, you may like to check out
-  our blog for travelers. You&#8217;ll find great travel savings, tra
+  We’ll be in touch shortly. In the meantime, you may like to check out our blog
+  for travelers. You’ll find great travel savings, travel hacks, p
 legacyUrl: 'https://blog.hichee.com/thanks-for-subscribing-to-our-newsletter/'
 wordpressId: 18428
 status: publish

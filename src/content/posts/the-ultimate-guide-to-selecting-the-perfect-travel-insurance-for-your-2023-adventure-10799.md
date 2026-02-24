@@ -20,7 +20,7 @@ categories:
 tags: []
 featuredImage: >-
   https://blog.hichee.com/wp-content/uploads/2023/01/The-Ultimate-Guide-to-Selecting-The-Perfect-Travel-Insurance-for-Your-2023-Adventure-scaled.jpg
-featuredImageAlt: Travel  insurance form with model and policy document
+featuredImageAlt: Travel insurance form with model and policy document
 draft: false
 contentType: post
 ---

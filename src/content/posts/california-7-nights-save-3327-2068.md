@@ -1,5 +1,5 @@
 ---
-title: 'Malibu &#8211; 7 Nights &#8211; SAVE $3,327'
+title: 'Malibu – 7 Nights – SAVE $3,327'
 path: /california-7-nights-save-3327/
 date: '2022-09-20T06:00:00.000Z'
 updatedDate: '2022-09-24T01:34:59.000Z'

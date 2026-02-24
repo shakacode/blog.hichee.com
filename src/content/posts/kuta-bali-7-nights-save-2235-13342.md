@@ -1,5 +1,5 @@
 ---
-title: 'Kuta, Bali &#8211; 7 Nights &#8211; SAVE $2,235'
+title: 'Kuta, Bali – 7 Nights – SAVE $2,235'
 path: /kuta-bali-7-nights-save-2235/
 date: '2023-05-05T06:00:00.000Z'
 updatedDate: '2023-04-21T12:45:23.000Z'

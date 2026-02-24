@@ -1,5 +1,5 @@
 ---
-title: 'Destin, Florida &#8211; 7 Nights &#8211; SAVE $1,281'
+title: 'Destin, Florida – 7 Nights – SAVE $1,281'
 path: /destin-florida-7-nights-save-1281/
 date: '2022-12-09T06:00:00.000Z'
 updatedDate: '2022-12-01T19:16:39.000Z'

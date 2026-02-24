@@ -1,5 +1,5 @@
 ---
-title: 'Stowe, Vermont &#8211; 5 Nights &#8211; SAVE $139'
+title: 'Stowe, Vermont – 5 Nights – SAVE $139'
 path: /stowe-vermont-5-nights-save-139/
 date: '2023-01-08T06:00:00.000Z'
 updatedDate: '2022-12-26T19:29:29.000Z'

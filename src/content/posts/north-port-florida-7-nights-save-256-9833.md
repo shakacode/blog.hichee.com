@@ -1,5 +1,5 @@
 ---
-title: 'North Port, Florida &#8211; 7 Nights &#8211; SAVE $256'
+title: 'North Port, Florida – 7 Nights – SAVE $256'
 path: /north-port-florida-7-nights-save-256/
 date: '2022-12-31T06:00:00.000Z'
 updatedDate: '2022-12-26T19:26:42.000Z'

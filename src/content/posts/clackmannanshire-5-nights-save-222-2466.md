@@ -1,5 +1,5 @@
 ---
-title: 'Clackmannanshire, UK &#8211; 5 Nights &#8211; SAVE $222'
+title: 'Clackmannanshire, UK – 5 Nights – SAVE $222'
 path: /clackmannanshire-5-nights-save-222/
 date: '2022-09-24T02:54:11.000Z'
 updatedDate: '2022-10-04T03:58:13.000Z'

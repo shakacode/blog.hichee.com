@@ -1,5 +1,5 @@
 ---
-title: Los Angeles &#8211; 6 Nights &#8211; SAVE $423
+title: Los Angeles – 6 Nights – SAVE $423
 path: /los-angeles-6-nights-save-423/
 date: '2022-10-05T06:00:00.000Z'
 updatedDate: '2022-10-01T22:06:04.000Z'

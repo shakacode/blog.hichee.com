@@ -1,7 +1,5 @@
 ---
-title: >-
-  A Wizard&#8217;s Retreat: Discovering the Magic of a Harry Potter-Themed
-  Airbnb
+title: 'A Wizard’s Retreat: Discovering the Magic of a Harry Potter-Themed Airbnb'
 path: /a-wizards-retreat-discovering-the-magic-of-a-harry-potter-themed-airbnb/
 date: '2023-12-15T22:48:42.000Z'
 updatedDate: '2023-12-15T22:48:47.000Z'
@@ -119,6 +117,6 @@ contentType: post
 <h2 class="wp-block-heading alignwide has-text-align-center">Share This Post With Friends</h2>
 <p></p>
 <p><p>
-<center><div class="addtoany_shortcode"><div class="a2a_kit a2a_kit_size_32 addtoany_list" data-a2a-url="https://blog.hichee.com/a-wizards-retreat-discovering-the-magic-of-a-harry-potter-themed-airbnb/" data-a2a-title="A Wizard’s Retreat: Discovering the Magic of a Harry Potter-Themed Airbnb"><a class="a2a_button_facebook" href="https://www.addtoany.com/add_to/facebook?linkurl=https%3A%2F%2Fblog.hichee.com%2Fa-wizards-retreat-discovering-the-magic-of-a-harry-potter-themed-airbnb%2F&amp;linkname=A%20Wizard%E2%80%99s%20Retreat%3A%20Discovering%20the%20Magic%20of%20a%20Harry%20Potter-Themed%20Airbnb" title="Facebook" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_twitter" href="https://www.addtoany.com/add_to/twitter?linkurl=https%3A%2F%2Fblog.hichee.com%2Fa-wizards-retreat-discovering-the-magic-of-a-harry-potter-themed-airbnb%2F&amp;linkname=A%20Wizard%E2%80%99s%20Retreat%3A%20Discovering%20the%20Magic%20of%20a%20Harry%20Potter-Themed%20Airbnb" title="Twitter" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_pinterest" href="https://www.addtoany.com/add_to/pinterest?linkurl=https%3A%2F%2Fblog.hichee.com%2Fa-wizards-retreat-discovering-the-magic-of-a-harry-potter-themed-airbnb%2F&amp;linkname=A%20Wizard%E2%80%99s%20Retreat%3A%20Discovering%20the%20Magic%20of%20a%20Harry%20Potter-Themed%20Airbnb" title="Pinterest" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_whatsapp" href="https://www.addtoany.com/add_to/whatsapp?linkurl=https%3A%2F%2Fblog.hichee.com%2Fa-wizards-retreat-discovering-the-magic-of-a-harry-potter-themed-airbnb%2F&amp;linkname=A%20Wizard%E2%80%99s%20Retreat%3A%20Discovering%20the%20Magic%20of%20a%20Harry%20Potter-Themed%20Airbnb" title="WhatsApp" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_email" href="https://www.addtoany.com/add_to/email?linkurl=https%3A%2F%2Fblog.hichee.com%2Fa-wizards-retreat-discovering-the-magic-of-a-harry-potter-themed-airbnb%2F&amp;linkname=A%20Wizard%E2%80%99s%20Retreat%3A%20Discovering%20the%20Magic%20of%20a%20Harry%20Potter-Themed%20Airbnb" title="Email" rel="nofollow noopener" target="_blank"></a><a class="a2a_dd addtoany_share_save addtoany_share" href="https://www.addtoany.com/share"></a></div></div></center></p>
+
 </div></div>
 <p></p>

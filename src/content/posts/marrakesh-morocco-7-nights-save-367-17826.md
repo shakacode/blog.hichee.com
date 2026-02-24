@@ -1,5 +1,5 @@
 ---
-title: 'Marrakesh, Morocco &#8211; 7 Nights &#8211; SAVE $367'
+title: 'Marrakesh, Morocco – 7 Nights – SAVE $367'
 path: /marrakesh-morocco-7-nights-save-367/
 date: '2023-04-09T06:00:00.000Z'
 updatedDate: '2023-03-28T00:09:37.000Z'

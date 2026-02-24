@@ -1,5 +1,5 @@
 ---
-title: 'Sant Josep de sa Talaia, PM &#8211; 7 Nights &#8211; SAVE $474'
+title: 'Sant Josep de sa Talaia, PM – 7 Nights – SAVE $474'
 path: /sant-josep-de-sa-talaia-pm-7-nights-save-474/
 date: '2023-03-09T06:00:00.000Z'
 updatedDate: '2023-03-01T13:54:39.000Z'

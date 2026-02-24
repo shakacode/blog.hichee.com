@@ -1,5 +1,5 @@
 ---
-title: 'Thompsonville, Michigan &#8211; 5 Nights &#8211; SAVE $122'
+title: 'Thompsonville, Michigan – 5 Nights – SAVE $122'
 path: /thompsonville-michigan-5-nights-save-122/
 date: '2023-01-15T06:00:00.000Z'
 updatedDate: '2023-01-03T02:17:00.000Z'

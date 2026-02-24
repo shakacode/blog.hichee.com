@@ -1,5 +1,5 @@
 ---
-title: 'Valais, Switzerland &#8211; 7 Nights &#8211; SAVE $13,637'
+title: 'Valais, Switzerland – 7 Nights – SAVE $13,637'
 path: /valais-switzerland-7-nights-save-13637/
 date: '2022-10-18T06:00:00.000Z'
 updatedDate: '2022-10-11T00:49:14.000Z'

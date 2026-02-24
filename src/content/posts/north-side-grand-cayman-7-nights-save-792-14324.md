@@ -1,5 +1,5 @@
 ---
-title: 'North Side, Grand Cayman &#8211; 7 Nights &#8211; SAVE $792'
+title: 'North Side, Grand Cayman – 7 Nights – SAVE $792'
 path: /north-side-grand-cayman-7-nights-save-792/
 date: '2023-04-16T06:00:00.000Z'
 updatedDate: '2023-04-04T13:57:46.000Z'

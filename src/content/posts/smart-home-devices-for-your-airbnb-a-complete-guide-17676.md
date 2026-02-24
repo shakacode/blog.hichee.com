@@ -1,12 +1,12 @@
 ---
-title: Smart Home Devices For Your Airbnb &#8211; A Complete Guide
+title: Smart Home Devices For Your Airbnb – A Complete Guide
 path: /smart-home-devices-for-your-airbnb-a-complete-guide/
 date: '2023-05-03T00:47:59.000Z'
 updatedDate: '2023-05-11T23:00:58.000Z'
 description: >-
-  Smart Home Devices For Your Airbnb &#8211; A Complete Guide This is the first
+  Smart Home Devices For Your Airbnb – A Complete Guide This is the first
   article in a series on Creating Smart Vacation Rental Homes. Smart devices
-  cover a whole host of areas. Some smart devices can save you time a
+  cover a whole host of areas. Some smart devices can save you time and som
 legacyUrl: 'https://blog.hichee.com/smart-home-devices-for-your-airbnb-a-complete-guide/'
 wordpressId: 17676
 status: publish

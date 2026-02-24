@@ -1,5 +1,5 @@
 ---
-title: 'Paris &#8211; 7 Nights &#8211; SAVE $2,097'
+title: 'Paris – 7 Nights – SAVE $2,097'
 path: /paris-7-nights-save-2097/
 date: '2022-10-17T06:00:00.000Z'
 updatedDate: '2022-10-11T03:45:40.000Z'

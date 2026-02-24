@@ -1,5 +1,5 @@
 ---
-title: 'Sopley, England &#8211; 8 Nights &#8211; SAVE $209'
+title: 'Sopley, England – 8 Nights – SAVE $209'
 path: /sopley-8-nights-save-209/
 date: '2022-09-24T02:30:49.000Z'
 updatedDate: '2022-10-04T03:55:45.000Z'

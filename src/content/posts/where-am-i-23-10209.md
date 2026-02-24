@@ -6,7 +6,7 @@ updatedDate: '2023-01-23T20:50:50.000Z'
 description: >-
   Known for its world-famous surf breaks, incredible wildlife, and ancient
   rainforests. Built by returned soldiers between 1919 and 1932 and dedicated to
-  soldiers killed during World War I, the road is the world&#8217;s la
+  soldiers killed during World War I, the road is the world’s largest 
 legacyUrl: 'https://blog.hichee.com/where-am-i-23/'
 wordpressId: 10209
 status: publish

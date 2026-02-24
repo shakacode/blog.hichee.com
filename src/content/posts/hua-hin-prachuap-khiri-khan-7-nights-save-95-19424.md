@@ -1,5 +1,5 @@
 ---
-title: 'Hua Hin, Prachuap Khiri Khan &#8211; 7 Nights &#8211; SAVE $95'
+title: 'Hua Hin, Prachuap Khiri Khan – 7 Nights – SAVE $95'
 path: /hua-hin-prachuap-khiri-khan-7-nights-save-95/
 date: '2023-05-23T06:00:00.000Z'
 updatedDate: '2023-05-04T22:00:57.000Z'

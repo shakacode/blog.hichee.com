@@ -1,5 +1,5 @@
 ---
-title: 'Jewett, New York &#8211; 10 Nights &#8211; SAVE $101'
+title: 'Jewett, New York – 10 Nights – SAVE $101'
 path: /jewett-new-york-10-nights-save-101/
 date: '2023-01-30T06:00:00.000Z'
 updatedDate: '2023-01-20T01:38:36.000Z'

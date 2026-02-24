@@ -1,5 +1,5 @@
 ---
-title: 'Kapalua, Hawaii &#8211; 7 Nights &#8211; SAVE $471'
+title: 'Kapalua, Hawaii – 7 Nights – SAVE $471'
 path: /kapalua-hawaii-7-nights-save-471/
 date: '2023-05-02T06:00:00.000Z'
 updatedDate: '2023-04-21T12:44:54.000Z'

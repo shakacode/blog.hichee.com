@@ -1,5 +1,5 @@
 ---
-title: 'Orange Beach, Alabama &#8211; 7 Nights &#8211; SAVE $194'
+title: 'Orange Beach, Alabama – 7 Nights – SAVE $194'
 path: /orange-beach-alabama-7-nights-save-194/
 date: '2023-01-02T06:00:00.000Z'
 updatedDate: '2022-12-26T19:27:45.000Z'

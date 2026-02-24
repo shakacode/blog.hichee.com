@@ -1,5 +1,5 @@
 ---
-title: 'Lucolena, Florence &#8211; 7 Nights &#8211; SAVE $423'
+title: 'Lucolena, Florence – 7 Nights – SAVE $423'
 path: /lucolena-florence-7-nights-save-423/
 date: '2023-04-15T06:00:00.000Z'
 updatedDate: '2023-04-04T13:57:36.000Z'

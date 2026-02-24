@@ -1,5 +1,5 @@
 ---
-title: 'Pasadena, California &#8211; 7 Nights &#8211; SAVE $85'
+title: 'Pasadena, California – 7 Nights – SAVE $85'
 path: /pasadena-california-7-nights-save-85/
 date: '2023-01-04T06:00:00.000Z'
 updatedDate: '2022-12-26T19:28:14.000Z'

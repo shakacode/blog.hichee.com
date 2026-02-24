@@ -1,5 +1,5 @@
 ---
-title: 'Glendale, Arizona &#8211; 9 Nights &#8211; SAVE $1,469'
+title: 'Glendale, Arizona – 9 Nights – SAVE $1,469'
 path: /glendale-arizona-9-nights-save-1469/
 date: '2023-01-10T06:00:00.000Z'
 updatedDate: '2023-01-03T02:15:32.000Z'

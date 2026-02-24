@@ -1,5 +1,5 @@
 ---
-title: 'South Tyrol, Italy &#8211; 7 Nights &#8211; SAVE $340'
+title: 'South Tyrol, Italy – 7 Nights – SAVE $340'
 path: /south-tyrol-italy-7-nights-save-340/
 date: '2022-10-29T06:00:00.000Z'
 updatedDate: '2022-10-25T00:55:29.000Z'

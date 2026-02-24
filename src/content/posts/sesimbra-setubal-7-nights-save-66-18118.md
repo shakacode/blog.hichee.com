@@ -1,5 +1,5 @@
 ---
-title: 'Sesimbra, Setúbal &#8211; 7 Nights &#8211; SAVE $66'
+title: 'Sesimbra, Setúbal – 7 Nights – SAVE $66'
 path: /sesimbra-setubal-7-nights-save-66/
 date: '2023-06-12T06:00:00.000Z'
 updatedDate: '2023-05-04T22:05:35.000Z'

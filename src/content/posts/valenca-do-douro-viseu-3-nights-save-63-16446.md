@@ -1,5 +1,5 @@
 ---
-title: 'Valença do douro, Viseu &#8211; 3 Nights &#8211; SAVE $63'
+title: 'Valença do douro, Viseu – 3 Nights – SAVE $63'
 path: /valenca-do-douro-viseu-3-nights-save-63/
 date: '2023-07-01T06:00:00.000Z'
 updatedDate: '2023-05-04T23:49:33.000Z'

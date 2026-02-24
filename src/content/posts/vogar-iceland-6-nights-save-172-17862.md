@@ -1,5 +1,5 @@
 ---
-title: 'Vogar, Iceland &#8211; 6 Nights &#8211; SAVE $172'
+title: 'Vogar, Iceland – 6 Nights – SAVE $172'
 path: /vogar-iceland-6-nights-save-172/
 date: '2023-07-03T06:00:00.000Z'
 updatedDate: '2023-05-04T23:49:49.000Z'

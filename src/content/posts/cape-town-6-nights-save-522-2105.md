@@ -1,5 +1,5 @@
 ---
-title: Cape Town &#8211; 6 Nights &#8211; SAVE $522
+title: Cape Town – 6 Nights – SAVE $522
 path: /cape-town-6-nights-save-522/
 date: '2022-10-04T06:00:00.000Z'
 updatedDate: '2022-10-01T22:05:01.000Z'

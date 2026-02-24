@@ -1,5 +1,5 @@
 ---
-title: 'Corfu, Greece &#8211; 7 Nights &#8211; SAVE $284'
+title: 'Corfu, Greece – 7 Nights – SAVE $284'
 path: /paleokastritsa-7-nights-save-284/
 date: '2022-09-24T02:16:40.000Z'
 updatedDate: '2022-10-04T04:00:53.000Z'

@@ -1,5 +1,5 @@
 ---
-title: 'Firenze, Toscana &#8211; 8 Nights &#8211; SAVE $1,010'
+title: 'Firenze, Toscana – 8 Nights – SAVE $1,010'
 path: /firenze-toscana-8-nights-save-1010/
 date: '2023-02-22T06:00:00.000Z'
 updatedDate: '2023-02-17T01:41:57.000Z'

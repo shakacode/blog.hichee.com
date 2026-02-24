@@ -1,5 +1,5 @@
 ---
-title: 'St Leonards on Sea, England &#8211; 7 Nights &#8211; SAVE $5,035'
+title: 'St Leonards on Sea, England – 7 Nights – SAVE $5,035'
 path: /st-leonards-on-sea-england-7-nights-save-5035/
 date: '2023-01-06T06:00:00.000Z'
 updatedDate: '2022-12-26T19:28:49.000Z'

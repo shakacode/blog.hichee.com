@@ -1,5 +1,5 @@
 ---
-title: 'Headford, County Galway &#8211; 5 Nights &#8211; SAVE $508'
+title: 'Headford, County Galway – 5 Nights – SAVE $508'
 path: /headford-county-galway-5-nights-save-508/
 date: '2023-05-26T06:00:00.000Z'
 updatedDate: '2023-05-04T22:01:32.000Z'

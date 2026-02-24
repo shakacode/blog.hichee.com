@@ -1,5 +1,5 @@
 ---
-title: 'Columbus, Indiana &#8211; 8 Nights &#8211; SAVE $286'
+title: 'Columbus, Indiana – 8 Nights – SAVE $286'
 path: /columbus-indiana-8-nights-save-286/
 date: '2022-12-08T06:00:00.000Z'
 updatedDate: '2022-12-01T19:16:22.000Z'

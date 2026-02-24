@@ -1,5 +1,5 @@
 ---
-title: 'Fuengirola, Spain &#8211; 7 Nights &#8211; SAVE $121'
+title: 'Fuengirola, Spain – 7 Nights – SAVE $121'
 path: /fuengirola-spain-7-nights-save-121/
 date: '2023-06-05T06:00:00.000Z'
 updatedDate: '2023-05-04T22:04:08.000Z'

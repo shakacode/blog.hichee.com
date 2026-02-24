@@ -37,7 +37,7 @@ const redirects = [];
 for (const entry of allEntries) {
   const postType = entry.type === 'page' ? 'page' : 'post';
   const status = String(entry.status || 'draft').toLowerCase();
-  const title = extractRendered(entry.title) || `Untitled ${postType} ${entry.id}`;
+  const title = cleanText(extractRendered(entry.title)) || `Untitled ${postType} ${entry.id}`;
   const slug = normalizeSlug(entry.slug) || `wp-${entry.id}`;
 
   const pathValue = postType === 'page'
@@ -49,7 +49,7 @@ for (const entry of allEntries) {
 
   const featuredMedia = mediaById.get(Number(entry.featured_media || 0));
   const featuredImage = featuredMedia?.source_url;
-  const featuredImageAlt = featuredMedia?.alt_text || extractRendered(featuredMedia?.title) || undefined;
+  const featuredImageAlt = cleanText(featuredMedia?.alt_text || extractRendered(featuredMedia?.title)) || undefined;
 
   const frontmatter = compactObject({
     title,
@@ -68,7 +68,7 @@ for (const entry of allEntries) {
     contentType: postType
   });
 
-  const body = extractRendered(entry.content) || '';
+  const body = sanitizeBodyHtml(extractRendered(entry.content) || '', { postType });
   const fileText = matter.stringify(body, frontmatter);
 
   const collection = status === 'publish' ? (postType === 'post' ? 'posts' : 'pages') : 'drafts';
@@ -191,11 +191,14 @@ async function prepareOutputDirs(dirs) {
 }
 
 function normalizeSlug(value) {
-  return String(value || '')
+  const decoded = decodeURIComponentSafe(String(value || ''));
+  return decoded
     .trim()
     .toLowerCase()
+    .replace(/%ef%bf%bc/gi, '')
     .replace(/&amp;/g, 'and')
     .replace(/[^a-z0-9/_-]+/g, '-')
+    .replace(/(?:-?ef-bf-bc)+$/g, '')
     .replace(/-+/g, '-')
     .replace(/^[-/]+|[-/]+$/g, '');
 }
@@ -216,9 +219,71 @@ function toIso(dateString) {
 }
 
 function excerptToDescription(excerptHtml) {
-  const plain = String(excerptHtml || '').replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ').trim();
+  const plain = decodeHtmlEntities(String(excerptHtml || '').replace(/<[^>]+>/g, ' '))
+    .replace(/\s+/g, ' ')
+    .trim();
   if (!plain) return undefined;
   return plain.slice(0, 220);
+}
+
+function sanitizeBodyHtml(html, { postType } = {}) {
+  let out = String(html || '');
+
+  // Remove AddToAny share-widget markup that bloats imported post bodies.
+  out = out.replace(/<center>\s*<div[^>]*class="[^"]*addtoany_shortcode[^"]*"[\s\S]*?<\/center>\s*<\/p>/gi, '');
+  out = out.replace(/<div[^>]*class="[^"]*addtoany_shortcode[^"]*"[\s\S]*?<\/div>\s*<\/div>/gi, '');
+  out = out.replace(/<script[^>]*src="[^"]*addtoany[^"]*"[\s\S]*?<\/script>/gi, '');
+
+  if (postType === 'post') {
+    // Remove Ultimate Post Grid widget blocks injected into article bodies.
+    out = out.replace(
+      /<div[^>]*class="[^"]*ultp-post-grid-block[^"]*"[\s\S]*?<div[^>]*class="[^"]*pagination-block-html[^"]*"[\s\S]*?<\/div>\s*<\/div>/gi,
+      ''
+    );
+  }
+
+  out = out
+    .replace(/^\s*<\/p>\s*/i, '')
+    .replace(/<\/p>\s*<\/p>/gi, '</p>')
+    .trim();
+
+  return out;
+}
+
+function cleanText(value) {
+  return decodeHtmlEntities(String(value || '').replace(/<[^>]+>/g, ' '))
+    .replace(/\s+/g, ' ')
+    .trim();
+}
+
+function decodeURIComponentSafe(value) {
+  try {
+    return decodeURIComponent(value);
+  } catch {
+    return value;
+  }
+}
+
+function decodeHtmlEntities(value) {
+  const named = {
+    amp: '&',
+    lt: '<',
+    gt: '>',
+    quot: '"',
+    apos: "'",
+    nbsp: ' '
+  };
+
+  return String(value || '')
+    .replace(/&#x([0-9a-f]+);?/gi, (_, hex) => {
+      const code = Number.parseInt(hex, 16);
+      return Number.isFinite(code) ? String.fromCodePoint(code) : _;
+    })
+    .replace(/&#([0-9]+);?/g, (_, dec) => {
+      const code = Number.parseInt(dec, 10);
+      return Number.isFinite(code) ? String.fromCodePoint(code) : _;
+    })
+    .replace(/&([a-z]+);/gi, (match, name) => named[name.toLowerCase()] ?? match);
 }
 
 function resolvePagePath(page, pageById, seen = new Set()) {

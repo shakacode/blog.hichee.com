@@ -1,6 +1,6 @@
 ---
 title: >-
-  Want To Really Get Away? Here&#8217;s Some Expert Advice For Digital Nomad
+  Want To Really Get Away? Here’s Some Expert Advice For Digital Nomad
   Accommodations
 path: >-
   /want-to-really-get-away-heres-some-expert-advice-for-digital-nomad-accommodations/

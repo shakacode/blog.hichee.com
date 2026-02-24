@@ -1,12 +1,12 @@
 ---
-title: 'Airbnb Wedding Venue In New Mexico: An Iconic Spot For Saying &#8216;Yes'
+title: 'Airbnb Wedding Venue In New Mexico: An Iconic Spot For Saying ‘Yes'
 path: /airbnb-wedding-venue-in-new-mexico-an-iconic-spot-for-saying-yes/
 date: '2024-01-05T23:13:30.000Z'
 updatedDate: '2024-01-05T23:13:35.000Z'
 description: >-
   Airbnb Wedding Venue In New Mexico Huge Ski House on Golf Course Location:
   Angel Fire, New Mexico Airbnb Wedding Venue In New Mexico: An Iconic Spot For
-  Saying &#8216;Yes &#8211; This is a rustic and luxurious vacation h
+  Saying ‘Yes – This is a rustic and luxurious vacation home perfect 
 legacyUrl: >-
   https://blog.hichee.com/airbnb-wedding-venue-in-new-mexico-an-iconic-spot-for-saying-yes/
 wordpressId: 89250
@@ -131,6 +131,6 @@ contentType: post
 <h2 class="wp-block-heading alignwide has-text-align-center">Share This Post With Friends</h2>
 <p></p>
 <p><p>
-<center><div class="addtoany_shortcode"><div class="a2a_kit a2a_kit_size_32 addtoany_list" data-a2a-url="https://blog.hichee.com/airbnb-wedding-venue-in-new-mexico-an-iconic-spot-for-saying-yes/" data-a2a-title="Airbnb Wedding Venue In New Mexico: An Iconic Spot For Saying ‘Yes"><a class="a2a_button_facebook" href="https://www.addtoany.com/add_to/facebook?linkurl=https%3A%2F%2Fblog.hichee.com%2Fairbnb-wedding-venue-in-new-mexico-an-iconic-spot-for-saying-yes%2F&amp;linkname=Airbnb%20Wedding%20Venue%20In%20New%20Mexico%3A%20An%20Iconic%20Spot%20For%20Saying%20%E2%80%98Yes" title="Facebook" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_twitter" href="https://www.addtoany.com/add_to/twitter?linkurl=https%3A%2F%2Fblog.hichee.com%2Fairbnb-wedding-venue-in-new-mexico-an-iconic-spot-for-saying-yes%2F&amp;linkname=Airbnb%20Wedding%20Venue%20In%20New%20Mexico%3A%20An%20Iconic%20Spot%20For%20Saying%20%E2%80%98Yes" title="Twitter" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_pinterest" href="https://www.addtoany.com/add_to/pinterest?linkurl=https%3A%2F%2Fblog.hichee.com%2Fairbnb-wedding-venue-in-new-mexico-an-iconic-spot-for-saying-yes%2F&amp;linkname=Airbnb%20Wedding%20Venue%20In%20New%20Mexico%3A%20An%20Iconic%20Spot%20For%20Saying%20%E2%80%98Yes" title="Pinterest" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_whatsapp" href="https://www.addtoany.com/add_to/whatsapp?linkurl=https%3A%2F%2Fblog.hichee.com%2Fairbnb-wedding-venue-in-new-mexico-an-iconic-spot-for-saying-yes%2F&amp;linkname=Airbnb%20Wedding%20Venue%20In%20New%20Mexico%3A%20An%20Iconic%20Spot%20For%20Saying%20%E2%80%98Yes" title="WhatsApp" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_email" href="https://www.addtoany.com/add_to/email?linkurl=https%3A%2F%2Fblog.hichee.com%2Fairbnb-wedding-venue-in-new-mexico-an-iconic-spot-for-saying-yes%2F&amp;linkname=Airbnb%20Wedding%20Venue%20In%20New%20Mexico%3A%20An%20Iconic%20Spot%20For%20Saying%20%E2%80%98Yes" title="Email" rel="nofollow noopener" target="_blank"></a><a class="a2a_dd addtoany_share_save addtoany_share" href="https://www.addtoany.com/share"></a></div></div></center></p>
+
 </div></div>
 <p></p>

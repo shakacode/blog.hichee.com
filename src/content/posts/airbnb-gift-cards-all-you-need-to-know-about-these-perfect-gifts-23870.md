@@ -1,5 +1,5 @@
 ---
-title: Airbnb Gift Cards &#8211; All You Need to Know About These Perfect Gifts
+title: Airbnb Gift Cards – All You Need to Know About These Perfect Gifts
 path: /airbnb-gift-cards-all-you-need-to-know-about-these-perfect-gifts/
 date: '2023-05-11T23:31:04.000Z'
 updatedDate: '2024-03-03T19:45:46.000Z'

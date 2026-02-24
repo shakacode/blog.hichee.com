@@ -1,5 +1,5 @@
 ---
-title: 'Crystal Beach, Texas &#8211; 6 Nights &#8211; SAVE $101'
+title: 'Crystal Beach, Texas – 6 Nights – SAVE $101'
 path: /texas-6-nights-save-101/
 date: '2022-09-26T06:00:00.000Z'
 updatedDate: '2022-10-04T03:48:08.000Z'

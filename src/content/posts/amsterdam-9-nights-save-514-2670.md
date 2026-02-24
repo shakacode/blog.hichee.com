@@ -1,5 +1,5 @@
 ---
-title: Amsterdam &#8211; 9 Nights &#8211; SAVE $514
+title: Amsterdam – 9 Nights – SAVE $514
 path: /amsterdam-9-nights-save-514/
 date: '2022-10-03T06:00:00.000Z'
 updatedDate: '2022-10-01T22:04:39.000Z'

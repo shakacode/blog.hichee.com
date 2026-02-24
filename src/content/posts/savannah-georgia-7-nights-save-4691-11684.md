@@ -1,5 +1,5 @@
 ---
-title: 'Savannah, Georgia &#8211; 7 Nights &#8211; SAVE $4,691'
+title: 'Savannah, Georgia – 7 Nights – SAVE $4,691'
 path: /savannah-georgia-7-nights-save-4691/
 date: '2023-01-20T06:00:00.000Z'
 updatedDate: '2023-01-14T22:33:47.000Z'

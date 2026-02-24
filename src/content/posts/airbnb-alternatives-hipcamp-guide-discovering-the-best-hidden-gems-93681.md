@@ -1,12 +1,12 @@
 ---
-title: 'Airbnb Alternatives &#8211; Hipcamp Guide: Discovering the Best Hidden Gems'
+title: 'Airbnb Alternatives – Hipcamp Guide: Discovering the Best Hidden Gems'
 path: /airbnb-alternatives-hipcamp-guide-discovering-the-best-hidden-gems/
 date: '2024-01-30T20:22:00.000Z'
 updatedDate: '2024-01-30T20:22:03.000Z'
 description: >-
-  Airbnb Alternatives &#8211; Hipcamp &#8211; If a tree falls in a forest, and
-  there’s no one around to hear it, does it make a sound? If you have a great
-  vacation and no one wants to hear about it, did it really happen? R
+  Airbnb Alternatives – Hipcamp – If a tree falls in a forest, and there’s no
+  one around to hear it, does it make a sound? If you have a great vacation and
+  no one wants to hear about it, did it really happen? Read on to fi
 legacyUrl: >-
   https://blog.hichee.com/airbnb-alternatives-hipcamp-guide-discovering-the-best-hidden-gems/
 wordpressId: 93681

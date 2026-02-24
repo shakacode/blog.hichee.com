@@ -1,5 +1,5 @@
 ---
-title: 'Waikoloa, Hawaii &#8211; 7 Nights &#8211; SAVE $182'
+title: 'Waikoloa, Hawaii – 7 Nights – SAVE $182'
 path: /waikoloa-hawaii-7-nights-save-182/
 date: '2023-01-12T06:00:00.000Z'
 updatedDate: '2023-01-03T02:16:09.000Z'

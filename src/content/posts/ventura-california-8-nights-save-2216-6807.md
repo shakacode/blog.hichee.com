@@ -1,5 +1,5 @@
 ---
-title: 'Ventura, California &#8211; 8 Nights &#8211; SAVE $2,216'
+title: 'Ventura, California – 8 Nights – SAVE $2,216'
 path: /ventura-california-8-nights-save-2216/
 date: '2023-01-13T06:00:00.000Z'
 updatedDate: '2023-01-03T02:16:35.000Z'

@@ -1,5 +1,5 @@
 ---
-title: 'Torcigliano, Tuscany &#8211; 7 Nights &#8211; SAVE $1,294'
+title: 'Torcigliano, Tuscany – 7 Nights – SAVE $1,294'
 path: /torcigliano-tuscany-7-nights-save-1294/
 date: '2023-06-22T06:00:00.000Z'
 updatedDate: '2023-05-04T22:08:21.000Z'

@@ -1,5 +1,5 @@
 ---
-title: 'Valle Real, Mexico &#8211; 6 Nights &#8211; SAVE $745'
+title: 'Valle Real, Mexico – 6 Nights – SAVE $745'
 path: /valle-real-6-nights-save-745/
 date: '2022-09-24T03:17:29.000Z'
 updatedDate: '2022-10-04T03:52:25.000Z'

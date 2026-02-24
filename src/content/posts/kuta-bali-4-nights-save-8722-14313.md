@@ -1,5 +1,5 @@
 ---
-title: "Kuta,\_Bali &#8211; 4 Nights &#8211; SAVE $8,722"
+title: 'Kuta, Bali – 4 Nights – SAVE $8,722'
 path: /kuta-bali-4-nights-save-8722/
 date: '2023-04-29T06:00:00.000Z'
 updatedDate: '2023-04-21T12:41:36.000Z'

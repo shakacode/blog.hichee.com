@@ -1,5 +1,5 @@
 ---
-title: 'Grižane, Croatia &#8211; 7 Nights &#8211; SAVE $174'
+title: 'Grižane, Croatia – 7 Nights – SAVE $174'
 path: /croatia-7-nights-save-174/
 date: '2022-09-22T06:00:00.000Z'
 updatedDate: '2022-10-04T04:07:07.000Z'

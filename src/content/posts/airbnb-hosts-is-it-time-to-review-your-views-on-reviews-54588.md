@@ -1,12 +1,12 @@
 ---
-title: Airbnb Hosts &#8211; Is It Time To Review Your Views On Reviews?
+title: Airbnb Hosts – Is It Time To Review Your Views On Reviews?
 path: /airbnb-hosts-is-it-time-to-review-your-views-on-reviews/
 date: '2023-09-21T22:50:10.000Z'
 updatedDate: '2023-10-05T22:57:52.000Z'
 description: >-
   Just a short post today. I just came across a post on Facebook. It was from a
   host who had just received a 4-star review from a guest. This host was, and I
-  quote, &#8216;Livid.&#8217; TBH, I&#8217;ve seen hundreds, if no
+  quote, ‘Livid.’ TBH, I’ve seen hundreds, if not thousands of the
 legacyUrl: >-
   https://blog.hichee.com/airbnb-hosts-is-it-time-to-review-your-views-on-reviews/
 wordpressId: 54588

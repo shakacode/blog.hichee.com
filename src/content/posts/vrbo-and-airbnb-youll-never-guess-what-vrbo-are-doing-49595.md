@@ -1,12 +1,12 @@
 ---
-title: Vrbo And Airbnb &#8211; You&#8217;ll Never Guess What Vrbo Are Doing.
+title: Vrbo And Airbnb – You’ll Never Guess What Vrbo Are Doing.
 path: /vrbo-and-airbnb-youll-never-guess-what-vrbo-are-doing/
 date: '2023-09-05T21:08:18.000Z'
 updatedDate: '2023-09-05T21:08:21.000Z'
 description: >-
   The following email was brought to my attention this week. It was sent from a
-  Vrbo account manager to a host/manager, and it&#8217;s eye-opening &#8211;
-  It&#8217;s good, it&#8217;s bad, and it&#8217;s ugly! The email The
+  Vrbo account manager to a host/manager, and it’s eye-opening – It’s good, it’s
+  bad, and it’s ugly! The email The good… Obviously, it’s good fr
 legacyUrl: 'https://blog.hichee.com/vrbo-and-airbnb-youll-never-guess-what-vrbo-are-doing/'
 wordpressId: 49595
 status: publish

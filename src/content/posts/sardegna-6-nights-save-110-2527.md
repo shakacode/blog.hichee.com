@@ -1,12 +1,12 @@
 ---
-title: 'Sardinia, Italy &#8211; 6 Nights &#8211; SAVE $110'
+title: 'Sardinia, Italy – 6 Nights – SAVE $110'
 path: /sardegna-6-nights-save-110/
 date: '2022-09-24T02:21:15.000Z'
 updatedDate: '2022-10-04T04:01:03.000Z'
 description: >-
-  Book this stunning sea view villa in Quartu Sant&#8217;Elena, Sardegna for 6
-  nights (2 guests, Mar 8th to Mar 14th) through Airbnb and SAVE $110 on the
-  VRBO price for the same property and the same dates. This property h
+  Book this stunning sea view villa in Quartu Sant’Elena, Sardegna for 6 nights
+  (2 guests, Mar 8th to Mar 14th) through Airbnb and SAVE $110 on the VRBO price
+  for the same property and the same dates. This property has a 5
 legacyUrl: 'https://blog.hichee.com/sardegna-6-nights-save-110/'
 wordpressId: 2527
 status: publish

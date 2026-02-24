@@ -1,5 +1,5 @@
 ---
-title: 'Napili, Hawaii &#8211; 6 Nights &#8211; SAVE $219'
+title: 'Napili, Hawaii – 6 Nights – SAVE $219'
 path: /napili-hawaii-6-nights-save-219/
 date: '2022-12-29T06:00:00.000Z'
 updatedDate: '2022-12-26T19:25:37.000Z'

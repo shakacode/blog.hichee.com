@@ -1,5 +1,5 @@
 ---
-title: 'Avon, Colorado &#8211; 7 Nights &#8211; SAVE $193'
+title: 'Avon, Colorado – 7 Nights – SAVE $193'
 path: /avon-colorado-7-nights-save-193/
 date: '2022-11-17T06:00:00.000Z'
 updatedDate: '2022-11-15T01:59:54.000Z'

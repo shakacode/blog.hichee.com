@@ -1,5 +1,5 @@
 ---
-title: 'Quarteira, Algarve &#8211; 7 Nights &#8211; SAVE $787'
+title: 'Quarteira, Algarve – 7 Nights – SAVE $787'
 path: /quarteira-algarve-7-nights-save-787/
 date: '2023-02-27T06:00:00.000Z'
 updatedDate: '2023-02-17T02:05:45.000Z'

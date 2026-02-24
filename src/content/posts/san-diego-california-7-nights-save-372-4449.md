@@ -1,5 +1,5 @@
 ---
-title: "San Diego,\_California &#8211; 7 Nights &#8211; SAVE $372"
+title: 'San Diego, California – 7 Nights – SAVE $372'
 path: /san-diego-california-7-nights-save-372/
 date: '2022-11-25T06:00:00.000Z'
 updatedDate: '2022-11-15T02:04:20.000Z'

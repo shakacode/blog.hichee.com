@@ -1,5 +1,5 @@
 ---
-title: 'Selfoss, Iceland &#8211; 6 Nights &#8211; SAVE $1,242'
+title: 'Selfoss, Iceland – 6 Nights – SAVE $1,242'
 path: /selfoss-iceland-6-nights-save-1242/
 date: '2023-03-06T06:00:00.000Z'
 updatedDate: '2023-02-24T11:53:53.000Z'

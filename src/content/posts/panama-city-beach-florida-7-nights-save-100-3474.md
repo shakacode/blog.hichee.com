@@ -1,5 +1,5 @@
 ---
-title: 'Panama City Beach, Florida &#8211; 7 Nights &#8211; SAVE $100'
+title: 'Panama City Beach, Florida – 7 Nights – SAVE $100'
 path: /panama-city-beach-florida-7-nights-save-100/
 date: '2022-10-30T06:00:00.000Z'
 updatedDate: '2022-10-25T00:55:51.000Z'

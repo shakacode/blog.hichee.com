@@ -1,5 +1,5 @@
 ---
-title: 'Manarola, Liguria &#8211; 9 Nights &#8211; SAVE $683'
+title: 'Manarola, Liguria – 9 Nights – SAVE $683'
 path: /manarola-liguria-9-nights-save-683/
 date: '2023-05-14T06:00:00.000Z'
 updatedDate: '2023-05-04T21:58:57.000Z'

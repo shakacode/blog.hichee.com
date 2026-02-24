@@ -1,5 +1,5 @@
 ---
-title: 'Sorrento, Campania &#8211; 6 Nights &#8211; SAVE $69'
+title: 'Sorrento, Campania – 6 Nights – SAVE $69'
 path: /sorrento-campania-6-nights-save-69/
 date: '2023-01-31T06:00:00.000Z'
 updatedDate: '2023-01-23T20:47:55.000Z'

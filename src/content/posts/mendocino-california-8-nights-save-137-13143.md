@@ -1,5 +1,5 @@
 ---
-title: 'Mendocino, California &#8211; 8 Nights &#8211; SAVE $137'
+title: 'Mendocino, California – 8 Nights – SAVE $137'
 path: /mendocino-california-8-nights-save-137/
 date: '2023-02-26T06:00:00.000Z'
 updatedDate: '2023-02-17T02:05:20.000Z'

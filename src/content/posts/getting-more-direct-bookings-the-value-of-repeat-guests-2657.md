@@ -1,5 +1,5 @@
 ---
-title: Getting More Direct Bookings &#8211; The Value Of Repeat Guests
+title: Getting More Direct Bookings – The Value Of Repeat Guests
 path: /getting-more-direct-bookings-the-value-of-repeat-guests/
 date: '2022-10-24T23:05:08.000Z'
 updatedDate: '2023-06-13T21:21:24.000Z'

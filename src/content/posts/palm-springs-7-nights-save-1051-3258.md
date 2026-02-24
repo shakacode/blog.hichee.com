@@ -1,5 +1,5 @@
 ---
-title: 'Palm Springs &#8211; 7 Nights &#8211; SAVE $1,051'
+title: 'Palm Springs – 7 Nights – SAVE $1,051'
 path: /palm-springs-7-nights-save-1051/
 date: '2022-10-16T06:00:00.000Z'
 updatedDate: '2022-10-11T00:39:38.000Z'

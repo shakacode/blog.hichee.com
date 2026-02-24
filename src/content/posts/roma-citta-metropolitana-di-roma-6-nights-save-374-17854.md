@@ -1,5 +1,5 @@
 ---
-title: 'Roma, Città Metropolitana di Roma &#8211; 6 Nights &#8211; SAVE $374'
+title: 'Roma, Città Metropolitana di Roma – 6 Nights – SAVE $374'
 path: /roma-citta-metropolitana-di-roma-6-nights-save-374/
 date: '2023-06-26T06:00:00.000Z'
 updatedDate: '2023-05-04T22:09:01.000Z'

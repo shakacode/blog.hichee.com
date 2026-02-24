@@ -1,5 +1,5 @@
 ---
-title: 'Cahuita, Limón Province &#8211; 8 Nights &#8211; SAVE $117'
+title: 'Cahuita, Limón Province – 8 Nights – SAVE $117'
 path: /cahuita-limon-province-8-nights-save-117/
 date: '2023-04-03T06:00:00.000Z'
 updatedDate: '2023-03-27T23:48:15.000Z'

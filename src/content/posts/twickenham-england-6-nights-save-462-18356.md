@@ -1,12 +1,12 @@
 ---
-title: 'Twickenham, England &#8211; 6 Nights &#8211; SAVE $462'
+title: 'Twickenham, England – 6 Nights – SAVE $462'
 path: /twickenham-england-6-nights-save-462/
 date: '2023-06-28T06:00:00.000Z'
 updatedDate: '2023-05-04T22:09:25.000Z'
 description: >-
-  Book this stunning &amp; well-maintained 4-bedroom home in Twickenham,
-  England, for 6 nights (8 guests, Aug 13th to 19th) through VRBO and SAVE $462
-  on the Airbnb price for the same property and dates. This property has 
+  Book this stunning & well-maintained 4-bedroom home in Twickenham, England,
+  for 6 nights (8 guests, Aug 13th to 19th) through VRBO and SAVE $462 on the
+  Airbnb price for the same property and dates. This property has a 4.
 legacyUrl: 'https://blog.hichee.com/twickenham-england-6-nights-save-462/'
 wordpressId: 18356
 status: publish

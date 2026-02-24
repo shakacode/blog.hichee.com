@@ -1,5 +1,5 @@
 ---
-title: 'Saint-Martin, Wallis &#8211; 14 Nights &#8211; SAVE $1,483'
+title: 'Saint-Martin, Wallis – 14 Nights – SAVE $1,483'
 path: /saint-martin-wallis-14-nights-save-1483/
 date: '2023-06-15T06:00:00.000Z'
 updatedDate: '2023-05-04T22:06:03.000Z'

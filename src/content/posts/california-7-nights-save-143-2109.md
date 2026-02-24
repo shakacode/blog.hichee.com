@@ -1,5 +1,5 @@
 ---
-title: San Diego &#8211; 7 Nights &#8211; SAVE $143
+title: San Diego – 7 Nights – SAVE $143
 path: /california-7-nights-save-143/
 date: '2022-09-27T06:30:00.000Z'
 updatedDate: '2022-09-24T01:33:14.000Z'

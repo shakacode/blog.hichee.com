@@ -1,5 +1,5 @@
 ---
-title: 'Mailhoc, Tarn &#8211; 6 Nights &#8211; SAVE $991'
+title: 'Mailhoc, Tarn – 6 Nights – SAVE $991'
 path: /mailhoc-tarn-6-nights-save-991/
 date: '2023-07-03T23:24:39.000Z'
 updatedDate: '2023-07-03T23:24:42.000Z'

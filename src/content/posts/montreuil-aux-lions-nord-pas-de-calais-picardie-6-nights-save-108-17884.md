@@ -1,7 +1,5 @@
 ---
-title: >-
-  Montreuil-Aux-Lions, Nord-Pas-De-Calais-Picardie &#8211; 6 Nights &#8211; SAVE
-  $108
+title: 'Montreuil-Aux-Lions, Nord-Pas-De-Calais-Picardie – 6 Nights – SAVE $108'
 path: /montreuil-aux-lions-nord-pas-de-calais-picardie-6-nights-save-108/
 date: '2023-04-27T06:00:00.000Z'
 updatedDate: '2023-04-21T12:41:11.000Z'

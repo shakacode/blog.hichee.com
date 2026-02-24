@@ -1,14 +1,12 @@
 ---
-title: >-
-  Airbnb Alternatives &#8211; Airbnb v Booking.com &#8211; Decoding the Best
-  Deals
+title: Airbnb Alternatives – Airbnb v Booking.com – Decoding the Best Deals
 path: /airbnb-alternatives-airbnb-v-booking-com-decoding-the-best-deals/
 date: '2024-01-25T20:16:48.000Z'
 updatedDate: '2024-01-25T20:16:59.000Z'
 description: >-
-  Airbnb Alternatives &#8211; Airbnb v Booking.com &#8211; so you just found a
-  place on Airbnb and are about to book it. But there&#8217;s that little niggle
-  that maybe you could get a better deal or cancellation policy el
+  Airbnb Alternatives – Airbnb v Booking.com – so you just found a place on
+  Airbnb and are about to book it. But there’s that little niggle that maybe you
+  could get a better deal or cancellation policy elsewhere. Well, rea
 legacyUrl: >-
   https://blog.hichee.com/airbnb-alternatives-airbnb-v-booking-com-decoding-the-best-deals/
 wordpressId: 93101

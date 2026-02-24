@@ -1,12 +1,12 @@
 ---
-title: We&#8217;re All In The Airbnb Business Now &#8211; Part 2
+title: We’re All In The Airbnb Business Now – Part 2
 path: /were-all-in-the-airbnb-business-now-part-2/
 date: '2023-09-04T18:49:45.000Z'
 updatedDate: '2023-09-04T18:49:47.000Z'
 description: >-
   A couple of weeks ago, I published an article showing the search dominance of
-  Airbnb and highlighted the public&#8217;s use of the word to describe our
-  various businesses. If you missed it, you can read it here. I&#8217;
+  Airbnb and highlighted the public’s use of the word to describe our various
+  businesses. If you missed it, you can read it here. I’d like to sa
 legacyUrl: 'https://blog.hichee.com/were-all-in-the-airbnb-business-now-part-2/'
 wordpressId: 49536
 status: publish

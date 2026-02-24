@@ -1,5 +1,5 @@
 ---
-title: 'Lahaina, Hawaii &#8211; 5 Nights &#8211; SAVE $728'
+title: 'Lahaina, Hawaii – 5 Nights – SAVE $728'
 path: /lahaina-hawaii-5-nights-save-728/
 date: '2022-12-28T06:00:00.000Z'
 updatedDate: '2022-12-26T19:25:18.000Z'

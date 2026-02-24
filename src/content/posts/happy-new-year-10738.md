@@ -4,9 +4,9 @@ path: /happy-new-year/
 date: '2023-01-02T19:13:23.000Z'
 updatedDate: '2023-01-02T19:13:28.000Z'
 description: >-
-  This year, let&#8217;s say yes to new adventures. Happy New Year! Cheers to
-  another year of wonderful places, great friendships, and unforgettable
-  travels! Welcome change, embrace adventure and make this new year one you
+  This year, let’s say yes to new adventures. Happy New Year! Cheers to another
+  year of wonderful places, great friendships, and unforgettable travels!
+  Welcome change, embrace adventure and make this new year one you’ll ne
 legacyUrl: 'https://blog.hichee.com/happy-new-year/'
 wordpressId: 10738
 status: publish

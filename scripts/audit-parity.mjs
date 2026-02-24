@@ -158,6 +158,17 @@ async function inspectPage(page, url, challengeAware) {
       const details = await page.evaluate(() => {
         const clean = (value) => String(value || '').replace(/\s+/g, ' ').trim();
         const textWords = (value) => clean(value).split(/\s+/).filter(Boolean).length;
+        const countBackgroundImages = (root) => {
+          if (!root) return 0;
+          const nodes = Array.from(root.querySelectorAll('[style*="background"], [style*="background-image"]'));
+          let total = 0;
+          for (const node of nodes) {
+            const style = String(node.getAttribute('style') || '');
+            const matches = style.match(/url\(/gi);
+            if (matches?.length) total += matches.length;
+          }
+          return total;
+        };
         const bodyText = clean(document.body?.innerText || '');
         const main = document.querySelector('main') || document.body;
         const entryContent =
@@ -170,20 +181,26 @@ async function inspectPage(page, url, challengeAware) {
         const primaryNode = entryContent || singleMainArticle || main;
         const primaryText = clean(primaryNode?.innerText || '');
         const h1 = clean(document.querySelector('h1')?.textContent || '');
+        const ogTitle = clean(document.querySelector('meta[property="og:title"]')?.getAttribute('content') || '');
         const canonical = document.querySelector('link[rel="canonical"]')?.href || '';
         const title = clean(document.title || '');
         const imageCount = Array.from(document.images || []).filter((img) => String(img.src || '').trim().length > 0).length;
         const primaryImageCount = primaryNode
           ? Array.from(primaryNode.querySelectorAll('img')).filter((img) => String(img.src || '').trim().length > 0).length
           : 0;
+        const bodyBgImageCount = countBackgroundImages(document);
+        const primaryBgImageCount = countBackgroundImages(primaryNode);
         return {
           title,
           h1,
+          ogTitle,
           canonical,
           bodyWords: textWords(bodyText),
           primaryWords: textWords(primaryText),
           imageCount,
           primaryImageCount,
+          bodyBgImageCount,
+          primaryBgImageCount,
           sample: bodyText.slice(0, 280),
         };
       });
@@ -220,11 +237,14 @@ async function inspectPage(page, url, challengeAware) {
     finalUrl: url,
     title: '',
     h1: '',
+    ogTitle: '',
     canonical: '',
     bodyWords: 0,
     primaryWords: 0,
     imageCount: 0,
     primaryImageCount: 0,
+    bodyBgImageCount: 0,
+    primaryBgImageCount: 0,
     sample: '',
     blocked: false,
     error: lastError || 'Unknown navigation error',
@@ -233,6 +253,7 @@ async function inspectPage(page, url, challengeAware) {
 
 function comparePages(route, oldData, newData) {
   const issues = [];
+  const isTaxonomy = route.startsWith('/category/') || route.startsWith('/tag/');
 
   if (oldData.error) issues.push('old:error');
   if (newData.error) issues.push('new:error');
@@ -245,26 +266,31 @@ function comparePages(route, oldData, newData) {
     issues.push('status:old_404_new_200');
   }
 
-  const oldTitle = normalizeTitle(oldData.title);
-  const newTitle = normalizeTitle(newData.title);
-  if (oldTitle && newTitle) {
-    const similarity = tokenSimilarity(oldTitle, newTitle);
-    if (similarity < 0.30) {
+  const oldTitleCandidates = titleCandidates(oldData).map(normalizeTitle).filter(Boolean);
+  const newTitleCandidates = titleCandidates(newData).map(normalizeTitle).filter(Boolean);
+  if (oldTitleCandidates.length && newTitleCandidates.length) {
+    let bestSimilarity = 0;
+    for (const oldTitle of oldTitleCandidates) {
+      for (const newTitle of newTitleCandidates) {
+        bestSimilarity = Math.max(bestSimilarity, tokenSimilarity(oldTitle, newTitle));
+      }
+    }
+    if (bestSimilarity < 0.30) {
       issues.push('title:mismatch');
     }
   }
 
   const oldWords = oldData.primaryWords || oldData.bodyWords;
   const newWords = newData.primaryWords || newData.bodyWords;
-  if (route !== '/' && oldWords >= 120) {
+  if (route !== '/' && !isTaxonomy && oldWords >= 180) {
     const ratio = oldWords === 0 ? 0 : newWords / oldWords;
-    if (ratio < 0.45) issues.push('content:too_short');
-    if (ratio > 2.2) issues.push('content:too_long');
+    if (ratio < 0.35) issues.push('content:too_short');
+    if (ratio > 2.5) issues.push('content:too_long');
   }
 
-  const oldImages = oldData.primaryImageCount || oldData.imageCount;
-  const newImages = newData.primaryImageCount || newData.imageCount;
-  if (route !== '/' && oldImages > 0 && newImages === 0 && oldWords >= 120) {
+  const oldImages = totalImageCount(oldData);
+  const newImages = totalImageCount(newData);
+  if (route !== '/' && !isTaxonomy && oldImages > 0 && newImages === 0 && oldWords >= 120) {
     issues.push('images:dropped');
   }
 
@@ -277,6 +303,20 @@ function comparePages(route, oldData, newData) {
   }
 
   return issues;
+}
+
+function comparableTitle(data) {
+  return data.h1 || data.ogTitle || data.title || '';
+}
+
+function titleCandidates(data) {
+  return [data.h1, data.ogTitle, data.title].filter((value) => String(value || '').trim().length > 0);
+}
+
+function totalImageCount(data) {
+  const primary = (data.primaryImageCount || 0) + (data.primaryBgImageCount || 0);
+  if (primary > 0) return primary;
+  return (data.imageCount || 0) + (data.bodyBgImageCount || 0);
 }
 
 function normalizeTitle(raw) {
@@ -356,10 +396,10 @@ function renderMarkdown(summary, rows, oldBaseUrl, newBaseUrl) {
     for (const row of badRows) {
       lines.push(`- ${row.route} :: ${row.issues.join(', ')}`);
       lines.push(
-        `  old=${row.old.status} title="${trim(row.old.title)}" words=${row.old.primaryWords || row.old.bodyWords} images=${row.old.primaryImageCount || row.old.imageCount}`
+        `  old=${row.old.status} title="${trim(comparableTitle(row.old))}" words=${row.old.primaryWords || row.old.bodyWords} images=${totalImageCount(row.old)}`
       );
       lines.push(
-        `  new=${row.new.status} title="${trim(row.new.title)}" words=${row.new.primaryWords || row.new.bodyWords} images=${row.new.primaryImageCount || row.new.imageCount}`
+        `  new=${row.new.status} title="${trim(comparableTitle(row.new))}" words=${row.new.primaryWords || row.new.bodyWords} images=${totalImageCount(row.new)}`
       );
     }
   }

@@ -1,5 +1,5 @@
 ---
-title: 'Skala, Greece &#8211; 7 Nights &#8211; SAVE $104'
+title: 'Skala, Greece – 7 Nights – SAVE $104'
 path: /skala-greece-7-nights-save-104/
 date: '2023-03-22T06:00:00.000Z'
 updatedDate: '2023-03-13T03:39:21.000Z'

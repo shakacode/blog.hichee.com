@@ -1,5 +1,5 @@
 ---
-title: 'Kappeln, Schleswig-Holstein &#8211; 8 Nights &#8211; SAVE $105'
+title: 'Kappeln, Schleswig-Holstein – 8 Nights – SAVE $105'
 path: /kappeln-schleswig-holstein-8-nights-save-105/
 date: '2023-03-25T06:00:00.000Z'
 updatedDate: '2023-03-13T03:40:30.000Z'

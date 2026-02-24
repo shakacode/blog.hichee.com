@@ -1,5 +1,5 @@
 ---
-title: 'Province of Brindisi, Italy &#8211; 7 Nights &#8211; SAVE $2,435'
+title: 'Province of Brindisi, Italy – 7 Nights – SAVE $2,435'
 path: /province-of-brindisi-7-nights-save-2435/
 date: '2022-09-24T02:23:54.000Z'
 updatedDate: '2022-10-04T04:01:29.000Z'

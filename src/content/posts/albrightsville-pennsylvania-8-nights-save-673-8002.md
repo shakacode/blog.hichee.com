@@ -1,5 +1,5 @@
 ---
-title: 'Albrightsville, Pennsylvania &#8211; 8 Nights &#8211; SAVE $673'
+title: 'Albrightsville, Pennsylvania – 8 Nights – SAVE $673'
 path: /albrightsville-pennsylvania-8-nights-save-673/
 date: '2022-12-02T06:00:00.000Z'
 updatedDate: '2022-12-01T19:14:02.000Z'

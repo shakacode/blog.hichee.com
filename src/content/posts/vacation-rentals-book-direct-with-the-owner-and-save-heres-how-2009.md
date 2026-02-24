@@ -1,14 +1,12 @@
 ---
-title: >-
-  Vacation Rentals &#8211; Book Direct With The Owner And SAVE  &#8211;
-  Here&#8217;s How&#8230;
+title: Vacation Rentals – Book Direct With The Owner And SAVE – Here’s How…
 path: /vacation-rentals-book-direct-with-the-owner-and-save-heres-how/
 date: '2022-08-24T18:30:20.000Z'
 updatedDate: '2022-08-29T22:33:29.000Z'
 description: >-
   As you probably know, many listing sites charge a commission, or as they call
   it, a service fee.These fees can range from 8 to a whopping 25 percent. So, if
-  you&#8217;re paying a base rate of $100 a night you could be pa
+  you’re paying a base rate of $100 a night you could be paying $
 legacyUrl: >-
   https://blog.hichee.com/vacation-rentals-book-direct-with-the-owner-and-save-heres-how/
 wordpressId: 2009

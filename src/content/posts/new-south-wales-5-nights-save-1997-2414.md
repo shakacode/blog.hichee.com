@@ -1,5 +1,5 @@
 ---
-title: 'New South Wales &#8211; 5 Nights &#8211; SAVE $1,997'
+title: 'New South Wales – 5 Nights – SAVE $1,997'
 path: /new-south-wales-5-nights-save-1997/
 date: '2022-09-24T03:26:20.000Z'
 updatedDate: '2022-09-24T03:26:25.000Z'

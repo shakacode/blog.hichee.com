@@ -1,5 +1,5 @@
 ---
-title: 'Positano, Campania &#8211; 6 Nights &#8211; SAVE $146'
+title: 'Positano, Campania – 6 Nights – SAVE $146'
 path: /positano-campania-6-nights-save-146/
 date: '2023-02-03T06:00:00.000Z'
 updatedDate: '2023-01-23T20:48:19.000Z'

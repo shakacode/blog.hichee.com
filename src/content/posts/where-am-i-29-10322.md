@@ -6,7 +6,7 @@ updatedDate: '2023-04-21T12:43:25.000Z'
 description: >-
   This is a small South Pacific island northwest of Tahiti in French Polynesia.
   Surrounded by sand-fringed motus (islets) and a turquoise lagoon protected by
-  a coral reef, it’s known for its scuba diving. It&#8217;s also a
+  a coral reef, it’s known for its scuba diving. It’s also a popul
 legacyUrl: 'https://blog.hichee.com/where-am-i-29/'
 wordpressId: 10322
 status: publish

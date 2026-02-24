@@ -1,5 +1,5 @@
 ---
-title: 'Steinsland, Hordaland &#8211; 7 Nights &#8211; SAVE $682'
+title: 'Steinsland, Hordaland – 7 Nights – SAVE $682'
 path: /steinsland-hordaland-7-nights-save-682/
 date: '2023-01-07T06:00:00.000Z'
 updatedDate: '2022-12-26T19:29:00.000Z'

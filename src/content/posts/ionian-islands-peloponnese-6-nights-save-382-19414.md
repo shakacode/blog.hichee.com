@@ -1,5 +1,5 @@
 ---
-title: 'Ionian Islands, Peloponnese &#8211; 6 Nights &#8211; SAVE $382'
+title: 'Ionian Islands, Peloponnese – 6 Nights – SAVE $382'
 path: /ionian-islands-peloponnese-6-nights-save-382/
 date: '2023-05-25T06:00:00.000Z'
 updatedDate: '2023-05-04T22:01:22.000Z'

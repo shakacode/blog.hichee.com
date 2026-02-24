@@ -1,12 +1,12 @@
 ---
-title: Facebook Groups for Airbnb Hosts &#8211; The Ultimate List
+title: Facebook Groups for Airbnb Hosts – The Ultimate List
 path: /facebook-groups-for-airbnb-hosts-the-ultimate-list/
 date: '2023-09-20T01:20:17.000Z'
 updatedDate: '2023-12-08T20:12:09.000Z'
 description: >-
   The Ultimate List Of Facebook Groups for Airbnb Hosts Ready to crack the code
-  on Airbnb hosting? You&#8217;re just a click away from the ultimate treasure
-  trove of insider info—Facebook groups tailored for Airbnb hosts. 
+  on Airbnb hosting? You’re just a click away from the ultimate treasure trove
+  of insider info—Facebook groups tailored for Airbnb hosts. These 
 legacyUrl: 'https://blog.hichee.com/facebook-groups-for-airbnb-hosts-the-ultimate-list/'
 wordpressId: 51719
 status: publish

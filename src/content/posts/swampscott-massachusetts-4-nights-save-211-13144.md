@@ -1,5 +1,5 @@
 ---
-title: 'Swampscott, Massachusetts &#8211; 4 Nights &#8211; SAVE $211'
+title: 'Swampscott, Massachusetts – 4 Nights – SAVE $211'
 path: /swampscott-massachusetts-4-nights-save-211/
 date: '2023-06-23T06:00:00.000Z'
 updatedDate: '2023-05-04T22:08:33.000Z'

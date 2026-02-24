@@ -1,5 +1,5 @@
 ---
-title: 'Saint Augustine, Florida &#8211; 10 Nights &#8211; SAVE $173'
+title: 'Saint Augustine, Florida – 10 Nights – SAVE $173'
 path: /saint-augustine-10-nights-save-173/
 date: '2022-09-24T03:24:03.000Z'
 updatedDate: '2022-10-04T03:52:51.000Z'

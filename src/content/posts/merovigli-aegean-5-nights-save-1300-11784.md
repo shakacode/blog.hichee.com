@@ -1,5 +1,5 @@
 ---
-title: 'Merovígli, Aegean &#8211; 5 Nights &#8211; SAVE $1,300'
+title: 'Merovígli, Aegean – 5 Nights – SAVE $1,300'
 path: /merovigli-aegean-5-nights-save-1300/
 date: '2023-01-26T06:00:00.000Z'
 updatedDate: '2023-01-20T01:37:54.000Z'

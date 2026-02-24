@@ -1,5 +1,5 @@
 ---
-title: 'Miramar Beach, Florida &#8211; 6 Nights &#8211; SAVE $347'
+title: 'Miramar Beach, Florida – 6 Nights – SAVE $347'
 path: /miramar-beach-florida-6-nights-save-347/
 date: '2023-01-24T06:00:00.000Z'
 updatedDate: '2023-02-13T18:18:27.000Z'

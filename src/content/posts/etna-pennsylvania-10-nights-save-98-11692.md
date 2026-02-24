@@ -1,5 +1,5 @@
 ---
-title: 'Etna, Pennsylvania &#8211; 10 Nights &#8211; SAVE $98'
+title: 'Etna, Pennsylvania – 10 Nights – SAVE $98'
 path: /etna-pennsylvania-10-nights-save-98/
 date: '2023-02-11T06:00:00.000Z'
 updatedDate: '2023-01-30T21:30:30.000Z'

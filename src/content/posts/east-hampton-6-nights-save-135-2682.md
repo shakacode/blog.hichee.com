@@ -1,5 +1,5 @@
 ---
-title: East Hampton &#8211; 6 Nights &#8211; SAVE $135
+title: East Hampton – 6 Nights – SAVE $135
 path: /east-hampton-6-nights-save-135/
 date: '2022-09-24T02:01:35.000Z'
 updatedDate: '2022-09-24T02:01:39.000Z'

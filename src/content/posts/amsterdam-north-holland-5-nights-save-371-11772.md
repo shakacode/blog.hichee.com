@@ -1,5 +1,5 @@
 ---
-title: 'Amsterdam, North Holland &#8211; 5 Nights &#8211; SAVE $371'
+title: 'Amsterdam, North Holland – 5 Nights – SAVE $371'
 path: /amsterdam-north-holland-5-nights-save-371/
 date: '2023-02-05T06:00:00.000Z'
 updatedDate: '2023-01-23T20:48:38.000Z'

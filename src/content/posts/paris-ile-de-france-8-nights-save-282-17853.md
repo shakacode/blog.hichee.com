@@ -1,5 +1,5 @@
 ---
-title: 'Paris, Ile-De-France &#8211; 8 Nights &#8211; SAVE $282'
+title: 'Paris, Ile-De-France – 8 Nights – SAVE $282'
 path: /paris-ile-de-france-8-nights-save-282/
 date: '2023-05-01T06:00:00.000Z'
 updatedDate: '2023-04-21T12:42:01.000Z'

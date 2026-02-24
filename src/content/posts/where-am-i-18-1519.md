@@ -4,9 +4,9 @@ path: /where-am-i-18/
 date: '2022-11-26T06:00:00.000Z'
 updatedDate: '2022-08-18T18:39:03.000Z'
 description: >-
-  A rocky cliff that&#8217;s found along the coast between Realmonte&nbsp;and
-  Porto Empedocle in Italy. It&#8217;s a popular tourist destination due to its
-  famed white limestone. It also has been mentioned in Andrea Camill
+  A rocky cliff that’s found along the coast between Realmonte and Porto
+  Empedocle in Italy. It’s a popular tourist destination due to its famed white
+  limestone. It also has been mentioned in Andrea Camilleri’s series of d
 legacyUrl: 'https://blog.hichee.com/where-am-i-18/'
 wordpressId: 1519
 status: publish

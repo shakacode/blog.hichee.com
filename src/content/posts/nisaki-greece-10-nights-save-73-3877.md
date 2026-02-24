@@ -1,5 +1,5 @@
 ---
-title: 'Nisaki, Greece &#8211; 10 Nights &#8211; SAVE $73'
+title: 'Nisaki, Greece – 10 Nights – SAVE $73'
 path: /nisaki-greece-10-nights-save-73/
 date: '2022-11-24T06:00:00.000Z'
 updatedDate: '2022-11-15T02:04:01.000Z'

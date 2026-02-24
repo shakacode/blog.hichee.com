@@ -4,10 +4,9 @@ path: /free-short-term-rental-agreement-templates-word-pdf/
 date: '2022-11-14T00:07:21.000Z'
 updatedDate: '2022-12-23T00:23:09.000Z'
 description: >-
-  A&nbsp;Short-term Rental Agreement, also known as&nbsp;Vacation Rental
-  Agreement&nbsp;is a contract that is created between a property owner
-  (landlord) and the tenant. The contract usually lasts between one to thirty
-  day
+  A Short-term Rental Agreement, also known as Vacation Rental Agreement is a
+  contract that is created between a property owner (landlord) and the tenant.
+  The contract usually lasts between one to thirty days long. It stip
 legacyUrl: 'https://blog.hichee.com/free-short-term-rental-agreement-templates-word-pdf/'
 wordpressId: 5559
 status: publish

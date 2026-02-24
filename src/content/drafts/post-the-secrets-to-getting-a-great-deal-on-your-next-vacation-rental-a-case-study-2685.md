@@ -1,7 +1,7 @@
 ---
 title: >-
-  The secrets to getting a great deal on your next vacation rental &#8211; A
-  Case Study
+  The secrets to getting a great deal on your next vacation rental – A Case
+  Study
 path: >-
   /the-secrets-to-getting-a-great-deal-on-your-next-vacation-rental-a-case-study/
 date: '2022-09-19T23:39:18.000Z'

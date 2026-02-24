@@ -1,5 +1,5 @@
 ---
-title: 'Bethany Beach, Delaware &#8211; 7 Nights &#8211; SAVE $940'
+title: 'Bethany Beach, Delaware – 7 Nights – SAVE $940'
 path: /bethany-beach-delaware-7-nights-save-940/
 date: '2022-10-11T06:00:00.000Z'
 updatedDate: '2022-10-11T00:31:40.000Z'

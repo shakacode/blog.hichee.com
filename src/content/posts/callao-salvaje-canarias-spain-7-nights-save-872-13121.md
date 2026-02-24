@@ -1,5 +1,5 @@
 ---
-title: 'Callao Salvaje, Canarias, Spain &#8211; 7 Nights &#8211; SAVE $872'
+title: 'Callao Salvaje, Canarias, Spain – 7 Nights – SAVE $872'
 path: /callao-salvaje-canarias-spain-7-nights-save-872/
 date: '2023-02-14T06:00:00.000Z'
 updatedDate: '2023-02-07T22:08:19.000Z'

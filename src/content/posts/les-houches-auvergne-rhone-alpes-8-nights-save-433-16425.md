@@ -1,5 +1,5 @@
 ---
-title: 'Les Houches, Auvergne-Rhône-Alpes &#8211; 8 Nights &#8211; SAVE $433'
+title: 'Les Houches, Auvergne-Rhône-Alpes – 8 Nights – SAVE $433'
 path: /les-houches-auvergne-rhone-alpes-8-nights-save-433/
 date: '2023-04-28T06:00:00.000Z'
 updatedDate: '2023-04-21T12:41:23.000Z'

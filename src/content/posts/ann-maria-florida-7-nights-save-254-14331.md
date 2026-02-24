@@ -1,5 +1,5 @@
 ---
-title: 'Ann Maria, Florida &#8211; 7 Nights &#8211; SAVE $254'
+title: 'Ann Maria, Florida – 7 Nights – SAVE $254'
 path: /ann-maria-florida-7-nights-save-254/
 date: '2023-03-17T06:00:00.000Z'
 updatedDate: '2023-03-07T04:28:00.000Z'

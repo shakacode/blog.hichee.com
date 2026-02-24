@@ -1,5 +1,5 @@
 ---
-title: 'Monmouth, Wales &#8211; 5 Nights &#8211; SAVE $111'
+title: 'Monmouth, Wales – 5 Nights – SAVE $111'
 path: /monmouth-wales-5-nights-save-111/
 date: '2022-11-14T06:00:00.000Z'
 updatedDate: '2022-11-09T00:49:48.000Z'

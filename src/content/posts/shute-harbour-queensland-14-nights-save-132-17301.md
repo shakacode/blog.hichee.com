@@ -1,5 +1,5 @@
 ---
-title: 'Shute Harbour, Queensland &#8211; 14 Nights &#8211; SAVE $132'
+title: 'Shute Harbour, Queensland – 14 Nights – SAVE $132'
 path: /shute-harbour-queensland-14-nights-save-132/
 date: '2023-06-11T06:00:00.000Z'
 updatedDate: '2023-05-04T22:05:25.000Z'

@@ -1,5 +1,5 @@
 ---
-title: 'Ko Samui, Thailand &#8211; 8 Nights &#8211; SAVE $270'
+title: 'Ko Samui, Thailand – 8 Nights – SAVE $270'
 path: /ko-samui-thailand-8-nights-save-270/
 date: '2023-05-11T06:00:00.000Z'
 updatedDate: '2023-05-04T21:58:21.000Z'

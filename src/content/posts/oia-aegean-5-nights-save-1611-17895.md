@@ -1,5 +1,5 @@
 ---
-title: 'Oia, Aegean &#8211; 5 Nights &#8211; SAVE $1,611'
+title: 'Oia, Aegean – 5 Nights – SAVE $1,611'
 path: /oia-aegean-5-nights-save-1611/
 date: '2023-05-18T06:00:00.000Z'
 updatedDate: '2023-05-04T22:00:05.000Z'

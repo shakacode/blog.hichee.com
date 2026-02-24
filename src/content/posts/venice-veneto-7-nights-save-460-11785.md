@@ -1,5 +1,5 @@
 ---
-title: 'Venice, Veneto &#8211; 7 Nights &#8211; SAVE $460'
+title: 'Venice, Veneto – 7 Nights – SAVE $460'
 path: /venice-veneto-7-nights-save-460/
 date: '2023-03-24T06:00:00.000Z'
 updatedDate: '2023-03-13T03:39:51.000Z'

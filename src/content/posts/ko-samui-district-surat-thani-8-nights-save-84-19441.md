@@ -1,5 +1,5 @@
 ---
-title: 'Ko Samui District, Surat Thani &#8211; 8 Nights &#8211; SAVE $84'
+title: 'Ko Samui District, Surat Thani – 8 Nights – SAVE $84'
 path: /ko-samui-district-surat-thani-8-nights-save-84/
 date: '2023-05-29T06:00:00.000Z'
 updatedDate: '2023-05-04T22:02:05.000Z'

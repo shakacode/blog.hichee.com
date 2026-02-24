@@ -1,5 +1,5 @@
 ---
-title: Quebec &#8211; 10 Nights &#8211; SAVE $103
+title: Quebec – 10 Nights – SAVE $103
 path: /baie-saint-paul-10-nights-save-103/
 date: '2022-09-24T03:21:06.000Z'
 updatedDate: '2022-10-04T03:52:33.000Z'

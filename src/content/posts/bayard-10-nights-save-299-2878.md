@@ -1,5 +1,5 @@
 ---
-title: 'Bayard, Iowa &#8211; 10 Nights &#8211; SAVE $299'
+title: 'Bayard, Iowa – 10 Nights – SAVE $299'
 path: /bayard-10-nights-save-299/
 date: '2022-09-24T01:33:53.000Z'
 updatedDate: '2022-10-04T04:05:20.000Z'

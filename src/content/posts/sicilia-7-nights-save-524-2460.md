@@ -1,5 +1,5 @@
 ---
-title: Sicilia &#8211; 7 Nights &#8211; SAVE $524
+title: Sicilia – 7 Nights – SAVE $524
 path: /sicilia-7-nights-save-524/
 date: '2022-09-24T03:10:33.000Z'
 updatedDate: '2022-09-24T03:10:37.000Z'

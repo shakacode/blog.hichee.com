@@ -1,5 +1,5 @@
 ---
-title: 'St Andrews, Scotland &#8211; 8 Nights &#8211; SAVE $1,433'
+title: 'St Andrews, Scotland – 8 Nights – SAVE $1,433'
 path: /st-andrews-scotland-8-nights-save-1433/
 date: '2022-11-28T06:00:00.000Z'
 updatedDate: '2022-11-15T02:05:05.000Z'

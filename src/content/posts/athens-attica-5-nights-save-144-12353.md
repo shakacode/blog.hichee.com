@@ -1,5 +1,5 @@
 ---
-title: 'Athens, Attica &#8211; 5 Nights &#8211; SAVE $144'
+title: 'Athens, Attica – 5 Nights – SAVE $144'
 path: /athens-attica-5-nights-save-144/
 date: '2023-02-07T06:00:00.000Z'
 updatedDate: '2023-01-30T20:48:01.000Z'

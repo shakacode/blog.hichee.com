@@ -1,5 +1,5 @@
 ---
-title: Holiday Let Emails &amp; Messages to Send to Guests
+title: Holiday Let Emails & Messages to Send to Guests
 path: /holiday-let-emails-messages-to-send-to-guests/
 date: '2022-11-14T19:00:17.000Z'
 updatedDate: '2022-11-14T19:00:20.000Z'

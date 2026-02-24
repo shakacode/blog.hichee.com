@@ -1,5 +1,5 @@
 ---
-title: "Tréminis,\_Auvergne-Rhône-Alpes &#8211; 8 Nights &#8211; SAVE $97"
+title: 'Tréminis, Auvergne-Rhône-Alpes – 8 Nights – SAVE $97'
 path: /treminis-auvergne-rhone-alpes-8-nights-save-97/
 date: '2022-11-07T06:00:00.000Z'
 updatedDate: '2022-11-02T19:47:58.000Z'

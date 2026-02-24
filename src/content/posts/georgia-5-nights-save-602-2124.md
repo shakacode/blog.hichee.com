@@ -1,5 +1,5 @@
 ---
-title: 'Blue Ridge, Georgia &#8211; 5 Nights &#8211; SAVE $602'
+title: 'Blue Ridge, Georgia – 5 Nights – SAVE $602'
 path: /georgia-5-nights-save-602/
 date: '2022-09-29T06:00:00.000Z'
 updatedDate: '2022-10-04T03:48:22.000Z'

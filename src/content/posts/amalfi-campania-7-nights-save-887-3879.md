@@ -1,5 +1,5 @@
 ---
-title: 'Amalfi, Campania &#8211; 7 Nights &#8211; SAVE $887'
+title: 'Amalfi, Campania – 7 Nights – SAVE $887'
 path: /amalfi-campania-7-nights-save-887/
 date: '2022-11-16T06:00:00.000Z'
 updatedDate: '2022-11-15T01:59:18.000Z'

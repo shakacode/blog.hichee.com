@@ -1,5 +1,5 @@
 ---
-title: 'Kailua Kona, Hawaii &#8211; 9 Nights &#8211; SAVE $88'
+title: 'Kailua Kona, Hawaii – 9 Nights – SAVE $88'
 path: /kailua-kona-hawaii-9-nights-save-88/
 date: '2022-12-23T06:00:00.000Z'
 updatedDate: '2022-12-17T04:46:25.000Z'

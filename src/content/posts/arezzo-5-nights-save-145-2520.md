@@ -1,5 +1,5 @@
 ---
-title: 'Arezzo, Italy &#8211; 5 Nights &#8211; SAVE $145'
+title: 'Arezzo, Italy – 5 Nights – SAVE $145'
 path: /arezzo-5-nights-save-145/
 date: '2022-09-24T02:10:20.000Z'
 updatedDate: '2022-10-04T04:00:02.000Z'

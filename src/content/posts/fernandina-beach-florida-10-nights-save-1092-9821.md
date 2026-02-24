@@ -1,5 +1,5 @@
 ---
-title: 'Fernandina Beach, Florida &#8211; 10 Nights &#8211; SAVE $1,092'
+title: 'Fernandina Beach, Florida – 10 Nights – SAVE $1,092'
 path: /fernandina-beach-florida-10-nights-save-1092/
 date: '2022-12-15T06:00:00.000Z'
 updatedDate: '2022-12-12T18:24:56.000Z'

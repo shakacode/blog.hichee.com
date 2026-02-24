@@ -1,5 +1,5 @@
 ---
-title: 'Bellagio, Lombardy &#8211; 3 Nights &#8211; SAVE $795'
+title: 'Bellagio, Lombardy – 3 Nights – SAVE $795'
 path: /bellagio-lombardy-3-nights-save-795/
 date: '2023-04-22T06:00:00.000Z'
 updatedDate: '2023-04-21T12:32:29.000Z'

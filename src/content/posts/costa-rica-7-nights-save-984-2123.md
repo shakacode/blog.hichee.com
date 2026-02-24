@@ -1,5 +1,5 @@
 ---
-title: Costa Rica &#8211; 7 Nights &#8211; SAVE $984
+title: Costa Rica – 7 Nights – SAVE $984
 path: /costa-rica-7-nights-save-984/
 date: '2022-09-27T18:00:00.000Z'
 updatedDate: '2022-10-04T03:48:45.000Z'

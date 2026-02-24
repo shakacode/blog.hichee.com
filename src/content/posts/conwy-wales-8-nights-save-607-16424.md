@@ -1,5 +1,5 @@
 ---
-title: 'Conwy, Wales &#8211; 8 Nights &#8211; SAVE $607'
+title: 'Conwy, Wales – 8 Nights – SAVE $607'
 path: /conwy-wales-8-nights-save-607/
 date: '2023-03-31T06:00:00.000Z'
 updatedDate: '2023-03-27T23:47:31.000Z'

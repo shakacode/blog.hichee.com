@@ -1,5 +1,5 @@
 ---
-title: 'Kendal, Cumbria &#8211; 14 Nights &#8211; SAVE $69'
+title: 'Kendal, Cumbria – 14 Nights – SAVE $69'
 path: /kendal-cumbria-14-nights-save-69/
 date: '2022-11-13T06:00:00.000Z'
 updatedDate: '2022-11-09T00:49:30.000Z'

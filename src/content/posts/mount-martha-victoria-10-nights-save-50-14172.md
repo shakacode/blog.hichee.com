@@ -1,5 +1,5 @@
 ---
-title: 'Mount Martha, Victoria &#8211; 10 Nights &#8211; SAVE $50'
+title: 'Mount Martha, Victoria – 10 Nights – SAVE $50'
 path: /mount-martha-victoria-10-nights-save-50/
 date: '2023-03-19T06:00:00.000Z'
 updatedDate: '2023-03-13T03:30:49.000Z'

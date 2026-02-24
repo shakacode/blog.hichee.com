@@ -1,5 +1,5 @@
 ---
-title: 'Ionian Islands, Greece &#8211; 7 Nights &#8211; SAVE $596'
+title: 'Ionian Islands, Greece – 7 Nights – SAVE $596'
 path: /corfu-7-nights-save-596/
 date: '2022-09-24T02:09:50.000Z'
 updatedDate: '2022-10-04T03:59:39.000Z'

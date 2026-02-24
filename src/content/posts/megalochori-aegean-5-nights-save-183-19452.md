@@ -1,5 +1,5 @@
 ---
-title: 'Megalochori, Aegean &#8211; 5 Nights &#8211; SAVE $183'
+title: 'Megalochori, Aegean – 5 Nights – SAVE $183'
 path: /megalochori-aegean-5-nights-save-183/
 date: '2023-05-17T06:00:00.000Z'
 updatedDate: '2023-05-04T21:59:54.000Z'

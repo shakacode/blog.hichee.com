@@ -1,5 +1,5 @@
 ---
-title: 'Malay, Western Visayas &#8211; 5 Nights &#8211; SAVE $120'
+title: 'Malay, Western Visayas – 5 Nights – SAVE $120'
 path: /malay-western-visayas-5-nights-save-120/
 date: '2023-05-15T06:00:00.000Z'
 updatedDate: '2023-05-04T21:59:06.000Z'

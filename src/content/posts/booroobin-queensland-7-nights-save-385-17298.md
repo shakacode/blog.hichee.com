@@ -1,5 +1,5 @@
 ---
-title: 'Booroobin, Queensland &#8211; 7 Nights &#8211; SAVE $385'
+title: 'Booroobin, Queensland – 7 Nights – SAVE $385'
 path: /booroobin-queensland-7-nights-save-385/
 date: '2023-03-30T06:00:00.000Z'
 updatedDate: '2023-03-27T23:47:22.000Z'

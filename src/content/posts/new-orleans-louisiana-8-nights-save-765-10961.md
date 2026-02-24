@@ -1,5 +1,5 @@
 ---
-title: 'New Orleans, Louisiana &#8211; 8 Nights &#8211; SAVE $765'
+title: 'New Orleans, Louisiana – 8 Nights – SAVE $765'
 path: /new-orleans-louisiana-8-nights-save-765/
 date: '2023-01-23T06:00:00.000Z'
 updatedDate: '2023-01-14T22:44:45.000Z'

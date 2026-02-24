@@ -1,5 +1,5 @@
 ---
-title: 'Kemenuh, Bali &#8211; 6 Nights &#8211; SAVE $543'
+title: 'Kemenuh, Bali – 6 Nights – SAVE $543'
 path: /kemenuh-bali-6-nights-save-543/
 date: '2023-03-04T06:00:00.000Z'
 updatedDate: '2023-02-24T11:53:14.000Z'

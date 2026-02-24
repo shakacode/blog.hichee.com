@@ -1,5 +1,5 @@
 ---
-title: 'Split-Dalmatia County, Croatia &#8211; 11 Nights &#8211; SAVE $1,184'
+title: 'Split-Dalmatia County, Croatia – 11 Nights – SAVE $1,184'
 path: /kostanje-11-nights-save-1184/
 date: '2022-09-24T02:05:52.000Z'
 updatedDate: '2022-10-04T04:03:31.000Z'

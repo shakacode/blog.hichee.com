@@ -1,5 +1,5 @@
 ---
-title: 'Kamakura, Kanagawa, Japan &#8211; 8 Nights &#8211; SAVE $158'
+title: 'Kamakura, Kanagawa, Japan – 8 Nights – SAVE $158'
 path: /kamakura-kanagawa-japan-8-nights-save-158/
 date: '2023-04-13T06:00:00.000Z'
 updatedDate: '2023-04-04T13:57:20.000Z'

@@ -1,5 +1,5 @@
 ---
-title: 'Telluride, Colorado &#8211; 6 Nights &#8211; SAVE $285'
+title: 'Telluride, Colorado – 6 Nights – SAVE $285'
 path: /telluride-colorado-6-nights-save-285/
 date: '2023-01-09T06:00:00.000Z'
 updatedDate: '2022-12-26T19:29:41.000Z'

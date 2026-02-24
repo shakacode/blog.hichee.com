@@ -160,12 +160,11 @@ Location: Newbury, New Hampshire" class="wp-image-21" srcset="https://blog.hiche
 
 
 <p class="has-text-align-center has-medium-font-size" id="block-493cbcfb-9102-48ef-8902-e7d4393d4511"><strong>Before You Book, Give Hichee a look</strong></p>
-</p>
 <p>
 <h3 class="wp-block-heading alignwide has-text-align-center" id="h-share-this-post-with-friends">Share This Post With Friends</h3>
 
 
-<p><center><div class="addtoany_shortcode"><div class="a2a_kit a2a_kit_size_32 addtoany_list" data-a2a-url="https://blog.hichee.com/an-airbnb-treehouse-experience-ultimate-getaway-in-the-sky/" data-a2a-title="An Airbnb Treehouse Experience: Ultimate Getaway in the Sky!"><a class="a2a_button_facebook" href="https://www.addtoany.com/add_to/facebook?linkurl=https%3A%2F%2Fblog.hichee.com%2Fan-airbnb-treehouse-experience-ultimate-getaway-in-the-sky%2F&amp;linkname=An%20Airbnb%20Treehouse%20Experience%3A%20Ultimate%20Getaway%20in%20the%20Sky%21" title="Facebook" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_twitter" href="https://www.addtoany.com/add_to/twitter?linkurl=https%3A%2F%2Fblog.hichee.com%2Fan-airbnb-treehouse-experience-ultimate-getaway-in-the-sky%2F&amp;linkname=An%20Airbnb%20Treehouse%20Experience%3A%20Ultimate%20Getaway%20in%20the%20Sky%21" title="Twitter" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_pinterest" href="https://www.addtoany.com/add_to/pinterest?linkurl=https%3A%2F%2Fblog.hichee.com%2Fan-airbnb-treehouse-experience-ultimate-getaway-in-the-sky%2F&amp;linkname=An%20Airbnb%20Treehouse%20Experience%3A%20Ultimate%20Getaway%20in%20the%20Sky%21" title="Pinterest" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_whatsapp" href="https://www.addtoany.com/add_to/whatsapp?linkurl=https%3A%2F%2Fblog.hichee.com%2Fan-airbnb-treehouse-experience-ultimate-getaway-in-the-sky%2F&amp;linkname=An%20Airbnb%20Treehouse%20Experience%3A%20Ultimate%20Getaway%20in%20the%20Sky%21" title="WhatsApp" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_email" href="https://www.addtoany.com/add_to/email?linkurl=https%3A%2F%2Fblog.hichee.com%2Fan-airbnb-treehouse-experience-ultimate-getaway-in-the-sky%2F&amp;linkname=An%20Airbnb%20Treehouse%20Experience%3A%20Ultimate%20Getaway%20in%20the%20Sky%21" title="Email" rel="nofollow noopener" target="_blank"></a><a class="a2a_dd addtoany_share_save addtoany_share" href="https://www.addtoany.com/share"></a></div></div></center></p>
+<p>
 </p>
 <p></p>
 <hr class="wp-block-separator has-alpha-channel-opacity is-style-wide"/>

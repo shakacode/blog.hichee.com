@@ -1,5 +1,5 @@
 ---
-title: 'Coconut Grove, Miami &#8211; 7 Nights &#8211; SAVE $593'
+title: 'Coconut Grove, Miami – 7 Nights – SAVE $593'
 path: /coconut-grove-miami-7-nights-save-593/
 date: '2022-12-06T06:00:00.000Z'
 updatedDate: '2022-12-01T19:15:41.000Z'

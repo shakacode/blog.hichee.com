@@ -1,5 +1,5 @@
 ---
-title: Queenstown Hill &#8211; 4 Nights &#8211; SAVE $800
+title: Queenstown Hill – 4 Nights – SAVE $800
 path: /queenstown-4-nights-save-800/
 date: '2022-09-25T06:00:00.000Z'
 updatedDate: '2022-09-24T01:32:55.000Z'

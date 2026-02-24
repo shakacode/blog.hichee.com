@@ -1,5 +1,5 @@
 ---
-title: 'Paris, Département de Paris &#8211; 6 Nights &#8211; SAVE $59'
+title: 'Paris, Département de Paris – 6 Nights – SAVE $59'
 path: /paris-departement-de-paris-6-nights-save-59/
 date: '2023-02-04T06:00:00.000Z'
 updatedDate: '2023-01-23T20:48:27.000Z'

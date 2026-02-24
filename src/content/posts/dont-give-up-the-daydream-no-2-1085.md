@@ -1,5 +1,5 @@
 ---
-title: Don’t Give Up The Daydream &#8211; No 2
+title: Don’t Give Up The Daydream – No 2
 path: /dont-give-up-the-daydream-no-2/
 date: '2022-08-04T20:34:52.000Z'
 updatedDate: '2022-08-04T20:34:54.000Z'

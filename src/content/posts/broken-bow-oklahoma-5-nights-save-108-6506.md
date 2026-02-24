@@ -1,5 +1,5 @@
 ---
-title: 'Broken Bow, Oklahoma &#8211; 5 Nights &#8211; SAVE $108'
+title: 'Broken Bow, Oklahoma – 5 Nights – SAVE $108'
 path: /broken-bow-oklahoma-5-nights-save-108/
 date: '2022-12-05T06:00:00.000Z'
 updatedDate: '2022-12-01T19:15:07.000Z'

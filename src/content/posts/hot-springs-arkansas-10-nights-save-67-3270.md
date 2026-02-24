@@ -1,5 +1,5 @@
 ---
-title: 'Hot Springs, Arkansas &#8211; 10 Nights &#8211; SAVE $67'
+title: 'Hot Springs, Arkansas – 10 Nights – SAVE $67'
 path: /hot-springs-arkansas-10-nights-save-67/
 date: '2022-10-15T05:00:00.000Z'
 updatedDate: '2022-10-11T00:37:33.000Z'

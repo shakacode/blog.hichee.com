@@ -1,5 +1,5 @@
 ---
-title: 'Surfers Paradise, Australia &#8211; 7 Nights &#8211; SAVE $108'
+title: 'Surfers Paradise, Australia – 7 Nights – SAVE $108'
 path: /surfers-paradise-australia-7-nights-save-108/
 date: '2023-06-17T06:00:00.000Z'
 updatedDate: '2023-05-04T22:06:40.000Z'

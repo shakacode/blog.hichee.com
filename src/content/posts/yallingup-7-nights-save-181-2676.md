@@ -1,5 +1,5 @@
 ---
-title: 'Yallingup, Australia &#8211; 7 Nights &#8211; SAVE $181'
+title: 'Yallingup, Australia – 7 Nights – SAVE $181'
 path: /yallingup-7-nights-save-181/
 date: '2022-09-24T02:01:20.000Z'
 updatedDate: '2022-10-04T04:02:00.000Z'

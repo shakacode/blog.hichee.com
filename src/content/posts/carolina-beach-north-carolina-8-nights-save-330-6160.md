@@ -1,5 +1,5 @@
 ---
-title: 'Carolina Beach, North Carolina &#8211; 8 Nights &#8211; SAVE $330'
+title: 'Carolina Beach, North Carolina – 8 Nights – SAVE $330'
 path: /carolina-beach-north-carolina-8-nights-save-330/
 date: '2022-11-30T06:00:00.000Z'
 updatedDate: '2022-11-16T23:12:49.000Z'

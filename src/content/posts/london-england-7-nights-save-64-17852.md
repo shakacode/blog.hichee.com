@@ -1,5 +1,5 @@
 ---
-title: 'London, England &#8211; 7 Nights &#8211; SAVE $64'
+title: 'London, England – 7 Nights – SAVE $64'
 path: /london-england-7-nights-save-64/
 date: '2023-05-20T06:00:00.000Z'
 updatedDate: '2023-05-04T22:00:25.000Z'

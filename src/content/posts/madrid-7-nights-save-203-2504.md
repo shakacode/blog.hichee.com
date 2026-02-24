@@ -1,5 +1,5 @@
 ---
-title: Madrid &#8211; 7 Nights &#8211; SAVE $203
+title: Madrid – 7 Nights – SAVE $203
 path: /madrid-7-nights-save-203/
 date: '2022-09-24T02:32:08.000Z'
 updatedDate: '2022-09-24T02:32:12.000Z'

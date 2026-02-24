@@ -1,5 +1,5 @@
 ---
-title: 'Canggu, Bali &#8211; 10 Nights &#8211; SAVE $118'
+title: 'Canggu, Bali – 10 Nights – SAVE $118'
 path: /canggu-bali-10-nights-save-118/
 date: '2023-02-21T06:00:00.000Z'
 updatedDate: '2023-02-17T01:41:43.000Z'

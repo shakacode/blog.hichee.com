@@ -1,5 +1,5 @@
 ---
-title: 'Chiba, Japan &#8211; 7 Nights &#8211; SAVE $1,110'
+title: 'Chiba, Japan – 7 Nights – SAVE $1,110'
 path: /chiba-japan-7-nights-save-1110/
 date: '2023-03-02T06:00:00.000Z'
 updatedDate: '2023-02-24T11:53:05.000Z'

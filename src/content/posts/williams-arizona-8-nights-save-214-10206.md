@@ -1,5 +1,5 @@
 ---
-title: 'Williams, Arizona &#8211; 8 Nights &#8211; SAVE $214'
+title: 'Williams, Arizona – 8 Nights – SAVE $214'
 path: /williams-arizona-8-nights-save-214/
 date: '2023-01-14T06:00:00.000Z'
 updatedDate: '2023-01-03T02:16:48.000Z'

@@ -1,5 +1,5 @@
 ---
-title: 'Wilen/Sarnen, Obwalden &#8211; 7 Nights &#8211; SAVE $324'
+title: 'Wilen/Sarnen, Obwalden – 7 Nights – SAVE $324'
 path: /wilen-sarnen-obwalden-7-nights-save-324/
 date: '2023-07-04T06:00:00.000Z'
 updatedDate: '2023-05-04T23:49:56.000Z'

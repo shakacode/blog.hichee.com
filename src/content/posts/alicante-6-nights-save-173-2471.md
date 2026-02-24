@@ -1,5 +1,5 @@
 ---
-title: 'Alicante, Spain &#8211; 6 Nights &#8211; SAVE $173'
+title: 'Alicante, Spain – 6 Nights – SAVE $173'
 path: /alicante-6-nights-save-173/
 date: '2022-09-24T02:54:47.000Z'
 updatedDate: '2022-10-04T03:58:46.000Z'

@@ -1,5 +1,5 @@
 ---
-title: 'Daphne, Alabama &#8211; 6 Nights &#8211; SAVE $91'
+title: 'Daphne, Alabama – 6 Nights – SAVE $91'
 path: /daphne-alabama-6-nights-save-91/
 date: '2022-11-19T06:00:00.000Z'
 updatedDate: '2022-11-15T02:02:08.000Z'

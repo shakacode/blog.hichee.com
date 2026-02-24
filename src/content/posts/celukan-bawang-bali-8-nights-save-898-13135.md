@@ -1,5 +1,5 @@
 ---
-title: 'Celukan Bawang, Bali &#8211; 8 Nights &#8211; SAVE $898'
+title: 'Celukan Bawang, Bali – 8 Nights – SAVE $898'
 path: /celukan-bawang-bali-8-nights-save-898/
 date: '2023-02-15T06:00:00.000Z'
 updatedDate: '2023-02-14T13:42:25.000Z'
