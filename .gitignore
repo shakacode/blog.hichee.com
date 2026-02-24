@@ -8,6 +8,7 @@ dist
 /data/raw
 /data/media-cache
 /data/downloads
+/data/audit
 /data/wp-storage-state.json
 /data/wp-browser-profile
 

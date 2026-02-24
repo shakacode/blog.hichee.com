@@ -25,8 +25,18 @@ const posts = (await getCollection('posts'))
     {
       posts.map((post) => (
         <article class="post-card">
+          {post.data.featuredImage && (
+            <a href={post.data.path} aria-label={post.data.title}>
+              <img
+                src={post.data.featuredImage}
+                alt={post.data.featuredImageAlt ?? post.data.title}
+                loading="lazy"
+              />
+            </a>
+          )}
           <h2><a href={post.data.path}>{post.data.title}</a></h2>
           <p class="meta">{post.data.date.toISOString().slice(0, 10)}</p>
+          {post.data.description && <p>{post.data.description}</p>}
         </article>
       ))
     }
