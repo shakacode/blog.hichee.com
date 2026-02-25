@@ -337,7 +337,7 @@ a:hover {
   font-size: 0.84rem;
 }
 
-.article-content :is(.addtoany_shortcode, .ultp-post-grid-block) {
+.article-shell--post .article-content :is(.addtoany_shortcode, .ultp-post-grid-block) {
   display: none !important;
 }
 

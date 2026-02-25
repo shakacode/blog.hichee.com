@@ -41,6 +41,9 @@ function rewriteInternalHref(pathValue: string): string | null {
   suppressFooter={true}
 >
   <Fragment slot="head">
+    <link rel="stylesheet" href="/wp-legacy/wp-block-library.min.css" />
+    <link rel="stylesheet" href="/wp-legacy/wp-block-theme.min.css" />
+    <link rel="stylesheet" href="/wp-legacy/getwid-blocks.style.css" />
     <link rel="stylesheet" href="/wp-legacy/kadence-global.min.css" />
     <link rel="stylesheet" href="/wp-legacy/kadence-header.min.css" />
     <link rel="stylesheet" href="/wp-legacy/kadence-footer.min.css" />

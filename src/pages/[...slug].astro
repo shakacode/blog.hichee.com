@@ -20,6 +20,10 @@ export async function getStaticPaths() {
 const { entry } = Astro.props;
 const { Content } = await render(entry);
 const canonical = entry.data.path;
+const isPost = entry.data.contentType === 'post';
+const isLegacyPage = entry.data.contentType === 'page';
+const legacyPageHtml = isLegacyPage ? rewriteLegacyPageHtml(entry.body) : '';
+const pageBodyClass = isLegacyPage ? 'legacy-home legacy-page wp-theme-kadence wp-custom-logo' : '';
 
 const publishedPosts = (await getCollection('posts'))
   .filter((post) => !post.data.draft && post.data.status === 'publish')
@@ -35,69 +39,118 @@ const categoryChips = entry.data.categories.map((slug) => ({
   slug,
   label: taxonomy.categories[slug as keyof typeof taxonomy.categories] ?? slug
 }));
+
+function rewriteLegacyPageHtml(body: string): string {
+  const hrefPattern = /href=(["'])https?:\/\/blog\.hichee\.com([^"']*)\1/gi;
+  const rewrittenLinks = body.replace(hrefPattern, (full, quote, pathValue) => {
+    const rewritten = rewriteInternalHref(pathValue);
+    if (rewritten === null) return full;
+    return `href=${quote}${rewritten}${quote}`;
+  });
+
+  // Improve visual parity by avoiding deferred image paint for static migrated blocks.
+  return rewrittenLinks.replace(/\sloading=(["'])lazy\1/gi, '');
+}
+
+function rewriteInternalHref(pathValue: string): string | null {
+  const raw = String(pathValue || '');
+  if (!raw || raw === '/') return '/';
+  if (raw.startsWith('/wp-content/') || raw.startsWith('/wp-admin/') || raw.startsWith('/wp-json/')) return null;
+  if (raw.startsWith('/#') || raw.startsWith('/?') || /[?&]amp=1/i.test(raw)) return '#';
+
+  const withoutQuery = raw.split('#')[0].split('?')[0].replace(/%ef%bf%bc/gi, '');
+  if (!withoutQuery || withoutQuery === '/') return '/';
+
+  const withLeadingSlash = withoutQuery.startsWith('/') ? withoutQuery : `/${withoutQuery}`;
+  return withLeadingSlash.endsWith('/') ? withLeadingSlash : `${withLeadingSlash}/`;
+}
 ---
 
-<BaseLayout title={entry.data.title} description={entry.data.description} canonical={canonical}>
-  <article class="article-shell">
-    <a class="back-link" href="/">Back to latest stories</a>
+<BaseLayout
+  title={entry.data.title}
+  description={entry.data.description}
+  canonical={canonical}
+  bodyClass={pageBodyClass}
+>
+  {isLegacyPage && (
+    <Fragment slot="head">
+      <link rel="stylesheet" href="/wp-legacy/wp-block-library.min.css" />
+      <link rel="stylesheet" href="/wp-legacy/wp-block-theme.min.css" />
+      <link rel="stylesheet" href="/wp-legacy/getwid-blocks.style.css" />
+      <link rel="stylesheet" href="/wp-legacy/kadence-global.min.css" />
+      <link rel="stylesheet" href="/wp-legacy/kadence-header.min.css" />
+      <link rel="stylesheet" href="/wp-legacy/kadence-footer.min.css" />
+      <link rel="stylesheet" href="/wp-legacy/ultimate-post-style.min.css" />
+      <link rel="stylesheet" href="/wp-legacy/ultimate-post-slick.css" />
+      <link rel="stylesheet" href="/wp-legacy/qubely-style.min.css" />
+      <link rel="stylesheet" href="/wp-legacy/addtoany.min.css" />
+    </Fragment>
+  )}
 
-    <header class="article-header">
-      {entry.data.contentType === 'post' && categoryChips.length > 0 && (
-        <div class="taxonomy">
-          {categoryChips.map((category) => (
-            <a class="badge" href={`/category/${category.slug}/`}>{category.label}</a>
-          ))}
-        </div>
+  {isLegacyPage ? (
+    <article class="legacy-home-content legacy-page-content" set:html={legacyPageHtml} />
+  ) : (
+    <article class="article-shell article-shell--post">
+      <a class="back-link" href="/">Back to latest stories</a>
+
+      <header class="article-header">
+        {isPost && categoryChips.length > 0 && (
+          <div class="taxonomy">
+            {categoryChips.map((category) => (
+              <a class="badge" href={`/category/${category.slug}/`}>{category.label}</a>
+            ))}
+          </div>
+        )}
+
+        <h1>{entry.data.title}</h1>
+        <p class="meta">
+          Published {entry.data.date.toISOString().slice(0, 10)}
+        </p>
+      </header>
+
+      {entry.data.featuredImage && (
+        <img
+          src={entry.data.featuredImage}
+          alt={entry.data.featuredImageAlt ?? entry.data.title}
+          loading="lazy"
+          decoding="async"
+          class="article-hero-image"
+        />
       )}
 
-      <h1>{entry.data.title}</h1>
-      <p class="meta">
-        Published {entry.data.date.toISOString().slice(0, 10)}
-      </p>
-    </header>
-
-    {entry.data.featuredImage && (
-      <img
-        src={entry.data.featuredImage}
-        alt={entry.data.featuredImageAlt ?? entry.data.title}
-        loading="lazy"
-        decoding="async"
-        class="article-hero-image"
-      />
-    )}
-
-    <section class="article-content">
-      <Content />
-    </section>
-
-    {entry.data.contentType === 'post' && entry.data.tags.length > 0 && (
-      <section class="article-tags">
-        <h2>Tags</h2>
-        <div class="taxonomy">
-          {entry.data.tags.map((tag) => (
-            <a class="badge" href={`/tag/${tag}/`}>#{tag}</a>
-          ))}
-        </div>
+      <section class="article-content">
+        <Content />
       </section>
-    )}
 
-    {entry.data.contentType === 'post' && (newerPost || olderPost) && (
-      <nav class="article-nav" aria-label="Post navigation">
-        {newerPost ? (
-          <a class="article-nav__item" href={newerPost.data.path}>
-            <small>Newer</small>
-            <span>{newerPost.data.title}</span>
-          </a>
-        ) : (
-          <span></span>
-        )}
-        {olderPost && (
-          <a class="article-nav__item article-nav__item--right" href={olderPost.data.path}>
-            <small>Older</small>
-            <span>{olderPost.data.title}</span>
-          </a>
-        )}
-      </nav>
-    )}
-  </article>
+      {isPost && entry.data.tags.length > 0 && (
+        <section class="article-tags">
+          <h2>Tags</h2>
+          <div class="taxonomy">
+            {entry.data.tags.map((tag) => (
+              <a class="badge" href={`/tag/${tag}/`}>#{tag}</a>
+            ))}
+          </div>
+        </section>
+      )}
+
+      {isPost && (newerPost || olderPost) && (
+        <nav class="article-nav" aria-label="Post navigation">
+          {newerPost ? (
+            <a class="article-nav__item" href={newerPost.data.path}>
+              <small>Newer</small>
+              <span>{newerPost.data.title}</span>
+            </a>
+          ) : (
+            <span></span>
+          )}
+          {olderPost && (
+            <a class="article-nav__item article-nav__item--right" href={olderPost.data.path}>
+              <small>Older</small>
+              <span>{olderPost.data.title}</span>
+            </a>
+          )}
+        </nav>
+      )}
+    </article>
+  )}
 </BaseLayout>
