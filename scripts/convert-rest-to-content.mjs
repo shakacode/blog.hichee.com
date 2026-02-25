@@ -142,6 +142,10 @@ await fs.writeFile(taxonomyPath, JSON.stringify(taxonomy, null, 2), 'utf8');
 
 const extraRedirects = await loadRedirectCsv(redirectsExtrasPath);
 const uniqueRedirects = dedupeRedirects([...redirects, ...extraRedirects]);
+const redirectRules = dedupeRedirects([
+  ...uniqueRedirects,
+  ...buildEncodedSuffixWildcardRedirects(uniqueRedirects)
+]);
 await fs.writeFile(
   redirectsPath,
   ['from,to', ...uniqueRedirects.map((r) => `${csvEscape(r.from)},${csvEscape(r.to)}`)].join('\n'),
@@ -152,7 +156,7 @@ await fs.writeFile(
   redirectsRulesPath,
   [
     '# Generated from data/redirects.csv by scripts/convert-rest-to-content.mjs',
-    ...uniqueRedirects.map((r) => `${r.from} ${r.to} 301`)
+    ...redirectRules.map((r) => `${r.from} ${r.to} 301`)
   ].join('\n') + '\n',
   'utf8'
 );
@@ -166,6 +170,7 @@ console.log(`Report: ${reportPath}`);
 console.log(`Taxonomy map: ${taxonomyPath}`);
 console.log(`Redirects CSV: ${redirectsPath}`);
 console.log(`Extra redirects loaded: ${extraRedirects.length} (${redirectsExtrasPath})`);
+console.log(`Cloudflare redirect rules: ${redirectRules.length}`);
 console.log(`Cloudflare redirects file: ${redirectsRulesPath}`);
 
 function parseArgs(argv) {
@@ -366,6 +371,15 @@ function dedupeRedirects(rows) {
     out.push({ from, to });
   }
   return out.sort((a, b) => a.from.localeCompare(b.from));
+}
+
+function buildEncodedSuffixWildcardRedirects(rows) {
+  return rows
+    .filter((row) => /%ef%bf%bc/i.test(row.from))
+    .map((row) => ({
+      from: row.from.replace(/%ef%bf%bc/gi, '%*'),
+      to: row.to
+    }));
 }
 
 async function loadRedirectCsv(csvPath) {
