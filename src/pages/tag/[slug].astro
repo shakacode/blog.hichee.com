@@ -1,6 +1,7 @@
 ---
 import { getCollection } from 'astro:content';
 import BaseLayout from '../../layouts/BaseLayout.astro';
+import PostCard from '../../components/PostCard.astro';
 
 export async function getStaticPaths() {
   const posts = (await getCollection('posts')).filter(
@@ -20,25 +21,13 @@ const posts = (await getCollection('posts'))
 ---
 
 <BaseLayout title={`Tag: ${slug}`} description={`Posts tagged ${slug}`} canonical={`/tag/${slug}/`}>
-  <h1>Tag: {slug}</h1>
-  <div class="post-list">
-    {
-      posts.map((post) => (
-        <article class="post-card">
-          {post.data.featuredImage && (
-            <a href={post.data.path} aria-label={post.data.title}>
-              <img
-                src={post.data.featuredImage}
-                alt={post.data.featuredImageAlt ?? post.data.title}
-                loading="lazy"
-              />
-            </a>
-          )}
-          <h2><a href={post.data.path}>{post.data.title}</a></h2>
-          <p class="meta">{post.data.date.toISOString().slice(0, 10)}</p>
-          {post.data.description && <p>{post.data.description}</p>}
-        </article>
-      ))
-    }
+  <section class="listing-hero">
+    <p class="eyebrow">Tag</p>
+    <h1>#{slug}</h1>
+    <p>{posts.length} posts</p>
+  </section>
+
+  <div class="post-grid">
+    {posts.map((post) => <PostCard post={post} />)}
   </div>
 </BaseLayout>

@@ -8,6 +8,8 @@ const inputPath = path.resolve(args.input ?? await latestRestExportPath());
 const reportPath = path.resolve(args.report ?? 'data/migration-report.json');
 const taxonomyPath = path.resolve(args.taxonomy ?? 'src/data/taxonomy.json');
 const redirectsPath = path.resolve(args.redirects ?? 'data/redirects.csv');
+const redirectsExtrasPath = path.resolve(args.redirectExtras ?? 'data/redirects.extra.csv');
+const redirectsRulesPath = path.resolve(args.redirectRules ?? 'public/_redirects');
 
 const outputDirs = {
   posts: path.resolve('src/content/posts'),
@@ -102,7 +104,7 @@ for (const entry of allEntries) {
 
   const fromPath = toPathname(entry.link);
   const toPath = pathValue;
-  if (fromPath && toPath && fromPath !== toPath) {
+  if (status === 'publish' && fromPath && fromPath !== '/' && toPath && fromPath !== toPath) {
     redirects.push({ from: fromPath, to: toPath });
   }
 }
@@ -138,10 +140,20 @@ await fs.mkdir(path.dirname(taxonomyPath), { recursive: true });
 await fs.writeFile(reportPath, JSON.stringify(report, null, 2), 'utf8');
 await fs.writeFile(taxonomyPath, JSON.stringify(taxonomy, null, 2), 'utf8');
 
-const uniqueRedirects = dedupeRedirects(redirects);
+const extraRedirects = await loadRedirectCsv(redirectsExtrasPath);
+const uniqueRedirects = dedupeRedirects([...redirects, ...extraRedirects]);
 await fs.writeFile(
   redirectsPath,
   ['from,to', ...uniqueRedirects.map((r) => `${csvEscape(r.from)},${csvEscape(r.to)}`)].join('\n'),
+  'utf8'
+);
+await fs.mkdir(path.dirname(redirectsRulesPath), { recursive: true });
+await fs.writeFile(
+  redirectsRulesPath,
+  [
+    '# Generated from data/redirects.csv by scripts/convert-rest-to-content.mjs',
+    ...uniqueRedirects.map((r) => `${r.from} ${r.to} 301`)
+  ].join('\n') + '\n',
   'utf8'
 );
 
@@ -153,6 +165,8 @@ console.log(`Featured media records: ${source.media?.length || 0}`);
 console.log(`Report: ${reportPath}`);
 console.log(`Taxonomy map: ${taxonomyPath}`);
 console.log(`Redirects CSV: ${redirectsPath}`);
+console.log(`Extra redirects loaded: ${extraRedirects.length} (${redirectsExtrasPath})`);
+console.log(`Cloudflare redirects file: ${redirectsRulesPath}`);
 
 function parseArgs(argv) {
   const out = {};
@@ -342,12 +356,39 @@ function dedupeRedirects(rows) {
   const seen = new Set();
   const out = [];
   for (const row of rows) {
-    const key = `${row.from}=>${row.to}`;
+    if (!row?.from || !row?.to) continue;
+    const from = ensureSlashes(row.from);
+    const to = ensureSlashes(row.to);
+    if (from === '/' || from === to) continue;
+    const key = `${from}=>${to}`;
     if (seen.has(key)) continue;
     seen.add(key);
-    out.push(row);
+    out.push({ from, to });
   }
   return out.sort((a, b) => a.from.localeCompare(b.from));
+}
+
+async function loadRedirectCsv(csvPath) {
+  try {
+    const raw = await fs.readFile(csvPath, 'utf8');
+    return raw
+      .split(/\r?\n/)
+      .map((line) => line.trim())
+      .filter(Boolean)
+      .filter((line) => !/^from,to$/i.test(line))
+      .map((line) => {
+        const idx = line.indexOf(',');
+        if (idx === -1) return null;
+        const from = line.slice(0, idx).trim().replace(/^"|"$/g, '');
+        const to = line.slice(idx + 1).trim().replace(/^"|"$/g, '');
+        if (!from || !to) return null;
+        return { from, to };
+      })
+      .filter(Boolean);
+  } catch (error) {
+    if (error?.code === 'ENOENT') return [];
+    throw error;
+  }
 }
 
 function csvEscape(value) {

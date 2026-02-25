@@ -1,0 +1,58 @@
+---
+import taxonomy from '../data/taxonomy.json';
+
+interface Props {
+  post: {
+    data: {
+      title: string;
+      path: string;
+      description?: string;
+      featuredImage?: string;
+      featuredImageAlt?: string;
+      categories: string[];
+      date: Date;
+    };
+  };
+  compact?: boolean;
+}
+
+const { post, compact = false } = Astro.props;
+const href = post.data.path;
+const hasImage = Boolean(post.data.featuredImage);
+const categorySlug = post.data.categories[0];
+const categoryLabel = categorySlug
+  ? taxonomy.categories[categorySlug as keyof typeof taxonomy.categories] ?? categorySlug
+  : '';
+---
+
+<article class:list={['post-card', compact && 'post-card--compact']}>
+  {
+    !compact && (
+      <a class="post-card__media" href={href} aria-label={post.data.title}>
+        {hasImage ? (
+          <img
+            src={post.data.featuredImage}
+            alt={post.data.featuredImageAlt ?? post.data.title}
+            loading="lazy"
+            decoding="async"
+          />
+        ) : (
+          <span class="post-card__placeholder">{post.data.title.slice(0, 1).toUpperCase()}</span>
+        )}
+      </a>
+    )
+  }
+
+  <div class="post-card__body">
+    {categorySlug && (
+      <a class="post-card__category" href={`/category/${categorySlug}/`}>
+        {categoryLabel}
+      </a>
+    )}
+    <h2 class="post-card__title">
+      <a href={href}>{post.data.title}</a>
+    </h2>
+    <p class="meta">{post.data.date.toISOString().slice(0, 10)}</p>
+    {!compact && post.data.description && <p class="post-card__summary">{post.data.description}</p>}
+  </div>
+</article>

@@ -1,27 +1,97 @@
 ---
 import { getCollection } from 'astro:content';
 import BaseLayout from '../layouts/BaseLayout.astro';
+import PostCard from '../components/PostCard.astro';
+import taxonomy from '../data/taxonomy.json';
 
 const posts = (await getCollection('posts'))
   .filter((entry) => !entry.data.draft && entry.data.status === 'publish')
   .sort((a, b) => b.data.date.getTime() - a.data.date.getTime());
+
+const featuredPost = posts[0];
+const latestPosts = posts.slice(1, 25);
+const archivePosts = posts.slice(25, 145);
+
+const categoryCounts = new Map();
+for (const post of posts) {
+  for (const category of post.data.categories) {
+    categoryCounts.set(category, (categoryCounts.get(category) || 0) + 1);
+  }
+}
+
+const trendingCategories = [...categoryCounts.entries()]
+  .sort((a, b) => b[1] - a[1])
+  .slice(0, 8)
+  .map(([slug, count]) => ({
+    slug,
+    count,
+    label: taxonomy.categories[slug as keyof typeof taxonomy.categories] ?? slug
+  }));
 ---
 
 <BaseLayout title="The HiChee Blog" description="Travel tips and destination guides from HiChee.">
-  <h1>The HiChee Blog</h1>
-  <p class="meta">Migration in progress from WordPress. Content below is generated from WordPress export data.</p>
+  <section class="hero">
+    <p class="eyebrow">The HiChee Blog</p>
+    <h1>Travel smarter. Spend less. Host with confidence.</h1>
+    <p>
+      Real-world travel guidance, pricing intel, and short-term rental strategy from the HiChee team.
+    </p>
 
-  <section class="post-list">
+    {trendingCategories.length > 0 && (
+      <div class="hero__chips">
+        {trendingCategories.map((category) => (
+          <a href={`/category/${category.slug}/`} class="hero__chip">
+            <span>{category.label}</span>
+            <small>{category.count}</small>
+          </a>
+        ))}
+      </div>
+    )}
+  </section>
+
+  {
+    featuredPost && (
+      <section class="feature-panel">
+        <div class="feature-panel__meta">Featured Story</div>
+        <h2>
+          <a href={featuredPost.data.path}>{featuredPost.data.title}</a>
+        </h2>
+        <p class="meta">{featuredPost.data.date.toISOString().slice(0, 10)}</p>
+        {featuredPost.data.description && <p>{featuredPost.data.description}</p>}
+        {featuredPost.data.featuredImage && (
+          <a href={featuredPost.data.path} class="feature-panel__image-link" aria-label={featuredPost.data.title}>
+            <img
+              src={featuredPost.data.featuredImage}
+              alt={featuredPost.data.featuredImageAlt ?? featuredPost.data.title}
+              class="feature-panel__image"
+              loading="lazy"
+            />
+          </a>
+        )}
+      </section>
+    )
+  }
+
+  <section class="section-title">
+    <h2>Latest Stories</h2>
+  </section>
+  <div class="post-grid">
     {
-      posts.map((post) => (
-        <article class="post-card">
-          <h2>
-            <a href={`/${post.data.path.replace(/^\/|\/$/g, '')}/`}>{post.data.title}</a>
-          </h2>
-          <p class="meta">{post.data.date.toISOString().slice(0, 10)}</p>
-          {post.data.description && <p>{post.data.description}</p>}
-        </article>
+      latestPosts.map((post) => (
+        <PostCard post={post} />
       ))
     }
+  </div>
+
+  <section class="section-title">
+    <h2>Archive</h2>
+    <p class="meta">Showing {archivePosts.length} additional posts.</p>
   </section>
+  <div class="post-grid post-grid--compact">
+    {
+      archivePosts.map((post) => (
+        <PostCard post={post} compact />
+      ))
+    }
+  </div>
 </BaseLayout>

@@ -1,6 +1,8 @@
 ---
 import { getCollection } from 'astro:content';
 import BaseLayout from '../../layouts/BaseLayout.astro';
+import PostCard from '../../components/PostCard.astro';
+import taxonomy from '../../data/taxonomy.json';
 
 export async function getStaticPaths() {
   const posts = (await getCollection('posts')).filter(
@@ -17,28 +19,22 @@ const posts = (await getCollection('posts'))
   .filter((entry) => !entry.data.draft && entry.data.status === 'publish')
   .filter((entry) => entry.data.categories.includes(slug))
   .sort((a, b) => b.data.date.getTime() - a.data.date.getTime());
+
+const categoryLabel = taxonomy.categories[slug as keyof typeof taxonomy.categories] ?? slug;
 ---
 
-<BaseLayout title={`Category: ${slug}`} description={`Posts in ${slug}`} canonical={`/category/${slug}/`}>
-  <h1>Category: {slug}</h1>
-  <div class="post-list">
-    {
-      posts.map((post) => (
-        <article class="post-card">
-          {post.data.featuredImage && (
-            <a href={post.data.path} aria-label={post.data.title}>
-              <img
-                src={post.data.featuredImage}
-                alt={post.data.featuredImageAlt ?? post.data.title}
-                loading="lazy"
-              />
-            </a>
-          )}
-          <h2><a href={post.data.path}>{post.data.title}</a></h2>
-          <p class="meta">{post.data.date.toISOString().slice(0, 10)}</p>
-          {post.data.description && <p>{post.data.description}</p>}
-        </article>
-      ))
-    }
+<BaseLayout
+  title={`Category: ${categoryLabel}`}
+  description={`Posts in ${categoryLabel}`}
+  canonical={`/category/${slug}/`}
+>
+  <section class="listing-hero">
+    <p class="eyebrow">Category</p>
+    <h1>{categoryLabel}</h1>
+    <p>{posts.length} posts</p>
+  </section>
+
+  <div class="post-grid">
+    {posts.map((post) => <PostCard post={post} />)}
   </div>
 </BaseLayout>

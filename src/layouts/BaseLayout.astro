@@ -15,6 +15,19 @@ const {
 
 const site = Astro.site?.toString() ?? 'https://newblog.hichee.com';
 const canonicalUrl = canonical ? new URL(canonical, site).toString() : undefined;
+const currentPath = Astro.url.pathname;
+
+const navLinks = [
+  { href: '/', label: 'Latest' },
+  { href: '/category/travel-hacks/', label: 'Travel Hacks' },
+  { href: '/category/for-hosts/', label: 'For Hosts' },
+  { href: '/category/money-saving-tips/', label: 'Money Saving' }
+];
+
+const isActive = (href: string) => {
+  if (href === '/') return currentPath === '/';
+  return currentPath.startsWith(href);
+};
 ---
 
 <!doctype html>
@@ -32,20 +45,35 @@ const canonicalUrl = canonical ? new URL(canonical, site).toString() : undefined
     <title>{title}</title>
   </head>
   <body>
+    <div class="site-bg" aria-hidden="true"></div>
     <header class="site-header">
       <div class="container nav-wrap">
-        <a href="/" class="logo">The HiChee Blog</a>
-        <nav>
-          <a href="/">Home</a>
+        <a href="/" class="brand">
+          <span class="brand__name">HiChee</span>
+          <span class="brand__tagline">Travel Deals + Hosting Intelligence</span>
+        </a>
+        <nav class="top-nav" aria-label="Primary">
+          {
+            navLinks.map((link) => (
+              <a class:list={['top-nav__link', isActive(link.href) && 'is-active']} href={link.href}>
+                {link.label}
+              </a>
+            ))
+          }
         </nav>
       </div>
     </header>
-    <main class="container">
+    <main class="container page-shell">
       <slot />
     </main>
     <footer class="site-footer">
-      <div class="container">
-        <small>© {new Date().getFullYear()} HiChee</small>
+      <div class="container footer-wrap">
+        <p>© {new Date().getFullYear()} HiChee. Practical travel guidance and hosting strategy.</p>
+        <p>
+          <a href="/">Home</a>
+          {' · '}
+          <a href="/the-hichee-blog/">About</a>
+        </p>
       </div>
     </footer>
   </body>
