@@ -5,12 +5,16 @@ interface Props {
   title: string;
   description?: string;
   canonical?: string;
+  bodyClass?: string;
+  suppressFooter?: boolean;
 }
 
 const {
   title,
   description = 'The HiChee Blog and Travel Guide',
-  canonical
+  canonical,
+  bodyClass = '',
+  suppressFooter = false
 } = Astro.props;
 
 const site = Astro.site?.toString() ?? 'https://newblog.hichee.com';
@@ -18,14 +22,14 @@ const canonicalUrl = canonical ? new URL(canonical, site).toString() : undefined
 const currentPath = Astro.url.pathname;
 
 const navLinks = [
-  { href: '/', label: 'Latest' },
-  { href: '/category/travel-hacks/', label: 'Travel Hacks' },
-  { href: '/category/for-hosts/', label: 'For Hosts' },
-  { href: '/category/money-saving-tips/', label: 'Money Saving' }
+  { href: '/', label: 'Blog For Travelers' },
+  { href: '/hichee-blog-for-hosts/', label: 'Blog For Hosts' },
+  { href: 'https://hichee.com/', label: 'Main Site' }
 ];
 
 const isActive = (href: string) => {
-  if (href === '/') return currentPath === '/';
+  if (href.startsWith('http')) return false;
+  if (href === '/') return currentPath === '/' || currentPath === '/the-hichee-blog/';
   return currentPath.startsWith(href);
 };
 ---
@@ -42,20 +46,31 @@ const isActive = (href: string) => {
     <meta property="og:url" content={canonicalUrl ?? Astro.url.toString()} />
     <meta name="twitter:card" content="summary_large_image" />
     {canonicalUrl && <link rel="canonical" href={canonicalUrl} />}
+    <slot name="head" />
     <title>{title}</title>
   </head>
-  <body>
-    <div class="site-bg" aria-hidden="true"></div>
+  <body class={bodyClass}>
     <header class="site-header">
       <div class="container nav-wrap">
         <a href="/" class="brand">
-          <span class="brand__name">HiChee</span>
-          <span class="brand__tagline">Travel Deals + Hosting Intelligence</span>
+          <img
+            src="https://blog.hichee.com/wp-content/uploads/2022/07/hichee-logo-64-pix-1.jpg"
+            alt="HiChee"
+            width="123"
+            height="64"
+            loading="eager"
+          />
+          <span class="brand__name">The HiChee Blog and Travel Guide</span>
         </a>
         <nav class="top-nav" aria-label="Primary">
           {
             navLinks.map((link) => (
-              <a class:list={['top-nav__link', isActive(link.href) && 'is-active']} href={link.href}>
+              <a
+                class:list={['top-nav__link', isActive(link.href) && 'is-active']}
+                href={link.href}
+                target={link.href.startsWith('http') ? '_blank' : undefined}
+                rel={link.href.startsWith('http') ? 'noreferrer' : undefined}
+              >
                 {link.label}
               </a>
             ))
@@ -63,18 +78,25 @@ const isActive = (href: string) => {
         </nav>
       </div>
     </header>
-    <main class="container page-shell">
+    <main id="main" class="container page-shell">
       <slot />
     </main>
-    <footer class="site-footer">
-      <div class="container footer-wrap">
-        <p>© {new Date().getFullYear()} HiChee. Practical travel guidance and hosting strategy.</p>
-        <p>
-          <a href="/">Home</a>
-          {' · '}
-          <a href="/the-hichee-blog/">About</a>
-        </p>
-      </div>
-    </footer>
+    {!suppressFooter && (
+      <footer class="site-footer">
+        <div class="container footer-wrap">
+          <div>
+            <strong>HiChee</strong>
+            <p>
+              <a href="https://hichee.com/about" target="_blank" rel="noreferrer">About</a>
+              {' · '}
+              <a href="https://hichee.com/privacy-policy" target="_blank" rel="noreferrer">Privacy Policy</a>
+              {' · '}
+              <a href="https://hichee.com/terms-of-service" target="_blank" rel="noreferrer">Terms Of Service</a>
+            </p>
+          </div>
+          <p>© {new Date().getFullYear()} HiChee.com. All rights reserved.</p>
+        </div>
+      </footer>
+    )}
   </body>
 </html>

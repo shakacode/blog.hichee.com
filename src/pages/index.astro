@@ -1,97 +1,63 @@
 ---
 import { getCollection } from 'astro:content';
 import BaseLayout from '../layouts/BaseLayout.astro';
-import PostCard from '../components/PostCard.astro';
-import taxonomy from '../data/taxonomy.json';
 
-const posts = (await getCollection('posts'))
-  .filter((entry) => !entry.data.draft && entry.data.status === 'publish')
-  .sort((a, b) => b.data.date.getTime() - a.data.date.getTime());
+const pages = (await getCollection('pages')).filter((entry) => !entry.data.draft && entry.data.status === 'publish');
+const homePage = pages.find((entry) => entry.data.wordpressId === 156 || entry.data.path === '/the-hichee-blog/');
 
-const featuredPost = posts[0];
-const latestPosts = posts.slice(1, 25);
-const archivePosts = posts.slice(25, 145);
+const legacyHomeHtml = homePage ? rewriteHomeHtml(homePage.body) : '';
 
-const categoryCounts = new Map();
-for (const post of posts) {
-  for (const category of post.data.categories) {
-    categoryCounts.set(category, (categoryCounts.get(category) || 0) + 1);
-  }
+function rewriteHomeHtml(body: string): string {
+  const hrefPattern = /href=(["'])https?:\/\/blog\.hichee\.com([^"']*)\1/gi;
+  const rewrittenLinks = body.replace(hrefPattern, (full, quote, pathValue) => {
+    const rewritten = rewriteInternalHref(pathValue);
+    if (rewritten === null) return full;
+    return `href=${quote}${rewritten}${quote}`;
+  });
+
+  // Preserve homepage visual parity by avoiding deferred image paint in static blocks.
+  return rewrittenLinks.replace(/\sloading=(["'])lazy\1/gi, '');
 }
 
-const trendingCategories = [...categoryCounts.entries()]
-  .sort((a, b) => b[1] - a[1])
-  .slice(0, 8)
-  .map(([slug, count]) => ({
-    slug,
-    count,
-    label: taxonomy.categories[slug as keyof typeof taxonomy.categories] ?? slug
-  }));
+function rewriteInternalHref(pathValue: string): string | null {
+  const raw = String(pathValue || '');
+  if (!raw || raw === '/') return '/';
+  if (raw.startsWith('/wp-content/') || raw.startsWith('/wp-admin/') || raw.startsWith('/wp-json/')) return null;
+  if (raw.startsWith('/#') || raw.startsWith('/?') || /[?&]amp=1/i.test(raw)) return '#';
+
+  const withoutQuery = raw.split('#')[0].split('?')[0].replace(/%ef%bf%bc/gi, '');
+  if (!withoutQuery || withoutQuery === '/') return '/';
+
+  const withLeadingSlash = withoutQuery.startsWith('/') ? withoutQuery : `/${withoutQuery}`;
+  return withLeadingSlash.endsWith('/') ? withLeadingSlash : `${withLeadingSlash}/`;
+}
 ---
 
-<BaseLayout title="The HiChee Blog" description="Travel tips and destination guides from HiChee.">
-  <section class="hero">
-    <p class="eyebrow">The HiChee Blog</p>
-    <h1>Travel smarter. Spend less. Host with confidence.</h1>
-    <p>
-      Real-world travel guidance, pricing intel, and short-term rental strategy from the HiChee team.
-    </p>
-
-    {trendingCategories.length > 0 && (
-      <div class="hero__chips">
-        {trendingCategories.map((category) => (
-          <a href={`/category/${category.slug}/`} class="hero__chip">
-            <span>{category.label}</span>
-            <small>{category.count}</small>
-          </a>
-        ))}
-      </div>
-    )}
-  </section>
+<BaseLayout
+  title="The HiChee Blog and Travel Guide"
+  description="Insider travel tips and destination guides from HiChee."
+  canonical="/"
+  bodyClass="legacy-home home wp-theme-kadence wp-custom-logo"
+  suppressFooter={true}
+>
+  <Fragment slot="head">
+    <link rel="stylesheet" href="/wp-legacy/kadence-global.min.css" />
+    <link rel="stylesheet" href="/wp-legacy/kadence-header.min.css" />
+    <link rel="stylesheet" href="/wp-legacy/kadence-footer.min.css" />
+    <link rel="stylesheet" href="/wp-legacy/ultimate-post-style.min.css" />
+    <link rel="stylesheet" href="/wp-legacy/ultimate-post-slick.css" />
+    <link rel="stylesheet" href="/wp-legacy/qubely-style.min.css" />
+    <link rel="stylesheet" href="/wp-legacy/addtoany.min.css" />
+  </Fragment>
 
   {
-    featuredPost && (
-      <section class="feature-panel">
-        <div class="feature-panel__meta">Featured Story</div>
-        <h2>
-          <a href={featuredPost.data.path}>{featuredPost.data.title}</a>
-        </h2>
-        <p class="meta">{featuredPost.data.date.toISOString().slice(0, 10)}</p>
-        {featuredPost.data.description && <p>{featuredPost.data.description}</p>}
-        {featuredPost.data.featuredImage && (
-          <a href={featuredPost.data.path} class="feature-panel__image-link" aria-label={featuredPost.data.title}>
-            <img
-              src={featuredPost.data.featuredImage}
-              alt={featuredPost.data.featuredImageAlt ?? featuredPost.data.title}
-              class="feature-panel__image"
-              loading="lazy"
-            />
-          </a>
-        )}
+    homePage ? (
+      <article class="legacy-home-content" set:html={legacyHomeHtml} />
+    ) : (
+      <section class="listing-hero">
+        <p class="eyebrow">Missing Source</p>
+        <h1>Homepage source page was not found in migrated content.</h1>
       </section>
     )
   }
-
-  <section class="section-title">
-    <h2>Latest Stories</h2>
-  </section>
-  <div class="post-grid">
-    {
-      latestPosts.map((post) => (
-        <PostCard post={post} />
-      ))
-    }
-  </div>
-
-  <section class="section-title">
-    <h2>Archive</h2>
-    <p class="meta">Showing {archivePosts.length} additional posts.</p>
-  </section>
-  <div class="post-grid post-grid--compact">
-    {
-      archivePosts.map((post) => (
-        <PostCard post={post} compact />
-      ))
-    }
-  </div>
 </BaseLayout>
