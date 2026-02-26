@@ -27,7 +27,8 @@ const legacyTitleSuffix = ' - The HiChee Blog and Travel Guide';
 const pageTitle = isLegacyPage && !entry.data.title.endsWith(legacyTitleSuffix)
   ? `${entry.data.title}${legacyTitleSuffix}`
   : entry.data.title;
-const legacyPageHtml = isLegacyPage ? rewriteLegacyPageHtml(entry.body) : '';
+const legacyPageHtml = isLegacyPage ? rewriteLegacyPageHtml(entry.body, entry.data.path) : '';
+const hostsShareHtml = isHostsLandingPage ? buildHostsShareHtml(entry.data.title, entry.data.path) : '';
 const pageBodyClass = isLegacyPage
   ? 'legacy-home legacy-page wp-theme-kadence wp-custom-logo wp-embed-responsive qubely qubely-frontend postx-page footer-on-bottom hide-focus-outline link-style-standard content-title-style-hide content-width-normal content-style-boxed content-vertical-padding-hide non-transparent-header mobile-non-transparent-header'
   : '';
@@ -47,10 +48,10 @@ const categoryChips = entry.data.categories.map((slug) => ({
   label: taxonomy.categories[slug as keyof typeof taxonomy.categories] ?? slug
 }));
 
-function rewriteLegacyPageHtml(body: string): string {
+function rewriteLegacyPageHtml(body: string, currentPath: string): string {
   const hrefPattern = /href=(["'])https?:\/\/blog\.hichee\.com([^"']*)\1/gi;
   const rewrittenLinks = body.replace(hrefPattern, (full, quote, pathValue) => {
-    const rewritten = rewriteInternalHref(pathValue);
+    const rewritten = rewriteInternalHref(pathValue, currentPath);
     if (rewritten === null) return full;
     return `href=${quote}${rewritten}${quote}`;
   });
@@ -59,9 +60,18 @@ function rewriteLegacyPageHtml(body: string): string {
   return rewrittenLinks.replace(/\sloading=(["'])lazy\1/gi, '');
 }
 
-function rewriteInternalHref(pathValue: string): string | null {
-  const raw = String(pathValue || '');
+function rewriteInternalHref(pathValue: string, currentPath: string): string | null {
+  const raw = String(pathValue || '').replace(/&#038;/gi, '&');
+  const normalizedCurrentPath = currentPath.endsWith('/') ? currentPath : `${currentPath}/`;
   if (!raw || raw === '/') return '/';
+  if (raw.startsWith('/wp-json/wp/v2/pages')) {
+    const pageMatch = raw.match(/\/wp-json\/wp\/v2\/pages\/page\/(\d+)\/?/i);
+    if (pageMatch) return `${normalizedCurrentPath}page/${pageMatch[1]}/`;
+    const queryPageMatch = raw.match(/[?&]page=(\d+)/i);
+    if (queryPageMatch && queryPageMatch[1] !== '1') return `${normalizedCurrentPath}page/${queryPageMatch[1]}/`;
+    return normalizedCurrentPath;
+  }
+
   if (raw.startsWith('/wp-content/') || raw.startsWith('/wp-admin/') || raw.startsWith('/wp-json/')) return null;
   if (raw.startsWith('/#') || raw.startsWith('/?') || /[?&]amp=1/i.test(raw)) return '#';
 
@@ -70,6 +80,30 @@ function rewriteInternalHref(pathValue: string): string | null {
 
   const withLeadingSlash = withoutQuery.startsWith('/') ? withoutQuery : `/${withoutQuery}`;
   return withLeadingSlash.endsWith('/') ? withLeadingSlash : `${withLeadingSlash}/`;
+}
+
+function buildHostsShareHtml(title: string, path: string): string {
+  const normalizedPath = path.endsWith('/') ? path : `${path}/`;
+  const shareUrl = `https://blog.hichee.com${normalizedPath}`;
+  const linkUrl = encodeURIComponent(shareUrl);
+  const linkName = encodeURIComponent(title);
+  const escapedTitle = title.replace(/&/g, '&amp;').replace(/"/g, '&quot;');
+  const channels = [
+    { channel: 'facebook', label: 'Facebook' },
+    { channel: 'twitter', label: 'Twitter' },
+    { channel: 'pinterest', label: 'Pinterest' },
+    { channel: 'whatsapp', label: 'WhatsApp' },
+    { channel: 'email', label: 'Email' }
+  ];
+
+  const socialLinks = channels
+    .map(
+      (item) =>
+        `<a class="a2a_button_${item.channel}" href="https://www.addtoany.com/add_to/${item.channel}?linkurl=${linkUrl}&linkname=${linkName}" title="${item.label}" rel="nofollow noopener" target="_blank"></a>`
+    )
+    .join('');
+
+  return `<div class="addtoany_share_save_container addtoany_content addtoany_content_bottom"><div class="a2a_kit a2a_kit_size_32 addtoany_list" data-a2a-url="${shareUrl}" data-a2a-title="${escapedTitle}">${socialLinks}<a class="a2a_dd addtoany_share_save addtoany_share" href="https://www.addtoany.com/share"></a></div></div>`;
 }
 ---
 
@@ -96,7 +130,10 @@ function rewriteInternalHref(pathValue: string): string | null {
   )}
 
   {isLegacyPage ? (
-    <article class="legacy-home-content legacy-page-content" set:html={legacyPageHtml} />
+    <article class="legacy-home-content legacy-page-content">
+      <Fragment set:html={legacyPageHtml} />
+      {hostsShareHtml && <Fragment set:html={hostsShareHtml} />}
+    </article>
   ) : (
     <article class="article-shell article-shell--post">
       <a class="back-link" href="/">Back to latest stories</a>
