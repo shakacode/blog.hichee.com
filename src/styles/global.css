@@ -89,6 +89,19 @@ a:hover {
   color: var(--link);
 }
 
+.top-nav__link[target="_blank"] {
+  background: #eb7b20;
+  color: #fff;
+  border-radius: 999px;
+  padding: 0.32rem 0.7rem;
+  line-height: 1.1;
+}
+
+.top-nav__link[target="_blank"]:hover {
+  color: #fff;
+  background: #d86f1c;
+}
+
 .page-shell {
   min-height: 70vh;
   padding: 1.75rem 0 2.5rem;
@@ -561,6 +574,39 @@ a:hover {
   text-align: center;
 }
 
+/* WP uses a special featured layout for this hosts-page "Must Reads" block. */
+.legacy-page-content .ultp-block-c0bd32 .ultp-block-items-wrap {
+  display: grid;
+  grid-template-columns: 1.65fr 1fr;
+  grid-template-rows: repeat(2, minmax(0, 1fr));
+  gap: 0.7rem;
+}
+
+.legacy-page-content .ultp-block-c0bd32 .ultp-block-item:nth-child(1) {
+  grid-column: 1;
+  grid-row: 1 / span 2;
+}
+
+.legacy-page-content .ultp-block-c0bd32 .ultp-block-item:nth-child(2) {
+  grid-column: 2;
+  grid-row: 1;
+}
+
+.legacy-page-content .ultp-block-c0bd32 .ultp-block-item:nth-child(3) {
+  grid-column: 2;
+  grid-row: 2;
+}
+
+.legacy-page-content .ultp-block-c0bd32 .ultp-block-item:nth-child(1) .ultp-block-image {
+  height: 100%;
+}
+
+.legacy-page-content .ultp-block-c0bd32 .ultp-block-item:nth-child(1) .ultp-block-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
 @media (max-width: 980px) {
   .top-nav {
     gap: 0.65rem;
@@ -573,6 +619,26 @@ a:hover {
   .legacy-home-content .ultp-block-column-4.ultp-block-items-wrap,
   .legacy-home-content .ultp-block-column-5.ultp-block-items-wrap {
     grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .legacy-page-content .ultp-block-c0bd32 .ultp-block-items-wrap {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-template-rows: auto;
+  }
+
+  .legacy-page-content .ultp-block-c0bd32 .ultp-block-item:nth-child(1),
+  .legacy-page-content .ultp-block-c0bd32 .ultp-block-item:nth-child(2),
+  .legacy-page-content .ultp-block-c0bd32 .ultp-block-item:nth-child(3) {
+    grid-column: auto;
+    grid-row: auto;
+  }
+
+  .legacy-page-content .ultp-block-c0bd32 .ultp-block-item:nth-child(1) .ultp-block-image {
+    height: auto;
+  }
+
+  .legacy-page-content .ultp-block-c0bd32 .ultp-block-item:nth-child(1) .ultp-block-image img {
+    height: auto;
   }
 }
 
