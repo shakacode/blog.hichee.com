@@ -554,9 +554,7 @@ a:hover {
 }
 
 .legacy-home-content .ultp-loading,
-.legacy-home-content .ultp-loadmore,
-.legacy-home-content .ultp-filter-navigation,
-.legacy-home-content .ultp-next-prev-wrap {
+.legacy-home-content .ultp-loadmore {
   display: none !important;
 }
 

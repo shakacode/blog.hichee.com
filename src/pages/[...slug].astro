@@ -23,8 +23,14 @@ const canonical = entry.data.path;
 const isPost = entry.data.contentType === 'post';
 const isLegacyPage = entry.data.contentType === 'page';
 const isHostsLandingPage = entry.data.path === '/hichee-blog-for-hosts/';
+const legacyTitleSuffix = ' - The HiChee Blog and Travel Guide';
+const pageTitle = isLegacyPage && !entry.data.title.endsWith(legacyTitleSuffix)
+  ? `${entry.data.title}${legacyTitleSuffix}`
+  : entry.data.title;
 const legacyPageHtml = isLegacyPage ? rewriteLegacyPageHtml(entry.body) : '';
-const pageBodyClass = isLegacyPage ? 'legacy-home legacy-page wp-theme-kadence wp-custom-logo' : '';
+const pageBodyClass = isLegacyPage
+  ? 'legacy-home legacy-page wp-theme-kadence wp-custom-logo wp-embed-responsive qubely qubely-frontend postx-page footer-on-bottom hide-focus-outline link-style-standard content-title-style-hide content-width-normal content-style-boxed content-vertical-padding-hide non-transparent-header mobile-non-transparent-header'
+  : '';
 
 const publishedPosts = (await getCollection('posts'))
   .filter((post) => !post.data.draft && post.data.status === 'publish')
@@ -68,7 +74,7 @@ function rewriteInternalHref(pathValue: string): string | null {
 ---
 
 <BaseLayout
-  title={entry.data.title}
+  title={pageTitle}
   description={entry.data.description}
   canonical={canonical}
   bodyClass={pageBodyClass}
