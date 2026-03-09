@@ -2,6 +2,8 @@
 import { getCollection, render } from 'astro:content';
 import BaseLayout from '../layouts/BaseLayout.astro';
 import taxonomy from '../data/taxonomy.json';
+import legacySimilarBlocksByRoute from '../data/legacy-similar-blocks.json';
+import authorPostPaths from '../data/author-post-paths.json';
 
 export async function getStaticPaths() {
   const allEntries = [
@@ -9,12 +11,42 @@ export async function getStaticPaths() {
     ...(await getCollection('pages')).filter((entry) => !entry.data.draft && entry.data.status === 'publish')
   ];
 
-  return allEntries
+  const byPath = new Map(allEntries.map((entry) => [entry.data.path, entry] as const));
+  const aliasPathToCanonicalPath = new Map<string, string>([
+    ['/where-am-i-24-2/', '/where-am-i-24/'],
+    [
+      '/best-cheap-flights-websites-nobody-is-talking-about-how-to-find-cheap-flights-2022\uFFFC/',
+      '/best-cheap-flights-websites-nobody-is-talking-about-how-to-find-cheap-flights-2022/'
+    ],
+    [
+      '/how-to-get-longer-bookings-and-monthly-bookings-on-airbnb-and-vrbo\uFFFC/',
+      '/how-to-get-longer-bookings-and-monthly-bookings-on-airbnb-and-vrbo/'
+    ],
+    [
+      '/youll-lose-thousands-hosting-on-airbnb-if-you-do-this\uFFFC/',
+      '/youll-lose-thousands-hosting-on-airbnb-if-you-do-this/'
+    ]
+  ]);
+
+  const contentPaths = allEntries
     .filter((entry) => entry.data.path !== '/')
     .map((entry) => ({
       params: { slug: entry.data.path.replace(/^\/|\/$/g, '') },
       props: { entry }
     }));
+
+  const aliasPaths = [...aliasPathToCanonicalPath.entries()]
+    .map(([aliasPath, canonicalPath]) => {
+      const entry = byPath.get(canonicalPath);
+      if (!entry) return null;
+      return {
+        params: { slug: aliasPath.replace(/^\/|\/$/g, '') },
+        props: { entry }
+      };
+    })
+    .filter(Boolean);
+
+  return [...contentPaths, ...aliasPaths];
 }
 
 const { entry } = Astro.props;
@@ -28,6 +60,8 @@ const pageTitle = isLegacyPage && !entry.data.title.endsWith(legacyTitleSuffix)
   ? `${entry.data.title}${legacyTitleSuffix}`
   : entry.data.title;
 const legacyPageHtml = isLegacyPage ? rewriteLegacyPageHtml(entry.body, entry.data.path) : '';
+const rewrittenPostHtml = isPost ? rewritePostHtml(entry.body, entry.data.path) : '';
+const shouldUseRewrittenPostHtml = isPost && Boolean(rewrittenPostHtml);
 const hostsShareHtml = isHostsLandingPage ? buildHostsShareHtml(entry.data.title, entry.data.path) : '';
 const pageBodyClass = isLegacyPage
   ? 'legacy-home legacy-page wp-theme-kadence wp-custom-logo wp-embed-responsive qubely qubely-frontend postx-page footer-on-bottom hide-focus-outline link-style-standard content-title-style-hide content-width-normal content-style-boxed content-vertical-padding-hide non-transparent-header mobile-non-transparent-header'
@@ -47,23 +81,161 @@ const categoryChips = entry.data.categories.map((slug) => ({
   slug,
   label: taxonomy.categories[slug as keyof typeof taxonomy.categories] ?? slug
 }));
+const legacySimilarBlocks = legacySimilarBlocksByRoute as Record<string, string>;
+const hasEmbeddedAuthorBox = /saboxplugin-wrap/i.test(rewrittenPostHtml || entry.body);
+const hasInlineMedia = /<(img|figure|iframe|video)\b/i.test(rewrittenPostHtml || entry.body);
+const shouldRenderFeaturedImage = Boolean(entry.data.featuredImage) && !hasInlineMedia;
+
+const tiffanyAuthorBioRoutes = new Set([
+  '/9-most-unique-rentals-you-can-find-in-the-us/',
+  '/9-of-the-best-frozen-themed-airbnbs-in-the-us-love-is-an-open-door/',
+  '/airbnb-castles-9-budget-friendly-fairytales-in-the-u-s/',
+  '/airbnb-miami/',
+  '/airbnb-treehouse-in-montana-ski-hike-and-relax/',
+  '/airbnb-wedding-venue-in-costa-rica-discover-your-dream-destination/',
+  '/airbnb-wedding-venue-in-new-mexico-an-iconic-spot-for-saying-yes/',
+  '/airbnb-wedding-venue-in-oregon-a-breathtaking-setting-for-lovebirds/',
+  '/airbnbs-with-pickleball-courts-9-of-the-best-game-on/',
+  '/an-airbnb-treehouse-adventure-in-georgia-unwind-in-natures-embrace/',
+  '/an-airbnb-treehouse-experience-ultimate-getaway-in-the-sky/',
+  '/best-airbnbs-destin/',
+  '/estes-park-cabins-with-hot-tubs/',
+  '/harry-potter-themed-airbnbs/',
+  '/hocking-hills-airbnbs-with-hot-tubs/',
+  '/oklahoma-airbnbs-with-hot-tubs/',
+  '/the-best-airbnb-wedding-venues-in-the-us/',
+  '/the-most-expensive-airbnbs-in-the-caribbean/'
+]);
+
+const legacyAuthorSlug = inferAuthorSlugFromPath(entry.data.path, authorPostPaths);
+const authorName = inferAuthorName(entry.data.path, entry.body, legacyAuthorSlug, tiffanyAuthorBioRoutes);
+const authorSlug = toAuthorSlug(authorName) || legacyAuthorSlug;
+const shouldRenderFallbackAuthorBox = isPost && !hasEmbeddedAuthorBox;
+const fallbackAuthorBoxHtml = shouldRenderFallbackAuthorBox
+  ? authorSlug === 'tiffany'
+    ? buildTiffanyAuthorBoxHtml()
+    : buildAlanAuthorBoxHtml()
+  : '';
+const shouldRenderLegacySimilarBlock =
+  isPost &&
+  Object.prototype.hasOwnProperty.call(legacySimilarBlocks, entry.data.path) &&
+  !/ultp-post-grid-block/i.test(entry.body);
+const legacySimilarBlockHtml = shouldRenderLegacySimilarBlock
+  ? normalizeLegacySimilarBlockHtml(legacySimilarBlocks[entry.data.path] ?? '', entry.data.path)
+  : '';
+const relatedPosts = isPost
+  ? pickRelatedPosts(publishedPosts, entry.id, entry.data.categories, entry.data.tags)
+  : [];
 
 function rewriteLegacyPageHtml(body: string, currentPath: string): string {
-  const hrefPattern = /href=(["'])https?:\/\/blog\.hichee\.com([^"']*)\1/gi;
-  const rewrittenLinks = body.replace(hrefPattern, (full, quote, pathValue) => {
+  return normalizeContentHtml(body, currentPath, true);
+}
+
+function rewritePostHtml(body: string, currentPath: string): string {
+  const extractedPostHtml = extractPostHtmlFromMdx(body);
+  if (!extractedPostHtml) return '';
+  return normalizeContentHtml(extractedPostHtml, currentPath, false);
+}
+
+function extractPostHtmlFromMdx(body: string): string | null {
+  const marker = 'export const postHtml = ';
+  const markerIndex = body.indexOf(marker);
+  if (markerIndex === -1) return null;
+
+  const afterMarker = body.slice(markerIndex + marker.length).trimStart();
+  if (!afterMarker.startsWith('"')) return null;
+
+  let index = 1;
+  let escaped = false;
+
+  while (index < afterMarker.length) {
+    const char = afterMarker[index];
+    if (escaped) {
+      escaped = false;
+      index += 1;
+      continue;
+    }
+    if (char === '\\') {
+      escaped = true;
+      index += 1;
+      continue;
+    }
+    if (char === '"') break;
+    index += 1;
+  }
+
+  if (index >= afterMarker.length) return null;
+
+  const literal = afterMarker.slice(0, index + 1);
+  try {
+    return JSON.parse(literal) as string;
+  } catch {
+    return null;
+  }
+}
+
+function normalizeContentHtml(body: string, currentPath: string, stripLazyLoading: boolean): string {
+  let html = rewriteInternalLinks(body, currentPath);
+
+  // Remove WordPress author-box admin controls that should never be public.
+  html = html.replace(
+    /<div[^>]*class=(["'])[^"']*\bsab-edit-settings\b[^"']*\1[^>]*>[\s\S]*?<\/div>/gi,
+    ''
+  );
+
+  if (stripLazyLoading) {
+    // Improve visual parity by avoiding deferred image paint for static migrated blocks.
+    html = html.replace(/\sloading=(["'])lazy\1/gi, '');
+  }
+
+  return html;
+}
+
+function rewriteInternalLinks(body: string, currentPath: string): string {
+  return body.replace(/\shref=(["'])([^"']+)\1/gi, (full, quote, pathValue) => {
     const rewritten = rewriteInternalHref(pathValue, currentPath);
     if (rewritten === null) return full;
-    return `href=${quote}${rewritten}${quote}`;
+    return ` href=${quote}${rewritten}${quote}`;
   });
-
-  // Improve visual parity by avoiding deferred image paint for static migrated blocks.
-  return rewrittenLinks.replace(/\sloading=(["'])lazy\1/gi, '');
 }
 
 function rewriteInternalHref(pathValue: string, currentPath: string): string | null {
-  const raw = String(pathValue || '').replace(/&#038;/gi, '&');
-  const normalizedCurrentPath = currentPath.endsWith('/') ? currentPath : `${currentPath}/`;
+  const raw = String(pathValue || '')
+    .replace(/&#038;/gi, '&')
+    .replace(/&amp;/gi, '&')
+    .trim();
+
   if (!raw || raw === '/') return '/';
+  if (raw.startsWith('#')) return raw;
+  if (raw.startsWith('mailto:') || raw.startsWith('tel:') || raw.startsWith('javascript:')) return null;
+  if (raw.startsWith('//')) return null;
+
+  if (/^https?:\/\//i.test(raw)) {
+    let parsedExternal: URL;
+    try {
+      parsedExternal = new URL(raw);
+    } catch {
+      return null;
+    }
+
+    if (parsedExternal.hostname !== 'blog.hichee.com') return null;
+    return rewriteInternalPathValue(
+      `${parsedExternal.pathname}${parsedExternal.search}${parsedExternal.hash}`,
+      currentPath
+    );
+  }
+
+  if (!raw.startsWith('/')) return null;
+  return rewriteInternalPathValue(raw, currentPath);
+}
+
+function rewriteInternalPathValue(pathValue: string, currentPath: string): string | null {
+  const raw = String(pathValue || '').replace(/%ef%bf%bc/gi, '').replace(/\uFFFC/g, '');
+  const normalizedCurrentPath = normalizeRoutePath(currentPath);
+
+  if (!raw || raw === '/') return '/';
+  if (raw.startsWith('/#')) return raw.slice(1);
+
   if (raw.startsWith('/wp-json/wp/v2/pages')) {
     const pageMatch = raw.match(/\/wp-json\/wp\/v2\/pages\/page\/(\d+)\/?/i);
     if (pageMatch) return `${normalizedCurrentPath}page/${pageMatch[1]}/`;
@@ -72,14 +244,31 @@ function rewriteInternalHref(pathValue: string, currentPath: string): string | n
     return normalizedCurrentPath;
   }
 
-  if (raw.startsWith('/wp-content/') || raw.startsWith('/wp-admin/') || raw.startsWith('/wp-json/')) return null;
-  if (raw.startsWith('/#') || raw.startsWith('/?') || /[?&]amp=1/i.test(raw)) return '#';
+  let parsed: URL;
+  try {
+    parsed = new URL(raw, 'https://blog.hichee.com');
+  } catch {
+    return null;
+  }
 
-  const withoutQuery = raw.split('#')[0].split('?')[0].replace(/%ef%bf%bc/gi, '');
-  if (!withoutQuery || withoutQuery === '/') return '/';
+  const pathname = parsed.pathname.replace(/%ef%bf%bc/gi, '').replace(/\uFFFC/g, '');
+  if (!pathname || pathname === '/') {
+    if (/[?&]amp=1/i.test(parsed.search)) return parsed.hash || '#';
+    if (parsed.search || parsed.hash) return `/${parsed.search}${parsed.hash}`;
+    return '/';
+  }
 
-  const withLeadingSlash = withoutQuery.startsWith('/') ? withoutQuery : `/${withoutQuery}`;
-  return withLeadingSlash.endsWith('/') ? withLeadingSlash : `${withLeadingSlash}/`;
+  if (pathname.startsWith('/wp-content/') || pathname.startsWith('/wp-admin/') || pathname.startsWith('/wp-json/')) {
+    return null;
+  }
+  if (/[?&]amp=1/i.test(parsed.search)) return parsed.hash || '#';
+
+  const normalizedPath = normalizeRoutePath(pathname);
+  if (normalizedPath === normalizedCurrentPath && !parsed.search) {
+    return parsed.hash || '#';
+  }
+
+  return `${normalizedPath}${parsed.search}${parsed.hash}`;
 }
 
 function buildHostsShareHtml(title: string, path: string): string {
@@ -104,6 +293,117 @@ function buildHostsShareHtml(title: string, path: string): string {
     .join('');
 
   return `<div class="addtoany_share_save_container addtoany_content addtoany_content_bottom"><div class="a2a_kit a2a_kit_size_32 addtoany_list" data-a2a-url="${shareUrl}" data-a2a-title="${escapedTitle}">${socialLinks}<a class="a2a_dd addtoany_share_save addtoany_share" href="https://www.addtoany.com/share"></a></div></div>`;
+}
+
+function normalizeLegacySimilarBlockHtml(blockHtml: string, currentPath: string): string {
+  if (!blockHtml) return '';
+
+  let html = blockHtml;
+  html = html.replace(/\sloading=(["'])lazy\1/gi, '');
+
+  html = html.replace(
+    /<source\b([^>]*?)\sdata-lazy-srcset=(["'])([^"']+)\2([^>]*)>/gi,
+    (_full, before, _quote, lazySrcset, after) => {
+      let tag = `<source${before}${after}>`;
+      if (/\ssrcset=(["']).*?\1/i.test(tag)) {
+        tag = tag.replace(/\ssrcset=(["']).*?\1/i, ` srcset="${lazySrcset}"`);
+      } else {
+        tag = tag.replace('<source', `<source srcset="${lazySrcset}"`);
+      }
+      return tag;
+    }
+  );
+
+  html = html.replace(
+    /<img\b([^>]*?)\sdata-lazy-src=(["'])([^"']+)\2([^>]*)>/gi,
+    (_full, before, _quote, lazySrc, after) => {
+      let tag = `<img${before}${after}>`;
+      if (/\ssrc=(["']).*?\1/i.test(tag)) {
+        tag = tag.replace(/\ssrc=(["']).*?\1/i, ` src="${lazySrc}"`);
+      } else {
+        tag = tag.replace('<img', `<img src="${lazySrc}"`);
+      }
+      return tag;
+    }
+  );
+
+  return normalizeContentHtml(html, currentPath, false);
+}
+
+function buildTiffanyAuthorBoxHtml(): string {
+  return `<div class="saboxplugin-wrap" itemtype="http://schema.org/Person" itemscope="" itemprop="author"><div class="saboxplugin-tab"><div class="saboxplugin-gravatar"><img decoding="async" src="https://blog.hichee.com/wp-content/uploads/2023/07/Screenshot-2023-07-17-at-09.20.40.png" width="100" height="100" alt="Tiffany Mae" itemprop="image"></div><div class="saboxplugin-authorname"><a href="/author/tiffany/" class="vcard author" rel="author"><span class="fn">Tiffany Martin</span></a></div><div class="saboxplugin-desc"><div itemprop="description"><p>Tiffany Martin, a 33-year-old travel content contributor based in Manila, Philippines, brings the world’s beauty to your screen through her writing, narrating the best places in the globe with a charm that resonates.</p><p>Aside from being a travel writer and an all-around digital nomad, she’s also a wifey, a mom to two girls, and a licensed educator. During her downtime, she loves traveling, cooking, and playing with her energetic Dachshund and cuddly Golden Malinois.</p></div></div><div class="clearfix"></div></div></div>`;
+}
+
+function buildAlanAuthorBoxHtml(): string {
+  return `<div class="saboxplugin-wrap" itemtype="http://schema.org/Person" itemscope="" itemprop="author"><div class="saboxplugin-tab"><div class="saboxplugin-gravatar"><img decoding="async" src="https://blog.hichee.com/wp-content/uploads/2022/07/hichee-logo-64-pix-1.jpg" width="100" height="100" alt="Alan Egan" itemprop="image"></div><div class="saboxplugin-authorname"><a href="/author/alan/" class="vcard author" rel="author"><span class="fn">Alan Egan</span></a></div><div class="saboxplugin-desc"><div itemprop="description"><p>Alan has been working in the vacation rental sector since 2004 and has written hundreds of articles for hosts and travelers.</p><p>His focus is practical travel and hosting advice that helps readers save money and book with confidence.</p></div></div><div class="clearfix"></div></div></div>`;
+}
+
+function inferAuthorName(route: string, body: string, legacyAuthorSlug: string, tiffanyRoutes: Set<string>): string {
+  const inlineFnMatch = body.match(/<span[^>]*class=(["'])fn\1[^>]*>([^<]+)<\/span>/i);
+  const inlineName = inlineFnMatch?.[2]?.trim();
+  if (inlineName) return inlineName;
+  if (legacyAuthorSlug === 'tiffany') return 'Tiffany Martin';
+  if (legacyAuthorSlug === 'our-discount-desk') return 'Our Discount Desk';
+  if (legacyAuthorSlug === 'our-travel-reporter') return 'Our Travel Reporter';
+  if (legacyAuthorSlug === 'alan') return 'Alan Egan';
+  if (tiffanyRoutes.has(route)) return 'Tiffany Martin';
+  return 'Alan Egan';
+}
+
+function toAuthorSlug(name: string): string {
+  const normalized = String(name || '').trim().toLowerCase();
+  if (normalized === 'alan egan') return 'alan';
+  if (normalized === 'tiffany martin' || normalized === 'tiffany mae') return 'tiffany';
+  if (normalized === 'our discount desk') return 'our-discount-desk';
+  if (normalized === 'our travel reporter') return 'our-travel-reporter';
+  return '';
+}
+
+function inferAuthorSlugFromPath(
+  route: string,
+  mapping: Record<string, string[]>
+): string {
+  const normalizedRoute = normalizeRoutePath(route);
+  for (const [slug, paths] of Object.entries(mapping)) {
+    if (!Array.isArray(paths)) continue;
+    for (const value of paths) {
+      if (normalizeRoutePath(value) === normalizedRoute) return slug;
+    }
+  }
+  return '';
+}
+
+function normalizeRoutePath(inputPath: string): string {
+  const raw = String(inputPath || '').replace(/%ef%bf%bc/gi, '').replace(/\uFFFC/g, '');
+  if (!raw) return '/';
+  const withStart = raw.startsWith('/') ? raw : `/${raw}`;
+  return withStart.endsWith('/') ? withStart : `${withStart}/`;
+}
+
+function pickRelatedPosts<T extends { id: string; data: { categories: string[]; tags: string[] } }>(
+  allPosts: T[],
+  currentId: string,
+  categories: string[],
+  tags: string[]
+) {
+  const hasOverlap = (left: string[], right: string[]) => left.some((value) => right.includes(value));
+
+  const inCategory = allPosts.filter((post) => post.id !== currentId && hasOverlap(post.data.categories, categories));
+  const inTag = allPosts.filter((post) => post.id !== currentId && hasOverlap(post.data.tags, tags));
+  const fallback = allPosts.filter((post) => post.id !== currentId);
+
+  const out: T[] = [];
+  const seen = new Set<string>();
+
+  for (const list of [inCategory, inTag, fallback]) {
+    for (const post of list) {
+      if (seen.has(post.id)) continue;
+      out.push(post);
+      seen.add(post.id);
+      if (out.length === 3) return out;
+    }
+  }
+  return out;
 }
 ---
 
@@ -136,8 +436,6 @@ function buildHostsShareHtml(title: string, path: string): string {
     </article>
   ) : (
     <article class="article-shell article-shell--post">
-      <a class="back-link" href="/">Back to latest stories</a>
-
       <header class="article-header">
         {isPost && categoryChips.length > 0 && (
           <div class="taxonomy">
@@ -148,12 +446,19 @@ function buildHostsShareHtml(title: string, path: string): string {
         )}
 
         <h1>{entry.data.title}</h1>
-        <p class="meta">
-          Published {entry.data.date.toISOString().slice(0, 10)}
-        </p>
+        {isPost && (
+          <p class="meta">
+            By{' '}
+            {authorSlug ? (
+              <a href={`/author/${authorSlug}/`}>{authorName}</a>
+            ) : (
+              <span>{authorName}</span>
+            )}
+          </p>
+        )}
       </header>
 
-      {entry.data.featuredImage && (
+      {shouldRenderFeaturedImage && (
         <img
           src={entry.data.featuredImage}
           alt={entry.data.featuredImageAlt ?? entry.data.title}
@@ -164,15 +469,33 @@ function buildHostsShareHtml(title: string, path: string): string {
       )}
 
       <section class="article-content">
-        <Content />
+        {shouldUseRewrittenPostHtml ? <Fragment set:html={rewrittenPostHtml} /> : <Content />}
+        {legacySimilarBlockHtml && <Fragment set:html={legacySimilarBlockHtml} />}
+        {fallbackAuthorBoxHtml && <Fragment set:html={fallbackAuthorBoxHtml} />}
       </section>
 
-      {isPost && entry.data.tags.length > 0 && (
-        <section class="article-tags">
-          <h2>Tags</h2>
-          <div class="taxonomy">
-            {entry.data.tags.map((tag) => (
-              <a class="badge" href={`/tag/${tag}/`}>#{tag}</a>
+      {isPost && relatedPosts.length > 0 && (
+        <section class="similar-posts">
+          <h2>Similar Posts</h2>
+          <div class="similar-posts__grid">
+            {relatedPosts.map((post) => (
+              <article class="similar-post">
+                <a class="similar-post__image" href={post.data.path}>
+                  {post.data.featuredImage ? (
+                    <img
+                      src={post.data.featuredImage}
+                      alt={post.data.featuredImageAlt ?? post.data.title}
+                      loading="lazy"
+                      decoding="async"
+                    />
+                  ) : (
+                    <span class="similar-post__placeholder">{post.data.title.slice(0, 1).toUpperCase()}</span>
+                  )}
+                </a>
+                <h3>
+                  <a href={post.data.path}>{post.data.title}</a>
+                </h3>
+              </article>
             ))}
           </div>
         </section>
@@ -182,7 +505,7 @@ function buildHostsShareHtml(title: string, path: string): string {
         <nav class="article-nav" aria-label="Post navigation">
           {newerPost ? (
             <a class="article-nav__item" href={newerPost.data.path}>
-              <small>Newer</small>
+              <small>Previous</small>
               <span>{newerPost.data.title}</span>
             </a>
           ) : (
@@ -190,7 +513,7 @@ function buildHostsShareHtml(title: string, path: string): string {
           )}
           {olderPost && (
             <a class="article-nav__item article-nav__item--right" href={olderPost.data.path}>
-              <small>Older</small>
+              <small>Next</small>
               <span>{olderPost.data.title}</span>
             </a>
           )}
