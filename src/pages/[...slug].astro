@@ -133,8 +133,9 @@ function rewriteLegacyPageHtml(body: string, currentPath: string): string {
 
 function rewritePostHtml(body: string, currentPath: string): string {
   const extractedPostHtml = extractPostHtmlFromMdx(body);
-  if (!extractedPostHtml) return '';
-  return normalizeContentHtml(extractedPostHtml, currentPath, false);
+  const htmlToNormalize = extractedPostHtml ?? body;
+  if (!htmlToNormalize) return '';
+  return normalizeContentHtml(htmlToNormalize, currentPath, false);
 }
 
 function extractPostHtmlFromMdx(body: string): string | null {
