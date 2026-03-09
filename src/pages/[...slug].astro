@@ -177,10 +177,17 @@ function extractPostHtmlFromMdx(body: string): string | null {
 
 function normalizeContentHtml(body: string, currentPath: string, stripLazyLoading: boolean): string {
   let html = rewriteInternalLinks(body, currentPath);
+  html = repairInPageHashLinks(html);
 
   // Remove WordPress author-box admin controls that should never be public.
   html = html.replace(
     /<div[^>]*class=(["'])[^"']*\bsab-edit-settings\b[^"']*\1[^>]*>[\s\S]*?<\/div>/gi,
+    ''
+  );
+
+  // Remove dead social placeholders left behind when legacy share widgets are stripped.
+  html = html.replace(
+    /<p>\s*<a[^>]*href=(["'])#(?:facebook|twitter|pinterest|whatsapp|email|linkedin|reddit|messenger|copy_link|telegram|line|sms)\1[^>]*>\s*<\/a>\s*<\/p>/gi,
     ''
   );
 
@@ -190,6 +197,107 @@ function normalizeContentHtml(body: string, currentPath: string, stripLazyLoadin
   }
 
   return html;
+}
+
+function repairInPageHashLinks(body: string): string {
+  const idMatches = [...body.matchAll(/\sid=(["'])([^"']+)\1/gi)];
+  if (idMatches.length === 0) return body;
+
+  const ids = new Set<string>();
+  const canonicalToId = new Map<string, string>();
+
+  for (const [, , rawId] of idMatches) {
+    const id = String(rawId || '');
+    if (!id) continue;
+    ids.add(id);
+
+    const canonical = canonicalizeHashToken(id);
+    if (canonical && !canonicalToId.has(canonical)) {
+      canonicalToId.set(canonical, id);
+    }
+
+    if (id.toLowerCase().startsWith('h-')) {
+      const withoutPrefix = canonicalizeHashToken(id.slice(2));
+      if (withoutPrefix && !canonicalToId.has(withoutPrefix)) {
+        canonicalToId.set(withoutPrefix, id);
+      }
+    }
+  }
+
+  return body.replace(/\shref=(["'])#([^"']+)\1/gi, (full, quote, targetRaw) => {
+    const target = String(targetRaw || '');
+    if (!target) return full;
+    if (ids.has(target)) return full;
+
+    const decoded = decodeUriComponentSafely(target);
+    const variants = new Set<string>([
+      target,
+      decoded,
+      target.replace(/\s+/g, '-'),
+      decoded.replace(/\s+/g, '-'),
+      target.replace(/_/g, '-'),
+      decoded.replace(/_/g, '-'),
+      target.replace(/-/g, '_'),
+      decoded.replace(/-/g, '_')
+    ]);
+
+    const slugTarget = slugifyHashToken(target);
+    const slugDecoded = slugifyHashToken(decoded);
+    if (slugTarget) {
+      variants.add(slugTarget);
+      variants.add(`h-${slugTarget}`);
+      variants.add(slugTarget.replace(/-/g, '_'));
+    }
+    if (slugDecoded) {
+      variants.add(slugDecoded);
+      variants.add(`h-${slugDecoded}`);
+      variants.add(slugDecoded.replace(/-/g, '_'));
+    }
+
+    for (const variant of variants) {
+      if (ids.has(variant)) return ` href=${quote}#${variant}${quote}`;
+    }
+
+    const canonicalCandidates = [canonicalizeHashToken(target), canonicalizeHashToken(decoded)].filter(Boolean);
+    for (const canonical of canonicalCandidates) {
+      const mapped = canonicalToId.get(canonical);
+      if (mapped) return ` href=${quote}#${mapped}${quote}`;
+    }
+
+    // Keep dead legacy TOC links from jumping to a bad location.
+    return ` href=${quote}#${quote}`;
+  });
+}
+
+function decodeUriComponentSafely(value: string): string {
+  const raw = String(value || '').replace(/\+/g, ' ').trim();
+  if (!raw) return '';
+  try {
+    return decodeURIComponent(raw);
+  } catch {
+    return raw;
+  }
+}
+
+function slugifyHashToken(value: string): string {
+  const decoded = decodeUriComponentSafely(value);
+  return decoded
+    .replace(/&amp;/gi, 'and')
+    .replace(/[^A-Za-z0-9\s_-]/g, ' ')
+    .replace(/[_\s]+/g, '-')
+    .replace(/-+/g, '-')
+    .replace(/^-+|-+$/g, '');
+}
+
+function canonicalizeHashToken(value: string): string {
+  const decoded = decodeUriComponentSafely(value);
+  return decoded
+    .replace(/&amp;/gi, 'and')
+    .replace(/[_-]+/g, ' ')
+    .replace(/[^A-Za-z0-9\s]/g, ' ')
+    .replace(/\s+/g, ' ')
+    .trim()
+    .toLowerCase();
 }
 
 function rewriteInternalLinks(body: string, currentPath: string): string {
