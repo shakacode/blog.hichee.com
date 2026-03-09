@@ -3,6 +3,7 @@ import { getCollection, render } from 'astro:content';
 import BaseLayout from '../layouts/BaseLayout.astro';
 import taxonomy from '../data/taxonomy.json';
 import legacySimilarBlocksByRoute from '../data/legacy-similar-blocks.json';
+import legacyRelatedPostsByRouteRaw from '../data/legacy-related-posts.json';
 import authorPostPaths from '../data/author-post-paths.json';
 
 export async function getStaticPaths() {
@@ -81,7 +82,25 @@ const categoryChips = entry.data.categories.map((slug) => ({
   slug,
   label: taxonomy.categories[slug as keyof typeof taxonomy.categories] ?? slug
 }));
+const RELATED_STOP_WORDS = new Set([
+  'a',
+  'an',
+  'and',
+  'at',
+  'for',
+  'from',
+  'in',
+  'is',
+  'of',
+  'on',
+  'or',
+  'the',
+  'to',
+  'with',
+  'your'
+]);
 const legacySimilarBlocks = legacySimilarBlocksByRoute as Record<string, string>;
+const legacyRelatedPostsByRoute = legacyRelatedPostsByRouteRaw as Record<string, string[]>;
 const hasEmbeddedAuthorBox = /saboxplugin-wrap/i.test(rewrittenPostHtml || entry.body);
 const hasInlineMedia = /<(img|figure|iframe|video)\b/i.test(rewrittenPostHtml || entry.body);
 const shouldRenderFeaturedImage = Boolean(entry.data.featuredImage) && !hasInlineMedia;
@@ -124,8 +143,18 @@ const legacySimilarBlockHtml = shouldRenderLegacySimilarBlock
   ? normalizeLegacySimilarBlockHtml(legacySimilarBlocks[entry.data.path] ?? '', entry.data.path)
   : '';
 const relatedPosts = isPost
-  ? pickRelatedPosts(publishedPosts, entry.id, entry.data.categories, entry.data.tags)
+  ? pickRelatedPosts({
+      allPosts: publishedPosts,
+      currentPostId: entry.id,
+      currentPath: entry.data.path,
+      currentTitle: entry.data.title,
+      currentDate: entry.data.date,
+      categories: entry.data.categories,
+      tags: entry.data.tags,
+      legacyRelatedByRoute: legacyRelatedPostsByRoute
+    })
   : [];
+const shouldRenderRelatedPosts = isPost && relatedPosts.length > 0;
 
 function rewriteLegacyPageHtml(body: string, currentPath: string): string {
   return normalizeContentHtml(body, currentPath, true);
@@ -489,30 +518,122 @@ function normalizeRoutePath(inputPath: string): string {
   return withStart.endsWith('/') ? withStart : `${withStart}/`;
 }
 
-function pickRelatedPosts<T extends { id: string; data: { categories: string[]; tags: string[] } }>(
-  allPosts: T[],
-  currentId: string,
-  categories: string[],
-  tags: string[]
-) {
-  const hasOverlap = (left: string[], right: string[]) => left.some((value) => right.includes(value));
+function pickRelatedPosts<
+  T extends { id: string; data: { path: string; title: string; date: Date; categories: string[]; tags: string[] } }
+>({
+  allPosts,
+  currentPostId,
+  currentPath,
+  currentTitle,
+  currentDate,
+  categories,
+  tags,
+  legacyRelatedByRoute
+}: {
+  allPosts: T[];
+  currentPostId: string;
+  currentPath: string;
+  currentTitle: string;
+  currentDate: Date;
+  categories: string[];
+  tags: string[];
+  legacyRelatedByRoute: Record<string, string[]>;
+}): { post: T; href: string }[] {
+  const byPath = new Map(allPosts.map((post) => [normalizeRoutePath(post.data.path), post] as const));
+  const aliasPathToCanonicalPath = new Map<string, string>([
+    ['/where-am-i-24-2/', '/where-am-i-24/'],
+    [
+      '/best-cheap-flights-websites-nobody-is-talking-about-how-to-find-cheap-flights-2022\uFFFC/',
+      '/best-cheap-flights-websites-nobody-is-talking-about-how-to-find-cheap-flights-2022/'
+    ],
+    [
+      '/how-to-get-longer-bookings-and-monthly-bookings-on-airbnb-and-vrbo\uFFFC/',
+      '/how-to-get-longer-bookings-and-monthly-bookings-on-airbnb-and-vrbo/'
+    ],
+    [
+      '/youll-lose-thousands-hosting-on-airbnb-if-you-do-this\uFFFC/',
+      '/youll-lose-thousands-hosting-on-airbnb-if-you-do-this/'
+    ]
+  ]);
+  const route = normalizeRoutePath(currentPath);
+  const legacyPaths = legacyRelatedByRoute[route] ?? [];
+  const targetCount = legacyPaths.length > 0 ? Math.min(6, legacyPaths.length) : 3;
 
-  const inCategory = allPosts.filter((post) => post.id !== currentId && hasOverlap(post.data.categories, categories));
-  const inTag = allPosts.filter((post) => post.id !== currentId && hasOverlap(post.data.tags, tags));
-  const fallback = allPosts.filter((post) => post.id !== currentId);
-
-  const out: T[] = [];
+  const out: { post: T; href: string }[] = [];
   const seen = new Set<string>();
 
-  for (const list of [inCategory, inTag, fallback]) {
-    for (const post of list) {
-      if (seen.has(post.id)) continue;
-      out.push(post);
-      seen.add(post.id);
-      if (out.length === 3) return out;
-    }
+  for (const relatedPath of legacyPaths) {
+    const normalizedRelatedPath = normalizeRoutePath(relatedPath);
+    const canonicalRelatedPath = aliasPathToCanonicalPath.get(normalizedRelatedPath) ?? normalizedRelatedPath;
+    const mapped = byPath.get(canonicalRelatedPath);
+    if (!mapped) continue;
+    if (mapped.id === currentPostId || seen.has(mapped.id)) continue;
+    out.push({ post: mapped, href: normalizedRelatedPath });
+    seen.add(mapped.id);
+    if (out.length >= targetCount) return out;
   }
+
+  if (legacyPaths.length > 0) return out;
+
+  const currentCategorySet = new Set(categories);
+  const currentTagSet = new Set(tags);
+  const currentTokenSet = tokenizeRelatedText(`${currentTitle} ${currentPath}`);
+  const currentTime = currentDate?.getTime?.() ?? 0;
+
+  const scored = allPosts
+    .filter((post) => post.id !== currentPostId && !seen.has(post.id))
+    .map((post) => {
+      const categoryOverlap = countSetOverlap(post.data.categories, currentCategorySet);
+      const tagOverlap = countSetOverlap(post.data.tags, currentTagSet);
+      const tokenSet = tokenizeRelatedText(`${post.data.title} ${post.data.path}`);
+      const lexicalOverlap = countSetOverlap(tokenSet, currentTokenSet);
+      const lexicalUnion = tokenSet.size + currentTokenSet.size - lexicalOverlap;
+      const lexicalScore = lexicalUnion > 0 ? lexicalOverlap / lexicalUnion : 0;
+      const dateTime = post.data.date?.getTime?.() ?? 0;
+      const dayDistance = currentTime && dateTime ? Math.abs(currentTime - dateTime) / 86400000 : 3650;
+      const recencyScore = Math.max(0, 1 - dayDistance / 3650);
+
+      return {
+        post,
+        dateTime,
+        score: categoryOverlap * 8 + tagOverlap * 6 + lexicalScore * 14 + recencyScore * 1.5
+      };
+    })
+    .sort((left, right) => right.score - left.score || right.dateTime - left.dateTime);
+
+  for (const candidate of scored) {
+    out.push({ post: candidate.post, href: candidate.post.data.path });
+    if (out.length >= targetCount) break;
+  }
+
   return out;
+}
+
+function tokenizeRelatedText(value: string): Set<string> {
+  const normalized = String(value || '')
+    .toLowerCase()
+    .replace(/%ef%bf%bc/gi, ' ')
+    .replace(/\uFFFC/g, ' ')
+    .replace(/&amp;/gi, ' and ')
+    .replace(/[^a-z0-9]+/g, ' ')
+    .trim();
+
+  if (!normalized) return new Set();
+
+  return new Set(
+    normalized
+      .split(/\s+/)
+      .filter((token) => token.length > 2)
+      .filter((token) => !RELATED_STOP_WORDS.has(token))
+  );
+}
+
+function countSetOverlap(values: Iterable<string>, comparisonSet: Set<string>): number {
+  let total = 0;
+  for (const value of values) {
+    if (comparisonSet.has(value)) total += 1;
+  }
+  return total;
 }
 ---
 
@@ -583,26 +704,26 @@ function pickRelatedPosts<T extends { id: string; data: { categories: string[]; 
         {fallbackAuthorBoxHtml && <Fragment set:html={fallbackAuthorBoxHtml} />}
       </section>
 
-      {isPost && relatedPosts.length > 0 && (
+      {shouldRenderRelatedPosts && (
         <section class="similar-posts">
           <h2>Similar Posts</h2>
           <div class="similar-posts__grid">
             {relatedPosts.map((post) => (
               <article class="similar-post">
-                <a class="similar-post__image" href={post.data.path}>
-                  {post.data.featuredImage ? (
+                <a class="similar-post__image" href={post.href}>
+                  {post.post.data.featuredImage ? (
                     <img
-                      src={post.data.featuredImage}
-                      alt={post.data.featuredImageAlt ?? post.data.title}
+                      src={post.post.data.featuredImage}
+                      alt={post.post.data.featuredImageAlt ?? post.post.data.title}
                       loading="lazy"
                       decoding="async"
                     />
                   ) : (
-                    <span class="similar-post__placeholder">{post.data.title.slice(0, 1).toUpperCase()}</span>
+                    <span class="similar-post__placeholder">{post.post.data.title.slice(0, 1).toUpperCase()}</span>
                   )}
                 </a>
                 <h3>
-                  <a href={post.data.path}>{post.data.title}</a>
+                  <a href={post.href}>{post.post.data.title}</a>
                 </h3>
               </article>
             ))}
