@@ -45,6 +45,7 @@ const isActive = (href: string) => {
     <meta property="og:type" content="website" />
     <meta property="og:url" content={canonicalUrl ?? Astro.url.toString()} />
     <meta name="twitter:card" content="summary_large_image" />
+    <link rel="icon" href="/favicon.ico" sizes="any" />
     {canonicalUrl && <link rel="canonical" href={canonicalUrl} />}
     <slot name="head" />
     <title>{title}</title>
@@ -66,7 +67,11 @@ const isActive = (href: string) => {
           {
             navLinks.map((link) => (
               <a
-                class:list={['top-nav__link', isActive(link.href) && 'is-active']}
+                class:list={[
+                  'top-nav__link',
+                  isActive(link.href) && 'is-active',
+                  link.href.startsWith('http') && 'is-external'
+                ]}
                 href={link.href}
                 target={link.href.startsWith('http') ? '_blank' : undefined}
                 rel={link.href.startsWith('http') ? 'noreferrer' : undefined}

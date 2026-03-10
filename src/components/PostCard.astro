@@ -19,10 +19,11 @@ interface Props {
 const { post, compact = false } = Astro.props;
 const href = post.data.path;
 const hasImage = Boolean(post.data.featuredImage);
-const categorySlug = post.data.categories[0];
-const categoryLabel = categorySlug
-  ? taxonomy.categories[categorySlug as keyof typeof taxonomy.categories] ?? categorySlug
-  : '';
+const categoryChips = post.data.categories.map((slug) => ({
+  slug,
+  label: taxonomy.categories[slug as keyof typeof taxonomy.categories] ?? slug
+}));
+const summary = post.data.description?.replace(/\s+/g, ' ').trim() ?? '';
 ---
 
 <article class:list={['post-card', compact && 'post-card--compact']}>
@@ -44,15 +45,24 @@ const categoryLabel = categorySlug
   }
 
   <div class="post-card__body">
-    {categorySlug && (
-      <a class="post-card__category" href={`/category/${categorySlug}/`}>
-        {categoryLabel}
-      </a>
+    {categoryChips.length > 0 && (
+      <div class="post-card__categories">
+        {categoryChips.map((category) => (
+          <a class="post-card__category" href={`/category/${category.slug}/`}>
+            {category.label}
+          </a>
+        ))}
+      </div>
     )}
     <h2 class="post-card__title">
       <a href={href}>{post.data.title}</a>
     </h2>
     <p class="meta">{post.data.date.toISOString().slice(0, 10)}</p>
-    {!compact && post.data.description && <p class="post-card__summary">{post.data.description}</p>}
+    {!compact && summary && <p class="post-card__summary">{summary}</p>}
+    {!compact && (
+      <p class="post-card__readmore">
+        <a href={href}>Read More →</a>
+      </p>
+    )}
   </div>
 </article>
