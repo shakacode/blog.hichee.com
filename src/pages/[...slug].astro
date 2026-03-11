@@ -14,6 +14,7 @@ export async function getStaticPaths() {
 
   const byPath = new Map(allEntries.map((entry) => [entry.data.path, entry] as const));
   const aliasPathToCanonicalPath = new Map<string, string>([
+    ['/hichee-blog-for-hosts/page/2/', '/hichee-blog-for-hosts/'],
     ['/where-am-i-24-2/', '/where-am-i-24/'],
     [
       '/best-cheap-flights-websites-nobody-is-talking-about-how-to-find-cheap-flights-2022\uFFFC/',
