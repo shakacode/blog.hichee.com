@@ -63,7 +63,7 @@ const pageTitle = isLegacyPage && !entry.data.title.endsWith(legacyTitleSuffix)
 const legacyPageHtml = isLegacyPage ? rewriteLegacyPageHtml(entry.body, entry.data.path) : '';
 const rewrittenPostHtml = isPost ? rewritePostHtml(entry.body, entry.data.path) : '';
 const shouldUseRewrittenPostHtml = isPost && Boolean(rewrittenPostHtml);
-const hostsShareHtml = isHostsLandingPage ? buildHostsShareHtml(entry.data.title, entry.data.path) : '';
+const shareHtml = (isHostsLandingPage || isPost) ? buildAddToAnyShareHtml(entry.data.title, entry.data.path) : '';
 const pageBodyClass = isLegacyPage
   ? 'legacy-home legacy-page wp-theme-kadence wp-custom-logo wp-embed-responsive qubely qubely-frontend postx-page footer-on-bottom hide-focus-outline link-style-standard content-title-style-hide content-width-normal content-style-boxed content-vertical-padding-hide non-transparent-header mobile-non-transparent-header'
   : '';
@@ -157,7 +157,16 @@ const relatedPosts = isPost
 const shouldRenderRelatedPosts = isPost && relatedPosts.length > 0;
 
 function rewriteLegacyPageHtml(body: string, currentPath: string): string {
-  return normalizeContentHtml(body, currentPath, true);
+  let html = normalizeContentHtml(body, currentPath, true);
+
+  if (normalizeRoutePath(currentPath) === '/hichee-blog-for-hosts/') {
+    html = html.replace(
+      /<div[^>]*class=(["'])[^"']*\bultp-pagination-wrap\b[^"']*\1[^>]*>[\s\S]*?<div[^>]*class=(["'])pagination-block-html\2[^>]*>\s*<\/div>\s*<\/div>/gi,
+      ''
+    );
+  }
+
+  return html;
 }
 
 function rewritePostHtml(body: string, currentPath: string): string {
@@ -409,7 +418,7 @@ function rewriteInternalPathValue(pathValue: string, currentPath: string): strin
   return `${normalizedPath}${parsed.search}${parsed.hash}`;
 }
 
-function buildHostsShareHtml(title: string, path: string): string {
+function buildAddToAnyShareHtml(title: string, path: string): string {
   const normalizedPath = path.endsWith('/') ? path : `${path}/`;
   const shareUrl = `https://blog.hichee.com${normalizedPath}`;
   const linkUrl = encodeURIComponent(shareUrl);
@@ -659,10 +668,16 @@ function countSetOverlap(values: Iterable<string>, comparisonSet: Set<string>): 
     </Fragment>
   )}
 
+  {isPost && (
+    <Fragment slot="head">
+      <link rel="stylesheet" href="/wp-legacy/addtoany.min.css" />
+    </Fragment>
+  )}
+
   {isLegacyPage ? (
     <article class="legacy-home-content legacy-page-content">
       <Fragment set:html={legacyPageHtml} />
-      {hostsShareHtml && <Fragment set:html={hostsShareHtml} />}
+      {shareHtml && <Fragment set:html={shareHtml} />}
     </article>
   ) : (
     <article class="article-shell article-shell--post">
@@ -703,6 +718,8 @@ function countSetOverlap(values: Iterable<string>, comparisonSet: Set<string>): 
         {legacySimilarBlockHtml && <Fragment set:html={legacySimilarBlockHtml} />}
         {fallbackAuthorBoxHtml && <Fragment set:html={fallbackAuthorBoxHtml} />}
       </section>
+
+      {shareHtml && <Fragment set:html={shareHtml} />}
 
       {shouldRenderRelatedPosts && (
         <section class="similar-posts">

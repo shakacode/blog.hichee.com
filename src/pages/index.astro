@@ -6,6 +6,7 @@ const pages = (await getCollection('pages')).filter((entry) => !entry.data.draft
 const homePage = pages.find((entry) => entry.data.wordpressId === 156 || entry.data.path === '/the-hichee-blog/');
 
 const legacyHomeHtml = homePage ? rewriteHomeHtml(homePage.body) : '';
+const homeShareHtml = homePage ? buildHomeShareHtml(homePage.data.title) : '';
 
 function rewriteHomeHtml(body: string): string {
   const hrefPattern = /href=(["'])https?:\/\/blog\.hichee\.com([^"']*)\1/gi;
@@ -31,6 +32,29 @@ function rewriteInternalHref(pathValue: string): string | null {
   const withLeadingSlash = withoutQuery.startsWith('/') ? withoutQuery : `/${withoutQuery}`;
   return withLeadingSlash.endsWith('/') ? withLeadingSlash : `${withLeadingSlash}/`;
 }
+
+function buildHomeShareHtml(title: string): string {
+  const shareUrl = 'https://blog.hichee.com/';
+  const linkUrl = encodeURIComponent(shareUrl);
+  const linkName = encodeURIComponent(title);
+  const escapedTitle = title.replace(/&/g, '&amp;').replace(/"/g, '&quot;');
+  const channels = [
+    { channel: 'facebook', label: 'Facebook' },
+    { channel: 'twitter', label: 'Twitter' },
+    { channel: 'pinterest', label: 'Pinterest' },
+    { channel: 'whatsapp', label: 'WhatsApp' },
+    { channel: 'email', label: 'Email' }
+  ];
+
+  const socialLinks = channels
+    .map(
+      (item) =>
+        `<a class="a2a_button_${item.channel}" href="https://www.addtoany.com/add_to/${item.channel}?linkurl=${linkUrl}&linkname=${linkName}" title="${item.label}" rel="nofollow noopener" target="_blank"></a>`
+    )
+    .join('');
+
+  return `<div class="addtoany_share_save_container addtoany_content addtoany_content_bottom"><div class="a2a_kit a2a_kit_size_32 addtoany_list" data-a2a-url="${shareUrl}" data-a2a-title="${escapedTitle}">${socialLinks}<a class="a2a_dd addtoany_share_save addtoany_share" href="https://www.addtoany.com/share"></a></div></div>`;
+}
 ---
 
 <BaseLayout
@@ -38,7 +62,6 @@ function rewriteInternalHref(pathValue: string): string | null {
   description="Insider travel tips and destination guides from HiChee."
   canonical="/"
   bodyClass="legacy-home home wp-theme-kadence wp-custom-logo"
-  suppressFooter={true}
 >
   <Fragment slot="head">
     <link rel="stylesheet" href="/wp-legacy/wp-block-library.min.css" />
@@ -55,7 +78,10 @@ function rewriteInternalHref(pathValue: string): string | null {
 
   {
     homePage ? (
-      <article class="legacy-home-content" set:html={legacyHomeHtml} />
+      <>
+        <article class="legacy-home-content" set:html={legacyHomeHtml} />
+        {homeShareHtml && <div class="legacy-home-share" set:html={homeShareHtml} />}
+      </>
     ) : (
       <section class="listing-hero">
         <p class="eyebrow">Missing Source</p>

@@ -20,6 +20,8 @@ const {
 const site = Astro.site?.toString() ?? 'https://newblog.hichee.com';
 const canonicalUrl = canonical ? new URL(canonical, site).toString() : undefined;
 const currentPath = Astro.url.pathname;
+const faviconHref = '/favicon.png';
+const faviconIcoHref = '/favicon.ico';
 
 const navLinks = [
   { href: '/', label: 'Blog For Travelers' },
@@ -45,6 +47,11 @@ const isActive = (href: string) => {
     <meta property="og:type" content="website" />
     <meta property="og:url" content={canonicalUrl ?? Astro.url.toString()} />
     <meta name="twitter:card" content="summary_large_image" />
+    <link rel="icon" href={faviconIcoHref} sizes="any" />
+    <link rel="icon" href={faviconHref} sizes="32x32" type="image/png" />
+    <link rel="icon" href={faviconHref} sizes="192x192" type="image/png" />
+    <link rel="apple-touch-icon" href={faviconHref} />
+    <meta name="msapplication-TileImage" content={faviconHref} />
     {canonicalUrl && <link rel="canonical" href={canonicalUrl} />}
     <slot name="head" />
     <title>{title}</title>

@@ -19,10 +19,10 @@ interface Props {
 const { post, compact = false } = Astro.props;
 const href = post.data.path;
 const hasImage = Boolean(post.data.featuredImage);
-const categorySlug = post.data.categories[0];
-const categoryLabel = categorySlug
-  ? taxonomy.categories[categorySlug as keyof typeof taxonomy.categories] ?? categorySlug
-  : '';
+const categories = post.data.categories.map((slug: string) => ({
+  slug,
+  label: taxonomy.categories[slug as keyof typeof taxonomy.categories] ?? slug
+}));
 ---
 
 <article class:list={['post-card', compact && 'post-card--compact']}>
@@ -44,10 +44,14 @@ const categoryLabel = categorySlug
   }
 
   <div class="post-card__body">
-    {categorySlug && (
-      <a class="post-card__category" href={`/category/${categorySlug}/`}>
-        {categoryLabel}
-      </a>
+    {categories.length > 0 && (
+      <div class="post-card__categories">
+        {categories.map((category) => (
+          <a class="post-card__category" href={`/category/${category.slug}/`}>
+            {category.label}
+          </a>
+        ))}
+      </div>
     )}
     <h2 class="post-card__title">
       <a href={href}>{post.data.title}</a>

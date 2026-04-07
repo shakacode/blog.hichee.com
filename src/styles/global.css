@@ -198,9 +198,15 @@ a:hover {
   padding: 0.9rem;
 }
 
+.post-card__categories {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+  margin-bottom: 0.45rem;
+}
+
 .post-card__category {
   display: inline-flex;
-  margin-bottom: 0.45rem;
   font-size: 0.76rem;
   font-weight: 600;
   color: var(--link);
@@ -350,6 +356,56 @@ a:hover {
   font-size: 0.84rem;
 }
 
+.article-shell--post .article-content .wp-block-getwid-video-popup {
+  margin: 1.2rem 0 1.35rem;
+}
+
+.article-shell--post .article-content .wp-block-getwid-video-popup__link {
+  display: block;
+  color: inherit;
+}
+
+.article-shell--post .article-content .wp-block-getwid-video-popup__wrapper {
+  position: relative;
+  overflow: hidden;
+  border-radius: 12px;
+  background: #0f172a;
+}
+
+.article-shell--post .article-content .wp-block-getwid-video-popup__wrapper img {
+  width: 100%;
+  height: auto;
+}
+
+.article-shell--post .article-content .wp-block-getwid-video-popup__button {
+  position: absolute;
+  inset: 0;
+  display: grid;
+  place-items: center;
+  pointer-events: none;
+}
+
+.article-shell--post .article-content .wp-block-getwid-video-popup__icon {
+  width: 72px;
+  height: 72px;
+  display: grid;
+  place-items: center;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.93);
+  box-shadow: 0 10px 28px rgba(15, 23, 42, 0.18);
+}
+
+.article-shell--post .article-content .wp-block-getwid-video-popup__icon i {
+  width: 0;
+  height: 0;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-left: 16px solid var(--link);
+  font-size: 0;
+  line-height: 0;
+  margin-left: 4px;
+}
+
 .article-shell--post .article-content :is(.addtoany_shortcode, .ultp-post-grid-block) {
   display: none !important;
 }
@@ -395,6 +451,71 @@ a:hover {
   text-align: right;
 }
 
+.similar-posts {
+  margin-top: 1.9rem;
+  padding-top: 1.35rem;
+  border-top: 1px solid var(--line);
+}
+
+.similar-posts h2 {
+  margin: 0 0 0.9rem;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--muted);
+}
+
+.similar-posts__grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.similar-post {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+
+.similar-post__image {
+  display: block;
+  aspect-ratio: 16 / 10;
+  overflow: hidden;
+  border-radius: 12px;
+  background: #eef2f7;
+}
+
+.similar-post__image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.similar-post__placeholder {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  place-items: center;
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #9aa5b5;
+}
+
+.similar-post h3 {
+  margin: 0;
+  font-size: 0.98rem;
+  line-height: 1.35;
+}
+
+.similar-post h3 a {
+  color: #111827;
+}
+
+.similar-post h3 a:hover {
+  color: var(--link);
+}
+
 .legacy-home .page-shell {
   padding-top: 1.1rem;
 }
@@ -418,6 +539,18 @@ a:hover {
   position: relative;
   overflow: hidden;
   border-radius: 6px;
+  min-height: 450px;
+  background: #0f172a;
+}
+
+.legacy-home-content .wp-block-getwid-banner__image,
+.legacy-home-content .wp-block-getwid-banner__source {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  max-width: none;
+  object-fit: cover;
 }
 
 .legacy-home-content .wp-block-getwid-banner__caption {
@@ -472,9 +605,18 @@ a:hover {
 
 .legacy-home-content .qubely-block-divider svg {
   width: 100%;
-  height: 24px;
+  height: 40px;
   display: block;
   opacity: 0.7;
+}
+
+.legacy-home-share {
+  width: min(var(--max-width), 100%);
+  margin: 1.1rem auto 0;
+}
+
+.legacy-home-share .addtoany_share_save_container {
+  margin: 0;
 }
 
 .legacy-home-content .ultp-heading-wrap {
@@ -638,6 +780,10 @@ a:hover {
   .legacy-page-content .ultp-block-c0bd32 .ultp-block-item:nth-child(1) .ultp-block-image img {
     height: auto;
   }
+
+  .similar-posts__grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
 }
 
 @media (max-width: 760px) {
@@ -679,5 +825,18 @@ a:hover {
   .legacy-home-content .ultp-block-column-4.ultp-block-items-wrap,
   .legacy-home-content .ultp-block-column-5.ultp-block-items-wrap {
     grid-template-columns: 1fr;
+  }
+
+  .similar-posts__grid {
+    grid-template-columns: 1fr;
+  }
+
+  .article-shell--post .article-content .wp-block-getwid-video-popup__icon {
+    width: 64px;
+    height: 64px;
+  }
+
+  .legacy-home-content .wp-block-getwid-banner__wrapper {
+    min-height: 320px;
   }
 }
