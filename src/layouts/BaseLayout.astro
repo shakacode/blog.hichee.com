@@ -1,5 +1,6 @@
 ---
 import '../styles/global.css';
+import { normalizeWpUploadUrl } from '../lib/media';
 
 interface Props {
   title: string;
@@ -22,6 +23,7 @@ const canonicalUrl = canonical ? new URL(canonical, site).toString() : undefined
 const currentPath = Astro.url.pathname;
 const faviconHref = '/favicon.png';
 const faviconIcoHref = '/favicon.ico';
+const brandImageSrc = normalizeWpUploadUrl('https://blog.hichee.com/wp-content/uploads/2022/07/hichee-logo-64-pix-1.jpg');
 
 const navLinks = [
   { href: '/', label: 'Blog For Travelers' },
@@ -61,7 +63,7 @@ const isActive = (href: string) => {
       <div class="container nav-wrap">
         <a href="/" class="brand">
           <img
-            src="https://blog.hichee.com/wp-content/uploads/2022/07/hichee-logo-64-pix-1.jpg"
+            src={brandImageSrc}
             alt="HiChee"
             width="123"
             height="64"

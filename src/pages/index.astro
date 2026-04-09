@@ -1,6 +1,7 @@
 ---
 import { getCollection } from 'astro:content';
 import BaseLayout from '../layouts/BaseLayout.astro';
+import { rewriteWpUploadsInHtml } from '../lib/media';
 
 const pages = (await getCollection('pages')).filter((entry) => !entry.data.draft && entry.data.status === 'publish');
 const homePage = pages.find((entry) => entry.data.wordpressId === 156 || entry.data.path === '/the-hichee-blog/');
@@ -17,7 +18,7 @@ function rewriteHomeHtml(body: string): string {
   });
 
   // Preserve homepage visual parity by avoiding deferred image paint in static blocks.
-  return rewrittenLinks.replace(/\sloading=(["'])lazy\1/gi, '');
+  return rewriteWpUploadsInHtml(rewrittenLinks).replace(/\sloading=(["'])lazy\1/gi, '');
 }
 
 function rewriteInternalHref(pathValue: string): string | null {

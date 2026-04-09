@@ -1,5 +1,6 @@
 ---
 import taxonomy from '../data/taxonomy.json';
+import { normalizeWpUploadUrl } from '../lib/media';
 
 interface Props {
   post: {
@@ -18,7 +19,8 @@ interface Props {
 
 const { post, compact = false } = Astro.props;
 const href = post.data.path;
-const hasImage = Boolean(post.data.featuredImage);
+const featuredImage = normalizeWpUploadUrl(post.data.featuredImage);
+const hasImage = Boolean(featuredImage);
 const categories = post.data.categories.map((slug: string) => ({
   slug,
   label: taxonomy.categories[slug as keyof typeof taxonomy.categories] ?? slug
@@ -31,7 +33,7 @@ const categories = post.data.categories.map((slug: string) => ({
       <a class="post-card__media" href={href} aria-label={post.data.title}>
         {hasImage ? (
           <img
-            src={post.data.featuredImage}
+            src={featuredImage}
             alt={post.data.featuredImageAlt ?? post.data.title}
             loading="lazy"
             decoding="async"

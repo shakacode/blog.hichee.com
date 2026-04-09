@@ -18,3 +18,7 @@ dist
 # Playwright artifacts
 /playwright-report
 /test-results
+/.playwright-cli
+
+# Local QA artifacts
+/output

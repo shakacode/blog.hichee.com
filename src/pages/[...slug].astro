@@ -5,6 +5,7 @@ import taxonomy from '../data/taxonomy.json';
 import legacySimilarBlocksByRoute from '../data/legacy-similar-blocks.json';
 import legacyRelatedPostsByRouteRaw from '../data/legacy-related-posts.json';
 import authorPostPaths from '../data/author-post-paths.json';
+import { normalizeWpUploadUrl, rewriteWpUploadsInHtml } from '../lib/media';
 
 export async function getStaticPaths() {
   const allEntries = [
@@ -103,7 +104,8 @@ const legacySimilarBlocks = legacySimilarBlocksByRoute as Record<string, string>
 const legacyRelatedPostsByRoute = legacyRelatedPostsByRouteRaw as Record<string, string[]>;
 const hasEmbeddedAuthorBox = /saboxplugin-wrap/i.test(rewrittenPostHtml || entry.body);
 const hasInlineMedia = /<(img|figure|iframe|video)\b/i.test(rewrittenPostHtml || entry.body);
-const shouldRenderFeaturedImage = Boolean(entry.data.featuredImage) && !hasInlineMedia;
+const featuredImage = normalizeWpUploadUrl(entry.data.featuredImage);
+const shouldRenderFeaturedImage = Boolean(featuredImage) && !hasInlineMedia;
 
 const tiffanyAuthorBioRoutes = new Set([
   '/9-most-unique-rentals-you-can-find-in-the-us/',
@@ -216,6 +218,7 @@ function extractPostHtmlFromMdx(body: string): string | null {
 function normalizeContentHtml(body: string, currentPath: string, stripLazyLoading: boolean): string {
   let html = rewriteInternalLinks(body, currentPath);
   html = repairInPageHashLinks(html);
+  html = rewriteWpUploadsInHtml(html);
 
   // Remove WordPress author-box admin controls that should never be public.
   html = html.replace(
@@ -478,11 +481,11 @@ function normalizeLegacySimilarBlockHtml(blockHtml: string, currentPath: string)
 }
 
 function buildTiffanyAuthorBoxHtml(): string {
-  return `<div class="saboxplugin-wrap" itemtype="http://schema.org/Person" itemscope="" itemprop="author"><div class="saboxplugin-tab"><div class="saboxplugin-gravatar"><img decoding="async" src="https://blog.hichee.com/wp-content/uploads/2023/07/Screenshot-2023-07-17-at-09.20.40.png" width="100" height="100" alt="Tiffany Mae" itemprop="image"></div><div class="saboxplugin-authorname"><a href="/author/tiffany/" class="vcard author" rel="author"><span class="fn">Tiffany Martin</span></a></div><div class="saboxplugin-desc"><div itemprop="description"><p>Tiffany Martin, a 33-year-old travel content contributor based in Manila, Philippines, brings the world’s beauty to your screen through her writing, narrating the best places in the globe with a charm that resonates.</p><p>Aside from being a travel writer and an all-around digital nomad, she’s also a wifey, a mom to two girls, and a licensed educator. During her downtime, she loves traveling, cooking, and playing with her energetic Dachshund and cuddly Golden Malinois.</p></div></div><div class="clearfix"></div></div></div>`;
+  return `<div class="saboxplugin-wrap" itemtype="http://schema.org/Person" itemscope="" itemprop="author"><div class="saboxplugin-tab"><div class="saboxplugin-gravatar"><img decoding="async" src="/wp-content/uploads/2023/07/Screenshot-2023-07-17-at-09.20.40.png" width="100" height="100" alt="Tiffany Mae" itemprop="image"></div><div class="saboxplugin-authorname"><a href="/author/tiffany/" class="vcard author" rel="author"><span class="fn">Tiffany Martin</span></a></div><div class="saboxplugin-desc"><div itemprop="description"><p>Tiffany Martin, a 33-year-old travel content contributor based in Manila, Philippines, brings the world’s beauty to your screen through her writing, narrating the best places in the globe with a charm that resonates.</p><p>Aside from being a travel writer and an all-around digital nomad, she’s also a wifey, a mom to two girls, and a licensed educator. During her downtime, she loves traveling, cooking, and playing with her energetic Dachshund and cuddly Golden Malinois.</p></div></div><div class="clearfix"></div></div></div>`;
 }
 
 function buildAlanAuthorBoxHtml(): string {
-  return `<div class="saboxplugin-wrap" itemtype="http://schema.org/Person" itemscope="" itemprop="author"><div class="saboxplugin-tab"><div class="saboxplugin-gravatar"><img decoding="async" src="https://blog.hichee.com/wp-content/uploads/2022/07/hichee-logo-64-pix-1.jpg" width="100" height="100" alt="Alan Egan" itemprop="image"></div><div class="saboxplugin-authorname"><a href="/author/alan/" class="vcard author" rel="author"><span class="fn">Alan Egan</span></a></div><div class="saboxplugin-desc"><div itemprop="description"><p>Alan has been working in the vacation rental sector since 2004 and has written hundreds of articles for hosts and travelers.</p><p>His focus is practical travel and hosting advice that helps readers save money and book with confidence.</p></div></div><div class="clearfix"></div></div></div>`;
+  return `<div class="saboxplugin-wrap" itemtype="http://schema.org/Person" itemscope="" itemprop="author"><div class="saboxplugin-tab"><div class="saboxplugin-gravatar"><img decoding="async" src="/wp-content/uploads/2022/07/hichee-logo-64-pix-1.jpg" width="100" height="100" alt="Alan Egan" itemprop="image"></div><div class="saboxplugin-authorname"><a href="/author/alan/" class="vcard author" rel="author"><span class="fn">Alan Egan</span></a></div><div class="saboxplugin-desc"><div itemprop="description"><p>Alan has been working in the vacation rental sector since 2004 and has written hundreds of articles for hosts and travelers.</p><p>His focus is practical travel and hosting advice that helps readers save money and book with confidence.</p></div></div><div class="clearfix"></div></div></div>`;
 }
 
 function inferAuthorName(route: string, body: string, legacyAuthorSlug: string, tiffanyRoutes: Set<string>): string {
@@ -705,7 +708,7 @@ function countSetOverlap(values: Iterable<string>, comparisonSet: Set<string>): 
 
       {shouldRenderFeaturedImage && (
         <img
-          src={entry.data.featuredImage}
+          src={featuredImage}
           alt={entry.data.featuredImageAlt ?? entry.data.title}
           loading="lazy"
           decoding="async"
@@ -730,7 +733,7 @@ function countSetOverlap(values: Iterable<string>, comparisonSet: Set<string>): 
                 <a class="similar-post__image" href={post.href}>
                   {post.post.data.featuredImage ? (
                     <img
-                      src={post.post.data.featuredImage}
+                      src={normalizeWpUploadUrl(post.post.data.featuredImage)}
                       alt={post.post.data.featuredImageAlt ?? post.post.data.title}
                       loading="lazy"
                       decoding="async"
