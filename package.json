@@ -13,6 +13,9 @@
     "migrate:convert:rest": "node scripts/convert-rest-to-content.mjs",
     "migrate:related:legacy": "node scripts/extract-legacy-related-posts.mjs",
     "migrate:media:manifest": "node scripts/build-media-manifest.mjs",
+    "migrate:media:manifest:site": "node scripts/build-wp-content-manifest.mjs",
+    "migrate:media:sync:r2": "node scripts/sync-wp-content-to-r2.mjs",
+    "audit:media:parity": "node scripts/audit-wp-content-parity.mjs",
     "migrate:drafts:issues": "node scripts/create-draft-issues.mjs"
   },
   "dependencies": {

@@ -260,6 +260,15 @@ a:hover {
   margin-top: 0.65rem;
 }
 
+/* Static migration: the legacy Ultimate Post loaders/controls never hydrate on Astro Pages. */
+.ultp-post-grid-block .ultp-loading,
+.ultp-post-grid-block .ultp-next-prev-wrap,
+.ultp-post-grid-block .ultp-loadmore,
+.ultp-post-grid-block .ultp-pagination-wrap,
+.ultp-post-grid-block .pagination-block-html {
+  display: none !important;
+}
+
 .article-header h1 {
   margin: 0.65rem 0 0;
   font-size: clamp(1.8rem, 1.25rem + 2.1vw, 2.9rem);

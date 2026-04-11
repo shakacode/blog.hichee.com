@@ -1,0 +1,16 @@
+{
+  "name": "blog-hichee-com",
+  "pages_build_output_dir": "dist",
+  "compatibility_date": "2026-02-24",
+  "vars": {
+    "NODE_VERSION": "22",
+    "YARN_ENABLE_IMMUTABLE_INSTALLS": "false",
+    "LEGACY_MEDIA_ORIGIN": ""
+  },
+  "r2_buckets": [
+    {
+      "binding": "BLOG_MEDIA",
+      "bucket_name": "blog-hichee-com-media"
+    }
+  ]
+}
