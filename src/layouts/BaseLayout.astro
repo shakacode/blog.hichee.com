@@ -71,20 +71,27 @@ const isActive = (href: string) => {
           />
           <span class="brand__name">The HiChee Blog and Travel Guide</span>
         </a>
-        <nav class="top-nav" aria-label="Primary">
-          {
-            navLinks.map((link) => (
-              <a
-                class:list={['top-nav__link', isActive(link.href) && 'is-active']}
-                href={link.href}
-                target={link.href.startsWith('http') ? '_blank' : undefined}
-                rel={link.href.startsWith('http') ? 'noreferrer' : undefined}
-              >
-                {link.label}
-              </a>
-            ))
-          }
-        </nav>
+        <details class="top-nav-disclosure">
+          <summary class="top-nav-toggle" aria-label="Toggle navigation">
+            <span></span>
+            <span></span>
+            <span></span>
+          </summary>
+          <nav class="top-nav" aria-label="Primary">
+            {
+              navLinks.map((link) => (
+                <a
+                  class:list={['top-nav__link', isActive(link.href) && 'is-active']}
+                  href={link.href}
+                  target={link.href.startsWith('http') ? '_blank' : undefined}
+                  rel={link.href.startsWith('http') ? 'noreferrer' : undefined}
+                >
+                  {link.label}
+                </a>
+              ))
+            }
+          </nav>
+        </details>
       </div>
     </header>
     <main id="main" class="container page-shell">

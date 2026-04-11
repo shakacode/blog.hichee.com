@@ -76,6 +76,15 @@ a:hover {
   flex-wrap: wrap;
 }
 
+.top-nav-disclosure {
+  display: flex;
+  align-items: center;
+}
+
+.top-nav-toggle {
+  display: none;
+}
+
 .top-nav__link {
   font-size: 0.83rem;
   font-weight: 600;
@@ -797,11 +806,14 @@ a:hover {
 
 @media (max-width: 760px) {
   .nav-wrap {
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: center;
+    align-items: center;
     gap: 0.65rem;
     padding: 0.65rem 0;
+  }
+
+  .brand {
+    min-width: 0;
+    flex: 1 1 auto;
   }
 
   .brand img {
@@ -810,6 +822,87 @@ a:hover {
 
   .brand__name {
     font-size: 0.88rem;
+  }
+
+  .top-nav-disclosure {
+    margin-left: auto;
+    position: relative;
+    flex: 0 0 auto;
+  }
+
+  .top-nav-toggle {
+    width: 44px;
+    height: 44px;
+    display: grid;
+    place-items: center;
+    gap: 0.22rem;
+    list-style: none;
+    cursor: pointer;
+    border: 1px solid var(--line);
+    border-radius: 999px;
+    background: #fff;
+  }
+
+  .top-nav-toggle::-webkit-details-marker {
+    display: none;
+  }
+
+  .top-nav-toggle span {
+    width: 17px;
+    height: 2px;
+    border-radius: 999px;
+    background: var(--text);
+    transition: transform 0.18s ease, opacity 0.18s ease;
+  }
+
+  .top-nav-disclosure[open] .top-nav-toggle span:nth-child(1) {
+    transform: translateY(4px) rotate(45deg);
+  }
+
+  .top-nav-disclosure[open] .top-nav-toggle span:nth-child(2) {
+    opacity: 0;
+  }
+
+  .top-nav-disclosure[open] .top-nav-toggle span:nth-child(3) {
+    transform: translateY(-4px) rotate(-45deg);
+  }
+
+  .top-nav {
+    position: absolute;
+    top: calc(100% + 0.55rem);
+    right: 0;
+    min-width: 230px;
+    display: none;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0.35rem;
+    padding: 0.55rem;
+    border: 1px solid var(--line);
+    border-radius: 12px;
+    background: #fff;
+    box-shadow: 0 18px 36px rgba(15, 23, 42, 0.12);
+    z-index: 20;
+  }
+
+  .top-nav-disclosure[open] .top-nav {
+    display: flex;
+  }
+
+  .top-nav__link {
+    display: block;
+    padding: 0.6rem 0.72rem;
+    border-radius: 10px;
+    font-size: 0.8rem;
+  }
+
+  .top-nav__link.is-active {
+    background: #fdf2f4;
+  }
+
+  .top-nav__link[target="_blank"] {
+    width: 100%;
+    justify-content: center;
+    text-align: center;
   }
 
   .page-shell {
