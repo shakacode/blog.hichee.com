@@ -48,25 +48,39 @@ export async function getStaticPaths() {
     })
     .filter(Boolean);
 
-  return [...contentPaths, ...aliasPaths];
+  const hostsPageEntry = byPath.get('/hichee-blog-for-hosts/');
+  const paginatedLegacyPagePaths = hostsPageEntry
+    ? [
+        {
+          params: { slug: 'hichee-blog-for-hosts/page/2' },
+          props: { entry: hostsPageEntry, legacyPageNumber: 2 }
+        }
+      ]
+    : [];
+
+  return [...contentPaths, ...aliasPaths, ...paginatedLegacyPagePaths];
 }
 
-const { entry } = Astro.props;
+const { entry, legacyPageNumber = 1 } = Astro.props;
 const { Content } = await render(entry);
-const canonical = entry.data.path;
+const currentPathname = Astro.url.pathname;
 const isPost = entry.data.contentType === 'post';
 const isLegacyPage = entry.data.contentType === 'page';
 const isHostsLandingPage = entry.data.path === '/hichee-blog-for-hosts/';
+const canonical = isHostsLandingPage && legacyPageNumber > 1 ? currentPathname : entry.data.path;
 const legacyTitleSuffix = ' - The HiChee Blog and Travel Guide';
 const pageTitle = isLegacyPage && !entry.data.title.endsWith(legacyTitleSuffix)
   ? `${entry.data.title}${legacyTitleSuffix}`
   : entry.data.title;
-const legacyPageHtml = isLegacyPage ? rewriteLegacyPageHtml(entry.body, entry.data.path) : '';
+const legacyPageHtml = isLegacyPage ? rewriteLegacyPageHtml(entry.body, entry.data.path, legacyPageNumber) : '';
 const rewrittenPostHtml = isPost ? rewritePostHtml(entry.body, entry.data.path) : '';
 const shouldUseRewrittenPostHtml = isPost && Boolean(rewrittenPostHtml);
-const shareHtml = (isHostsLandingPage || isPost) ? buildAddToAnyShareHtml(entry.data.title, entry.data.path) : '';
+const site = Astro.site?.toString() ?? 'https://newblog.hichee.com';
+const shareHtml = (isHostsLandingPage || isPost) ? buildAddToAnyShareHtml(entry.data.title, entry.data.path, site) : '';
+const baseLegacyPageBodyClass =
+  'legacy-home legacy-page wp-theme-kadence wp-custom-logo wp-embed-responsive qubely qubely-frontend postx-page footer-on-bottom hide-focus-outline link-style-standard content-title-style-hide content-width-normal content-style-boxed content-vertical-padding-hide non-transparent-header mobile-non-transparent-header';
 const pageBodyClass = isLegacyPage
-  ? 'legacy-home legacy-page wp-theme-kadence wp-custom-logo wp-embed-responsive qubely qubely-frontend postx-page footer-on-bottom hide-focus-outline link-style-standard content-title-style-hide content-width-normal content-style-boxed content-vertical-padding-hide non-transparent-header mobile-non-transparent-header'
+  ? `${baseLegacyPageBodyClass}${legacyPageNumber > 1 ? ` paged paged-${legacyPageNumber} page-paged-${legacyPageNumber}` : ''}`
   : '';
 
 const publishedPosts = (await getCollection('posts'))
@@ -158,16 +172,13 @@ const relatedPosts = isPost
   : [];
 const shouldRenderRelatedPosts = isPost && relatedPosts.length > 0;
 
-function rewriteLegacyPageHtml(body: string, currentPath: string): string {
-  let html = normalizeContentHtml(body, currentPath, true);
+function getHostsPage2SoftwareBlockHtml(): string {
+  return String.raw`<div class="ultp-post-grid-block wp-block-ultimate-post-post-grid-1 ultp-block-4e76f3"><div class="ultp-block-wrapper"><div class="ultp-heading-filter"><div class="ultp-heading-filter-in"><div class="ultp-filter-navigation"></div></div></div><div class="ultp-block-items-wrap ultp-block-row ultp-pg1a-style1 ultp-block-column-3 ultp-layout1"><div class="ultp-block-item post-id-4793"><div class="ultp-block-content-wrap"><div class="ultp-block-image ultp-block-image-opacity"><a href="https://blog.hichee.com/top-7-best-vacation-rental-channel-managers-in-2022/"><img decoding="async" alt="Top 7 Best Vacation Rental Channel Managers in 2022" src="https://blog.hichee.com/wp-content/uploads/2022/11/Top-7-Best-Vacation-Rental-Channel-Managers-in-2022-870x570.jpg" /></a></div><div class="ultp-block-content"><h3 class="ultp-block-title"><a href="https://blog.hichee.com/top-7-best-vacation-rental-channel-managers-in-2022/">Top 7 Best Vacation Rental Channel Managers in 2022</a></h3></div></div></div></div><div class="ultp-pagination-wrap ultp-pagination-ajax-action" data-paged="2" data-expost="" data-blockid="4e76f3" data-postid="2225" data-pages="2" data-blockname="ultimate-post_post-grid-1" data-selfpostid="yes"><ul class="ultp-pagination"><li class="ultp-prev-page-numbers"><a href="https://blog.hichee.com/hichee-blog-for-hosts/">Previous</a></li><li class="ultp-center-item" data-current="1"><a href="https://blog.hichee.com/hichee-blog-for-hosts/">1</a></li><li class="ultp-center-item pagination-active" data-current="2"><a href="https://blog.hichee.com/hichee-blog-for-hosts/page/2/">2</a></li></ul></div></div><div class="pagination-block-html" aria-hidden="true" style="display: none;"></div></div>`;
+}
 
-  if (normalizeRoutePath(currentPath) === '/hichee-blog-for-hosts/') {
-    html = html.replace(
-      /<div[^>]*class=(["'])[^"']*\bultp-pagination-wrap\b[^"']*\1[^>]*>[\s\S]*?<div[^>]*class=(["'])pagination-block-html\2[^>]*>\s*<\/div>\s*<\/div>/gi,
-      ''
-    );
-  }
-
+function rewriteLegacyPageHtml(body: string, currentPath: string, pageNumber: number): string {
+  let html = applyLegacyPageVariant(body, currentPath, pageNumber);
+  html = normalizeContentHtml(html, currentPath, true);
   return html;
 }
 
@@ -421,28 +432,48 @@ function rewriteInternalPathValue(pathValue: string, currentPath: string): strin
   return `${normalizedPath}${parsed.search}${parsed.hash}`;
 }
 
-function buildAddToAnyShareHtml(title: string, path: string): string {
+function buildAddToAnyShareHtml(title: string, path: string, siteUrl: string): string {
   const normalizedPath = path.endsWith('/') ? path : `${path}/`;
-  const shareUrl = `https://blog.hichee.com${normalizedPath}`;
+  const shareUrl = new URL(normalizedPath, siteUrl).toString();
   const linkUrl = encodeURIComponent(shareUrl);
   const linkName = encodeURIComponent(title);
   const escapedTitle = title.replace(/&/g, '&amp;').replace(/"/g, '&quot;');
   const channels = [
-    { channel: 'facebook', label: 'Facebook' },
-    { channel: 'twitter', label: 'Twitter' },
-    { channel: 'pinterest', label: 'Pinterest' },
-    { channel: 'whatsapp', label: 'WhatsApp' },
-    { channel: 'email', label: 'Email' }
+    { channel: 'facebook', label: 'Facebook', glyph: 'f' },
+    { channel: 'twitter', label: 'Twitter', glyph: 't' },
+    { channel: 'pinterest', label: 'Pinterest', glyph: 'p' },
+    { channel: 'whatsapp', label: 'WhatsApp', glyph: 'w' },
+    { channel: 'email', label: 'Email', glyph: '@' },
+    { channel: 'share', label: 'Share', glyph: '+' }
   ];
 
   const socialLinks = channels
     .map(
-      (item) =>
-        `<a class="a2a_button_${item.channel}" href="https://www.addtoany.com/add_to/${item.channel}?linkurl=${linkUrl}&linkname=${linkName}" title="${item.label}" rel="nofollow noopener" target="_blank"></a>`
+      (item) => {
+        const href = item.channel === 'share'
+          ? `https://www.addtoany.com/share#url=${linkUrl}&title=${linkName}`
+          : `https://www.addtoany.com/add_to/${item.channel}?linkurl=${linkUrl}&linkname=${linkName}`;
+        return `<a class="a2a_button_${item.channel} legacy-share-link legacy-share-link--${item.channel}" href="${href}" title="${item.label}" aria-label="${item.label}" rel="nofollow noopener" target="_blank"><span class="legacy-share-link__glyph" aria-hidden="true">${item.glyph}</span></a>`;
+      }
     )
     .join('');
 
-  return `<div class="addtoany_share_save_container addtoany_content addtoany_content_bottom"><div class="a2a_kit a2a_kit_size_32 addtoany_list" data-a2a-url="${shareUrl}" data-a2a-title="${escapedTitle}">${socialLinks}<a class="a2a_dd addtoany_share_save addtoany_share" href="https://www.addtoany.com/share"></a></div></div>`;
+  return `<div class="addtoany_share_save_container addtoany_content addtoany_content_bottom"><div class="a2a_kit a2a_kit_size_32 addtoany_list legacy-share-list" data-a2a-url="${shareUrl}" data-a2a-title="${escapedTitle}">${socialLinks}</div></div>`;
+}
+
+function applyLegacyPageVariant(body: string, currentPath: string, pageNumber: number): string {
+  if (normalizeRoutePath(currentPath) !== '/hichee-blog-for-hosts/' || pageNumber <= 1) {
+    return body;
+  }
+
+  if (pageNumber === 2) {
+    return body.replace(
+      /<div\s+class="ultp-post-grid-block[^"]*\bultp-block-4e76f3\b[^"]*"[^>]*>[\s\S]*?<div\s+class="pagination-block-html"[^>]*>\s*<\/div>\s*<\/div>/i,
+      getHostsPage2SoftwareBlockHtml()
+    );
+  }
+
+  return body;
 }
 
 function normalizeLegacySimilarBlockHtml(blockHtml: string, currentPath: string): string {
@@ -678,7 +709,7 @@ function countSetOverlap(values: Iterable<string>, comparisonSet: Set<string>): 
   )}
 
   {isLegacyPage ? (
-    <article class="legacy-home-content legacy-page-content">
+    <article class:list={['legacy-home-content', 'legacy-page-content', isHostsLandingPage && 'legacy-page-content--hosts']}>
       <Fragment set:html={legacyPageHtml} />
       {shareHtml && <Fragment set:html={shareHtml} />}
     </article>

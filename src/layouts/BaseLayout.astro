@@ -31,6 +31,32 @@ const navLinks = [
   { href: 'https://hichee.com/', label: 'Main Site' }
 ];
 
+const footerSections = [
+  {
+    title: 'HiChee',
+    links: [
+      { href: 'https://hichee.com/about', label: 'About' },
+      { href: '/', label: 'Blog' },
+      { href: 'https://www.shakacode.com/career/', label: 'Career' },
+      { href: 'https://hichee.com/privacy-policy', label: 'Privacy Policy' },
+      { href: 'https://hichee.com/terms-of-service', label: 'Terms Of Service' }
+    ]
+  },
+  {
+    title: 'Hosting',
+    links: [
+      { href: 'https://hichee.com/hosts', label: 'Boost Direct Bookings' },
+      { href: 'https://hichee.com/listing-verification', label: 'Verify Your Listing' },
+      { href: '/hichee-blog-for-hosts/', label: 'Blog For Hosts' },
+      { label: 'HiChee Support' }
+    ]
+  },
+  {
+    title: 'For Travelers',
+    links: [{ href: 'https://hichee.com/contact-host', label: 'Contact Host' }]
+  }
+];
+
 const isActive = (href: string) => {
   if (href.startsWith('http')) return false;
   if (href === '/') return currentPath === '/' || currentPath === '/the-hichee-blog/';
@@ -71,13 +97,27 @@ const isActive = (href: string) => {
           />
           <span class="brand__name">The HiChee Blog and Travel Guide</span>
         </a>
+        <nav class="top-nav top-nav--desktop" aria-label="Primary">
+          {
+            navLinks.map((link) => (
+              <a
+                class:list={['top-nav__link', isActive(link.href) && 'is-active']}
+                href={link.href}
+                target={link.href.startsWith('http') ? '_blank' : undefined}
+                rel={link.href.startsWith('http') ? 'noreferrer' : undefined}
+              >
+                {link.label}
+              </a>
+            ))
+          }
+        </nav>
         <details class="top-nav-disclosure">
           <summary class="top-nav-toggle" aria-label="Toggle navigation">
             <span></span>
             <span></span>
             <span></span>
           </summary>
-          <nav class="top-nav" aria-label="Primary">
+          <nav class="top-nav top-nav--mobile" aria-label="Primary">
             {
               navLinks.map((link) => (
                 <a
@@ -99,18 +139,34 @@ const isActive = (href: string) => {
     </main>
     {!suppressFooter && (
       <footer class="site-footer">
-        <div class="container footer-wrap">
-          <div>
-            <strong>HiChee</strong>
-            <p>
-              <a href="https://hichee.com/about" target="_blank" rel="noreferrer">About</a>
-              {' · '}
-              <a href="https://hichee.com/privacy-policy" target="_blank" rel="noreferrer">Privacy Policy</a>
-              {' · '}
-              <a href="https://hichee.com/terms-of-service" target="_blank" rel="noreferrer">Terms Of Service</a>
-            </p>
+        <div class="container site-footer__inner">
+          <div class="site-footer__grid">
+            {
+              footerSections.map((section) => (
+                <section class="site-footer__section">
+                  <h2>{section.title}</h2>
+                  <div class="site-footer__links">
+                    {
+                      section.links.map((link) =>
+                        link.href ? (
+                          <a
+                            href={link.href}
+                            target={link.href.startsWith('http') ? '_blank' : undefined}
+                            rel={link.href.startsWith('http') ? 'noreferrer' : undefined}
+                          >
+                            {link.label}
+                          </a>
+                        ) : (
+                          <span>{link.label}</span>
+                        )
+                      )
+                    }
+                  </div>
+                </section>
+              ))
+            }
           </div>
-          <p>© {new Date().getFullYear()} HiChee.com. All rights reserved.</p>
+          <p class="site-footer__copyright">© 2024 HiChee.com. All rights reserved.</p>
         </div>
       </footer>
     )}

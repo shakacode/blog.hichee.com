@@ -5,6 +5,7 @@ import { rewriteWpUploadsInHtml } from '../lib/media';
 
 const pages = (await getCollection('pages')).filter((entry) => !entry.data.draft && entry.data.status === 'publish');
 const homePage = pages.find((entry) => entry.data.wordpressId === 156 || entry.data.path === '/the-hichee-blog/');
+const site = Astro.site?.toString() ?? 'https://newblog.hichee.com';
 
 const legacyHomeHtml = homePage ? rewriteHomeHtml(homePage.body) : '';
 const homeShareHtml = homePage ? buildHomeShareHtml(homePage.data.title) : '';
@@ -35,26 +36,31 @@ function rewriteInternalHref(pathValue: string): string | null {
 }
 
 function buildHomeShareHtml(title: string): string {
-  const shareUrl = 'https://blog.hichee.com/';
+  const shareUrl = new URL('/', site).toString();
   const linkUrl = encodeURIComponent(shareUrl);
   const linkName = encodeURIComponent(title);
   const escapedTitle = title.replace(/&/g, '&amp;').replace(/"/g, '&quot;');
   const channels = [
-    { channel: 'facebook', label: 'Facebook' },
-    { channel: 'twitter', label: 'Twitter' },
-    { channel: 'pinterest', label: 'Pinterest' },
-    { channel: 'whatsapp', label: 'WhatsApp' },
-    { channel: 'email', label: 'Email' }
+    { channel: 'facebook', label: 'Facebook', glyph: 'f' },
+    { channel: 'twitter', label: 'Twitter', glyph: 't' },
+    { channel: 'pinterest', label: 'Pinterest', glyph: 'p' },
+    { channel: 'whatsapp', label: 'WhatsApp', glyph: 'w' },
+    { channel: 'email', label: 'Email', glyph: '@' },
+    { channel: 'share', label: 'Share', glyph: '+' }
   ];
 
   const socialLinks = channels
     .map(
-      (item) =>
-        `<a class="a2a_button_${item.channel}" href="https://www.addtoany.com/add_to/${item.channel}?linkurl=${linkUrl}&linkname=${linkName}" title="${item.label}" rel="nofollow noopener" target="_blank"></a>`
+      (item) => {
+        const href = item.channel === 'share'
+          ? `https://www.addtoany.com/share#url=${linkUrl}&title=${linkName}`
+          : `https://www.addtoany.com/add_to/${item.channel}?linkurl=${linkUrl}&linkname=${linkName}`;
+        return `<a class="a2a_button_${item.channel} legacy-share-link legacy-share-link--${item.channel}" href="${href}" title="${item.label}" aria-label="${item.label}" rel="nofollow noopener" target="_blank"><span class="legacy-share-link__glyph" aria-hidden="true">${item.glyph}</span></a>`;
+      }
     )
     .join('');
 
-  return `<div class="addtoany_share_save_container addtoany_content addtoany_content_bottom"><div class="a2a_kit a2a_kit_size_32 addtoany_list" data-a2a-url="${shareUrl}" data-a2a-title="${escapedTitle}">${socialLinks}<a class="a2a_dd addtoany_share_save addtoany_share" href="https://www.addtoany.com/share"></a></div></div>`;
+  return `<div class="addtoany_share_save_container addtoany_content addtoany_content_bottom"><div class="a2a_kit a2a_kit_size_32 addtoany_list legacy-share-list" data-a2a-url="${shareUrl}" data-a2a-title="${escapedTitle}">${socialLinks}</div></div>`;
 }
 ---
 
