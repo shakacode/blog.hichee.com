@@ -38,3 +38,12 @@ CLOUDFLARE_ACCOUNT_ID=<account-id> yarn migrate:media:sync:r2
 - Before DNS cutover, `newblog.hichee.com` and preview branches can safely fall back to the current live `https://blog.hichee.com` for missing media.
 - Before moving `blog.hichee.com` to the new Pages site, create a backup hostname for the old WordPress instance, then set `LEGACY_MEDIA_ORIGIN` to that backup hostname and redeploy.
 - After cutover, keep the backup hostname online until the R2 bucket has warmed or a full bulk sync is complete.
+
+## Latest Validation
+
+As of 2026-04-23:
+
+- Built-site media manifest contains 21,002 unique `/wp-content/*` keys.
+- Full parity against `https://blog.hichee.com` and `https://newblog.hichee.com` found no final status or content-type regressions after transient retries.
+- Generated `dist/` output contains no absolute `blog.hichee.com/wp-content` references; public pages use root-relative media URLs.
+- Cutover is still blocked until `LEGACY_MEDIA_ORIGIN` points at a verified backup WordPress hostname, because once `blog.hichee.com` serves the Pages site it can no longer be used as the fallback origin for missing R2 objects.

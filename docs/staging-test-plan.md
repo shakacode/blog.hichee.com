@@ -1,7 +1,7 @@
 # Staging Test Plan (newblog.hichee.com)
 
-Current preview deployment: `https://0c10c0d4.blog-hichee-com-git.pages.dev`  
-Custom domain status: `newblog.hichee.com` pending DNS CNAME verification.
+Current production deployment: `https://47bd19d6.blog-hichee-com-git.pages.dev`
+Current custom domain status: `newblog.hichee.com` is live on the Cloudflare Pages project.
 
 ## 1) Content Parity
 
@@ -41,11 +41,14 @@ Custom domain status: `newblog.hichee.com` pending DNS CNAME verification.
 - No major SEO regressions.
 - Cutover and rollback commands prepared and rehearsed.
 
-## Current Execution Status (2026-02-24)
+## Current Execution Status (2026-04-23)
 
 - [x] Astro build succeeds locally (`yarn build`).
 - [x] Pages deployment succeeds (`blog-hichee-com`).
-- [x] Root path returns `200` on preview.
-- [x] Sample migrated article paths return `200` on preview.
-- [ ] `newblog.hichee.com` returns `200` (waiting for CNAME DNS record).
-- [ ] Full SEO/asset QA sweep completed.
+- [x] Root path returns `200` on `newblog.hichee.com`.
+- [x] Sample migrated article paths return `200` on `newblog.hichee.com`.
+- [x] `newblog.hichee.com` returns `200`.
+- [x] Full generated-route HTTP sweep completed: 713 generated routes checked, with only intentional redirects.
+- [x] Full media parity completed: 21,002 `/wp-content/*` keys checked with no final status or content-type regressions.
+- [x] Mobile and desktop smoke checks passed for home, host page, author archives, legacy aliases, pagination, share controls, and media.
+- [ ] Final DNS cutover is blocked until the old WordPress origin has a backup hostname and Pages production `LEGACY_MEDIA_ORIGIN` points to it.

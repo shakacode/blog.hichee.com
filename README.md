@@ -18,8 +18,9 @@ yarn dev
 
 ## Deployment Setup (Cloudflare Pages)
 
-Project: `blog-hichee-com`  
+Project: `blog-hichee-com`
 Current Pages URL: `https://blog-hichee-com-git.pages.dev`
+Current staging/cutover URL: `https://newblog.hichee.com`
 
 This project is connected to GitHub (`shakacode/blog.hichee.com`) in Cloudflare Pages.
 
@@ -60,6 +61,7 @@ node scripts/create-draft-issues.mjs --apply
 
 ## Staging and Cutover Plan
 
-- Stage site on `newblog.hichee.com` via Cloudflare Pages.
-- Run QA checklist (links, SEO, images, page templates, redirects, performance).
+- `newblog.hichee.com` is the Cloudflare Pages staging site.
+- Run QA checklist (links, SEO, images, page templates, redirects, performance) against `newblog.hichee.com` and the current live WordPress site at `blog.hichee.com`.
 - Freeze WordPress edits, run final delta sync, then switch `blog.hichee.com`.
+- Do not switch `blog.hichee.com` until the old WordPress origin has a backup hostname and `LEGACY_MEDIA_ORIGIN` is set to that hostname in the Pages production environment.
