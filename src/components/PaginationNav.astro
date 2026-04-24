@@ -3,12 +3,15 @@ interface Props {
   basePath: string;
   currentPage: number;
   totalPages: number;
+  ariaLabel?: string;
 }
 
-const { basePath, currentPage, totalPages } = Astro.props;
+const { basePath, currentPage, totalPages, ariaLabel = 'Pagination' } = Astro.props;
 const items = totalPages > 1 ? buildItems(currentPage, totalPages) : [];
 const previousHref = totalPages > 1 && currentPage > 1 ? pageHref(basePath, currentPage - 1) : null;
 const nextHref = totalPages > 1 && currentPage < totalPages ? pageHref(basePath, currentPage + 1) : null;
+const previousPage = currentPage - 1;
+const nextPage = currentPage + 1;
 
 function buildItems(current: number, total: number) {
   const pages = new Set([1, total, current - 1, current, current + 1]);
@@ -45,11 +48,16 @@ function pageHref(rootPath: string, page: number) {
 
 {
   totalPages > 1 && (
-    <nav class="pagination-nav" aria-label="Author pages">
+    <nav class="pagination-nav" aria-label={ariaLabel}>
       <div class="pagination-nav__list">
         {
           previousHref && (
-            <a class="page-numbers page-numbers--nav" href={previousHref} rel="prev">
+            <a
+              class="page-numbers page-numbers--nav"
+              href={previousHref}
+              rel="prev"
+              aria-label={`Previous page, page ${previousPage}`}
+            >
               Previous
             </a>
           )
@@ -75,7 +83,12 @@ function pageHref(rootPath: string, page: number) {
 
         {
           nextHref && (
-            <a class="page-numbers page-numbers--nav" href={nextHref} rel="next">
+            <a
+              class="page-numbers page-numbers--nav"
+              href={nextHref}
+              rel="next"
+              aria-label={`Next page, page ${nextPage}`}
+            >
               Next
             </a>
           )

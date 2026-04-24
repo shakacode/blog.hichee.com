@@ -1,10 +1,8 @@
 import { getCollection, type CollectionEntry } from 'astro:content';
 import authorPostPaths from '../data/author-post-paths.json';
+import { canonicalizeAliasPath, normalizeRoutePath } from './routePaths';
 
 export const AUTHOR_PAGE_SIZE = 12;
-const ROUTE_ALIASES = new Map([
-  ['/where-am-i-24-2/', '/where-am-i-24/'],
-]);
 
 type AuthorProfile = {
   name: string;
@@ -13,7 +11,7 @@ type AuthorProfile = {
 
 export type AuthorArchivePost = Pick<CollectionEntry<'posts'>, 'id' | 'data'>;
 
-type AuthorArchiveEntry = {
+export type AuthorArchiveEntry = {
   slug: string;
   profile: AuthorProfile;
   posts: AuthorArchivePost[];
@@ -64,9 +62,13 @@ export async function getAuthorArchiveEntries(): Promise<AuthorArchiveEntry[]> {
 }
 
 export function getAuthorProfile(slug: string): AuthorProfile {
-  return authorProfiles[slug] ?? {
-    name: titleCaseSlug(slug),
-    bio: `Posts written by ${titleCaseSlug(slug)}.`
+  const profile = authorProfiles[slug];
+  if (profile) return profile;
+
+  const name = titleCaseSlug(slug);
+  return {
+    name,
+    bio: `Posts written by ${name}.`
   };
 }
 
@@ -85,12 +87,12 @@ function resolveArchivePost(
   route: string,
   postsByPath: Map<string, CollectionEntry<'posts'>>
 ): AuthorArchivePost | null {
-  const normalizedRoute = normalizeRoutePath(route);
+  const normalizedRoute = normalizeRoutePath(route, { canonicalize: false });
   const direct = postsByPath.get(normalizedRoute);
   if (direct) return direct;
 
-  const canonicalRoute = ROUTE_ALIASES.get(normalizedRoute);
-  if (!canonicalRoute) return null;
+  const canonicalRoute = canonicalizeAliasPath(normalizedRoute);
+  if (canonicalRoute === normalizedRoute) return null;
 
   const canonicalPost = postsByPath.get(canonicalRoute);
   if (!canonicalPost) return null;
@@ -103,13 +105,6 @@ function resolveArchivePost(
       path: normalizedRoute,
     },
   };
-}
-
-function normalizeRoutePath(inputPath: string) {
-  const raw = String(inputPath || '').replace(/%ef%bf%bc/gi, '').replace(/\uFFFC/g, '');
-  if (!raw) return '/';
-  const withLeadingSlash = raw.startsWith('/') ? raw : `/${raw}`;
-  return withLeadingSlash.endsWith('/') ? withLeadingSlash : `${withLeadingSlash}/`;
 }
 
 function titleCaseSlug(slug: string): string {

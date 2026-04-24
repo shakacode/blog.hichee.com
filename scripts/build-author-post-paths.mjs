@@ -8,6 +8,8 @@ const args = parseArgs(process.argv.slice(2));
 const outPath = path.resolve(args.out ?? 'src/data/author-post-paths.json');
 const postsDir = path.resolve(args.postsDir ?? 'src/content/posts');
 const wxrDir = path.resolve(args.wxrDir ?? 'data/raw');
+const routeAliasesPath = new URL('../src/data/route-aliases.json', import.meta.url);
+const routeAliases = JSON.parse(await fs.readFile(routeAliasesPath, 'utf8'));
 
 const AUTHOR_ALIASES = {
   Tiffany: 'tiffany',
@@ -16,9 +18,7 @@ const AUTHOR_ALIASES = {
   'Our Travel Reporter': 'our-travel-reporter',
 };
 
-const ROUTE_ALIASES = new Map([
-  ['/where-am-i-24-2/', '/where-am-i-24/'],
-]);
+const ROUTE_ALIASES = new Map(Object.entries(routeAliases));
 
 const localPosts = await loadLocalPosts(postsDir);
 const authorPathMap = await buildAuthorPathMap(wxrDir, localPosts);

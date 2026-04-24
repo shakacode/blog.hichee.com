@@ -6,6 +6,7 @@ import {
   AUTHOR_PAGE_SIZE,
   buildAuthorPagePath,
   getAuthorArchiveEntries,
+  type AuthorArchivePost,
 } from '../../lib/authorArchives';
 
 export async function getStaticPaths() {
@@ -28,7 +29,7 @@ export async function getStaticPaths() {
 const { slug, profile, posts, totalPosts, currentPage, totalPages } = Astro.props as {
   slug: string;
   profile: { name: string; bio: string };
-  posts: any[];
+  posts: AuthorArchivePost[];
   totalPosts: number;
   currentPage: number;
   totalPages: number;
@@ -64,5 +65,10 @@ const description =
     {posts.map((post) => <PostCard post={post} />)}
   </div>
 
-  <PaginationNav basePath={buildAuthorPagePath(slug, 1)} currentPage={currentPage} totalPages={totalPages} />
+  <PaginationNav
+    basePath={buildAuthorPagePath(slug, 1)}
+    currentPage={currentPage}
+    totalPages={totalPages}
+    ariaLabel="Author pages"
+  />
 </BaseLayout>

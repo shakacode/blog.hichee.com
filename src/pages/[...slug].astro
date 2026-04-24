@@ -6,15 +6,7 @@ import legacySimilarBlocksByRoute from '../data/legacy-similar-blocks.json';
 import legacyRelatedPostsByRouteRaw from '../data/legacy-related-posts.json';
 import authorPostPaths from '../data/author-post-paths.json';
 import { normalizeWpUploadUrl, rewriteWpUploadsInHtml } from '../lib/media';
-
-function canonicalizeAliasPath(route: string): string {
-  switch (route) {
-    case '/where-am-i-24-2/':
-      return '/where-am-i-24/';
-    default:
-      return route;
-  }
-}
+import { normalizeRoutePath, routeAliasEntries } from '../lib/routePaths';
 
 export async function getStaticPaths() {
   const allEntries = [
@@ -23,22 +15,6 @@ export async function getStaticPaths() {
   ];
 
   const byPath = new Map(allEntries.map((entry) => [entry.data.path, entry] as const));
-  const aliasPathToCanonicalPath = new Map<string, string>([
-    ['/where-am-i-24-2/', '/where-am-i-24/'],
-    [
-      '/best-cheap-flights-websites-nobody-is-talking-about-how-to-find-cheap-flights-2022\uFFFC/',
-      '/best-cheap-flights-websites-nobody-is-talking-about-how-to-find-cheap-flights-2022/'
-    ],
-    [
-      '/how-to-get-longer-bookings-and-monthly-bookings-on-airbnb-and-vrbo\uFFFC/',
-      '/how-to-get-longer-bookings-and-monthly-bookings-on-airbnb-and-vrbo/'
-    ],
-    [
-      '/youll-lose-thousands-hosting-on-airbnb-if-you-do-this\uFFFC/',
-      '/youll-lose-thousands-hosting-on-airbnb-if-you-do-this/'
-    ]
-  ]);
-
   const contentPaths = allEntries
     .filter((entry) => entry.data.path !== '/')
     .map((entry) => ({
@@ -46,7 +22,7 @@ export async function getStaticPaths() {
       props: { entry }
     }));
 
-  const aliasPaths = [...aliasPathToCanonicalPath.entries()]
+  const aliasPaths = routeAliasEntries
     .map(([aliasPath, canonicalPath]) => {
       const entry = byPath.get(canonicalPath);
       if (!entry) return null;
@@ -570,14 +546,6 @@ function inferAuthorSlugFromPath(
   return '';
 }
 
-function normalizeRoutePath(inputPath: string): string {
-  const raw = String(inputPath || '').replace(/%ef%bf%bc/gi, '').replace(/\uFFFC/g, '');
-  if (!raw) return '/';
-  const withStart = raw.startsWith('/') ? raw : `/${raw}`;
-  const normalized = withStart.endsWith('/') ? withStart : `${withStart}/`;
-  return canonicalizeAliasPath(normalized);
-}
-
 function pickRelatedPosts<
   T extends { id: string; data: { path: string; title: string; date: Date; categories: string[]; tags: string[] } }
 >({
@@ -600,21 +568,6 @@ function pickRelatedPosts<
   legacyRelatedByRoute: Record<string, string[]>;
 }): { post: T; href: string }[] {
   const byPath = new Map(allPosts.map((post) => [normalizeRoutePath(post.data.path), post] as const));
-  const aliasPathToCanonicalPath = new Map<string, string>([
-    ['/where-am-i-24-2/', '/where-am-i-24/'],
-    [
-      '/best-cheap-flights-websites-nobody-is-talking-about-how-to-find-cheap-flights-2022\uFFFC/',
-      '/best-cheap-flights-websites-nobody-is-talking-about-how-to-find-cheap-flights-2022/'
-    ],
-    [
-      '/how-to-get-longer-bookings-and-monthly-bookings-on-airbnb-and-vrbo\uFFFC/',
-      '/how-to-get-longer-bookings-and-monthly-bookings-on-airbnb-and-vrbo/'
-    ],
-    [
-      '/youll-lose-thousands-hosting-on-airbnb-if-you-do-this\uFFFC/',
-      '/youll-lose-thousands-hosting-on-airbnb-if-you-do-this/'
-    ]
-  ]);
   const route = normalizeRoutePath(currentPath);
   const legacyPaths = legacyRelatedByRoute[route] ?? [];
   const targetCount = legacyPaths.length > 0 ? Math.min(6, legacyPaths.length) : 3;
@@ -624,8 +577,7 @@ function pickRelatedPosts<
 
   for (const relatedPath of legacyPaths) {
     const normalizedRelatedPath = normalizeRoutePath(relatedPath);
-    const canonicalRelatedPath = aliasPathToCanonicalPath.get(normalizedRelatedPath) ?? normalizedRelatedPath;
-    const mapped = byPath.get(canonicalRelatedPath);
+    const mapped = byPath.get(normalizedRelatedPath);
     if (!mapped) continue;
     if (mapped.id === currentPostId || seen.has(mapped.id)) continue;
     out.push({ post: mapped, href: normalizedRelatedPath });
