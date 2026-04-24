@@ -42,7 +42,7 @@ const { slug, profile, posts, totalPosts, currentPage, totalPages } = Astro.prop
 ---
 
 <BaseLayout
-  title={`${profile.name}, Author at The HiChee Blog and Travel Guide - Page ${currentPage}`}
+  title={`${profile.name}, Author at The HiChee Blog and Travel Guide - Page ${currentPage} of ${totalPages}`}
   description={`Author archive for ${profile.name}, page ${currentPage}. ${profile.bio}`}
   canonical={buildAuthorPagePath(slug, currentPage)}
 >
