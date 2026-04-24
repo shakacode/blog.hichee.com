@@ -201,6 +201,46 @@ a:hover {
   grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
 }
 
+.pagination-nav {
+  margin: 1.5rem 0 0;
+}
+
+.pagination-nav__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.page-numbers {
+  min-width: 2.4rem;
+  padding: 0.6rem 0.95rem;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: #fff;
+  color: var(--text);
+  font-weight: 600;
+  text-align: center;
+}
+
+a.page-numbers:hover {
+  border-color: var(--link);
+}
+
+.page-numbers.current {
+  border-color: var(--link);
+  background: var(--link);
+  color: #fff;
+}
+
+.page-numbers--ellipsis {
+  border: 0;
+  background: transparent;
+  color: var(--muted);
+  min-width: auto;
+  padding-inline: 0.2rem;
+}
+
 .post-card {
   border: 1px solid var(--line);
   border-radius: 8px;

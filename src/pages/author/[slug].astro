@@ -1,90 +1,74 @@
 ---
-import { getCollection } from 'astro:content';
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import PostCard from '../../components/PostCard.astro';
-import authorPostPaths from '../../data/author-post-paths.json';
-
-type AuthorProfile = {
-  name: string;
-  bio: string;
-};
-
-function titleCaseSlug(slug: string): string {
-  return slug
-    .split(/[-_]/g)
-    .filter(Boolean)
-    .map((part) => part.charAt(0).toUpperCase() + part.slice(1))
-    .join(' ');
-}
-
-const authorProfiles: Record<string, AuthorProfile> = {
-  alan: {
-    name: 'Alan Egan',
-    bio: 'Alan has been working in the vacation rental sector since 2004, when he first created a listing site for his property management company. He has been helping short-term rental owners and managers to stand out in an over-saturated marketplace for over 12 years and has written thousands of articles in that time. He has written books on vacation rental photography and was the first in the industry to create online marketing courses for hosts. He has given keynote presentations across various subjects at The Vacation Rental World Summit, VRMA, VRMintel, Host, and The Book Direct Summit.'
-  },
-  tiffany: {
-    name: 'Tiffany Martin',
-    bio: "Tiffany Martin, a 33-year-old travel content contributor based in Manila, Philippines, brings the world's beauty to your screen through her writing, narrating the best places in the globe with a charm that resonates. Aside from being a travel writer and an all-around digital nomad, she's also a wifey, a mom to two girls, and a licensed educator. During her downtime, she loves traveling, cooking, and playing with her energetic Dachshund and cuddly Golden Malinois."
-  },
-  'our-discount-desk': {
-    name: 'Our Discount Desk',
-    bio: 'Posts and travel deals curated by the HiChee team.'
-  },
-  'our-travel-reporter': {
-    name: 'Our Travel Reporter',
-    bio: 'Travel reporting and destination coverage from the HiChee team.'
-  }
-};
+import PaginationNav from '../../components/PaginationNav.astro';
+import {
+  AUTHOR_PAGE_SIZE,
+  buildAuthorPagePath,
+  getAuthorArchiveEntries,
+  type AuthorArchivePost,
+} from '../../lib/authorArchives';
 
 export async function getStaticPaths() {
-  const posts = (await getCollection('posts')).filter(
-    (entry) => !entry.data.draft && entry.data.status === 'publish'
-  );
-  const normalizePath = (inputPath: string) => {
-    const raw = String(inputPath || '').replace(/%ef%bf%bc/gi, '').replace(/\uFFFC/g, '');
-    if (!raw) return '/';
-    const withLeadingSlash = raw.startsWith('/') ? raw : `/${raw}`;
-    return withLeadingSlash.endsWith('/') ? withLeadingSlash : `${withLeadingSlash}/`;
-  };
-  const postsByPath = new Map(posts.map((post) => [normalizePath(post.data.path), post] as const));
-
-  return Object.entries(authorPostPaths).map(([slug, paths]) => {
-    const authorPosts = (paths as string[])
-      .map((path) => postsByPath.get(normalizePath(path)))
-      .filter((post): post is (typeof posts)[number] => Boolean(post))
-      .sort((a, b) => b.data.date.getTime() - a.data.date.getTime());
-
+  const archives = await getAuthorArchiveEntries();
+  return archives.map(({ slug, profile, posts, totalPages }) => {
     return {
       params: { slug },
-      props: { posts: authorPosts }
+      props: {
+        slug,
+        profile,
+        posts: posts.slice(0, AUTHOR_PAGE_SIZE),
+        totalPosts: posts.length,
+        currentPage: 1,
+        totalPages
+      }
     };
   });
 }
 
-const slug = Astro.params.slug as string;
-const posts = [...((Astro.props.posts ?? []) as any[])].sort(
-  (a, b) => b.data.date.getTime() - a.data.date.getTime()
-);
-
-const profile = authorProfiles[slug] ?? {
-  name: titleCaseSlug(slug),
-  bio: `Posts written by ${titleCaseSlug(slug)}.`
+const { slug, profile, posts, totalPosts, currentPage, totalPages } = Astro.props as {
+  slug: string;
+  profile: { name: string; bio: string };
+  posts: AuthorArchivePost[];
+  totalPosts: number;
+  currentPage: number;
+  totalPages: number;
 };
+
+const title =
+  currentPage > 1
+    ? `${profile.name}, Author at The HiChee Blog and Travel Guide - Page ${currentPage}`
+    : `${profile.name}, Author at The HiChee Blog and Travel Guide`;
+
+const description =
+  currentPage > 1
+    ? `Author archive for ${profile.name}, page ${currentPage}. ${profile.bio}`
+    : `Author archive for ${profile.name}. ${profile.bio}`;
 ---
 
 <BaseLayout
-  title={`${profile.name}, Author at The HiChee Blog and Travel Guide`}
-  description={`Archives for ${profile.name}. ${profile.bio}`}
-  canonical={`/author/${slug}/`}
+  title={title}
+  description={description}
+  canonical={buildAuthorPagePath(slug, currentPage)}
 >
   <section class="listing-hero">
     <p class="eyebrow">Author</p>
-    <h1>Archives for {profile.name}</h1>
+    <h1>Author: {profile.name}</h1>
     <p>{profile.bio}</p>
-    <p>{posts.length} posts</p>
+    <p>
+      {totalPosts} posts
+      {totalPages > 1 && ` • Page ${currentPage} of ${totalPages}`}
+    </p>
   </section>
 
   <div class="post-grid">
     {posts.map((post) => <PostCard post={post} />)}
   </div>
+
+  <PaginationNav
+    basePath={buildAuthorPagePath(slug, 1)}
+    currentPage={currentPage}
+    totalPages={totalPages}
+    ariaLabel="Author pages"
+  />
 </BaseLayout>

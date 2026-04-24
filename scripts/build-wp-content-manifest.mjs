@@ -21,7 +21,7 @@ walk(rootDir, (file) => {
     return;
   }
 
-  const matches = text.match(/(?:https?:\/\/(?:blog|newblog)\.hichee\.com)?\/wp-content\/[A-Za-z0-9._~!$&'()*+,;=:@%/-]+/gi) ?? [];
+  const matches = text.match(/(?:https?:\/\/(?:blog|newblog)\.hichee\.com)?\/wp-content\/[^\s"'<>),?#]+/gi) ?? [];
   for (const match of matches) {
     keys.add(normalizeKey(match));
   }
