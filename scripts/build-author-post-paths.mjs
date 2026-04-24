@@ -107,6 +107,8 @@ async function buildAuthorPathMap(wxrDir, localPosts) {
       const resolved = preferred ?? fallback ?? aliasResolved;
       if (!resolved) continue;
 
+      // Preserve the exported alias path when the WXR item only resolves via ROUTE_ALIASES
+      // so author archive pagination can match WordPress while reusing the canonical local post.
       const recordedRoute =
         preferred || fallback || !aliasResolved ? resolved.route : sourceRoute;
 
@@ -140,7 +142,8 @@ function *iterateItems(xml) {
 
 function extractCdata(source, tagName) {
   const match = source.match(new RegExp(`<${escapeRegExp(tagName)}><!\\[CDATA\\[([\\s\\S]*?)\\]\\]><\\/${escapeRegExp(tagName)}>`, 'i'));
-  return match ? match[1].trim() : '';
+  if (match) return match[1].trim();
+  return extractTag(source, tagName);
 }
 
 function extractTag(source, tagName) {
