@@ -1,0 +1,63 @@
+---
+import BaseLayout from '../../../../layouts/BaseLayout.astro';
+import PaginationNav from '../../../../components/PaginationNav.astro';
+import PostCard from '../../../../components/PostCard.astro';
+import {
+  buildAuthorPagePath,
+  getAuthorArchiveEntries,
+  paginateAuthorPosts,
+} from '../../../../lib/authorArchives';
+
+export async function getStaticPaths() {
+  const archives = await getAuthorArchiveEntries();
+  const paths = [];
+
+  for (const { slug, profile, posts, totalPages } of archives) {
+    for (let page = 2; page <= totalPages; page += 1) {
+      paths.push({
+        params: { slug, page: String(page) },
+        props: {
+          slug,
+          profile,
+          posts: paginateAuthorPosts(posts, page),
+          totalPosts: posts.length,
+          currentPage: page,
+          totalPages
+        }
+      });
+    }
+  }
+
+  return paths;
+}
+
+const { slug, profile, posts, totalPosts, currentPage, totalPages } = Astro.props as {
+  slug: string;
+  profile: { name: string; bio: string };
+  posts: any[];
+  totalPosts: number;
+  currentPage: number;
+  totalPages: number;
+};
+---
+
+<BaseLayout
+  title={`${profile.name}, Author at The HiChee Blog and Travel Guide - Page ${currentPage}`}
+  description={`Author archive for ${profile.name}, page ${currentPage}. ${profile.bio}`}
+  canonical={buildAuthorPagePath(slug, currentPage)}
+>
+  <section class="listing-hero">
+    <p class="eyebrow">Author</p>
+    <h1>Author: {profile.name}</h1>
+    <p>{profile.bio}</p>
+    <p>
+      {totalPosts} posts • Page {currentPage} of {totalPages}
+    </p>
+  </section>
+
+  <div class="post-grid">
+    {posts.map((post) => <PostCard post={post} />)}
+  </div>
+
+  <PaginationNav basePath={buildAuthorPagePath(slug, 1)} currentPage={currentPage} totalPages={totalPages} />
+</BaseLayout>

@@ -7,6 +7,15 @@ import legacyRelatedPostsByRouteRaw from '../data/legacy-related-posts.json';
 import authorPostPaths from '../data/author-post-paths.json';
 import { normalizeWpUploadUrl, rewriteWpUploadsInHtml } from '../lib/media';
 
+function canonicalizeAliasPath(route: string): string {
+  switch (route) {
+    case '/where-am-i-24-2/':
+      return '/where-am-i-24/';
+    default:
+      return route;
+  }
+}
+
 export async function getStaticPaths() {
   const allEntries = [
     ...(await getCollection('posts')).filter((entry) => !entry.data.draft && entry.data.status === 'publish'),
@@ -565,7 +574,8 @@ function normalizeRoutePath(inputPath: string): string {
   const raw = String(inputPath || '').replace(/%ef%bf%bc/gi, '').replace(/\uFFFC/g, '');
   if (!raw) return '/';
   const withStart = raw.startsWith('/') ? raw : `/${raw}`;
-  return withStart.endsWith('/') ? withStart : `${withStart}/`;
+  const normalized = withStart.endsWith('/') ? withStart : `${withStart}/`;
+  return canonicalizeAliasPath(normalized);
 }
 
 function pickRelatedPosts<

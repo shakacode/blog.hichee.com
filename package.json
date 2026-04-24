@@ -11,6 +11,7 @@
     "migrate:download:rest": "node scripts/export-wp-rest.mjs",
     "migrate:convert:wxr": "node scripts/convert-wxr-to-content.mjs",
     "migrate:convert:rest": "node scripts/convert-rest-to-content.mjs",
+    "migrate:authors:map": "node scripts/build-author-post-paths.mjs",
     "migrate:related:legacy": "node scripts/extract-legacy-related-posts.mjs",
     "migrate:media:manifest": "node scripts/build-media-manifest.mjs",
     "migrate:media:manifest:site": "node scripts/build-wp-content-manifest.mjs",
