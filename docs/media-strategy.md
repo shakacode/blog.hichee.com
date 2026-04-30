@@ -41,9 +41,10 @@ CLOUDFLARE_ACCOUNT_ID=<account-id> yarn migrate:media:sync:r2
 
 ## Latest Validation
 
-As of 2026-04-23:
+As of 2026-04-30:
 
 - Built-site media manifest contains 21,002 unique `/wp-content/*` keys.
 - Full parity against `https://blog.hichee.com` and `https://newblog.hichee.com` found no final status or content-type regressions after transient retries.
 - Generated `dist/` output contains no absolute `blog.hichee.com/wp-content` references; public pages use root-relative media URLs.
+- A representative migrated media URL returned 200 from both `https://blog.hichee.com/wp-content/uploads/2022/08/Hichee.png` and `https://newblog.hichee.com/wp-content/uploads/2022/08/Hichee.png`.
 - Cutover is still blocked until `LEGACY_MEDIA_ORIGIN` points at a verified backup WordPress hostname, because once `blog.hichee.com` serves the Pages site it can no longer be used as the fallback origin for missing R2 objects.
