@@ -5,7 +5,7 @@
   "vars": {
     "NODE_VERSION": "22",
     "YARN_ENABLE_IMMUTABLE_INSTALLS": "false",
-    "LEGACY_MEDIA_ORIGIN": ""
+    "LEGACY_MEDIA_ORIGIN": "https://oldblog.hichee.com"
   },
   "r2_buckets": [
     {
