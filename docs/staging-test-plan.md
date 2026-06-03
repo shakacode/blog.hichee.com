@@ -51,4 +51,5 @@ Current custom domain status: `newblog.hichee.com` is live on the Cloudflare Pag
 - [x] Full generated-route HTTP sweep completed: 713 generated routes checked, with only intentional redirects.
 - [x] Full media parity completed: 21,002 `/wp-content/*` keys checked with no final status or content-type regressions.
 - [x] Mobile and desktop smoke checks passed for home, host page, author archives, legacy aliases, pagination, share controls, and media.
-- [ ] Final DNS cutover is blocked until the old WordPress origin has a backup hostname and Pages production `LEGACY_MEDIA_ORIGIN` points to it.
+- [x] Final DNS cutover completed after the old WordPress origin received backup hostname `oldblog.hichee.com` and Pages production `LEGACY_MEDIA_ORIGIN` was set to that hostname.
+- [x] Post-cutover media follow-up completed for the 88 confirmed missing paths: 55 recovered locally, 33 unrecoverable references removed, 0 unrecoverable paths still referenced by the current build.

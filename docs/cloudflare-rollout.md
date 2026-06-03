@@ -19,7 +19,8 @@
 - `LEGACY_MEDIA_ORIGIN` is configured in `wrangler.jsonc` as `https://oldblog.hichee.com`.
 - The `/wp-content` Pages Function serves deployed static assets first, then R2, then the legacy WordPress origin. This prevents a slow or unavailable WordPress origin from blocking media already shipped with the Pages deployment.
 - Post-cutover route sweep: 713 generated routes checked between `newblog.hichee.com` and `blog.hichee.com`, with no status or redirect mismatches.
-- Known follow-up: post-cutover media checks found 88 referenced `/wp-content` paths that return 404 on both `newblog.hichee.com` and `blog.hichee.com`; early April R2 sync logs show at least some of these were already 404 on the WordPress origin. Restore those files from the archived Cloudways backup when the NAS is mounted.
+- Post-cutover media recovery: the 88 previously confirmed `/wp-content` 404s have been handled. 55 files were recovered into static `public/wp-content`, and 33 unrecoverable broken image references were removed from generated content. The archived Cloudways backup did not include those exact paths, so it remains rollback/archive insurance rather than the source for these recovered files.
+- Generated-site external tagged image audit: 58 non-HiChee image URLs checked with 0 failures after removing 9 dead source-article embeds.
 
 ## Recommended Sequence
 
@@ -37,7 +38,7 @@
 9. Set Pages production variable `LEGACY_MEDIA_ORIGIN=https://oldblog.hichee.com` and redeploy.
 10. Verify missing-media fallback on `newblog.hichee.com` after the redeploy.
 11. Promote by attaching/switching `blog.hichee.com` to this Pages project. Completed 2026-06-02.
-12. Verify and monitor. In progress after cutover.
+12. Verify and monitor. In progress after cutover; keep `oldblog.hichee.com` and the Cloudways application online for a short observation window before decommissioning WordPress.
 
 ## Notes
 
@@ -50,3 +51,4 @@
 - Keep WordPress origin intact until stable after cutover.
 - If critical issue appears, switch DNS/custom domain back to WordPress origin.
 - Keep the WordPress backup hostname online until R2 media coverage is complete and enough production traffic has warmed the cache.
+- Keep the NAS archive at `/Volumes/justin-nas-files/hichee-archives/blog.hichee.com/2026-06-01-cloudways-wordpress-pre-cutover` until the static site has been stable long enough to decommission WordPress confidently.

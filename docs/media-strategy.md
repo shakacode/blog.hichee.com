@@ -42,12 +42,15 @@ CLOUDFLARE_ACCOUNT_ID=<account-id> yarn migrate:media:sync:r2
 
 ## Latest Validation
 
-As of 2026-06-02 after cutover:
+As of 2026-06-02 HST after cutover and media recovery:
 
-- Built-site media manifest contains 20,893 unique `/wp-content/*` keys.
+- Built-site media manifest contains 20,969 unique `/wp-content/*` keys.
 - Post-cutover route parity between `https://newblog.hichee.com` and `https://blog.hichee.com` checked 713 generated routes with no status or redirect mismatches.
 - Generated `dist/` output contains no absolute `blog.hichee.com/wp-content` references; public pages use root-relative media URLs.
 - A representative migrated media URL returned 200 from both `https://blog.hichee.com/wp-content/uploads/2022/08/Hichee.png` and `https://newblog.hichee.com/wp-content/uploads/2022/08/Hichee.png`.
 - `LEGACY_MEDIA_ORIGIN` points at `https://oldblog.hichee.com` in `wrangler.jsonc`, so final `blog.hichee.com` Pages traffic can fetch missing R2 media from the old WordPress origin after cutover.
 - The `/wp-content` function now checks Pages static assets before consulting the legacy origin.
-- Known follow-up: 88 referenced media paths return 404 on both `newblog.hichee.com` and `blog.hichee.com`; early sync logs show at least some were already 404 on the old WordPress origin. Restore these from the Cloudways backup when the NAS share is mounted.
+- The 88 previously confirmed post-cutover media 404s were reconciled: 55 were recovered into `public/wp-content`, and 33 unrecoverable broken image references were removed from generated content. The current build references 0 unrecoverable paths from that set.
+- The archived Cloudways backup did not contain those exact 88 missing paths; recoverable files came from the original migrated upstream image URLs. Keep the NAS backup as rollback/archive insurance, not as the primary static media store.
+- Eleven extensionless recovered image URLs are intentionally preserved for WordPress URL compatibility and have explicit Pages/R2 content-type overrides.
+- A generated-site external tagged image audit checked 58 non-HiChee image URLs with 0 failures after removing 9 dead Googleusercontent/KeyData article embeds.

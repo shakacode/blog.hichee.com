@@ -38,8 +38,7 @@ contentType: post
 </p>
 <p>You may have read about Airbnb’s winter release, as there’s been a fair amount written about it, but I did a bit of digging, and it may affect you much more than you thought.</p>
 <p>The winter release changes are already in place, and this article will take a deeper dive into the new ‘Guest Favorite’ badge that could destroy half or more of&nbsp;Airbnb host&#8217;s businesses.</p>
-<figure class="wp-block-image"><img decoding="async" src="https://lh7-us.googleusercontent.com/uU8r56_VSyjC0AMEIvwFH9LS1VBOQixb1D18XS2g65AM1G-sNLPDoMKjfiDRv5J_MP5WH6a4q-5jGtqEh2wMCTM-sGpXaBoWiyVdHPVTE9U_nZFAlx77WIzbcVNypFdGXOz2ZKumPBSbLoB6s7LWWQ" alt=""/></figure>
-</p>
+
 <p>For those who don’t know, the guest favorite badge is awarded to individual listings depending on several criteria.</p>
 <p>The badge is based on a combination of high guest ratings (above 4.9 stars on average), a significant number of positive reviews (at least five), and a track record of reliability (with Host cancellations and quality-related issues being very low, around 1% on average).</p>
 <p><a href="https://news.airbnb.com/en-uk/airbnb-introduces-guest-favourites/">https://news.airbnb.com/en-uk/airbnb-introduces-guest-favourites/</a></p>
@@ -246,8 +245,7 @@ contentType: post
 </div>
 </p>
 <p>Interestingly, I also found guest-favorite properties with less than 4.9 ratings</p>
-<figure class="wp-block-image"><img decoding="async" src="https://lh7-us.googleusercontent.com/XhoVB8UNxcgOd2srfX1MhKgbwoZ8qwIQl-f7N5uFdqUTAImQcAayavzSx2JopsHKYz_jx_bw_wvBG9u_5JLrOPF5LxcjVFEvXUiy7hzu0Y0NsiCtwVF9YwMmR3q2N5yk8qNrBHMFvgAA7ZBqhDaT8Q" alt=""/></figure>
-</p>
+
 <div class="wp-block-qubely-divider qubely-block-ab06dc">
 <div class="qubely-block-divider ">
 <div class="qubely-block-divider-style-dot"></div>
@@ -267,8 +265,7 @@ contentType: post
 </p>
 <p>Airbnb in now a two tier system with the haves (exposure and bookings) and the have-nots.&nbsp;</p>
 <p>Airbnb has a filter that literally points out their two-tier system. If they have a top tier, and you&#8217;re not in it &#8211; That makes you a bottom-tier host.</p>
-<figure class="wp-block-image"><img decoding="async" src="https://lh7-us.googleusercontent.com/2J-cGJxbygpG7Fyju1mYtd2S2y1QctQY4RxgMFvzoyEj4t21Ask0uisUj_sCXyRkk5LHBpcgRWkJRjBBuXhOg8CCUTX0T8tweRdNAhNjpidgEsdfuVuYLz-on44yfiMbC8G6odC2t_p1v0PplhK3nQ" alt=""/></figure>
-</p>
+
 <p>In the past, the company had an upper level, a select category called Airbnb Plus. They now have, in effect, Airbnb Minus. If you aren’t a guest favorite, you will be buried by the algorithm, struggle with exposure, and miss out on bookings.</p>
 <p>When Chesky says that “he can’t imagine that there are a lot of use cases where you wouldn’t want to book a guest favorite” (property), he’s also saying that he can’t imagine people wanting to book non-guest-favorite listings.</p>
 <p>Chesky doesn’t have to answer to hosts; he only has to answer to board members and investors. It looks like he has abandoned around 4 million hosts because he wants an Airbnb experience to be more aligned with a hotel experience than an actual Airbnb experience.</p>

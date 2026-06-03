@@ -331,13 +331,7 @@ contentType: post
 
 
 
-<p class="has-text-align-center"><img decoding="async" width="1440" height="1080" src="https://lh6.googleusercontent.com/HyYuh84CkB1NwRzjAisK5ajGZ0KpUiYs03ky2TlQjTbgSTdno1WW16aur7NIdEAILkqQaOkNrnVJiEz2GVrbh-yysfcCyDMETs9F20NKpTljwluKfK8KmygXyRkLLWh1IogopeQdKnq1zcO9DeelVK9mopHe1PM82P94qg_tyxZYEi7ZOG7q5TzJ"><br><strong>Guests don’t just like this, they absolutely LOVE this.<br></strong><br>Guests even take selfies next to the sign and share them on social media (this is free word-of-mouth advertising). They always mention the signs in their post-stay emails to him.&nbsp;</p>
-
-
-
-<figure class="wp-block-image"><img decoding="async" src="https://lh3.googleusercontent.com/RFgafYHco42q3EtsC_1dmMl6K9V-s7ZBhUtY1bCuQVCrTsppPQJCV1snZR3vqURkjmw6PBaZSu1UaMyGdkxRT30HY0E95g4C4q46Q4lCj2grhNlTyzl1aF4N9COYQ6q9QmHFxGvZbqaETlTvEfFsbbUZpmRlTui1O0y0Q2RbEX-2T2EVya-_mU1X" alt=""/></figure>
-
-
+<p class="has-text-align-center"><strong>Guests don’t just like this, they absolutely LOVE this.<br></strong><br>Guests even take selfies next to the sign and share them on social media (this is free word-of-mouth advertising). They always mention the signs in their post-stay emails to him.&nbsp;</p>
 
 <p>They feel at home, because of these signs. They rebook.</p>
 

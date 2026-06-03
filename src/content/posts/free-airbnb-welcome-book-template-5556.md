@@ -19,7 +19,6 @@ featuredImageAlt: Airbnb Welcome Book Template
 draft: false
 contentType: post
 ---
-<figure class="wp-block-image"><img decoding="async" src="https://www.lodgify.com/wp-content/uploads/2021/08/Welcome-Book-Mockup_ENG.png" alt=""/></figure>
 
 
 
@@ -129,10 +128,6 @@ contentType: post
 
 
 
-<figure class="wp-block-image"><img decoding="async" src="https://www.lodgify.com/wp-content/uploads/2021/08/welcome1-1.jpg" alt="Airbnb welcome book template"/></figure>
-
-
-
 <p>Airbnb’s&nbsp;<a href="https://news.airbnb.com/airbnb-2019-business-update/#:~:text=Airbnb's%20mission%20is%20to%20create,every%20part%20of%20your%20trip.">mission</a>&nbsp;is to create a world where anyone can belong anywhere. Lean into this and make sure anybody can belong in your accommodation. The best way to make guests feel at home is to express this through an Airbnb welcome book.</p>
 
 
@@ -154,10 +149,6 @@ contentType: post
 
 
 <p>In many cases, guests will be new to the area. They might be from the next town over or the adjacent country! To give them a warm welcome to the neighborhood, you’ll want to get them acquainted with all that your property’s location has to offer: be it restaurants, museums, or natural scenery. You might not know what your guests are interested in, so it’s important to include all the major attractions that they might like.</p>
-
-
-
-<figure class="wp-block-image"><img decoding="async" src="https://www.lodgify.com/wp-content/uploads/2021/08/welcome2-1.jpg" alt="Airbnb guest welcome book template"/></figure>
 
 
 
@@ -194,10 +185,6 @@ contentType: post
 
 
 <p>There are several ways to design your Airbnb welcome book to make it noticeable to guests. Ideally, your Airbnb welcome book isn’t too flashy. Distracting fonts, clashing colors, and cardstock too big for these purposes won’t communicate a design of elegance and professionalism but rather amateur and tacky.</p>
-
-
-
-<figure class="wp-block-image"><img decoding="async" src="https://www.lodgify.com/wp-content/uploads/2021/08/welcome3-1.jpg" alt="Airbnb welcome book design"/></figure>
 
 
 
@@ -283,10 +270,6 @@ contentType: post
 
 
 
-<figure class="wp-block-image"><img decoding="async" src="https://www.lodgify.com/wp-content/uploads/2021/08/welcome4-1.jpg" alt="Free Airbnb welcome book template"/></figure>
-
-
-
 <p>Depending on when you send the Airbnb welcome book, you might want to add details about how, when and where to check-in if you’re planning to give guests a copy before they arrive. If guests receive the welcome guidebook upon arrival, you can add a nice note, hoping that their check-in went smoothly.</p>
 
 
@@ -316,10 +299,6 @@ contentType: post
 
 
 <p>When the foodies come to town they want to know the top picks. This is the place to introduce your guests to all the fine eateries around. Much like the activity guide, it’s a way to demonstrate your culinary knowledge. There’s a couple of ways you can play around with this section whether you choose to organize the eating and drinking guide by cuisine, ratings, price, or even&nbsp;<a href="https://www.lodgify.com/blog/kid-friendly-vacation-rentals/">kid-friendly</a>.</p>
-
-
-
-<figure class="wp-block-image"><img decoding="async" src="https://www.lodgify.com/wp-content/uploads/2021/08/welcome5-1.jpg" alt="Airbnb welcome book restaurant guide"/></figure>
 
 
 
@@ -419,10 +398,6 @@ contentType: post
 
 
 
-<figure class="wp-block-image"><img decoding="async" src="https://www.lodgify.com/wp-content/uploads/2021/08/welcome6-1.jpg" alt="How to give your welcome book to Airbnb guests"/></figure>
-
-
-
 <p>No need to fear; your Airbnb welcome booklet will be well received no matter the format you choose. Let’s break down both options to find the best one for your property.</p>
 
 
@@ -448,10 +423,6 @@ contentType: post
 
 
 <p>There’s still something so magical about receiving a handwritten note or personally signed letter. It takes thoughtfulness to the next level and really shows your guests that you care. This might be especially important if your booking process has been rather hands-off or if you haven’t had much communication with your guests up to the point of check-in.</p>
-
-
-
-<figure class="wp-block-image"><img decoding="async" src="https://www.lodgify.com/wp-content/uploads/2021/08/welcome7-1.jpg" alt="Airbnb welcome book printed copy"/></figure>
 
 
 

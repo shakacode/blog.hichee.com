@@ -1,4 +1,17 @@
 const CACHE_CONTROL = 'public, max-age=31536000, s-maxage=31536000, immutable';
+const CONTENT_TYPE_OVERRIDES = new Map([
+  ['wp-content/uploads/2022/08/Copy-of-Dont-give-up-the-daydream-700-', 'image/png'],
+  ['wp-content/uploads/2022/08/Dont-give-up-the-daydream-700-', 'image/jpeg'],
+  ['wp-content/uploads/2022/09/Copy-of-Dont-give-up-the-daydream-700-', 'image/png'],
+  ['wp-content/uploads/2022/12/Copy-of-Dont-give-up-the-daydream-700-', 'image/png'],
+  ['wp-content/uploads/2023/01/Im-pregnant-', 'image/jpeg'],
+  ['wp-content/uploads/2023/03/Copy-of-Dont-give-up-the-daydream-700-', 'image/png'],
+  ['wp-content/uploads/2023/05/Smart-Home-Devices-For-Your-Airbnb-', 'image/jpeg'],
+  ['wp-content/uploads/2023/05/Smart-Home-Security-Devices-For-Your-Airbnb-', 'image/jpeg'],
+  ['wp-content/uploads/2023/11/Untitled-150-', 'image/png'],
+  ['wp-content/uploads/2023/12/The-Common-Room', 'image/gif'],
+  ['wp-content/uploads/2024/02/DALL', 'image/webp']
+]);
 
 export async function onRequest(context) {
   const { request, env } = context;
@@ -12,7 +25,7 @@ export async function onRequest(context) {
   const assetResponse = await env.ASSETS.fetch(request);
 
   if (assetResponse.status !== 404) {
-    return assetResponse;
+    return withContentTypeOverride(assetResponse, key);
   }
 
   const object = await env.BLOG_MEDIA.get(key);
@@ -64,6 +77,23 @@ export async function onRequest(context) {
   });
 }
 
+function withContentTypeOverride(response, key) {
+  const contentType = guessContentType(key);
+  if (contentType === 'application/octet-stream') return response;
+
+  const currentContentType = response.headers.get('content-type');
+  if (currentContentType && currentContentType !== 'application/octet-stream') return response;
+
+  const headers = new Headers(response.headers);
+  headers.set('content-type', contentType);
+
+  return new Response(response.body, {
+    status: response.status,
+    statusText: response.statusText,
+    headers
+  });
+}
+
 function resolveFallbackOrigin(url, legacyMediaOrigin) {
   const normalized = String(legacyMediaOrigin || '').trim().replace(/\/$/, '');
   if (normalized) return normalized;
@@ -100,6 +130,9 @@ async function cacheObject(bucket, key, response) {
 }
 
 function guessContentType(key) {
+  const override = CONTENT_TYPE_OVERRIDES.get(key.replace(/^\//, ''));
+  if (override) return override;
+
   const lower = key.toLowerCase();
 
   if (lower.endsWith('.avif')) return 'image/avif';

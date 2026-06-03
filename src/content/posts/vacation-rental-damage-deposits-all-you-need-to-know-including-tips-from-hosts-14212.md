@@ -545,11 +545,6 @@ contentType: post
 
 <figure class="wp-block-pullquote has-theme-palette-9-background-color has-background has-small-font-size" style="font-style:italic;font-weight:400"><blockquote><p><br><em>In 7 years, I have deducted $500 once for leaving the home a complete mess during the pandemic (see below). </em><br><br><em>My contract states that $100 per hour will be charged for excess cleaning. I personally cleaned ( with mask and gloves ) for 5 hours before my cleaners arrived.</em></p></blockquote></figure>
 
-
-<div class="wp-block-image">
-<figure class="aligncenter"><img decoding="async" src="https://lh3.googleusercontent.com/0qJP0ZUfBWGdRBOALpOC4BfolZqyf3zocBozXsXw6AHzEPKnMuYqRo996sMI8LEqKZ10hORt14OjaFWk1SALc-0uo1H7097nVvVGN-PcsAz_lM9DtEAZRUWbVuknr3KFYehbdAOoYtUrn_YnzTZJYw" alt=""/><figcaption class="wp-element-caption">Here&#8217;s how that property was left</figcaption></figure></div>
-
-
 <p>Leaving a property in this sort of condition is disrespectful and increases turnover times (and costs to the host). This will result in the non-return of part or all of your damage deposit.</p>
 
 

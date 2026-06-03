@@ -20,17 +20,17 @@ featuredImageAlt: Does Social Media Drive Direct Bookings For Your Vacation Rent
 draft: false
 contentType: post
 ---
-<figure class="wp-block-image"><img decoding="async" src="https://cdn-cemef.nitrocdn.com/qPxAxdodEJCotUKkhVyZoIXHxvbskLxw/assets/static/optimized/rev-58976d3/wp-content/uploads/2022/06/Does-Social-Media-Drive-Direct-Bookings-For-Your-Vacation-Rental...png" alt="" class="wp-image-5777"/></figure>
+
 </p>
 <p>Love it or hate it, social media is a cornerstone of modern digital marketing. If the goal is to get guests where they are… well, social media is where they are, for about 2.5 hours a day&nbsp;<a href="https://www.statista.com/statistics/433871/daily-social-media-usage-worldwide/#:~:text=In%20comparison%2C%20the%20daily%20time,two%20hours%20and%20three%20minutes.&amp;text=Currently%2C%20the%20global%20social%20network,social%20media%20usage%20by%20region." target="_blank" rel="noreferrer noopener">on average</a>.&nbsp;</p>
 <p>But what about social media for the vacation rental industry, specifically? Does social media&nbsp;<em>really&nbsp;</em>lead to more direct bookings? And if so, what types of content will push potential guests across the divide from “lookers” to “bookers”?&nbsp;</p>
 <p>Let’s dive in.&nbsp;</p>
 <h1 class="wp-block-heading">Social Media and Direct Bookings: The Real Scoop&nbsp;</h1>
 </p>
-<figure class="wp-block-image"><img decoding="async" src="https://cdn-cemef.nitrocdn.com/qPxAxdodEJCotUKkhVyZoIXHxvbskLxw/assets/static/optimized/rev-58976d3/wp-content/uploads/2022/06/Social-Media.jpg" alt="" class="wp-image-5774"/><figcaption>Photo Credit:&nbsp;<a href="https://www.shutterstock.com/g/Rawpixel" target="_blank" rel="noreferrer noopener">Rawpixel.com</a></figcaption></figure>
+
 </p>
 <p>For vacation rentalists trying to get more direct bookings—i.e. reservations made on their own biz website, rather than a third-party booking platform like Airbnb or Vrbo—there are some obvious first steps to take.&nbsp;</p>
-<figure class="wp-block-image"><img decoding="async" src="https://cdn-cemef.nitrocdn.com/qPxAxdodEJCotUKkhVyZoIXHxvbskLxw/assets/static/optimized/rev-58976d3/wp-content/uploads/2022/06/Direct-Booking.jpg" alt="" class="wp-image-5775"/><figcaption>Photo Credit:&nbsp;<a href="https://www.shutterstock.com/g/Rawpixel" target="_blank" rel="noreferrer noopener">Rawpixel.com</a></figcaption></figure>
+
 </p>
 <p>Create a great, intuitive, content-rich website. Fill it with content that accurately captures the highlights and unique selling points of your rental(s). Install a well-functioning reservations manager. Build in an SEO strategy that helps people find you.</p>
 <p>Then, once you have the infrastructure in place to take direct bookings, it’s time to start casting your net to reel in guests.&nbsp;</p>
@@ -47,7 +47,7 @@ contentType: post
 <p>The catch, of course, is that guests must&nbsp;<em>remember&nbsp;</em>your rental and&nbsp;<em>find it&nbsp;</em>again. As we mentioned, that’s difficult when your guests are faced with an ocean of content on social media. So, for success on social media, it’s important to have a differentiating factor; some “special something” that sets you apart.&nbsp;</p>
 <h2 class="wp-block-heading">Build your brand&nbsp;</h2>
 </p>
-<figure class="wp-block-image"><img decoding="async" src="https://cdn-cemef.nitrocdn.com/qPxAxdodEJCotUKkhVyZoIXHxvbskLxw/assets/static/optimized/rev-58976d3/wp-content/uploads/2022/06/Build-your-brand....jpg" alt="" class="wp-image-5772"/><figcaption>Photo Credit:&nbsp;<a href="https://www.shutterstock.com/g/anabaraulia" target="_blank" rel="noreferrer noopener">anabaraulia</a></figcaption></figure>
+
 </p>
 <p>A key way to nudge conversions is to have a truly unique property or brand identity that stands out in the social ocean.&nbsp;</p>
 <p>[Need ideas? Check out Guest Hook’s&nbsp;<a href="https://guesthook.com/unique-vacation-rentals/">“10 Unique Vacation Rentals to Inspire Your 2022 Getaway (or Your Next Investment)”</a>]&nbsp;</p>
@@ -67,7 +67,7 @@ contentType: post
 </p>
 <h2 class="wp-block-heading">Use it to keep in touch with past guests&nbsp;</h2>
 </p>
-<figure class="wp-block-image"><img decoding="async" src="https://cdn-cemef.nitrocdn.com/qPxAxdodEJCotUKkhVyZoIXHxvbskLxw/assets/static/optimized/rev-58976d3/wp-content/uploads/2022/06/keep-in-touch.jpg" alt="" class="wp-image-5769"/><figcaption>Photo Credit:&nbsp;<a href="https://www.shutterstock.com/g/Rawpixel" target="_blank" rel="noreferrer noopener">Rawpixel.com</a></figcaption></figure>
+
 </p>
 <p>You can also utilize social media to stay top-of-mind with past guests—similar to how you might use your email list for newsletter content.&nbsp;</p>
 <p>In this case, you’re not paying for ad placement and hoping for the best. Rather, you are garnering a foundation of qualified leads that already know and love your offering and, ideally, will continue to engage.&nbsp;</p>
@@ -81,7 +81,7 @@ contentType: post
 </p>
 <h2 class="wp-block-heading">What about paid ads on social media?</h2>
 </p>
-<figure class="wp-block-image"><img decoding="async" src="https://cdn-cemef.nitrocdn.com/qPxAxdodEJCotUKkhVyZoIXHxvbskLxw/assets/static/optimized/rev-58976d3/wp-content/uploads/2022/06/paid-ads-on-social-media-1024x512.jpg" alt="" class="wp-image-5767"/><figcaption>Photo Credit:&nbsp;<a href="https://www.shutterstock.com/g/Sammby" target="_blank" rel="noreferrer noopener">Sammby</a></figcaption></figure>
+
 </p>
 <p>There are a couple of ways to utilize social media. One is organic marketing, which is a big part of what we discussed above. That means creating your social profiles, collecting follows from past/potential guests, and putting out engaging content that your followers may share to get you more exposure. No $$$ required.&nbsp;</p>
 <p>Paid ads, on the other hand, expose a wider range of people to your brand. Essentially, the number of people you reach is proportional to your ad spend. When it comes to casting your net to get more guests, paid ads have a performance advantage: you won’t be relying as much on “going viral” or other elements you don’t have much control over, in the end.</p>

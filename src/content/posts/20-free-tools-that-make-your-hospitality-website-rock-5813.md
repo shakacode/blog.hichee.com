@@ -55,10 +55,6 @@ contentType: post
 
 
 
-<figure class="wp-block-image"><img decoding="async" src="https://rentmoreweeks.com/wp-content/uploads/2021/09/polaroid-2315182_640.png" alt=""/></figure>
-
-
-
 <p>There are often times when you need a great photo for your website or social media post but you don’t have a suitable image to hand. That’s where royalty-free image providers come into their own.<br>There are a lot of sites offering free images but I use the following three most of the time.</p>
 
 
@@ -83,15 +79,7 @@ contentType: post
 
 
 
-<p><a href="https://youtu.be/L0sgHdTmzfs"></a></p>
-
-
-
-<figure class="wp-block-image"><a href="https://youtu.be/L0sgHdTmzfs"><img decoding="async" src="https://rentmoreweeks.com/wp-content/uploads/2021/09/Screen-Shot-2021-09-23-at-12.04.09-e1633635037961.png" alt=""/></a></figure>
-
-
-
-<p><a href="https://youtu.be/L0sgHdTmzfs"></a></p>
+<p><a href="https://youtu.be/L0sgHdTmzfs">Watch the Unsplash tutorial on YouTube</a></p>
 
 
 
@@ -111,15 +99,7 @@ contentType: post
 
 
 
-<p><a href="https://youtu.be/ocOO8qRDnCs"></a></p>
-
-
-
-<figure class="wp-block-image"><a href="https://youtu.be/ocOO8qRDnCs"><img decoding="async" src="https://rentmoreweeks.com/wp-content/uploads/2021/09/Screen-Shot-2021-09-23-at-12.13.55.png" alt=""/></a></figure>
-
-
-
-<p><a href="https://youtu.be/ocOO8qRDnCs"></a></p>
+<p><a href="https://youtu.be/ocOO8qRDnCs">Watch the Pixabay tutorial on YouTube</a></p>
 
 
 
@@ -135,10 +115,6 @@ contentType: post
 
 
 
-<figure class="wp-block-image"><img decoding="async" src="https://rentmoreweeks.com/wp-content/uploads/2021/09/Screen-Shot-2021-09-23-at-12.21.19-1024x497.png" alt=""/></figure>
-
-
-
 <h3 class="wp-block-heading">Pexels</h3>
 
 
@@ -151,15 +127,7 @@ contentType: post
 
 
 
-<figure class="wp-block-image"><img decoding="async" src="https://rentmoreweeks.com/wp-content/uploads/2021/08/Screen-Shot-2021-08-30-at-17.28.05-1024x640.png" alt=""/></figure>
-
-
-
 <h2 class="wp-block-heading">Mockups</h2>
-
-
-
-<figure class="wp-block-image"><img decoding="async" src="https://rentmoreweeks.com/wp-content/uploads/2021/09/Bookano-Page-templates-1024x605.jpeg" alt=""/></figure>
 
 
 
@@ -187,10 +155,6 @@ contentType: post
 
 
 
-<figure class="wp-block-image"><img decoding="async" src="https://rentmoreweeks.com/wp-content/uploads/2021/08/Screen-Shot-2021-08-30-at-15.12.54-1024x640.png" alt=""/></figure>
-
-
-
 <h3 class="wp-block-heading">Mockuper</h3>
 
 
@@ -203,15 +167,7 @@ contentType: post
 
 
 
-<figure class="wp-block-image"><img decoding="async" src="https://rentmoreweeks.com/wp-content/uploads/2021/09/Screen-Shot-2021-09-16-at-17.37.29-1024x640.png" alt=""/></figure>
-
-
-
 <h2 class="wp-block-heading">Image Editing</h2>
-
-
-
-<figure class="wp-block-image"><img decoding="async" src="https://rentmoreweeks.com/wp-content/uploads/2021/09/paint-24955_640.png" alt=""/></figure>
 
 
 
@@ -235,15 +191,7 @@ contentType: post
 
 
 
-<p><a href="https://youtu.be/hbCu_7Bj6rQ"></a></p>
-
-
-
-<figure class="wp-block-image"><a href="https://youtu.be/hbCu_7Bj6rQ"><img decoding="async" src="https://rentmoreweeks.com/wp-content/uploads/2021/09/Screen-Shot-2021-09-23-at-13.12.41.png" alt=""/></a></figure>
-
-
-
-<p><a href="https://youtu.be/hbCu_7Bj6rQ"></a></p>
+<p><a href="https://youtu.be/hbCu_7Bj6rQ">Watch the Ipiccy tutorial on YouTube</a></p>
 
 
 
@@ -256,10 +204,6 @@ contentType: post
 
 
 <p>An online resizer that resizes one image at a time.<br>It’s quick, easy to use, and I find it very useful for resizing very large images that most other resizers can’t upload.</p>
-
-
-
-<figure class="wp-block-image"><a href="https://www.resizepixel.com/"><img decoding="async" src="https://rentmoreweeks.com/wp-content/uploads/2021/09/Screen-Shot-2021-09-23-at-11.02.12-1024x326.png" alt=""/></a></figure>
 
 
 
@@ -279,10 +223,6 @@ contentType: post
 
 
 
-<figure class="wp-block-image"><a href="https://bulkresizephotos.com/en"><img decoding="async" src="https://rentmoreweeks.com/wp-content/uploads/2021/09/Screen-Shot-2021-09-23-at-11.11.42-1024x431.png" alt=""/></a></figure>
-
-
-
 <h3 class="wp-block-heading">Gimp</h3>
 
 
@@ -299,15 +239,7 @@ contentType: post
 
 
 
-<p><a href="https://youtu.be/1MLnP0OiEkw"></a></p>
-
-
-
-<figure class="wp-block-image"><a href="https://youtu.be/1MLnP0OiEkw"><img decoding="async" src="https://rentmoreweeks.com/wp-content/uploads/2021/09/Screen-Shot-2021-09-23-at-11.23.59.png" alt=""/></a></figure>
-
-
-
-<p><a href="https://youtu.be/1MLnP0OiEkw"></a></p>
+<p><a href="https://youtu.be/1MLnP0OiEkw">Watch the Gimp tutorial on YouTube</a></p>
 
 
 
@@ -331,15 +263,7 @@ contentType: post
 
 
 
-<p><a href="https://youtu.be/_XOWhA1dK7Y"></a></p>
-
-
-
-<figure class="wp-block-image"><a href="https://youtu.be/_XOWhA1dK7Y"><img decoding="async" src="https://rentmoreweeks.com/wp-content/uploads/2021/09/Screen-Shot-2021-09-24-at-13.03.13.png" alt=""/></a></figure>
-
-
-
-<p><a href="https://youtu.be/_XOWhA1dK7Y"></a></p>
+<p><a href="https://youtu.be/_XOWhA1dK7Y">Watch the Canva tutorial on YouTube</a></p>
 
 
 
@@ -356,10 +280,6 @@ contentType: post
 
 
 <h2 class="wp-block-heading">Website And Plugins</h2>
-
-
-
-<figure class="wp-block-image"><img decoding="async" src="https://rentmoreweeks.com/wp-content/uploads/2021/09/social-2470875_640.png" alt=""/></figure>
 
 
 
@@ -429,15 +349,7 @@ contentType: post
 
 
 
-<p><a href="https://youtu.be/uNL82kDhG3w"></a></p>
-
-
-
-<figure class="wp-block-image"><a href="https://youtu.be/uNL82kDhG3w"><img decoding="async" src="https://rentmoreweeks.com/wp-content/uploads/2021/09/Screen-Shot-2021-09-24-at-12.13.02.png" alt=""/></a></figure>
-
-
-
-<p><a href="https://youtu.be/uNL82kDhG3w"></a></p>
+<p><a href="https://youtu.be/uNL82kDhG3w">Watch the Yoast tutorial on YouTube</a></p>
 
 
 
@@ -461,15 +373,7 @@ contentType: post
 
 
 
-<p><a href="https://youtu.be/EyGsL8pMrfQ"></a></p>
-
-
-
-<figure class="wp-block-image"><a href="https://youtu.be/EyGsL8pMrfQ"><img decoding="async" src="https://rentmoreweeks.com/wp-content/uploads/2021/09/Screen-Shot-2021-09-24-at-12.22.41.png" alt=""/></a></figure>
-
-
-
-<p><a href="https://youtu.be/EyGsL8pMrfQ"></a></p>
+<p><a href="https://youtu.be/EyGsL8pMrfQ">Watch the Imagify tutorial on YouTube</a></p>
 
 
 
@@ -497,15 +401,7 @@ contentType: post
 
 
 
-<p><a href="https://youtu.be/sPul_LXDXB0"></a></p>
-
-
-
-<figure class="wp-block-image"><a href="https://youtu.be/sPul_LXDXB0"><img decoding="async" src="https://rentmoreweeks.com/wp-content/uploads/2021/09/Screen-Shot-2021-09-24-at-12.52.52.png" alt=""/></a></figure>
-
-
-
-<p><a href="https://youtu.be/sPul_LXDXB0"></a></p>
+<p><a href="https://youtu.be/sPul_LXDXB0">Watch the Sendinblue tutorial on YouTube</a></p>
 
 
 
@@ -514,10 +410,6 @@ contentType: post
 
 
 <h2 class="wp-block-heading">Speed Tests</h2>
-
-
-
-<figure class="wp-block-image"><img decoding="async" src="https://rentmoreweeks.com/wp-content/uploads/2021/09/speedometer-1063350_640.png" alt=""/></figure>
 
 
 

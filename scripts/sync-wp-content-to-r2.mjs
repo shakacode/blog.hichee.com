@@ -6,6 +6,19 @@ import { spawn } from 'node:child_process';
 import { Readable } from 'node:stream';
 
 const CACHE_CONTROL = 'public, max-age=31536000, s-maxage=31536000, immutable';
+const CONTENT_TYPE_OVERRIDES = new Map([
+  ['wp-content/uploads/2022/08/Copy-of-Dont-give-up-the-daydream-700-', 'image/png'],
+  ['wp-content/uploads/2022/08/Dont-give-up-the-daydream-700-', 'image/jpeg'],
+  ['wp-content/uploads/2022/09/Copy-of-Dont-give-up-the-daydream-700-', 'image/png'],
+  ['wp-content/uploads/2022/12/Copy-of-Dont-give-up-the-daydream-700-', 'image/png'],
+  ['wp-content/uploads/2023/01/Im-pregnant-', 'image/jpeg'],
+  ['wp-content/uploads/2023/03/Copy-of-Dont-give-up-the-daydream-700-', 'image/png'],
+  ['wp-content/uploads/2023/05/Smart-Home-Devices-For-Your-Airbnb-', 'image/jpeg'],
+  ['wp-content/uploads/2023/05/Smart-Home-Security-Devices-For-Your-Airbnb-', 'image/jpeg'],
+  ['wp-content/uploads/2023/11/Untitled-150-', 'image/png'],
+  ['wp-content/uploads/2023/12/The-Common-Room', 'image/gif'],
+  ['wp-content/uploads/2024/02/DALL', 'image/webp']
+]);
 
 const args = parseArgs(process.argv.slice(2));
 const manifestPath = path.resolve(args.manifest ?? 'output/wp-content-manifest.json');
@@ -268,6 +281,9 @@ function sleep(ms) {
 }
 
 function guessContentType(key) {
+  const override = CONTENT_TYPE_OVERRIDES.get(key.replace(/^\//, ''));
+  if (override) return override;
+
   const lower = key.toLowerCase();
 
   if (lower.endsWith('.avif')) return 'image/avif';
