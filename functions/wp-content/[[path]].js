@@ -9,16 +9,22 @@ export async function onRequest(context) {
 
   const url = new URL(request.url);
   const key = url.pathname.replace(/^\//, '');
+  const assetResponse = await env.ASSETS.fetch(request);
+
+  if (assetResponse.status !== 404) {
+    return assetResponse;
+  }
+
   const object = await env.BLOG_MEDIA.get(key);
 
   if (!object) {
     const fallbackOrigin = resolveFallbackOrigin(url, env.LEGACY_MEDIA_ORIGIN);
     if (fallbackOrigin) {
-      const fallbackResponse = await fetch(`${fallbackOrigin}${url.pathname}${url.search}`, {
+      const fallbackResponse = await fetchWithTimeout(`${fallbackOrigin}${url.pathname}${url.search}`, {
         method: request.method
       });
 
-      if (fallbackResponse.ok) {
+      if (fallbackResponse?.ok) {
         if (request.method === 'GET') {
           const responseToCache = fallbackResponse.clone();
           context.waitUntil(cacheObject(env.BLOG_MEDIA, key, responseToCache));
@@ -28,7 +34,7 @@ export async function onRequest(context) {
       }
     }
 
-    return env.ASSETS.fetch(request);
+    return assetResponse;
   }
 
   const headers = new Headers();
@@ -59,12 +65,30 @@ export async function onRequest(context) {
 }
 
 function resolveFallbackOrigin(url, legacyMediaOrigin) {
+  const normalized = String(legacyMediaOrigin || '').trim().replace(/\/$/, '');
+  if (normalized) return normalized;
+
   if (url.hostname !== 'blog.hichee.com') {
     return 'https://blog.hichee.com';
   }
 
-  const normalized = String(legacyMediaOrigin || '').trim().replace(/\/$/, '');
-  return normalized || null;
+  return null;
+}
+
+async function fetchWithTimeout(url, init) {
+  const controller = new AbortController();
+  const timeout = setTimeout(() => controller.abort(), 5_000);
+
+  try {
+    return await fetch(url, {
+      ...init,
+      signal: controller.signal
+    });
+  } catch {
+    return null;
+  } finally {
+    clearTimeout(timeout);
+  }
 }
 
 async function cacheObject(bucket, key, response) {
