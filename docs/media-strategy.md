@@ -50,4 +50,4 @@ As of 2026-06-02 after cutover:
 - A representative migrated media URL returned 200 from both `https://blog.hichee.com/wp-content/uploads/2022/08/Hichee.png` and `https://newblog.hichee.com/wp-content/uploads/2022/08/Hichee.png`.
 - `LEGACY_MEDIA_ORIGIN` points at `https://oldblog.hichee.com` in `wrangler.jsonc`, so final `blog.hichee.com` Pages traffic can fetch missing R2 media from the old WordPress origin after cutover.
 - The `/wp-content` function now checks Pages static assets before consulting the legacy origin.
-- Known follow-up: 85 referenced media paths return 404 on both `newblog.hichee.com` and `blog.hichee.com`; early sync logs show at least some were already 404 on the old WordPress origin. Restore these from the Cloudways backup when the NAS share is mounted.
+- Known follow-up: 88 referenced media paths return 404 on both `newblog.hichee.com` and `blog.hichee.com`; early sync logs show at least some were already 404 on the old WordPress origin. Restore these from the Cloudways backup when the NAS share is mounted.

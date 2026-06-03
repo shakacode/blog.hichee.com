@@ -19,7 +19,7 @@
 - `LEGACY_MEDIA_ORIGIN` is configured in `wrangler.jsonc` as `https://oldblog.hichee.com`.
 - The `/wp-content` Pages Function serves deployed static assets first, then R2, then the legacy WordPress origin. This prevents a slow or unavailable WordPress origin from blocking media already shipped with the Pages deployment.
 - Post-cutover route sweep: 713 generated routes checked between `newblog.hichee.com` and `blog.hichee.com`, with no status or redirect mismatches.
-- Known follow-up: a post-cutover media sweep found 85 referenced `/wp-content` paths that return 404 on both `newblog.hichee.com` and `blog.hichee.com`; early April R2 sync logs show at least some of these were already 404 on the WordPress origin. Restore those files from the archived Cloudways backup when the NAS is mounted.
+- Known follow-up: post-cutover media checks found 88 referenced `/wp-content` paths that return 404 on both `newblog.hichee.com` and `blog.hichee.com`; early April R2 sync logs show at least some of these were already 404 on the WordPress origin. Restore those files from the archived Cloudways backup when the NAS is mounted.
 
 ## Recommended Sequence
 
