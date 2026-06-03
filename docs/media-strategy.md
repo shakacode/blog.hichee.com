@@ -37,7 +37,7 @@ CLOUDFLARE_ACCOUNT_ID=<account-id> yarn migrate:media:sync:r2
 
 - Before DNS cutover, `newblog.hichee.com` and preview branches can safely fall back to the current live `https://blog.hichee.com` for missing media.
 - Before moving `blog.hichee.com` to the new Pages site, create a backup hostname for the old WordPress instance, then set `LEGACY_MEDIA_ORIGIN` to that backup hostname and redeploy.
-- After cutover, keep the backup hostname online until the R2 bucket has warmed or a full bulk sync is complete.
+- After cutover, keep the backup hostname available if you want live rollback, but do not rely on it until a fresh reachability check confirms Cloudways is serving ports 80/443.
 - Keep the backup hostname available for manual recovery of any inherited broken WordPress media that was not present locally or in R2.
 
 ## Latest Validation
@@ -47,8 +47,8 @@ As of 2026-06-02 HST after cutover and media recovery:
 - Built-site media manifest contains 20,969 unique `/wp-content/*` keys.
 - Post-cutover route parity between `https://newblog.hichee.com` and `https://blog.hichee.com` checked 713 generated routes with no status or redirect mismatches.
 - Generated `dist/` output contains no absolute `blog.hichee.com/wp-content` references; public pages use root-relative media URLs.
-- A representative migrated media URL returned 200 from both `https://blog.hichee.com/wp-content/uploads/2022/08/Hichee.png` and `https://newblog.hichee.com/wp-content/uploads/2022/08/Hichee.png`.
-- `LEGACY_MEDIA_ORIGIN` points at `https://oldblog.hichee.com` in `wrangler.jsonc`, so final `blog.hichee.com` Pages traffic can fetch missing R2 media from the old WordPress origin after cutover.
+- All 20,969 generated `/wp-content/*` URLs returned `206` partial-content success from both `https://blog.hichee.com` and `https://newblog.hichee.com`.
+- `LEGACY_MEDIA_ORIGIN` points at `https://oldblog.hichee.com` in `wrangler.jsonc`, but direct checks to that hostname timed out after cutover. Production does not rely on that fallback for generated pages because every referenced `/wp-content/*` URL is already served by Pages static assets or R2.
 - The `/wp-content` function now checks Pages static assets before consulting the legacy origin.
 - The 88 previously confirmed post-cutover media 404s were reconciled: 55 were recovered into `public/wp-content`, and 33 unrecoverable broken image references were removed from generated content. The current build references 0 unrecoverable paths from that set.
 - The archived Cloudways backup did not contain those exact 88 missing paths; recoverable files came from the original migrated upstream image URLs. Keep the NAS backup as rollback/archive insurance, not as the primary static media store.

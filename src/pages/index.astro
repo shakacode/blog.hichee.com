@@ -5,7 +5,7 @@ import { rewriteWpUploadsInHtml } from '../lib/media';
 
 const pages = (await getCollection('pages')).filter((entry) => !entry.data.draft && entry.data.status === 'publish');
 const homePage = pages.find((entry) => entry.data.wordpressId === 156 || entry.data.path === '/the-hichee-blog/');
-const site = Astro.site?.toString() ?? 'https://newblog.hichee.com';
+const site = Astro.site?.toString() ?? 'https://blog.hichee.com';
 
 const legacyHomeHtml = homePage ? rewriteHomeHtml(homePage.body) : '';
 const homeShareHtml = homePage ? buildHomeShareHtml(homePage.data.title) : '';

@@ -18,7 +18,7 @@ const {
   suppressFooter = false
 } = Astro.props;
 
-const site = Astro.site?.toString() ?? 'https://newblog.hichee.com';
+const site = Astro.site?.toString() ?? 'https://blog.hichee.com';
 const canonicalUrl = canonical ? new URL(canonical, site).toString() : undefined;
 const currentPath = Astro.url.pathname;
 const faviconHref = '/favicon.png';

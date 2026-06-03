@@ -49,7 +49,7 @@ const pageTitle = isLegacyPage && !entry.data.title.endsWith(legacyTitleSuffix)
 const legacyPageHtml = isLegacyPage ? rewriteLegacyPageHtml(entry.body, entry.data.path) : '';
 const rewrittenPostHtml = isPost ? rewritePostHtml(entry.body, entry.data.path) : '';
 const shouldUseRewrittenPostHtml = isPost && Boolean(rewrittenPostHtml);
-const site = Astro.site?.toString() ?? 'https://newblog.hichee.com';
+const site = Astro.site?.toString() ?? 'https://blog.hichee.com';
 const shareHtml = (isHostsLandingPage || isPost) ? buildAddToAnyShareHtml(entry.data.title, entry.data.path, site) : '';
 const baseLegacyPageBodyClass =
   'legacy-home legacy-page wp-theme-kadence wp-custom-logo wp-embed-responsive qubely qubely-frontend postx-page footer-on-bottom hide-focus-outline link-style-standard content-title-style-hide content-width-normal content-style-boxed content-vertical-padding-hide non-transparent-header mobile-non-transparent-header';
