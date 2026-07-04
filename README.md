@@ -7,6 +7,8 @@ Migration target for `blog.hichee.com`, moving from WordPress to Astro + Cloudfl
 - Repository remains **private** during migration.
 - WordPress drafts are migrated as unpublished content under `src/content/drafts/`.
 - We create one GitHub issue per unpublished draft (`draft-review` label) so nothing gets lost.
+- Drafts are not bulk-published for SEO; use `docs/seo-draft-publishing-plan.md`
+  to triage and rewrite selected candidates.
 - Media strategy defaults to object storage/CDN (Cloudflare R2), not repository storage, unless final measured media size is small enough.
 
 ## Local Setup
