@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+# Install dependencies using the repository's CI command.
+set -euo pipefail
+cd "$(CDPATH= cd -- "$(dirname -- "$0")/../.." && pwd)"
+exec yarn install --frozen-lockfile

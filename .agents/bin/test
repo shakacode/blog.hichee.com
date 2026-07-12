@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+# The CI workflow defines the Astro build as the available verification command.
+set -euo pipefail
+cd "$(CDPATH= cd -- "$(dirname -- "$0")/../.." && pwd)"
+exec yarn build
