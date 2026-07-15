@@ -9,7 +9,7 @@ means that capability is n/a here.
 | --- | --- | --- |
 | `setup` | Install dependencies | `corepack yarn install --frozen-lockfile` (Yarn 1.22.22, pinned in `package.json`) |
 | `validate` | Pre-push gate | `.agents/bin/build` |
-| `test` | Run tests | n/a (no automated test command is configured, so no wrapper is provided) |
+| `test` | Automated verification | `.agents/bin/build` — the CI-backed Astro build validates content collections and route rendering; no separate unit or end-to-end suite is configured |
 | `lint` | Lint / format | n/a |
 | `build` | Build / type-check | `corepack yarn build` |
 | `docs` | Docs checks | n/a |

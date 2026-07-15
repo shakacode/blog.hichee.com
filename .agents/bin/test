@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+# Run the repository's CI-backed automated verification gate.
+#
+# This project has no separate unit or end-to-end test suite. A full Astro build
+# validates the content collections and renders every static route, which is the
+# verification GitHub Actions runs for pull requests.
+set -euo pipefail
+root="$(CDPATH= cd -- "$(dirname -- "$0")/../.." && pwd)"
+cd "$root"
+exec "$root/.agents/bin/build"
