@@ -1,6 +1,0 @@
-#!/usr/bin/env bash
-# This repository has no automated test command; fail closed rather than running the build.
-set -euo pipefail
-cd "$(CDPATH= cd -- "$(dirname -- "$0")/../.." && pwd)"
-echo "No automated test command is configured for this repository." >&2
-exit 1

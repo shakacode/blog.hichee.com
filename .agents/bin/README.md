@@ -9,7 +9,7 @@ means that capability is n/a here.
 | --- | --- | --- |
 | `setup` | Install dependencies | `corepack yarn install --frozen-lockfile` (Yarn 1.22.22, pinned in `package.json`) |
 | `validate` | Pre-push gate | `.agents/bin/build` |
-| `test` | Run tests | no automated test command is configured; the required wrapper fails closed |
+| `test` | Run tests | n/a (no automated test command is configured, so no wrapper is provided) |
 | `lint` | Lint / format | n/a |
 | `build` | Build / type-check | `corepack yarn build` |
 | `docs` | Docs checks | n/a |
