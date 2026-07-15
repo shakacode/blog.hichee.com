@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Install dependencies using the repository's CI command.
+# Install dependencies with the Yarn v1 contract pinned in package.json.
 set -euo pipefail
 cd "$(CDPATH= cd -- "$(dirname -- "$0")/../.." && pwd)"
-exec yarn install --frozen-lockfile
+exec corepack yarn install --frozen-lockfile

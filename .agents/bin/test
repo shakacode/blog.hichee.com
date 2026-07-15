@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
-# The CI workflow defines the Astro build as the available verification command.
+# This repository has no automated test command; fail closed rather than running the build.
 set -euo pipefail
 cd "$(CDPATH= cd -- "$(dirname -- "$0")/../.." && pwd)"
-exec yarn build
+echo "No automated test command is configured for this repository." >&2
+exit 1

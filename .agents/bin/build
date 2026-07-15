@@ -2,4 +2,4 @@
 # Build the Astro site.
 set -euo pipefail
 cd "$(CDPATH= cd -- "$(dirname -- "$0")/../.." && pwd)"
-exec yarn build
+exec corepack yarn build

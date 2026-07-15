@@ -7,11 +7,11 @@ means that capability is n/a here.
 
 | Script | Purpose | This repo runs |
 | --- | --- | --- |
-| `setup` | Install dependencies | `yarn install --frozen-lockfile` |
+| `setup` | Install dependencies | `corepack yarn install --frozen-lockfile` (Yarn 1.22.22, pinned in `package.json`) |
 | `validate` | Pre-push gate | `.agents/bin/build` |
-| `test` | Run tests | `yarn build` (the CI workflow defines no separate test command) |
+| `test` | Run tests | no automated test command is configured; the required wrapper fails closed |
 | `lint` | Lint / format | n/a |
-| `build` | Build / type-check | `yarn build` |
+| `build` | Build / type-check | `corepack yarn build` |
 | `docs` | Docs checks | n/a |
 | `ci-detect` | CI change detector | n/a |
 
