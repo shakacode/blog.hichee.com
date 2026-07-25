@@ -10,3 +10,4 @@ merge_ledger: n/a
 ci_parity_environment: GitHub Actions ubuntu-latest with Node 22; run `yarn install --frozen-lockfile` then `yarn build`.
 hosted_ci_trigger: n/a — the CI workflow runs on every pull request
 ci_change_detector: n/a
+repo_prefix: HCB
